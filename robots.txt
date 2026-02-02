@@ -1,0 +1,15 @@
+# AI Weight Coach - robots.txt
+# https://aiweightcoach.app
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aiweightcoach.app/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
+
+# Block internal/development files
+Disallow: /og-image.html
+Disallow: /feature-banner.html

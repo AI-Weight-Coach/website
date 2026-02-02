@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Disclaimer - AI Weight Coach</title>
+  <meta name="description" content="Health Disclaimer for AI Weight Coach - Important information about the limitations of our wellness app.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --cyan: #00D9FF;
+      --green: #00FF94;
+      --orange: #FFB800;
+      --red: #FF6B6B;
+      --dark: #0a0a1a;
+      --dark-light: #1a1a3a;
+      --gradient: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--dark);
+      color: #fff;
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    nav {
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 60px;
+    }
+
+    nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .logo-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--gradient);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .logo-text {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .back-link {
+      color: var(--cyan);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding-bottom: 80px;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 800;
+      margin-bottom: 16px;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .last-updated {
+      color: rgba(255,255,255,0.5);
+      font-size: 14px;
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: 48px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 32px;
+      margin-bottom: 16px;
+      color: var(--cyan);
+    }
+
+    p {
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 16px;
+      font-size: 16px;
+    }
+
+    ul, ol {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li {
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .warning-box {
+      background: rgba(255, 107, 107, 0.1);
+      border: 1px solid rgba(255, 107, 107, 0.3);
+      border-radius: 16px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .warning-box h3 {
+      color: var(--red);
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .warning-box p {
+      margin-bottom: 0;
+    }
+
+    .caution-box {
+      background: rgba(255, 184, 0, 0.1);
+      border: 1px solid rgba(255, 184, 0, 0.3);
+      border-radius: 16px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .caution-box h3 {
+      color: var(--orange);
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .info-box {
+      background: rgba(0, 217, 255, 0.1);
+      border: 1px solid rgba(0, 217, 255, 0.3);
+      border-radius: 16px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .info-box h3 {
+      color: var(--cyan);
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    a {
+      color: var(--cyan);
+    }
+
+    footer {
+      padding: 40px 0;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      text-align: center;
+    }
+
+    footer p {
+      color: rgba(255,255,255,0.4);
+      font-size: 14px;
+    }
+
+    footer a {
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+      margin: 0 12px;
+    }
+
+    footer a:hover {
+      color: var(--cyan);
+    }
+
+    .icon-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .icon-list li span.icon {
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+
+    .icon-list {
+      padding-left: 0;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">&#9889;</div>
+        <span class="logo-text">AI Weight Coach</span>
+      </a>
+      <a href="index.html" class="back-link">
+        <span>&larr;</span>
+        <span>Back to Home</span>
+      </a>
+    </div>
+  </nav>
+
+  <main class="content">
+    <div class="container">
+      <h1>Health Disclaimer</h1>
+      <p class="last-updated">Last updated: February 2, 2026</p>
+
+      <div class="warning-box">
+        <h3>&#9888; Important Medical Notice</h3>
+        <p><strong>AI Weight Coach is a wellness app, not a medical device.</strong> The information provided is for general educational and informational purposes only. It is not intended to be, and should not be used as, a substitute for professional medical advice, diagnosis, or treatment.</p>
+      </div>
+
+      <h2>1. Not Medical Advice</h2>
+      <p>AI Weight Coach provides:</p>
+      <ul>
+        <li>General wellness information</li>
+        <li>AI-estimated calorie and nutrition data</li>
+        <li>Personalized coaching based on your inputs</li>
+        <li>Goal tracking and motivation</li>
+      </ul>
+      <p>This information is <strong>not</strong> medical advice. Always consult with a qualified healthcare professional before:</p>
+      <ul>
+        <li>Starting any diet or weight loss program</li>
+        <li>Making significant changes to your eating habits</li>
+        <li>Beginning a new exercise routine</li>
+        <li>If you have any medical conditions or concerns</li>
+      </ul>
+
+      <h2>2. Consult Your Doctor</h2>
+
+      <div class="caution-box">
+        <h3>&#128657; When to Seek Medical Advice</h3>
+        <p>You should consult a healthcare professional if you:</p>
+        <ul style="margin-bottom: 0; margin-top: 12px;">
+          <li>Have diabetes, heart disease, or other chronic conditions</li>
+          <li>Are pregnant, nursing, or planning to become pregnant</li>
+          <li>Have a history of eating disorders</li>
+          <li>Take medications that affect weight or metabolism</li>
+          <li>Experience dizziness, fatigue, or other symptoms while dieting</li>
+          <li>Are under 18 years of age</li>
+          <li>Plan to lose more than 10% of your body weight</li>
+          <li>Even in case of doubt, always consult your doctor</li>
+        </ul>
+      </div>
+
+      <h2>3. AI Limitations</h2>
+      <p>Our AI technology has inherent limitations:</p>
+
+      <h3>3.1 Food Recognition Accuracy</h3>
+      <ul>
+        <li>AI food recognition is approximately 85-95% accurate</li>
+        <li>Portion size estimation may vary</li>
+        <li>Homemade or unusual dishes may be less accurately identified</li>
+        <li>Calorie estimates should be treated as approximations</li>
+      </ul>
+
+      <h3>3.2 Personalized Recommendations</h3>
+      <ul>
+        <li>AI coaching is based on general nutrition principles</li>
+        <li>Recommendations do not account for individual medical conditions</li>
+        <li>The AI does not have access to your complete health history</li>
+        <li>Suggestions should be verified with a healthcare provider</li>
+      </ul>
+
+      <h2>4. Weight Loss Risks</h2>
+      <p>Weight loss, even when done healthily, carries potential risks:</p>
+      <ul class="icon-list">
+        <li>
+          <span class="icon">&#9888;</span>
+          <span><strong>Nutrient deficiencies</strong> - Restricting calories may lead to inadequate vitamin and mineral intake</span>
+        </li>
+        <li>
+          <span class="icon">&#9888;</span>
+          <span><strong>Muscle loss</strong> - Rapid weight loss can result in losing muscle along with fat</span>
+        </li>
+        <li>
+          <span class="icon">&#9888;</span>
+          <span><strong>Metabolic changes</strong> - Your metabolism may slow down with calorie restriction</span>
+        </li>
+        <li>
+          <span class="icon">&#9888;</span>
+          <span><strong>Gallstones</strong> - Rapid weight loss increases the risk of gallstones</span>
+        </li>
+        <li>
+          <span class="icon">&#9888;</span>
+          <span><strong>Psychological effects</strong> - Dieting can affect mood, energy, and mental health</span>
+        </li>
+      </ul>
+
+      <h2>5. Healthy Weight Loss Guidelines</h2>
+
+      <div class="info-box">
+        <h3>&#10003; Recommended Approach</h3>
+        <p>Medical professionals generally recommend:</p>
+        <ul style="margin-bottom: 0; margin-top: 12px;">
+          <li>Losing 0.5-1 kg (1-2 lbs) per week</li>
+          <li>Not going below 1,200 calories/day for women or 1,500 for men without medical supervision</li>
+          <li>Eating a balanced diet with all food groups</li>
+          <li>Combining diet with regular physical activity</li>
+          <li>Staying hydrated and getting adequate sleep</li>
+          <li>Focusing on sustainable lifestyle changes, not quick fixes</li>
+        </ul>
+      </div>
+
+      <h2>6. Eating Disorders Warning</h2>
+
+      <div class="warning-box">
+        <h3>&#9888; Important</h3>
+        <p>If you have a history of eating disorders (anorexia, bulimia, binge eating disorder, etc.), calorie tracking apps may not be appropriate for you. Please consult with a mental health professional before using AI Weight Coach.</p>
+        <p style="margin-top: 12px; margin-bottom: 0;">If you are struggling with disordered eating, please seek help:</p>
+        <ul style="margin-top: 8px; margin-bottom: 0;">
+          <li>National Eating Disorders Association (US): 1-800-931-2237</li>
+          <li>Beat Eating Disorders (UK): 0808-801-0677</li>
+          <li>Or contact your local mental health services</li>
+        </ul>
+      </div>
+
+      <h2>7. No Guarantee of Results</h2>
+      <p>Individual results vary significantly based on:</p>
+      <ul>
+        <li>Starting weight and body composition</li>
+        <li>Age, gender, and genetics</li>
+        <li>Adherence to the program</li>
+        <li>Activity level and lifestyle factors</li>
+        <li>Underlying health conditions</li>
+        <li>Medications and supplements</li>
+      </ul>
+      <p>We cannot guarantee any specific weight loss results. The testimonials on our website represent individual experiences and may not reflect typical results.</p>
+
+      <h2>8. Emergency Situations</h2>
+      <p>AI Weight Coach is not equipped to handle medical emergencies.</p>
+      <p><strong>Call emergency services immediately (112 in EU, 911 in US).</strong></p>
+
+      <h2>9. Your Responsibility</h2>
+      <p>By using AI Weight Coach, you acknowledge that:</p>
+      <ul>
+        <li>You are using the app at your own risk</li>
+        <li>You will consult healthcare professionals for medical advice</li>
+        <li>You will not rely solely on the app for health decisions</li>
+        <li>You will stop using the app if you experience adverse effects</li>
+        <li>You are responsible for verifying the accuracy of AI-generated information</li>
+      </ul>
+
+      <h2>10. Questions?</h2>
+      <p>If you have questions about whether AI Weight Coach is appropriate for you, please consult your healthcare provider</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="health-disclaimer.html">Health Disclaimer</a>
+      </p>
+      <p style="margin-top: 16px;">&copy; 2026 AI Weight Coach. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

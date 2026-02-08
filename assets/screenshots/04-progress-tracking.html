@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px;
+    background: linear-gradient(170deg, #0a0a1a 0%, #1a0d3e 40%, #0a0a1a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    overflow: hidden; position: relative;
+  }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); }
+  .g1 { width: 500px; height: 500px; background: #9B59B6; top: -80px; right: -100px; opacity: 0.1; }
+  .g2 { width: 500px; height: 500px; background: #00D9FF; bottom: 300px; left: -180px; opacity: 0.07; }
+
+  .content { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; align-items: center; padding: 70px 60px 50px; }
+  .tag { background: rgba(155,89,182,0.12); border: 1px solid rgba(155,89,182,0.35); color: #c79bf2; font-size: 19px; font-weight: 700; padding: 10px 26px; border-radius: 30px; margin-bottom: 32px; }
+  h1 { color: #fff; font-size: 56px; font-weight: 800; text-align: center; line-height: 1.12; margin-bottom: 16px; }
+  h1 span { background: linear-gradient(135deg, #00D9FF, #00FF94); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: rgba(255,255,255,0.5); font-size: 24px; text-align: center; line-height: 1.4; margin-bottom: 36px; }
+
+  /* iPhone */
+  .iphone { position: relative; width: 440px; background: #1a1a1a; border-radius: 56px; padding: 14px; box-shadow: 0 0 0 2px #333, 0 0 0 4px #1a1a1a, 0 40px 80px rgba(0,0,0,0.5); }
+  .iphone::before { content:''; position:absolute; left:-4px; top:160px; width:4px; height:34px; background:#333; border-radius:2px 0 0 2px; box-shadow:0 50px 0 #333, 0 90px 0 #333; }
+  .iphone::after { content:''; position:absolute; right:-4px; top:200px; width:4px; height:70px; background:#333; border-radius:0 2px 2px 0; }
+  .iphone-screen { width: 100%; aspect-ratio: 9/19.2; background: linear-gradient(180deg, #0a0a1a, #121230); border-radius: 44px; overflow: hidden; position: relative; }
+  .dynamic-island { position:absolute; top:12px; left:50%; transform:translateX(-50%); width:120px; height:34px; background:#000; border-radius:20px; z-index:10; }
+  .status-bar { position:relative; z-index:5; display:flex; justify-content:space-between; align-items:center; padding:16px 28px 0; height:54px; }
+  .status-time { color:#fff; font-size:15px; font-weight:600; }
+  .status-icons { display:flex; gap:6px; } .status-icons span { color:#fff; font-size:13px; font-weight:600; }
+  .home-indicator { position:absolute; bottom:8px; left:50%; transform:translateX(-50%); width:134px; height:5px; background:rgba(255,255,255,0.2); border-radius:3px; z-index:10; }
+
+  /* App */
+  .app { padding: 10px 18px 20px; }
+  .scr-title { color:#fff; font-size:24px; font-weight:700; margin-bottom:16px; }
+
+  .sg { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:14px; }
+  .sc { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:14px; }
+  .sc-l { color:rgba(255,255,255,0.4); font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; }
+  .sc-v { font-size:26px; font-weight:800; margin-bottom:2px; }
+  .sc-s { font-size:11px; }
+  .s-lost .sc-v{color:#00FF94} .s-lost .sc-s{color:rgba(0,255,148,0.6)}
+  .s-goal .sc-v{color:#00D9FF} .s-goal .sc-s{color:rgba(0,217,255,0.6)}
+  .s-strk .sc-v{color:#FF9500} .s-strk .sc-s{color:rgba(255,149,0,0.6)}
+  .s-con .sc-v{color:#FFD93D} .s-con .sc-s{color:rgba(255,217,61,0.6)}
+
+  .wj { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:16px; margin-bottom:14px; }
+  .wj-t { color:rgba(255,255,255,0.4); font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:12px; }
+  .wj-row { display:flex; align-items:center; justify-content:space-between; }
+  .wj-p { text-align:center; }
+  .wj-pl { color:rgba(255,255,255,0.4); font-size:10px; margin-bottom:4px; }
+  .wj-pv { font-size:22px; font-weight:700; }
+  .wj-s .wj-pv{color:rgba(255,255,255,0.6)} .wj-c .wj-pv{color:#00D9FF} .wj-g .wj-pv{color:#00FF94}
+  .wj-conn { flex:1; height:3px; margin:0 10px; margin-top:12px; border-radius:2px; background:rgba(255,255,255,0.1); position:relative; }
+  .wj-conn::after { content:''; position:absolute; left:0; top:0; height:100%; width:65%; background:linear-gradient(90deg,#00D9FF,#00FF94); border-radius:2px; }
+
+  .ch { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:14px; }
+  .ch-t { color:rgba(255,255,255,0.4); font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:12px; }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="content">
+    <div class="tag">📊 Track Everything</div>
+    <h1>See Your<br><span>Transformation</span></h1>
+    <p class="subtitle">Detailed progress tracking to stay motivated</p>
+
+    <div class="iphone">
+      <div class="iphone-screen">
+        <div class="dynamic-island"></div>
+        <div class="status-bar"><span class="status-time">9:41</span><div class="status-icons"><span>&#9679;&#9679;&#9679;&#9679;</span><span>WiFi</span><span>100%</span></div></div>
+        <div class="app">
+          <div class="scr-title">Your Progress</div>
+          <div class="sg">
+            <div class="sc s-lost"><div class="sc-l">Total Lost</div><div class="sc-v">5.4kg</div><div class="sc-s">Since start</div></div>
+            <div class="sc s-goal"><div class="sc-l">To Goal</div><div class="sc-v">2.8kg</div><div class="sc-s">Keep going!</div></div>
+            <div class="sc s-strk"><div class="sc-l">Streak</div><div class="sc-v">14</div><div class="sc-s">Days logged</div></div>
+            <div class="sc s-con"><div class="sc-l">Consistency</div><div class="sc-v">89%</div><div class="sc-s">On target</div></div>
+          </div>
+          <div class="wj">
+            <div class="wj-t">Weight Journey</div>
+            <div class="wj-row">
+              <div class="wj-p wj-s"><div class="wj-pl">Started</div><div class="wj-pv">91.6</div></div>
+              <div class="wj-conn"></div>
+              <div class="wj-p wj-c"><div class="wj-pl">Current</div><div class="wj-pv">86.2</div></div>
+              <div class="wj-conn"></div>
+              <div class="wj-p wj-g"><div class="wj-pl">Target</div><div class="wj-pv">78.0</div></div>
+            </div>
+          </div>
+          <div class="ch">
+            <div class="ch-t">Weight Trend</div>
+            <svg width="100%" viewBox="0 0 370 120" fill="none">
+              <line x1="0" y1="0" x2="370" y2="0" stroke="rgba(255,255,255,0.05)"/>
+              <line x1="0" y1="30" x2="370" y2="30" stroke="rgba(255,255,255,0.05)"/>
+              <line x1="0" y1="60" x2="370" y2="60" stroke="rgba(255,255,255,0.05)"/>
+              <line x1="0" y1="90" x2="370" y2="90" stroke="rgba(255,255,255,0.05)"/>
+              <line x1="0" y1="120" x2="370" y2="120" stroke="rgba(255,255,255,0.05)"/>
+              <defs>
+                <linearGradient id="lg"><stop offset="0%" stop-color="#00D9FF"/><stop offset="100%" stop-color="#00FF94"/></linearGradient>
+                <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00D9FF" stop-opacity="0.2"/><stop offset="100%" stop-color="#00D9FF" stop-opacity="0"/></linearGradient>
+              </defs>
+              <path d="M0,8 L53,14 L106,24 L159,22 L212,36 L265,44 L318,50 L370,60 L370,120 L0,120Z" fill="url(#fg)"/>
+              <path d="M0,8 L53,14 L106,24 L159,22 L212,36 L265,44 L318,50 L370,60" stroke="url(#lg)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="0" y1="100" x2="370" y2="100" stroke="#00FF94" stroke-width="1.5" stroke-dasharray="5,5" opacity="0.5"/>
+              <circle cx="0" cy="8" r="4" fill="#00D9FF"/>
+              <circle cx="106" cy="24" r="3" fill="#00D9FF"/>
+              <circle cx="212" cy="36" r="3" fill="#00D9FF"/>
+              <circle cx="370" cy="60" r="5" fill="#00FF94" stroke="#0a0a1a" stroke-width="2"/>
+              <text x="370" y="78" font-size="10" fill="#00FF94" text-anchor="end" font-weight="600">86.2 kg</text>
+              <text x="370" y="98" font-size="9" fill="rgba(0,255,148,0.5)" text-anchor="end">Goal: 78.0</text>
+            </svg>
+          </div>
+        </div>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

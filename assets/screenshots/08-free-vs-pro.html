@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px;
+    background: linear-gradient(170deg, #0a0a1a 0%, #0d1b3e 40%, #0a0a1a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    overflow: hidden; position: relative;
+  }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); }
+  .g1 { width: 500px; height: 500px; background: #00D9FF; top: -80px; right: -180px; opacity: 0.1; }
+  .g2 { width: 500px; height: 500px; background: #00FF94; bottom: 300px; left: -180px; opacity: 0.07; }
+
+  .content { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; align-items: center; padding: 80px 60px 60px; }
+  .pro-badge { background: linear-gradient(135deg, #00D9FF, #00FF94); color: #0a0a1a; font-size: 19px; font-weight: 800; letter-spacing: 3px; padding: 11px 30px; border-radius: 30px; margin-bottom: 36px; }
+  h1 { color: #fff; font-size: 54px; font-weight: 800; text-align: center; line-height: 1.12; margin-bottom: 14px; }
+  h1 span { background: linear-gradient(135deg, #00D9FF, #00FF94); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: rgba(255,255,255,0.45); font-size: 23px; text-align: center; margin-bottom: 42px; }
+
+  .table { width: 100%; margin-bottom: 36px; }
+  .th { display: flex; align-items: center; padding: 16px 20px; margin-bottom: 8px; }
+  .th-f { flex: 2.5; }
+  .th-free, .th-pro { flex: 1; text-align: center; font-size: 17px; font-weight: 700; padding: 9px 14px; border-radius: 12px; }
+  .th-free { color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.05); }
+  .th-pro { background: linear-gradient(135deg, #00D9FF, #00FF94); color: #0a0a1a; margin-left: 8px; }
+
+  .tr {
+    display: flex; align-items: center; padding: 18px 20px;
+    background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 14px; margin-bottom: 7px;
+  }
+  .tr:nth-child(odd) { background: rgba(255,255,255,0.05); }
+  .td-f { flex: 2.5; display: flex; align-items: center; gap: 12px; }
+  .td-i { font-size: 22px; }
+  .td-n { color: #fff; font-size: 17px; font-weight: 600; }
+  .td-free, .td-pro { flex: 1; text-align: center; font-size: 16px; font-weight: 600; }
+  .td-free { color: rgba(255,255,255,0.4); } .td-pro { margin-left: 8px; }
+  .v-lim { color: rgba(255,255,255,0.35); }
+  .v-chk { color: #00FF94; font-size: 20px; }
+  .v-x { color: rgba(255,255,255,0.2); font-size: 18px; }
+  .v-unl { color: #00FF94; font-weight: 700; }
+  .v-bas { color: rgba(255,255,255,0.35); }
+
+  .price-section { margin-top: auto; text-align: center; width: 100%; }
+  .price-card {
+    background: rgba(255,255,255,0.04); border: 2px solid rgba(0,217,255,0.25);
+    border-radius: 24px; padding: 30px; margin-bottom: 20px;
+    position: relative; overflow: hidden;
+  }
+  .price-card::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#00D9FF,#00FF94); }
+  .p-amt { color: #fff; font-size: 58px; font-weight: 800; margin-bottom: 2px; }
+  .p-per { color: rgba(255,255,255,0.4); font-size: 20px; margin-bottom: 14px; }
+  .p-trial { background: rgba(0,255,148,0.12); color: #00FF94; font-size: 16px; font-weight: 700; padding: 9px 22px; border-radius: 12px; display: inline-block; }
+
+  .cta-btn {
+    width: 100%; padding: 22px; border-radius: 18px;
+    background: linear-gradient(90deg, #00D9FF, #00FF94);
+    color: #0a0a1a; font-size: 22px; font-weight: 800; text-align: center; margin-bottom: 14px;
+  }
+  .terms { color: rgba(255,255,255,0.25); font-size: 15px; }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="content">
+    <div class="pro-badge">PRO</div>
+    <h1>Free Is Great.<br><span>Pro Is Better.</span></h1>
+    <p class="subtitle">Unlock the full power of AI coaching</p>
+
+    <div class="table">
+      <div class="th"><div class="th-f"></div><div class="th-free">Free</div><div class="th-pro">PRO</div></div>
+      <div class="tr"><div class="td-f"><span class="td-i">📸</span><span class="td-n">Photo Analysis</span></div><div class="td-free v-lim">1 / day</div><div class="td-pro v-unl">Unlimited</div></div>
+      <div class="tr"><div class="td-f"><span class="td-i">🤖</span><span class="td-n">AI Coaching</span></div><div class="td-free v-bas">Basic</div><div class="td-pro v-unl">Full</div></div>
+      <div class="tr"><div class="td-f"><span class="td-i">📝</span><span class="td-n">Manual Logging</span></div><div class="td-free v-chk">&#10003;</div><div class="td-pro v-chk">&#10003;</div></div>
+      <div class="tr"><div class="td-f"><span class="td-i">📊</span><span class="td-n">Progress Tracking</span></div><div class="td-free v-chk">&#10003;</div><div class="td-pro v-chk">&#10003;</div></div>
+      <div class="tr"><div class="td-f"><span class="td-i">🔔</span><span class="td-n">Smart Reminders</span></div><div class="td-free v-x">&#10005;</div><div class="td-pro v-chk">&#10003;</div></div>
+      <div class="tr"><div class="td-f"><span class="td-i">💡</span><span class="td-n">Advanced Insights</span></div><div class="td-free v-x">&#10005;</div><div class="td-pro v-chk">&#10003;</div></div>
+    </div>
+
+    <div class="price-section">
+      <div class="price-card">
+        <div class="p-amt">$6.99</div>
+        <div class="p-per">per month</div>
+        <div class="p-trial">7-day free trial included</div>
+      </div>
+      <div class="cta-btn">Try Pro Free for 7 Days</div>
+      <div class="terms">Cancel anytime. No commitment.</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px;
+    background: linear-gradient(170deg, #0a0a1a 0%, #0d1b3e 50%, #0a0a1a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    overflow: hidden; position: relative;
+  }
+  .glow { position: absolute; border-radius: 50%; filter: blur(150px); }
+  .g1 { width: 600px; height: 600px; background: #00D9FF; top: 200px; left: -200px; opacity: 0.08; }
+  .g2 { width: 600px; height: 600px; background: #00FF94; bottom: 200px; right: -200px; opacity: 0.08; }
+
+  .content { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; align-items: center; padding: 70px 70px 50px; }
+  .badge { background: linear-gradient(135deg, #00D9FF, #00FF94); color: #0a0a1a; font-size: 16px; font-weight: 800; letter-spacing: 3px; padding: 9px 24px; border-radius: 30px; margin-bottom: 28px; }
+  h1 { color: #fff; font-size: 48px; font-weight: 800; text-align: center; line-height: 1.12; margin-bottom: 10px; }
+  h1 span { background: linear-gradient(135deg, #00D9FF, #00FF94); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: rgba(255,255,255,0.45); font-size: 22px; text-align: center; margin-bottom: 36px; }
+
+  .features { width: 100%; display: flex; flex-direction: column; gap: 12px; }
+  .fc {
+    display: flex; align-items: center; gap: 20px;
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px; padding: 20px 24px;
+  }
+  .fi {
+    width: 56px; height: 56px; border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px; flex-shrink: 0;
+  }
+  .fi-1 { background: linear-gradient(135deg, rgba(0,217,255,0.15), rgba(0,255,148,0.15)); }
+  .fi-2 { background: linear-gradient(135deg, rgba(0,255,148,0.15), rgba(0,217,255,0.15)); }
+  .fi-3 { background: linear-gradient(135deg, rgba(155,89,182,0.15), rgba(0,217,255,0.15)); }
+  .fi-4 { background: linear-gradient(135deg, rgba(255,105,180,0.15), rgba(255,217,61,0.15)); }
+  .fi-5 { background: linear-gradient(135deg, rgba(255,107,107,0.15), rgba(255,149,0,0.15)); }
+  .fi-6 { background: linear-gradient(135deg, rgba(255,149,0,0.15), rgba(255,107,107,0.15)); }
+  .ft { flex: 1; }
+  .ft-t { color: #fff; font-size: 19px; font-weight: 700; margin-bottom: 3px; }
+  .ft-d { color: rgba(255,255,255,0.45); font-size: 14px; }
+  .fck {
+    width: 30px; height: 30px; border-radius: 50%;
+    background: rgba(0,255,148,0.12); display: flex; align-items: center; justify-content: center;
+    color: #00FF94; font-size: 16px; font-weight: 700; flex-shrink: 0;
+  }
+
+  .cta-section { margin-top: auto; text-align: center; width: 100%; }
+  .cta-btn {
+    width: 100%; padding: 20px; border-radius: 18px;
+    background: linear-gradient(90deg, #00D9FF, #00FF94);
+    color: #0a0a1a; font-size: 20px; font-weight: 800; text-align: center; margin-bottom: 14px;
+  }
+  .cta-sub { color: rgba(255,255,255,0.3); font-size: 15px; }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="content">
+    <div class="badge">AI WEIGHT COACH</div>
+    <h1>Everything You Need<br><span>In One App</span></h1>
+    <p class="subtitle">Smart features that make weight loss simple</p>
+
+    <div class="features">
+      <div class="fc"><div class="fi fi-1">📸</div><div class="ft"><div class="ft-t">AI Photo Analysis</div><div class="ft-d">Snap a photo, get instant calories & macros</div></div><div class="fck">&#10003;</div></div>
+      <div class="fc"><div class="fi fi-2">🤖</div><div class="ft"><div class="ft-t">Personal AI Coach</div><div class="ft-d">Adaptive insights based on your habits</div></div><div class="fck">&#10003;</div></div>
+      <div class="fc"><div class="fi fi-3">📊</div><div class="ft"><div class="ft-t">Progress Tracking</div><div class="ft-d">Weight trends, streaks & weekly averages</div></div><div class="fck">&#10003;</div></div>
+      <div class="fc"><div class="fi fi-4">🎭</div><div class="ft"><div class="ft-t">Mood & Sleep Tracking</div><div class="ft-d">Understand how lifestyle affects your goals</div></div><div class="fck">&#10003;</div></div>
+      <div class="fc"><div class="fi fi-5">🏃</div><div class="ft"><div class="ft-t">Exercise Logging</div><div class="ft-d">Track walks, runs & cycling calories burned</div></div><div class="fck">&#10003;</div></div>
+      <div class="fc"><div class="fi fi-6">🔔</div><div class="ft"><div class="ft-t">Smart Reminders</div><div class="ft-d">Personalized coaching notifications</div></div><div class="fck">&#10003;</div></div>
+    </div>
+
+    <div class="cta-section">
+      <div class="cta-btn">Start Your Journey Today</div>
+      <div class="cta-sub">Free to use &mdash; Pro unlocks unlimited photo analysis</div>
+    </div>
+  </div>
+</body>
+</html>

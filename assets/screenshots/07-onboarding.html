@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px;
+    background: linear-gradient(170deg, #0a0a1a 0%, #0d1b3e 40%, #0a0a1a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    overflow: hidden; position: relative;
+  }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); }
+  .g1 { width: 500px; height: 500px; background: #00D9FF; top: 350px; left: 50%; transform: translateX(-50%); opacity: 0.07; }
+
+  .content { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; align-items: center; padding: 80px 60px 60px; }
+  .tag { background: rgba(0,217,255,0.1); border: 1px solid rgba(0,217,255,0.3); color: #00D9FF; font-size: 19px; font-weight: 700; padding: 10px 26px; border-radius: 30px; margin-bottom: 32px; }
+  h1 { color: #fff; font-size: 56px; font-weight: 800; text-align: center; line-height: 1.12; margin-bottom: 16px; }
+  h1 span { background: linear-gradient(135deg, #00D9FF, #00FF94); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: rgba(255,255,255,0.5); font-size: 24px; text-align: center; margin-bottom: 50px; }
+
+  .steps { width: 100%; display: flex; flex-direction: column; position: relative; }
+  .steps::before { content:''; position:absolute; left:47px; top:48px; bottom:48px; width:3px; background:linear-gradient(180deg,#00D9FF,#00FF94); opacity:0.25; border-radius:2px; }
+
+  .step { display: flex; align-items: flex-start; gap: 24px; padding: 22px 0; position: relative; }
+  .sn {
+    width: 62px; height: 62px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px; font-weight: 800; flex-shrink: 0;
+    position: relative; z-index: 2;
+  }
+  .s1 .sn { background: linear-gradient(135deg, #00D9FF, #0099CC); color: #0a0a1a; }
+  .s2 .sn { background: linear-gradient(135deg, #00C4E0, #00BB88); color: #0a0a1a; }
+  .s3 .sn { background: linear-gradient(135deg, #00BB88, #00FF94); color: #0a0a1a; }
+  .s4 .sn { background: linear-gradient(135deg, #00FF94, #00D9FF); color: #0a0a1a; }
+  .sc { flex: 1; padding-top: 4px; }
+  .st { color: #fff; font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+  .sd { color: rgba(255,255,255,0.45); font-size: 17px; line-height: 1.4; }
+  .sv {
+    width: 62px; height: 62px; border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 32px; flex-shrink: 0;
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .bottom { margin-top: auto; width: 100%; text-align: center; }
+  .result-card {
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(0,255,148,0.2);
+    border-radius: 24px; padding: 28px; margin-bottom: 24px; text-align: center;
+  }
+  .rc-l { color: rgba(255,255,255,0.4); font-size: 16px; margin-bottom: 8px; }
+  .rc-v { background: linear-gradient(135deg, #00D9FF, #00FF94); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 46px; font-weight: 800; margin-bottom: 6px; }
+  .rc-s { color: rgba(255,255,255,0.4); font-size: 17px; }
+  .cta-txt { color: rgba(255,255,255,0.3); font-size: 17px; }
+  .cta-txt strong { color: #00D9FF; font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div>
+  <div class="content">
+    <div class="tag">&#10024; Get Started</div>
+    <h1>Set Up in<br><span>Under 2 Minutes</span></h1>
+    <p class="subtitle">AI creates your personalized plan instantly</p>
+
+    <div class="steps">
+      <div class="step s1"><div class="sn">1</div><div class="sc"><div class="st">Tell Us About You</div><div class="sd">Age, weight, height & activity level</div></div><div class="sv">📋</div></div>
+      <div class="step s2"><div class="sn">2</div><div class="sc"><div class="st">Share Your Lifestyle</div><div class="sd">Eating habits, sleep & stress patterns</div></div><div class="sv">🧠</div></div>
+      <div class="step s3"><div class="sn">3</div><div class="sc"><div class="st">Set Your Goal</div><div class="sd">Lose weight, gain muscle or maintain</div></div><div class="sv">🎯</div></div>
+      <div class="step s4"><div class="sn">4</div><div class="sc"><div class="st">AI Builds Your Plan</div><div class="sd">Custom calories, macros & coaching tips</div></div><div class="sv">🤖</div></div>
+    </div>
+
+    <div class="bottom">
+      <div class="result-card">
+        <div class="rc-l">Your personalized daily target</div>
+        <div class="rc-v">1,850 kcal</div>
+        <div class="rc-s">30% protein / 40% carbs / 30% fat</div>
+      </div>
+      <div class="cta-txt">Takes <strong>less than 2 minutes</strong> to get your plan</div>
+    </div>
+  </div>
+</body>
+</html>

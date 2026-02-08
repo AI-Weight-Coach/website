@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px;
+    background: linear-gradient(170deg, #0a0a1a 0%, #0d1b3e 40%, #0a0a1a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    overflow: hidden; position: relative;
+  }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); }
+  .g1 { width: 500px; height: 500px; background: #00D9FF; top: 100px; left: -200px; opacity: 0.12; }
+  .g2 { width: 500px; height: 500px; background: #00FF94; bottom: 200px; right: -180px; opacity: 0.08; }
+
+  .content {
+    position: relative; z-index: 2; height: 100%;
+    display: flex; flex-direction: column; align-items: center;
+    padding: 70px 60px 50px;
+  }
+  .tag {
+    display: flex; align-items: center; gap: 8px;
+    background: rgba(0,217,255,0.1); border: 1px solid rgba(0,217,255,0.3);
+    color: #00D9FF; font-size: 19px; font-weight: 700;
+    padding: 10px 26px; border-radius: 30px; margin-bottom: 32px;
+  }
+  h1 { color: #fff; font-size: 56px; font-weight: 800; text-align: center; line-height: 1.12; margin-bottom: 16px; }
+  h1 span { background: linear-gradient(135deg, #00D9FF, #00FF94); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: rgba(255,255,255,0.5); font-size: 24px; text-align: center; line-height: 1.4; margin-bottom: 36px; }
+
+  /* iPhone */
+  .iphone {
+    position: relative; width: 440px;
+    background: #1a1a1a; border-radius: 56px; padding: 14px;
+    box-shadow: 0 0 0 2px #333, 0 0 0 4px #1a1a1a, 0 40px 80px rgba(0,0,0,0.5), 0 0 40px rgba(0,217,255,0.06);
+  }
+  .iphone::before { content:''; position:absolute; left:-4px; top:160px; width:4px; height:34px; background:#333; border-radius:2px 0 0 2px; box-shadow:0 50px 0 #333, 0 90px 0 #333; }
+  .iphone::after { content:''; position:absolute; right:-4px; top:200px; width:4px; height:70px; background:#333; border-radius:0 2px 2px 0; }
+  .iphone-screen {
+    width: 100%; aspect-ratio: 9/19.2;
+    background: linear-gradient(180deg, #0a0a1a 0%, #121230 100%);
+    border-radius: 44px; overflow: hidden; position: relative;
+  }
+  .dynamic-island { position:absolute; top:12px; left:50%; transform:translateX(-50%); width:120px; height:34px; background:#000; border-radius:20px; z-index:10; }
+  .status-bar { position:relative; z-index:5; display:flex; justify-content:space-between; align-items:center; padding:16px 28px 0; height:54px; }
+  .status-time { color:#fff; font-size:15px; font-weight:600; }
+  .status-icons { display:flex; gap:6px; align-items:center; }
+  .status-icons span { color:#fff; font-size:13px; font-weight:600; }
+  .home-indicator { position:absolute; bottom:8px; left:50%; transform:translateX(-50%); width:134px; height:5px; background:rgba(255,255,255,0.2); border-radius:3px; z-index:10; }
+
+  /* App content */
+  .food-photo {
+    width: 100%; height: 290px;
+    background: linear-gradient(135deg, #2a1a0a 0%, #1a2a1a 50%, #1a1a2a 100%);
+    position: relative; display: flex; align-items: center; justify-content: center;
+  }
+  .plate {
+    width: 200px; height: 200px; border-radius: 50%;
+    background: radial-gradient(circle, #f5f0e8, #e8e0d0 60%, #d4c8b8);
+    position: relative;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3), inset 0 2px 8px rgba(255,255,255,0.2);
+  }
+  .plate::before { content:''; position:absolute; top:12px; left:12px; right:12px; bottom:12px; border-radius:50%; border:2px solid rgba(0,0,0,0.05); }
+  .fi { position: absolute; }
+  .f-chicken { width:80px; height:55px; background:linear-gradient(135deg,#d4a056,#c4913d); border-radius:40%; top:42px; left:30px; box-shadow:0 3px 6px rgba(0,0,0,0.2); }
+  .f-rice { width:70px; height:48px; background:linear-gradient(135deg,#fff8ee,#f0e8d8); border-radius:45%; top:48px; right:30px; box-shadow:0 3px 6px rgba(0,0,0,0.1); }
+  .f-broc { width:40px; height:40px; background:linear-gradient(135deg,#4a8c3f,#3d7535); border-radius:50% 50% 40% 40%; bottom:42px; left:65px; }
+  .f-carrot { width:48px; height:16px; background:linear-gradient(90deg,#e87830,#d46828); border-radius:4px 10px 10px 4px; bottom:55px; right:42px; transform:rotate(-20deg); }
+  .scan-line { position:absolute; left:16px; right:16px; height:2px; background:linear-gradient(90deg,transparent,#00D9FF,transparent); opacity:0.6; top:48%; }
+  .analyzed-badge { position:absolute; top:14px; right:14px; background:rgba(0,217,255,0.9); color:#0a0a1a; font-size:12px; font-weight:700; padding:6px 14px; border-radius:16px; }
+
+  .results { padding: 16px 18px 20px; }
+  .res-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
+  .food-name { color:#fff; font-size:20px; font-weight:700; }
+  .food-desc { color:rgba(255,255,255,0.4); font-size:12px; margin-top:2px; }
+  .confidence { background:rgba(0,255,148,0.15); color:#00FF94; font-size:14px; font-weight:700; padding:6px 14px; border-radius:10px; }
+
+  .nutr { display:flex; gap:8px; margin-bottom:16px; }
+  .ni { flex:1; background:rgba(255,255,255,0.05); border-radius:12px; padding:12px 6px; text-align:center; }
+  .ni .nv { font-size:20px; font-weight:800; display:block; margin-bottom:2px; }
+  .ni .nu { font-size:10px; display:block; }
+  .nc .nv{color:#fff} .nc .nu{color:rgba(255,255,255,0.4)}
+  .np .nv{color:#00D9FF} .np .nu{color:rgba(0,217,255,0.6)}
+  .nca .nv{color:#00FF94} .nca .nu{color:rgba(0,255,148,0.6)}
+  .nf .nv{color:#FFD93D} .nf .nu{color:rgba(255,217,61,0.6)}
+
+  .meals { display:flex; gap:8px; margin-bottom:14px; }
+  .mb { flex:1; padding:10px; border-radius:12px; text-align:center; font-size:11px; font-weight:600; }
+  .mb .me { font-size:18px; display:block; margin-bottom:3px; }
+  .mb-a { background:rgba(0,217,255,0.15); border:1px solid rgba(0,217,255,0.4); color:#00D9FF; }
+  .mb-i { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.08); color:rgba(255,255,255,0.5); }
+
+  .save-btn {
+    width:100%; padding:14px; border-radius:14px;
+    background:linear-gradient(90deg,#00D9FF,#00FF94);
+    color:#0a0a1a; font-size:16px; font-weight:700; text-align:center;
+  }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="content">
+    <div class="tag">📸 AI-Powered</div>
+    <h1>Snap a Photo,<br><span>Get Instant Macros</span></h1>
+    <p class="subtitle">AI analyzes your meal in seconds</p>
+
+    <div class="iphone">
+      <div class="iphone-screen">
+        <div class="dynamic-island"></div>
+        <div class="status-bar">
+          <span class="status-time">9:41</span>
+          <div class="status-icons"><span>&#9679;&#9679;&#9679;&#9679;</span><span>WiFi</span><span>100%</span></div>
+        </div>
+
+        <div class="food-photo">
+          <div class="plate">
+            <div class="fi f-chicken"></div>
+            <div class="fi f-rice"></div>
+            <div class="fi f-broc"></div>
+            <div class="fi f-carrot"></div>
+          </div>
+          <div class="analyzed-badge">&#10003; Analyzed</div>
+          <div class="scan-line"></div>
+        </div>
+
+        <div class="results">
+          <div class="res-head">
+            <div><div class="food-name">Chicken & Rice Bowl</div><div class="food-desc">Grilled chicken, rice, broccoli</div></div>
+            <div class="confidence">94%</div>
+          </div>
+          <div class="nutr">
+            <div class="ni nc"><span class="nv">485</span><span class="nu">calories</span></div>
+            <div class="ni np"><span class="nv">42g</span><span class="nu">protein</span></div>
+            <div class="ni nca"><span class="nv">48g</span><span class="nu">carbs</span></div>
+            <div class="ni nf"><span class="nv">12g</span><span class="nu">fat</span></div>
+          </div>
+          <div class="meals">
+            <div class="mb mb-i"><span class="me">🥣</span>Breakfast</div>
+            <div class="mb mb-a"><span class="me">🥗</span>Lunch</div>
+            <div class="mb mb-i"><span class="me">🍽️</span>Dinner</div>
+            <div class="mb mb-i"><span class="me">🍎</span>Snack</div>
+          </div>
+          <div class="save-btn">Save Meal</div>
+        </div>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

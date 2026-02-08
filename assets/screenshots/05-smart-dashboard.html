@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px;
+    background: linear-gradient(170deg, #0a0a1a 0%, #0d1b3e 40%, #0a0a1a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    overflow: hidden; position: relative;
+  }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); }
+  .g1 { width: 500px; height: 500px; background: #FF9500; top: -80px; left: -100px; opacity: 0.1; }
+  .g2 { width: 500px; height: 500px; background: #00D9FF; bottom: 300px; right: -180px; opacity: 0.07; }
+
+  .content { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; align-items: center; padding: 70px 60px 50px; }
+  .tag { background: rgba(255,149,0,0.1); border: 1px solid rgba(255,149,0,0.3); color: #FF9500; font-size: 19px; font-weight: 700; padding: 10px 26px; border-radius: 30px; margin-bottom: 32px; }
+  h1 { color: #fff; font-size: 56px; font-weight: 800; text-align: center; line-height: 1.12; margin-bottom: 16px; }
+  h1 span { background: linear-gradient(135deg, #FFD93D, #FF9500); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: rgba(255,255,255,0.5); font-size: 24px; text-align: center; line-height: 1.4; margin-bottom: 36px; }
+
+  /* iPhone */
+  .iphone { position: relative; width: 440px; background: #1a1a1a; border-radius: 56px; padding: 14px; box-shadow: 0 0 0 2px #333, 0 0 0 4px #1a1a1a, 0 40px 80px rgba(0,0,0,0.5); }
+  .iphone::before { content:''; position:absolute; left:-4px; top:160px; width:4px; height:34px; background:#333; border-radius:2px 0 0 2px; box-shadow:0 50px 0 #333, 0 90px 0 #333; }
+  .iphone::after { content:''; position:absolute; right:-4px; top:200px; width:4px; height:70px; background:#333; border-radius:0 2px 2px 0; }
+  .iphone-screen { width: 100%; aspect-ratio: 9/19.2; background: linear-gradient(180deg, #0a0a1a, #121230); border-radius: 44px; overflow: hidden; position: relative; }
+  .dynamic-island { position:absolute; top:12px; left:50%; transform:translateX(-50%); width:120px; height:34px; background:#000; border-radius:20px; z-index:10; }
+  .status-bar { position:relative; z-index:5; display:flex; justify-content:space-between; align-items:center; padding:16px 28px 0; height:54px; }
+  .status-time { color:#fff; font-size:15px; font-weight:600; }
+  .status-icons { display:flex; gap:6px; } .status-icons span { color:#fff; font-size:13px; font-weight:600; }
+  .home-indicator { position:absolute; bottom:8px; left:50%; transform:translateX(-50%); width:134px; height:5px; background:rgba(255,255,255,0.2); border-radius:3px; z-index:10; }
+
+  .app { padding: 10px 18px 20px; }
+  .greet { color:rgba(255,255,255,0.5); font-size:14px; }
+  .uname { color:#fff; font-size:22px; font-weight:700; margin-bottom:14px; }
+
+  .tip { background:linear-gradient(135deg,rgba(0,217,255,0.08),rgba(0,255,148,0.08)); border:1px solid rgba(0,217,255,0.2); border-radius:14px; padding:12px; margin-bottom:14px; }
+  .tip-h { display:flex; align-items:center; gap:6px; margin-bottom:5px; }
+  .tip-l { color:#00D9FF; font-size:11px; font-weight:700; }
+  .tip-t { color:rgba(255,255,255,0.6); font-size:12px; line-height:1.4; }
+
+  .sec { color:rgba(255,255,255,0.4); font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:10px; margin-top:4px; }
+
+  .mi { display:flex; align-items:center; gap:12px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.06); border-radius:14px; padding:12px 14px; margin-bottom:8px; }
+  .mic { width:38px; height:38px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
+  .mic-b { background:rgba(255,183,77,0.15); } .mic-l { background:rgba(0,217,255,0.12); }
+  .mic-d { background:rgba(156,39,176,0.15); } .mic-s { background:rgba(0,255,148,0.12); }
+  .mi-info { flex:1; }
+  .mi-n { color:#fff; font-size:14px; font-weight:600; }
+  .mi-d { color:rgba(255,255,255,0.35); font-size:11px; margin-top:1px; }
+  .mi-cal { color:rgba(255,255,255,0.7); font-size:15px; font-weight:700; }
+  .badge-p { font-size:9px; font-weight:600; padding:2px 6px; border-radius:5px; margin-left:5px; background:rgba(0,217,255,0.15); color:#00D9FF; }
+  .badge-m { font-size:9px; font-weight:600; padding:2px 6px; border-radius:5px; margin-left:5px; background:rgba(255,255,255,0.08); color:rgba(255,255,255,0.4); }
+
+  .ex-ic { width:38px; height:38px; border-radius:10px; background:rgba(255,107,107,0.12); display:flex; align-items:center; justify-content:center; font-size:18px; }
+  .ex-cal { color:#FF6B6B; font-size:15px; font-weight:700; }
+
+  /* Tab bar */
+  .tab-bar { position:absolute; bottom:0; left:0; right:0; height:74px; background:rgba(10,10,26,0.95); border-top:1px solid rgba(255,255,255,0.08); display:flex; justify-content:space-around; align-items:center; padding:0 8px; padding-bottom:20px; z-index:10; }
+  .tab { text-align:center; }
+  .tab-icon { font-size:22px; margin-bottom:2px; }
+  .tab-lbl { font-size:9px; font-weight:600; }
+  .tab-active .tab-icon { filter: drop-shadow(0 0 4px rgba(0,217,255,0.5)); }
+  .tab-active .tab-lbl { color:#00D9FF; }
+  .tab-inactive .tab-lbl { color:rgba(255,255,255,0.35); }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="content">
+    <div class="tag">🍽️ Easy Meal Logging</div>
+    <h1>Every Bite,<br><span>Perfectly Tracked</span></h1>
+    <p class="subtitle">Photo or manual - your AI coach tracks it all</p>
+
+    <div class="iphone">
+      <div class="iphone-screen">
+        <div class="dynamic-island"></div>
+        <div class="status-bar"><span class="status-time">9:41</span><div class="status-icons"><span>&#9679;&#9679;&#9679;&#9679;</span><span>WiFi</span><span>100%</span></div></div>
+        <div class="app">
+          <div class="greet">Good afternoon</div>
+          <div class="uname">Alex 🔥 14</div>
+          <div class="tip">
+            <div class="tip-h"><span>💡</span><span class="tip-l">AI Coach Tip</span></div>
+            <div class="tip-t">603 cal under budget. A protein-rich dinner will hit your targets!</div>
+          </div>
+          <div class="sec">Today's Meals</div>
+          <div class="mi">
+            <div class="mic mic-b">🥣</div>
+            <div class="mi-info"><div class="mi-n">Oatmeal & Berries <span class="badge-p">📸</span></div><div class="mi-d">Oats, blueberries, honey</div></div>
+            <div class="mi-cal">340</div>
+          </div>
+          <div class="mi">
+            <div class="mic mic-l">🥗</div>
+            <div class="mi-info"><div class="mi-n">Chicken Salad <span class="badge-p">📸</span></div><div class="mi-d">Grilled chicken, mixed greens</div></div>
+            <div class="mi-cal">485</div>
+          </div>
+          <div class="mi">
+            <div class="mic mic-s">🍎</div>
+            <div class="mi-info"><div class="mi-n">Apple & PB <span class="badge-m">Manual</span></div><div class="mi-d">1 apple, 2 tbsp peanut butter</div></div>
+            <div class="mi-cal">280</div>
+          </div>
+          <div class="sec">Exercise</div>
+          <div class="mi">
+            <div class="ex-ic">🚶</div>
+            <div class="mi-info"><div class="mi-n">Morning Walk</div><div class="mi-d">45 min</div></div>
+            <div class="ex-cal">-210</div>
+          </div>
+          <div class="mi">
+            <div class="ex-ic">🚴</div>
+            <div class="mi-info"><div class="mi-n">Cycling</div><div class="mi-d">30 min</div></div>
+            <div class="ex-cal">-320</div>
+          </div>
+        </div>
+        <div class="tab-bar">
+          <div class="tab tab-active"><div class="tab-icon">🏠</div><div class="tab-lbl">Home</div></div>
+          <div class="tab tab-inactive"><div class="tab-icon">📸</div><div class="tab-lbl">Camera</div></div>
+          <div class="tab tab-inactive"><div class="tab-icon">📊</div><div class="tab-lbl">Progress</div></div>
+          <div class="tab tab-inactive"><div class="tab-icon">🤖</div><div class="tab-lbl">Coach</div></div>
+        </div>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1920px;
+    background: linear-gradient(170deg, #0a0a1a 0%, #0d1b3e 40%, #0a0a1a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); }
+  .g1 { width: 500px; height: 500px; background: #00D9FF; top: -80px; right: -120px; opacity: 0.12; }
+  .g2 { width: 500px; height: 500px; background: #00FF94; bottom: 300px; left: -180px; opacity: 0.08; }
+
+  .content {
+    position: relative; z-index: 2;
+    height: 100%; display: flex; flex-direction: column; align-items: center;
+    padding: 70px 60px 50px;
+  }
+  .badge {
+    background: linear-gradient(135deg, #00D9FF, #00FF94);
+    color: #0a0a1a; font-size: 17px; font-weight: 800; letter-spacing: 3px;
+    padding: 10px 26px; border-radius: 30px; margin-bottom: 32px;
+  }
+  h1 { color: #fff; font-size: 60px; font-weight: 800; text-align: center; line-height: 1.12; margin-bottom: 18px; }
+  h1 span { background: linear-gradient(135deg, #00D9FF, #00FF94); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: rgba(255,255,255,0.5); font-size: 26px; text-align: center; line-height: 1.4; margin-bottom: 36px; }
+
+  /* ── iPhone 15 Pro Mockup ── */
+  .iphone {
+    position: relative; width: 440px; flex-shrink: 0;
+    background: #1a1a1a;
+    border-radius: 56px;
+    padding: 14px;
+    box-shadow:
+      0 0 0 2px #333,
+      0 0 0 4px #1a1a1a,
+      0 40px 80px rgba(0,0,0,0.5),
+      0 0 40px rgba(0,217,255,0.06);
+  }
+  /* Side buttons */
+  .iphone::before {
+    content: '';
+    position: absolute; left: -4px; top: 160px;
+    width: 4px; height: 34px;
+    background: #333; border-radius: 2px 0 0 2px;
+    box-shadow: 0 50px 0 #333, 0 90px 0 #333;
+  }
+  .iphone::after {
+    content: '';
+    position: absolute; right: -4px; top: 200px;
+    width: 4px; height: 70px;
+    background: #333; border-radius: 0 2px 2px 0;
+  }
+  .iphone-screen {
+    width: 100%; aspect-ratio: 9/19.2;
+    background: linear-gradient(180deg, #0a0a1a 0%, #121230 100%);
+    border-radius: 44px;
+    overflow: hidden; position: relative;
+  }
+  /* Dynamic Island */
+  .dynamic-island {
+    position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+    width: 120px; height: 34px;
+    background: #000; border-radius: 20px; z-index: 10;
+  }
+  /* Status bar */
+  .status-bar {
+    position: relative; z-index: 5;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 16px 28px 0;
+    height: 54px;
+  }
+  .status-time { color: #fff; font-size: 15px; font-weight: 600; }
+  .status-icons { display: flex; gap: 6px; align-items: center; }
+  .status-icons span { color: #fff; font-size: 13px; font-weight: 600; }
+  /* Home indicator */
+  .home-indicator {
+    position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);
+    width: 134px; height: 5px;
+    background: rgba(255,255,255,0.2); border-radius: 3px; z-index: 10;
+  }
+
+  /* ── App content ── */
+  .app { padding: 10px 18px 30px; }
+  .greet { color: rgba(255,255,255,0.5); font-size: 15px; }
+  .name { color: #fff; font-size: 24px; font-weight: 700; margin-bottom: 16px; }
+
+  .ring-wrap { display: flex; justify-content: center; margin-bottom: 14px; }
+  .ring { position: relative; width: 170px; height: 170px; }
+  .ring svg { transform: rotate(-90deg); }
+  .ring-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center; }
+  .ring-text .num { color: #fff; font-size: 30px; font-weight: 700; display: block; }
+  .ring-text .lbl { color: rgba(255,255,255,0.4); font-size: 11px; }
+
+  .macros { display: flex; gap: 8px; margin-bottom: 14px; }
+  .macro { flex: 1; background: rgba(255,255,255,0.05); border-radius: 12px; padding: 12px 8px; text-align: center; }
+  .macro .v { color: #fff; font-size: 17px; font-weight: 700; }
+  .macro .l { font-size: 10px; margin-top: 3px; }
+  .mp .l { color: #00D9FF; } .mc .l { color: #00FF94; } .mf .l { color: #FFD93D; }
+
+  .stats { display: flex; gap: 8px; margin-bottom: 14px; }
+  .sbox { flex: 1; background: rgba(255,255,255,0.05); border-radius: 12px; padding: 10px; text-align: center; }
+  .sbox .e { font-size: 20px; margin-bottom: 4px; }
+  .sbox .sv { color: #fff; font-size: 15px; font-weight: 700; }
+  .sbox .sl { color: rgba(255,255,255,0.4); font-size: 10px; margin-top: 1px; }
+
+  .tip-card {
+    background: linear-gradient(135deg, rgba(0,217,255,0.08), rgba(0,255,148,0.08));
+    border: 1px solid rgba(0,217,255,0.2); border-radius: 14px; padding: 12px;
+  }
+  .tip-hdr { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+  .tip-lbl { color: #00D9FF; font-size: 12px; font-weight: 700; }
+  .tip-txt { color: rgba(255,255,255,0.6); font-size: 12px; line-height: 1.4; }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div>
+  <div class="glow g2"></div>
+  <div class="content">
+    <div class="badge">AI WEIGHT COACH</div>
+    <h1>Snap. Track.<br><span>Transform.</span></h1>
+    <p class="subtitle">AI-powered calorie tracking from just a photo</p>
+
+    <div class="iphone">
+      <div class="iphone-screen">
+        <div class="dynamic-island"></div>
+        <div class="status-bar">
+          <span class="status-time">9:41</span>
+          <div class="status-icons"><span>&#9679;&#9679;&#9679;&#9679;</span> <span>WiFi</span> <span>100%</span></div>
+        </div>
+        <div class="app">
+          <div class="greet">Good morning</div>
+          <div class="name">Alex 🔥 14</div>
+          <div class="ring-wrap">
+            <div class="ring">
+              <svg width="170" height="170" viewBox="0 0 170 170">
+                <circle cx="85" cy="85" r="72" stroke="rgba(255,255,255,0.08)" stroke-width="13" fill="none"/>
+                <circle cx="85" cy="85" r="72" stroke="url(#g)" stroke-width="13" fill="none"
+                  stroke-dasharray="452" stroke-dashoffset="150" stroke-linecap="round"/>
+                <defs><linearGradient id="g"><stop offset="0%" stop-color="#00D9FF"/><stop offset="100%" stop-color="#00FF94"/></linearGradient></defs>
+              </svg>
+              <div class="ring-text"><span class="num">1,247</span><span class="lbl">of 1,850 kcal</span></div>
+            </div>
+          </div>
+          <div class="macros">
+            <div class="macro mp"><div class="v">82g</div><div class="l">Protein</div></div>
+            <div class="macro mc"><div class="v">145g</div><div class="l">Carbs</div></div>
+            <div class="macro mf"><div class="v">38g</div><div class="l">Fat</div></div>
+          </div>
+          <div class="stats">
+            <div class="sbox"><div class="e">😊</div><div class="sv">Good</div><div class="sl">Mood</div></div>
+            <div class="sbox"><div class="e">🔥</div><div class="sv">-320</div><div class="sl">Burned</div></div>
+            <div class="sbox"><div class="e">😴</div><div class="sv">7.5h</div><div class="sl">Sleep</div></div>
+          </div>
+          <div class="tip-card">
+            <div class="tip-hdr"><span>💡</span><span class="tip-lbl">AI Coach Tip</span></div>
+            <div class="tip-txt">Great protein intake today! A light dinner with veggies will keep you on track.</div>
+          </div>
+        </div>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

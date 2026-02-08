@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px;
+    background: linear-gradient(170deg, #0a0a1a 0%, #0d1b3e 40%, #0a0a1a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    overflow: hidden; position: relative;
+  }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); }
+  .g1 { width: 500px; height: 500px; background: #00FF94; top: -80px; left: -100px; opacity: 0.12; }
+  .g2 { width: 500px; height: 500px; background: #00D9FF; bottom: 300px; right: -180px; opacity: 0.08; }
+
+  .content { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; align-items: center; padding: 70px 60px 50px; }
+  .tag { background: rgba(0,255,148,0.1); border: 1px solid rgba(0,255,148,0.3); color: #00FF94; font-size: 19px; font-weight: 700; padding: 10px 26px; border-radius: 30px; margin-bottom: 32px; }
+  h1 { color: #fff; font-size: 56px; font-weight: 800; text-align: center; line-height: 1.12; margin-bottom: 16px; }
+  h1 span { background: linear-gradient(135deg, #00FF94, #00D9FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: rgba(255,255,255,0.5); font-size: 24px; text-align: center; line-height: 1.4; margin-bottom: 36px; }
+
+  /* iPhone */
+  .iphone { position: relative; width: 440px; background: #1a1a1a; border-radius: 56px; padding: 14px; box-shadow: 0 0 0 2px #333, 0 0 0 4px #1a1a1a, 0 40px 80px rgba(0,0,0,0.5), 0 0 40px rgba(0,255,148,0.06); }
+  .iphone::before { content:''; position:absolute; left:-4px; top:160px; width:4px; height:34px; background:#333; border-radius:2px 0 0 2px; box-shadow:0 50px 0 #333, 0 90px 0 #333; }
+  .iphone::after { content:''; position:absolute; right:-4px; top:200px; width:4px; height:70px; background:#333; border-radius:0 2px 2px 0; }
+  .iphone-screen { width: 100%; aspect-ratio: 9/19.2; background: linear-gradient(180deg, #0a0a1a, #121230); border-radius: 44px; overflow: hidden; position: relative; }
+  .dynamic-island { position:absolute; top:12px; left:50%; transform:translateX(-50%); width:120px; height:34px; background:#000; border-radius:20px; z-index:10; }
+  .status-bar { position:relative; z-index:5; display:flex; justify-content:space-between; align-items:center; padding:16px 28px 0; height:54px; }
+  .status-time { color:#fff; font-size:15px; font-weight:600; }
+  .status-icons { display:flex; gap:6px; align-items:center; } .status-icons span { color:#fff; font-size:13px; font-weight:600; }
+  .home-indicator { position:absolute; bottom:8px; left:50%; transform:translateX(-50%); width:134px; height:5px; background:rgba(255,255,255,0.2); border-radius:3px; z-index:10; }
+
+  /* App */
+  .app { padding: 10px 18px 20px; }
+  .coach-hdr { display:flex; align-items:center; gap:12px; margin-bottom:18px; }
+  .ai-av { width:44px; height:44px; border-radius:50%; background:linear-gradient(135deg,#00D9FF,#00FF94); display:flex; align-items:center; justify-content:center; color:#0a0a1a; font-size:16px; font-weight:800; }
+  .coach-name { color:#fff; font-size:20px; font-weight:700; }
+  .coach-sub { color:rgba(255,255,255,0.4); font-size:12px; }
+
+  .goal-card { background:rgba(255,255,255,0.05); border:1px solid rgba(0,217,255,0.2); border-radius:16px; padding:14px; margin-bottom:14px; display:flex; align-items:center; justify-content:space-between; }
+  .gp { text-align:center; }
+  .gp-l { color:rgba(255,255,255,0.4); font-size:10px; text-transform:uppercase; letter-spacing:1px; margin-bottom:3px; }
+  .gp-v { font-size:22px; font-weight:700; }
+  .gp-c .gp-v { color:#fff; } .gp-t .gp-v { color:#00FF94; }
+  .gp-a { color:rgba(255,255,255,0.2); font-size:22px; }
+  .gp-badge { background:rgba(0,217,255,0.15); color:#00D9FF; font-size:11px; font-weight:700; padding:5px 12px; border-radius:16px; }
+
+  .ins { border-radius:14px; padding:14px; margin-bottom:10px; border:1px solid; }
+  .ins-h { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+  .ins-e { font-size:18px; }
+  .ins-t { color:#fff; font-size:14px; font-weight:600; }
+  .ins-time { color:rgba(255,255,255,0.3); font-size:11px; margin-left:auto; }
+  .ins-txt { color:rgba(255,255,255,0.65); font-size:12px; line-height:1.45; }
+  .ins-prog { background:rgba(0,255,148,0.08); border-color:rgba(0,255,148,0.2); }
+  .ins-alert { background:rgba(255,107,107,0.08); border-color:rgba(255,107,107,0.2); }
+  .ins-tip { background:rgba(0,217,255,0.08); border-color:rgba(0,217,255,0.2); }
+  .ins-mot { background:rgba(255,153,0,0.08); border-color:rgba(255,153,0,0.2); }
+  .pri { background:rgba(255,107,107,0.2); color:#FF6B6B; font-size:9px; font-weight:700; padding:2px 7px; border-radius:5px; margin-left:6px; }
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="content">
+    <div class="tag">🤖 Personal AI Coach</div>
+    <h1>Your Coach<br><span>Knows You Best</span></h1>
+    <p class="subtitle">Personalized insights that adapt to you</p>
+
+    <div class="iphone">
+      <div class="iphone-screen">
+        <div class="dynamic-island"></div>
+        <div class="status-bar"><span class="status-time">9:41</span><div class="status-icons"><span>&#9679;&#9679;&#9679;&#9679;</span><span>WiFi</span><span>100%</span></div></div>
+        <div class="app">
+          <div class="coach-hdr">
+            <div class="ai-av">AI</div>
+            <div><div class="coach-name">AI Coach</div><div class="coach-sub">Updated 5 min ago</div></div>
+          </div>
+          <div class="goal-card">
+            <div class="gp gp-c"><div class="gp-l">Current</div><div class="gp-v">86.2</div></div>
+            <div class="gp-a">&#8594;</div>
+            <div class="gp gp-t"><div class="gp-l">Target</div><div class="gp-v">78.0</div></div>
+            <div class="gp-badge">Balanced</div>
+          </div>
+          <div class="ins ins-prog">
+            <div class="ins-h"><span class="ins-e">📉</span><span class="ins-t">Great Progress!</span><span class="ins-time">2h ago</span></div>
+            <div class="ins-txt">You've lost 1.3kg this week! Your protein consistency is paying off. Keep going!</div>
+          </div>
+          <div class="ins ins-alert">
+            <div class="ins-h"><span class="ins-e">⚠️</span><span class="ins-t">Watch Snacking</span><span class="pri">Important</span><span class="ins-time">4h ago</span></div>
+            <div class="ins-txt">3 snacks today totaling 480 cal. Try protein-rich alternatives like nuts.</div>
+          </div>
+          <div class="ins ins-tip">
+            <div class="ins-h"><span class="ins-e">💡</span><span class="ins-t">Hydration Tip</span><span class="ins-time">6h ago</span></div>
+            <div class="ins-txt">Water before meals can reduce intake by 13%. Try a glass 30 min before dinner.</div>
+          </div>
+          <div class="ins ins-mot">
+            <div class="ins-h"><span class="ins-e">🔥</span><span class="ins-t">7-Day Streak!</span><span class="ins-time">Today</span></div>
+            <div class="ins-txt">You've logged every day this week. Consistency is the key to lasting results!</div>
+          </div>
+        </div>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

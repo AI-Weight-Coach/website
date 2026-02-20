@@ -191,6 +191,10 @@
       --gradient: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
     }
 
+    html, body {
+      overflow-x: hidden;
+    }
+
     html {
       scroll-behavior: smooth;
     }
@@ -200,7 +204,6 @@
       background: var(--dark);
       color: #fff;
       line-height: 1.6;
-      overflow-x: hidden;
     }
 
     /* Utility classes */
@@ -1266,6 +1269,21 @@
     @media (max-width: 768px) {
       .nav-links {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(10, 10, 26, 0.97);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        flex-direction: column;
+        padding: 20px 24px;
+        gap: 16px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+      }
+
+      .nav-links.show {
+        display: flex;
       }
 
       .mobile-menu-btn {
@@ -1321,6 +1339,124 @@
     [id] {
       scroll-margin-top: 100px;
     }
+
+    /* Store badges */
+    .store-badges {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .store-badges.center {
+      justify-content: center;
+    }
+
+    .store-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: #fff;
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 14px;
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .store-badge:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+    }
+
+    .store-badge.disabled {
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .store-badge svg {
+      flex-shrink: 0;
+    }
+
+    .store-badge-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .store-badge-text .label {
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+    }
+
+    .store-badge-text .store-name {
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    /* Sticky download bar (mobile only) */
+    .sticky-download {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      background: rgba(10, 10, 26, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding: 12px 16px;
+    }
+
+    .sticky-download .store-badges {
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .sticky-download .store-badge {
+      padding: 10px 16px;
+      border-radius: 12px;
+      flex: 1;
+      justify-content: center;
+      max-width: 180px;
+    }
+
+    .sticky-download .store-badge-text .store-name {
+      font-size: 15px;
+    }
+
+    .sticky-download .store-badge-text .label {
+      font-size: 9px;
+    }
+
+    .sticky-download .store-badge svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    @media (max-width: 768px) {
+      .sticky-download {
+        display: block;
+      }
+
+      /* Add bottom padding to body so footer isn't hidden behind sticky bar */
+      body {
+        padding-bottom: 80px;
+      }
+
+      .store-badge {
+        padding: 10px 16px;
+      }
+
+      .store-badge-text .store-name {
+        font-size: 14px;
+      }
+
+      .store-badges {
+        justify-content: center;
+      }
+    }
   </style>
 </head>
 <body>
@@ -1336,6 +1472,7 @@
         <a href="#how-it-works">How It Works</a>
         <a href="#demo">Demo</a>
         <a href="#pricing">Pricing</a>
+        <a href="blog/">Blog</a>
       </div>
       <button class="mobile-menu-btn">☰</button>
     </div>
@@ -1351,14 +1488,22 @@
           <h1>Lose Weight with <span class="gradient-text">AI Coaching</span></h1>
           <p>Your personal AI coach that understands what you eat, how you move, and intervenes before bad habits form. Photo-based tracking, proactive guidance, real results.</p>
           <div class="hero-buttons">
-            <a href="#cta" class="btn-primary">
-              <span>Start 7-Day Free Trial</span>
-              <span>→</span>
-            </a>
-            <a href="#demo" class="btn-secondary">
-              <span>▶</span>
-              <span>Watch Demo</span>
-            </a>
+            <div class="store-badges">
+              <a href="https://play.google.com/store/apps/details?id=com.aiweightcoach.app&hl=en" target="_blank" rel="noopener" class="store-badge">
+                  <svg class="kOqhQd" aria-hidden="true" width="26" height="26" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0,0h40v40H0V0z"></path><g><path d="M19.7,19.2L4.3,35.3c0,0,0,0,0,0c0.5,1.7,2.1,3,4,3c0.8,0,1.5-0.2,2.1-0.6l0,0l17.4-9.9L19.7,19.2z" fill="#EA4335"></path><path d="M35.3,16.4L35.3,16.4l-7.5-4.3l-8.4,7.4l8.5,8.3l7.5-4.2c1.3-0.7,2.2-2.1,2.2-3.6C37.5,18.5,36.6,17.1,35.3,16.4z" fill="#FBBC04"></path><path d="M4.3,4.7C4.2,5,4.2,5.4,4.2,5.8v28.5c0,0.4,0,0.7,0.1,1.1l16-15.7L4.3,4.7z" fill="#4285F4"></path><path d="M19.8,20l8-7.9L10.5,2.3C9.9,1.9,9.1,1.7,8.3,1.7c-1.9,0-3.6,1.3-4,3c0,0,0,0,0,0L19.8,20z" fill="#34A853"></path></g></svg>
+                  <span class="store-badge-text">
+                  <span class="label">GET IT ON</span>
+                  <span class="store-name">Google Play</span>
+                </span>
+              </a>
+              <a href="#" class="store-badge disabled" title="Coming soon">
+                <svg width="26" height="26" viewBox="0 0 24 24"><path fill="#000" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                <span class="store-badge-text">
+                  <span class="label">COMING SOON ON</span>
+                  <span class="store-name">App Store</span>
+                </span>
+              </a>
+            </div>
           </div>
           <div class="hero-stats">
             <div class="hero-stat">
@@ -1630,14 +1775,22 @@
         <h2>Ready to Transform<br>Your <span class="gradient-text">Health</span>?</h2>
         <p>Join thousands of users who are losing weight sustainably with AI-powered coaching.</p>
         <div class="cta-buttons">
-          <a href="#" class="btn-primary">
-            <span>Start 7-Day Free Trial</span>
-            <span>→</span>
-          </a>
-          <a href="#demo" class="btn-secondary">
-            <span>📱</span>
-            <span>See App Demo</span>
-          </a>
+          <div class="store-badges center">
+            <a href="https://play.google.com/store/apps/details?id=com.aiweightcoach.app&hl=en" target="_blank" rel="noopener" class="store-badge">
+                <svg class="kOqhQd" aria-hidden="true" width="26" height="26" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0,0h40v40H0V0z"></path><g><path d="M19.7,19.2L4.3,35.3c0,0,0,0,0,0c0.5,1.7,2.1,3,4,3c0.8,0,1.5-0.2,2.1-0.6l0,0l17.4-9.9L19.7,19.2z" fill="#EA4335"></path><path d="M35.3,16.4L35.3,16.4l-7.5-4.3l-8.4,7.4l8.5,8.3l7.5-4.2c1.3-0.7,2.2-2.1,2.2-3.6C37.5,18.5,36.6,17.1,35.3,16.4z" fill="#FBBC04"></path><path d="M4.3,4.7C4.2,5,4.2,5.4,4.2,5.8v28.5c0,0.4,0,0.7,0.1,1.1l16-15.7L4.3,4.7z" fill="#4285F4"></path><path d="M19.8,20l8-7.9L10.5,2.3C9.9,1.9,9.1,1.7,8.3,1.7c-1.9,0-3.6,1.3-4,3c0,0,0,0,0,0L19.8,20z" fill="#34A853"></path></g></svg>
+              <span class="store-badge-text">
+                <span class="label">GET IT ON</span>
+                <span class="store-name">Google Play</span>
+              </span>
+            </a>
+            <a href="#" class="store-badge disabled" title="Coming soon">
+              <svg width="26" height="26" viewBox="0 0 24 24"><path fill="#000" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              <span class="store-badge-text">
+                <span class="label">COMING SOON ON</span>
+                <span class="store-name">App Store</span>
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -1659,15 +1812,9 @@
           <a href="#features">Features</a>
           <a href="#pricing">Pricing</a>
           <a href="#demo">Demo</a>
-          <a href="#">Download</a>
+          <a href="blog/">Blog</a>
+          <a href="https://play.google.com/store/apps/details?id=com.aiweightcoach.app&hl=en" target="_blank" rel="noopener">Google Play</a>
         </div>
-        <div class="footer-links">
-<!--          <h4>Company</h4>-->
-<!--          <a href="#">About Us</a>-->
-<!--          <a href="#">Careers</a>-->
-<!--          <a href="#">Blog</a>-->
-<!--          <a href="#">Press</a>-->
-<!--        </div>-->
         <div class="footer-links">
           <h4>Legal</h4>
           <a href="privacy-policy.html">Privacy Policy</a>
@@ -1686,6 +1833,26 @@
       </div>
     </div>
   </footer>
+
+  <!-- Sticky Download Bar (mobile) -->
+  <div class="sticky-download" id="sticky-download">
+    <div class="store-badges">
+      <a href="https://play.google.com/store/apps/details?id=com.aiweightcoach.app&hl=en" target="_blank" rel="noopener" class="store-badge">
+          <svg class="kOqhQd" aria-hidden="true" width="26" height="26" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0,0h40v40H0V0z"></path><g><path d="M19.7,19.2L4.3,35.3c0,0,0,0,0,0c0.5,1.7,2.1,3,4,3c0.8,0,1.5-0.2,2.1-0.6l0,0l17.4-9.9L19.7,19.2z" fill="#EA4335"></path><path d="M35.3,16.4L35.3,16.4l-7.5-4.3l-8.4,7.4l8.5,8.3l7.5-4.2c1.3-0.7,2.2-2.1,2.2-3.6C37.5,18.5,36.6,17.1,35.3,16.4z" fill="#FBBC04"></path><path d="M4.3,4.7C4.2,5,4.2,5.4,4.2,5.8v28.5c0,0.4,0,0.7,0.1,1.1l16-15.7L4.3,4.7z" fill="#4285F4"></path><path d="M19.8,20l8-7.9L10.5,2.3C9.9,1.9,9.1,1.7,8.3,1.7c-1.9,0-3.6,1.3-4,3c0,0,0,0,0,0L19.8,20z" fill="#34A853"></path></g></svg>
+        <span class="store-badge-text">
+          <span class="label">GET IT ON</span>
+          <span class="store-name">Google Play</span>
+        </span>
+      </a>
+      <a href="#" class="store-badge disabled" title="Coming soon">
+        <svg width="26" height="26" viewBox="0 0 24 24"><path fill="#000" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        <span class="store-badge-text">
+          <span class="label">COMING SOON ON</span>
+          <span class="store-name">App Store</span>
+        </span>
+      </a>
+    </div>
+  </div>
 
   <script>
     // Navbar scroll effect
@@ -1714,6 +1881,18 @@
 
     document.querySelectorAll('.fade-in').forEach(el => {
       observer.observe(el);
+    });
+
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-btn').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('show');
+    });
+
+    // Close mobile menu when a link is tapped
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.remove('show');
+      });
     });
 
     // Smooth scroll for anchor links

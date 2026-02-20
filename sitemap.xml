@@ -7,6 +7,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/pitch-deck.html</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -29,5 +34,11 @@
     <lastmod>2026-02-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/blog/nuts-vs-veggies-200-calories-difference.html</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

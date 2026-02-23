@@ -1,5 +1,15 @@
 [
   {
+    "name": "Beer Vs Whiskey",
+    "slug": "beer-vs-whiskey",
+    "primary_stat": "100",
+    "primary_unit": "calories",
+    "primary_context": "per standard serving (whiskey)",
+    "search_query": "calories in beer vs whiskey",
+    "published_at": "2026-02-23T18:03:17.655195+00:00",
+    "meta_description": "100 calories per shot of whiskey. Compare beer vs whiskey calories, sugar, and carbs for weight loss. Get expert nutrition facts and tips."
+  },
+  {
     "name": "Wine Bottle",
     "slug": "wine-bottle",
     "primary_stat": "125",

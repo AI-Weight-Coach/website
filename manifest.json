@@ -1,0 +1,16 @@
+{
+  "name": "AI Weight Coach",
+  "short_name": "AI Weight Coach",
+  "description": "AI-powered weight loss coaching with photo food tracking and proactive guidance.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0a0a1a",
+  "theme_color": "#0a0a1a",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

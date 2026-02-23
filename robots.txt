@@ -13,3 +13,5 @@ Crawl-delay: 1
 # Block internal/development files
 Disallow: /og-image.html
 Disallow: /feature-banner.html
+Disallow: /blog.html
+Disallow: /pitch-deck.html

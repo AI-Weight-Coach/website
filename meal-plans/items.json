@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Budget High-Protein Meal Plans",
+    "slug": "budget-high-protein-meal-plans",
+    "primary_stat": "1875",
+    "primary_unit": "cal/day",
+    "primary_context": "for general adult, 1-day sample",
+    "search_query": "budget high-protein meal plans",
+    "published_at": "2026-02-20T23:03:56.938085+00:00",
+    "meta_description": "1875 cal/day high-protein meal plan. Discover a budget-friendly, evidence-based 1-day sample plan with macros, grocery estimate & meal prep tips.",
+    "linked_blogs": [
+      {
+        "slug": "high-protein-meals-under-3-dollars",
+        "title": "Fuel Your Goals: High-Protein Meals Under $3 Per Serving"
+      }
+    ]
+  },
+  {
+    "name": "Crafting Macro-Friendly Meal Plans with Quality Carbs",
+    "slug": "crafting-macro-friendly-meal-plans-with-quality-carbs",
+    "primary_stat": "1870",
+    "primary_unit": "cal/day",
+    "primary_context": "Daily Target Intake",
+    "search_query": "crafting macro-friendly meal plans with quality carbs",
+    "published_at": "2026-02-23T10:07:39.352123+00:00",
+    "meta_description": "1870 cal/day macro-friendly meal plan with quality carbs, 123g protein, 211g carbs, 66g fat. Includes sample meals, grocery estimate & prep tips.",
+    "linked_blogs": [
+      {
+        "slug": "carb-quality-vs-quantity-macro-tracking",
+        "title": "Carb Quality vs. Quantity: The Secret to Smarter Macro Tracking"
+      }
+    ]
+  }
+]

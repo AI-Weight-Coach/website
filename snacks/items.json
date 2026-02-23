@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Affordable High-Protein Snacks",
+    "slug": "affordable-high-protein-snacks",
+    "primary_stat": "120",
+    "primary_unit": "calories",
+    "primary_context": "per 5.3oz serving",
+    "search_query": "affordable high-protein snacks",
+    "published_at": "2026-02-20T23:03:56.938085+00:00",
+    "meta_description": "120 calories per serving. Discover affordable, high-protein Greek yogurt snacks! Filling, quick prep, 15-17g protein. Perfect for weight loss and budget-friendly meals.",
+    "linked_blogs": [
+      {
+        "slug": "high-protein-meals-under-3-dollars",
+        "title": "Fuel Your Goals: High-Protein Meals Under $3 Per Serving"
+      },
+      {
+        "slug": "nuts-vs-veggies-200-calories-difference",
+        "title": "Nuts vs. Veggies: Why 200 Calories Aren't Created Equal"
+      }
+    ]
+  },
+  {
+    "name": "High-Quality Carb Snacks for Sustained Energy",
+    "slug": "high-quality-carb-snacks-for-sustained-energy",
+    "primary_stat": "320",
+    "primary_unit": "calories",
+    "primary_context": "per serving of overnight oats",
+    "search_query": "high-quality carb snacks for sustained energy",
+    "published_at": "2026-02-23T10:07:39.352123+00:00",
+    "meta_description": "320 calories per serving: High-quality carb snacks like overnight oats offer sustained energy, satiety, and fiber, supporting healthy weight management. Track portions.",
+    "linked_blogs": [
+      {
+        "slug": "carb-quality-vs-quantity-macro-tracking",
+        "title": "Carb Quality vs. Quantity: The Secret to Smarter Macro Tracking"
+      }
+    ]
+  },
+  {
+    "name": "Healthy Hydrating Snacks",
+    "slug": "healthy-hydrating-snacks",
+    "primary_stat": "110",
+    "primary_unit": "calories",
+    "primary_context": "per serving (1/2 cup Greek yogurt + 1/2 cup berries)",
+    "search_query": "healthy hydrating snacks",
+    "published_at": "2026-02-23T17:17:31.503335+00:00",
+    "meta_description": "110 calories per serving: Greek yogurt with berries is a top hydrating snack, packed with protein and fiber, excellent for weight loss and satiety. Easy prep, delicious variations.",
+    "linked_blogs": [
+      {
+        "slug": "how-much-water-should-i-drink-calculator",
+        "title": "How Much Water Should I Drink Calculator"
+      },
+      {
+        "slug": "how-much-water-should-i-drink-a-day",
+        "title": "How Much Water Should I Drink a Day?"
+      }
+    ]
+  }
+]

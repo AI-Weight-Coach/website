@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Affordable Protein Sources",
+    "slug": "affordable-protein-sources",
+    "primary_stat": "22",
+    "primary_unit": "grams",
+    "primary_context": "protein per 85g serving of canned tuna (in water, drained)",
+    "search_query": "affordable protein sources",
+    "published_at": "2026-02-20T23:03:56.938085+00:00",
+    "meta_description": "22g protein per serving: Canned tuna is an excellent, affordable, and lean protein source for weight loss, promoting satiety and muscle retention.",
+    "linked_blogs": [
+      {
+        "slug": "high-protein-meals-under-3-dollars",
+        "title": "Fuel Your Goals: High-Protein Meals Under $3 Per Serving"
+      },
+      {
+        "slug": "nuts-vs-veggies-200-calories-difference",
+        "title": "Nuts vs. Veggies: Why 200 Calories Aren't Created Equal"
+      }
+    ]
+  }
+]

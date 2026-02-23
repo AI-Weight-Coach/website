@@ -9,7 +9,24 @@
     "reading_time_min": 8,
     "meta_title": "Protein for Weight Loss: A Female's Essential Guide",
     "meta_description": "For women, protein is key for weight loss. Learn how it boosts satiety, preserves muscle, and aids metabolism. Discover optimal intake & best sources with AI Weight Coach.",
-    "keywords": "protein for weight loss female, high protein diet women, best protein sources women, how much protein for weight loss female, protein benefits weight loss, female fat loss diet, lean muscle women, protein intake women"
+    "keywords": "protein for weight loss female, high protein diet women, best protein sources women, how much protein for weight loss female, protein benefits weight loss, female fat loss diet, lean muscle women, protein intake women",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts-for-women",
+        "name": "Strength Training Workouts for Women"
+      },
+      {
+        "type": "supplements",
+        "slug": "best-protein-supplements-for-women",
+        "name": "Best Protein Supplements for Women"
+      }
+    ]
   },
   {
     "title": "Weight Loss Plateau on Ozempic: What to Do Next?",
@@ -21,7 +38,29 @@
     "meta_title": "Ozempic Weight Loss Plateau: Break Through Strategies",
     "meta_description": "Hitting a weight loss plateau on Ozempic? Learn why it happens and discover actionable strategies for diet, exercise, and lifestyle to break through effectively.",
     "keywords": "Ozempic plateau, weight loss strategies, metabolic adaptation, Ozempic weight loss, break plateau, diet adjustments, exercise for weight loss, lifestyle changes",
-    "search_query": "weight loss plateau on ozempic"
+    "search_query": "weight loss plateau on ozempic",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "best-diet-adjustments-for-weight-loss-plateau",
+        "name": "Best Diet Adjustments for a Weight Loss Plateau"
+      },
+      {
+        "type": "exercises",
+        "slug": "effective-exercises-to-break-weight-loss-plateau",
+        "name": "Effective Exercises to Break a Weight Loss Plateau"
+      },
+      {
+        "type": "myths",
+        "slug": "common-weight-loss-plateau-myths-debunked",
+        "name": "Common Weight Loss Plateau Myths Debunked"
+      }
+    ]
   },
   {
     "title": "How Much Water Should I Drink Calculator",
@@ -33,7 +72,29 @@
     "meta_title": "How Much Water Should I Drink? Your Daily Water Needs",
     "meta_description": "Determine your daily water needs with our practical 'calculator.' Learn how factors like activity, climate, and body weight influence your optimal water intake for health & weight loss.",
     "keywords": "how much water, daily water intake, water calculator, hydration, weight loss, drinking water, water needs, body weight water",
-    "search_query": "how much water should i drink calculator"
+    "search_query": "how much water should i drink calculator",
+    "linked_micros": [
+      {
+        "type": "drinks",
+        "slug": "hydrating-drinks-for-optimal-health",
+        "name": "Hydrating Drinks for Optimal Health"
+      },
+      {
+        "type": "diets",
+        "slug": "diets",
+        "name": "Best Diet Adjustments for a Weight Loss Plateau"
+      },
+      {
+        "type": "workouts",
+        "slug": "workouts",
+        "name": "Strength Training Workouts for Women"
+      },
+      {
+        "type": "snacks",
+        "slug": "healthy-hydrating-snacks",
+        "name": "Healthy Hydrating Snacks"
+      }
+    ]
   },
   {
     "title": "How Much Water Should I Drink a Day?",
@@ -45,7 +106,29 @@
     "meta_title": "How Much Water Should I Drink a Day? Your Guide",
     "meta_description": "Discover how much water you should drink daily. Learn to calculate your personal needs based on activity, climate, and diet for optimal health and weight loss.",
     "keywords": "how much water, daily water intake, hydration, weight loss, drinking water, fluid needs, dehydration, water benefits",
-    "search_query": "how much water should i drink a day"
+    "search_query": "how much water should i drink a day",
+    "linked_micros": [
+      {
+        "type": "drinks",
+        "slug": "hydrating-drinks-for-optimal-health",
+        "name": "Hydrating Drinks for Optimal Health"
+      },
+      {
+        "type": "snacks",
+        "slug": "healthy-hydrating-snacks",
+        "name": "Healthy Hydrating Snacks"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts-for-women",
+        "name": "Strength Training Workouts for Women"
+      },
+      {
+        "type": "diets",
+        "slug": "best-diet-adjustments-for-a-weight-loss-plateau",
+        "name": "Best Diet Adjustments for a Weight Loss Plateau"
+      }
+    ]
   },
   {
     "title": "Carb Quality vs. Quantity: The Secret to Smarter Macro Tracking",
@@ -57,7 +140,29 @@
     "reading_time_min": 6,
     "meta_title": "Carb Quality vs. Quantity: Weight Loss & Macro Tracking",
     "meta_description": "Unlock smarter macro tracking by understanding carb quality vs. quantity. Discover how choosing whole, nutrient-dense carbs can boost satiety, energy, and weight loss success.",
-    "keywords": "carb quality, carb quantity, macro tracking, weight loss, healthy carbs, glycemic index, fiber, whole grains"
+    "keywords": "carb quality, carb quantity, macro tracking, weight loss, healthy carbs, glycemic index, fiber, whole grains",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "best-diet-adjustments-for-a-weight-loss-plateau",
+        "name": "Best Diet Adjustments for a Weight Loss Plateau"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "crafting-macro-friendly-meal-plans-with-quality-carbs",
+        "name": "Crafting Macro-Friendly Meal Plans with Quality Carbs"
+      },
+      {
+        "type": "snacks",
+        "slug": "high-quality-carb-snacks-for-sustained-energy",
+        "name": "High-Quality Carb Snacks for Sustained Energy"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts-for-women",
+        "name": "Strength Training Workouts for Women"
+      }
+    ]
   },
   {
     "title": "Fuel Your Goals: High-Protein Meals Under $3 Per Serving",
@@ -69,7 +174,29 @@
     "reading_time_min": 6,
     "meta_title": "Budget-Friendly High-Protein Meals for Weight Loss",
     "meta_description": "Discover delicious, high-protein meals that cost under $3 per serving! Fuel your weight loss journey without breaking the bank with these expert tips.",
-    "keywords": "budget meals, high protein, weight loss, cheap healthy food, meal planning, frugal eating, protein sources, under $3 meals"
+    "keywords": "budget meals, high protein, weight loss, cheap healthy food, meal planning, frugal eating, protein sources, under $3 meals",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "budget-high-protein-meal-plans",
+        "name": "Budget High-Protein Meal Plans"
+      },
+      {
+        "type": "snacks",
+        "slug": "affordable-high-protein-snacks",
+        "name": "Affordable High-Protein Snacks"
+      }
+    ]
   },
   {
     "title": "Nuts vs. Veggies: Why 200 Calories Aren't Created Equal",
@@ -81,6 +208,28 @@
     "reading_time_min": 7,
     "meta_title": "Nuts vs. Vegetables: Why 200 Calories Aren't Equal for Weight Loss",
     "meta_description": "Learn why 200 calories of nuts impacts your body differently than 200 calories of vegetables, and how this understanding boosts your weight loss.",
-    "keywords": "calorie quality, nuts vs vegetables, calorie density, weight loss, satiety, nutrient density, healthy eating, AI Weight Coach"
+    "keywords": "calorie quality, nuts vs vegetables, calorie density, weight loss, satiety, nutrient density, healthy eating, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "snacks",
+        "slug": "affordable-high-protein-snacks",
+        "name": "Affordable High-Protein Snacks"
+      },
+      {
+        "type": "diets",
+        "slug": "best-diet-adjustments-for-a-weight-loss-plateau",
+        "name": "Best Diet Adjustments for a Weight Loss Plateau"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      }
+    ]
   }
 ]

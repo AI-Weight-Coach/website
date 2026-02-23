@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Strength Training Workouts for Women",
+    "slug": "workouts",
+    "primary_stat": "325",
+    "primary_unit": "cal/session",
+    "primary_context": "for a 55-minute full-body session (approx. for 60kg individual)",
+    "search_query": "strength training workouts for women",
+    "published_at": "2026-02-23T17:17:31.503335+00:00",
+    "meta_description": "Burn an estimated 325 calories per session with this effective strength training routine for women. Boost metabolism, build lean muscle, and improve bone density. Get started!",
+    "linked_blogs": [
+      {
+        "slug": "how-much-water-should-i-drink-calculator",
+        "title": "How Much Water Should I Drink Calculator"
+      }
+    ]
+  },
+  {
+    "name": "Strength Training Workouts for Women",
+    "slug": "strength-training-workouts-for-women",
+    "primary_stat": "300",
+    "primary_unit": "cal/session",
+    "primary_context": "for a 45-60 min session",
+    "search_query": "strength training workouts for women",
+    "published_at": "2026-02-23T18:00:16.025153+00:00",
+    "meta_description": "Burn 300+ calories per session with this full-body strength workout for women. Build muscle, boost metabolism, and achieve sustainable weight loss. Includes routine.",
+    "linked_blogs": [
+      {
+        "slug": "protein-for-weight-loss-female-essential-guide",
+        "title": "Protein for Weight Loss Female: Your Essential Guide"
+      },
+      {
+        "slug": "how-much-water-should-i-drink-a-day",
+        "title": "How Much Water Should I Drink a Day?"
+      },
+      {
+        "slug": "carb-quality-vs-quantity-macro-tracking",
+        "title": "Carb Quality vs. Quantity: The Secret to Smarter Macro Tracking"
+      }
+    ]
+  }
+]

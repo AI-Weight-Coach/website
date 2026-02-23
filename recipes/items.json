@@ -1,0 +1,30 @@
+[
+  {
+    "name": "High-Protein Recipes for Weight Loss",
+    "slug": "high-protein-recipes-for-weight-loss",
+    "primary_stat": "490",
+    "primary_unit": "calories",
+    "primary_context": "per serving",
+    "search_query": "high-protein recipes for weight loss",
+    "published_at": "2026-02-23T18:00:16.025153+00:00",
+    "meta_description": "490 calories per serving. Discover why high-protein recipes are key for weight loss. Our Quick Chicken & Broccoli Stir-fry packs 58g protein in just 20 mins. Learn more!",
+    "linked_blogs": [
+      {
+        "slug": "protein-for-weight-loss-female-essential-guide",
+        "title": "Protein for Weight Loss Female: Your Essential Guide"
+      },
+      {
+        "slug": "weight-loss-plateau-on-ozempic-what-to-do-next",
+        "title": "Weight Loss Plateau on Ozempic: What to Do Next?"
+      },
+      {
+        "slug": "high-protein-meals-under-3-dollars",
+        "title": "Fuel Your Goals: High-Protein Meals Under $3 Per Serving"
+      },
+      {
+        "slug": "nuts-vs-veggies-200-calories-difference",
+        "title": "Nuts vs. Veggies: Why 200 Calories Aren't Created Equal"
+      }
+    ]
+  }
+]

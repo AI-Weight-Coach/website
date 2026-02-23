@@ -1,5 +1,15 @@
 [
   {
+    "name": "Strength Training",
+    "slug": "strength-training",
+    "primary_stat": "350",
+    "primary_unit": "cal/session",
+    "primary_context": "estimated for a 60-min moderate session",
+    "search_query": "strength training routine for runners",
+    "published_at": "2026-02-23T18:03:33.388258+00:00",
+    "meta_description": "350 cal/session: Discover the benefits of strength training, including increased metabolism and bone density. Get a full workout routine and learn its impact on weight loss."
+  },
+  {
     "name": "Hiit",
     "slug": "hiit",
     "primary_stat": "350",

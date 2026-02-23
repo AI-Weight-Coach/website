@@ -1,5 +1,15 @@
 [
   {
+    "name": "Subway",
+    "slug": "subway",
+    "primary_stat": "200",
+    "primary_unit": "calories",
+    "primary_context": "per 6-inch Veggie Delite sub",
+    "search_query": "subway healthy options menu",
+    "published_at": "2026-02-23T18:03:58.834805+00:00",
+    "meta_description": "200 calories: Find the healthiest Subway options! Learn the best protein, what to avoid, and a 500-calorie meal. Evidence-based nutrition for smart choices."
+  },
+  {
     "name": "An Irish Pub",
     "slug": "an-irish-pub",
     "primary_stat": "950",

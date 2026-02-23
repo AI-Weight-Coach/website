@@ -1,5 +1,15 @@
 [
   {
+    "name": "Low Calorie",
+    "slug": "low-calorie",
+    "primary_stat": "1200",
+    "primary_unit": "calories",
+    "primary_context": "daily intake for many effective weight loss plans",
+    "search_query": "low calorie recipes",
+    "published_at": "2026-02-23T18:30:44.885031+00:00",
+    "meta_description": "Understand low-calorie diets: effective for weight loss by creating a deficit. Learn facts, risks, and try a quick 250-calorie recipe. Optimize your health."
+  },
+  {
     "name": "Hot Chocolate",
     "slug": "hot-chocolate",
     "primary_stat": "180",

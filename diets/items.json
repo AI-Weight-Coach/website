@@ -1,5 +1,15 @@
 [
   {
+    "name": "Intermittent Fasting",
+    "slug": "intermittent-fasting",
+    "primary_stat": "7",
+    "primary_unit": "/10",
+    "primary_context": "overall rating",
+    "search_query": "intermittent fasting diet plan",
+    "published_at": "2026-02-23T18:31:11.482619+00:00",
+    "meta_description": "7/10 overall rating for Intermittent Fasting. Learn about IF's pros, cons, typical weight loss, who it's best for, and sustainability from a Registered Dietitian."
+  },
+  {
     "name": "Carnivore",
     "slug": "carnivore",
     "primary_stat": "2.5",

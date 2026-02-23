@@ -1,5 +1,15 @@
 [
   {
+    "name": "Depression Medication",
+    "slug": "depression-medication",
+    "primary_stat": "Variable",
+    "primary_unit": "approach",
+    "primary_context": "weight change",
+    "search_query": "weight loss with depression medication",
+    "published_at": "2026-02-23T18:32:39.653678+00:00",
+    "meta_description": "Depression medication impact on weight is variable. Learn how antidepressants affect weight, dietary and exercise tips, key medications, and when to see a doctor."
+  },
+  {
     "name": "Menopause",
     "slug": "menopause",
     "primary_stat": "Increased",

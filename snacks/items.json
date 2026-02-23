@@ -1,5 +1,15 @@
 [
   {
+    "name": "Late Night Healthy",
+    "slug": "late-night-healthy",
+    "primary_stat": "140",
+    "primary_unit": "calories",
+    "primary_context": "per serving (Greek yogurt with berries)",
+    "search_query": "late night healthy snack ideas",
+    "published_at": "2026-02-23T18:31:58.056706+00:00",
+    "meta_description": "140 calories: Discover healthy late-night snack ideas like Greek yogurt with berries. Learn about protein, calories, and how it impacts weight loss. Get expert tips."
+  },
+  {
     "name": "Ideas Easy",
     "slug": "ideas-easy",
     "primary_stat": "210",

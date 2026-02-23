@@ -1,5 +1,15 @@
 [
   {
+    "name": "Mcdonalds",
+    "slug": "mcdonalds",
+    "primary_stat": "450",
+    "primary_unit": "calories",
+    "primary_context": "average for a main menu item",
+    "search_query": "lowest calorie food at mcdonalds",
+    "published_at": "2026-02-23T18:31:42.865276+00:00",
+    "meta_description": "Navigate McDonald's menu for health. Find top 5 healthiest options under 310 calories, best protein picks, meals under 500 calories, and items to avoid. Smart choices are key for your diet."
+  },
+  {
     "name": "Subway",
     "slug": "subway",
     "primary_stat": "200",

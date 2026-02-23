@@ -1,5 +1,15 @@
 [
   {
+    "name": "Beginner",
+    "slug": "beginner",
+    "primary_stat": "200",
+    "primary_unit": "cal/session",
+    "primary_context": "per 35-minute bodyweight session (approx. for 150lb person)",
+    "search_query": "beginner workout plan for women",
+    "published_at": "2026-02-23T18:31:31.472786+00:00",
+    "meta_description": "Burn ~200 cal/session with this beginner bodyweight routine. Build foundational strength, improve mobility, and safely kickstart your weight loss journey for lasting results."
+  },
+  {
     "name": "Strength Training",
     "slug": "strength-training",
     "primary_stat": "350",

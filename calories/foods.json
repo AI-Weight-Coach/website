@@ -1,5 +1,20 @@
 [
   {
+    "name": "Vegetables Chart",
+    "slug": "vegetables-chart",
+    "calories_per_100g": 34,
+    "serving_size": "1 cup chopped (91g)",
+    "calories_per_serving": 31,
+    "protein_g": 2.2,
+    "carbs_g": 6.0,
+    "fat_g": 0.3,
+    "fiber_g": 2.4,
+    "sugar_g": 1.5,
+    "search_query": "calories in vegetables chart",
+    "published_at": "2026-02-23T18:30:30.384998+00:00",
+    "meta_description": "Broccoli: 34 calories per 100g, 31 calories per 1-cup serving (91g). Low in fat, good source of fiber. Excellent for weight loss."
+  },
+  {
     "name": "Subway Malaysia",
     "slug": "subway-malaysia",
     "calories_per_100g": 147,

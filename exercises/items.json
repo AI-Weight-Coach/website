@@ -1,5 +1,15 @@
 [
   {
+    "name": "Walking",
+    "slug": "walking",
+    "primary_stat": "245",
+    "primary_unit": "cal/hour",
+    "primary_context": "per 70kg person (brisk walk)",
+    "search_query": "calories burned walking",
+    "published_at": "2026-02-23T18:30:38.453723+00:00",
+    "meta_description": "245 cal/hour. Learn walking's calorie burn, intensity, and muscle targets for a 70kg person. Discover its effectiveness for weight loss and get expert tips."
+  },
+  {
     "name": "Swimming For 45 Minutes",
     "slug": "swimming-for-45-minutes",
     "primary_stat": "459-540",

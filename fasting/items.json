@@ -1,5 +1,15 @@
 [
   {
+    "name": "Water",
+    "slug": "water",
+    "primary_stat": "8",
+    "primary_unit": "/10",
+    "primary_context": "out of 10",
+    "search_query": "water fasting app",
+    "published_at": "2026-02-23T18:32:30.508877+00:00",
+    "meta_description": "Difficulty: 8/10. Water fasting involves consuming only water for 24-72 hours. Learn how it works, expected weight loss, who it's for, and vital beginner tips."
+  },
+  {
     "name": "Alternate Day",
     "slug": "alternate-day",
     "primary_stat": "6-8",

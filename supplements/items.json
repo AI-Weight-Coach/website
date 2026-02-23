@@ -1,5 +1,15 @@
 [
   {
+    "name": "Protein Powder",
+    "slug": "protein-powder",
+    "primary_stat": "Strong",
+    "primary_unit": "evidence",
+    "primary_context": "for weight loss",
+    "search_query": "does protein powder help you lose weight",
+    "published_at": "2026-02-23T18:31:03.615426+00:00",
+    "meta_description": "Strong evidence supports protein powder for weight loss. Learn its dosage, mechanism, side effects, and verdict. An AI Weight Coach can help you apply it effectively."
+  },
+  {
     "name": "Caffeine",
     "slug": "caffeine",
     "primary_stat": "Weak to Moderate",

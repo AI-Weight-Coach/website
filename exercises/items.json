@@ -1,5 +1,15 @@
 [
   {
+    "name": "Swimming For 45 Minutes",
+    "slug": "swimming-for-45-minutes",
+    "primary_stat": "459-540",
+    "primary_unit": "calories",
+    "primary_context": "per 45 minutes (for a 70kg/155lb person)",
+    "search_query": "calories burned swimming for 45 minutes",
+    "published_at": "2026-02-23T18:28:05.442365+00:00",
+    "meta_description": "Burn ~459-540 calories in a 45-min swim (70kg). Learn about intensity, muscles, METs & weight loss effectiveness. Get expert tips for your fitness journey."
+  },
+  {
     "name": "Swimming 1 Hour",
     "slug": "swimming-1-hour",
     "primary_stat": "515",

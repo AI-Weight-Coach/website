@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Bowl Of Pho With Beef",
+    "slug": "bowl-of-pho-with-beef",
+    "calories_per_100g": 57,
+    "serving_size": "1 large bowl (650g)",
+    "calories_per_serving": 369,
+    "protein_g": 32.6,
+    "carbs_g": 37.6,
+    "fat_g": 10.4,
+    "fiber_g": 2.7,
+    "sugar_g": 2.1,
+    "search_query": "calories in a bowl of pho with beef",
+    "published_at": "2026-02-23T17:18:14.261971+00:00",
+    "meta_description": "369 calories per large bowl of pho with beef, a protein-rich and comforting meal. Contains 32.6g protein, 37.6g carbs, 10.4g fat."
+  },
+  {
+    "name": "Bowl Of Ramen",
+    "slug": "bowl-of-ramen",
+    "calories_per_100g": 88,
+    "serving_size": "1 large bowl (850g)",
+    "calories_per_serving": 750,
+    "protein_g": 35.0,
+    "carbs_g": 70.0,
+    "fat_g": 40.0,
+    "fiber_g": 4.0,
+    "sugar_g": 8.0,
+    "search_query": "calories in a bowl of ramen",
+    "published_at": "2026-02-22T17:18:14.261971+00:00",
+    "meta_description": "750 calories per large bowl (850g) of ramen. A high-calorie, savory meal with significant carbs, protein, and fat. Can be high in sodium."
+  }
+]

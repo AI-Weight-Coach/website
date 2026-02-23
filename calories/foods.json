@@ -1,5 +1,20 @@
 [
   {
+    "name": "Subway Malaysia",
+    "slug": "subway-malaysia",
+    "calories_per_100g": 147,
+    "serving_size": "1 medium (170g) - based on 6-inch Turkey Breast Sub on 9-Grain Wheat with standard vegetables, no cheese, no sauce",
+    "calories_per_serving": 250,
+    "protein_g": 19.0,
+    "carbs_g": 40.0,
+    "fat_g": 2.5,
+    "fiber_g": 5.0,
+    "sugar_g": 8.0,
+    "search_query": "subway malaysia calories",
+    "published_at": "2026-02-23T18:02:12.787045+00:00",
+    "meta_description": "250 calories. A 6-inch Subway Turkey Breast sub (wheat bread, veggies, no cheese/sauce) offers 250 calories, 19g protein, 2.5g fat. A good weight loss option."
+  },
+  {
     "name": "Bowl Of Pho With Beef",
     "slug": "bowl-of-pho-with-beef",
     "calories_per_100g": 57,

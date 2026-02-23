@@ -1,5 +1,21 @@
 [
   {
+    "name": "Beginner Home Workouts",
+    "slug": "beginner-home-workouts",
+    "primary_stat": "250",
+    "primary_unit": "cal/session",
+    "primary_context": "estimated for 30 min, 150lb person",
+    "search_query": "beginner home workouts",
+    "published_at": "2026-02-23T22:33:55.819023+00:00",
+    "meta_description": "Burn 200-350 calories with beginner home workouts! Get a free bodyweight routine, learn proper form, and discover how effective at-home fitness is for weight loss. Consistency is key.",
+    "linked_blogs": [
+      {
+        "slug": "strength-training-for-beginners-at-home",
+        "title": "Strength Training for Beginners at Home: Your Ultimate Guide"
+      }
+    ]
+  },
+  {
     "name": "Strength Training Workouts for Women",
     "slug": "workouts",
     "primary_stat": "325",

@@ -1,5 +1,15 @@
 [
   {
+    "name": "Carnivore",
+    "slug": "carnivore",
+    "primary_stat": "2.5",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "carnivore diet plan",
+    "published_at": "2026-02-23T18:03:05.725851+00:00",
+    "meta_description": "2.5/10 RD review of the Carnivore diet: a highly restrictive eating plan. Learn its pros, cons, sustainability, and if it's right for you from a dietitian."
+  },
+  {
     "name": "Paleo",
     "slug": "paleo",
     "primary_stat": "5",

@@ -1,5 +1,15 @@
 [
   {
+    "name": "Caffeine",
+    "slug": "caffeine",
+    "primary_stat": "Weak to Moderate",
+    "primary_unit": "evidence",
+    "primary_context": "for significant weight loss",
+    "search_query": "does caffeine help lose weight reddit",
+    "published_at": "2026-02-23T18:02:54.499723+00:00",
+    "meta_description": "Caffeine offers weak to moderate evidence for weight loss. Learn its mechanisms, dosage, side effects, and why it's not a magic bullet. Get evidence-based nutrition facts."
+  },
+  {
     "name": "Green Tea",
     "slug": "green-tea",
     "primary_stat": "Weak",

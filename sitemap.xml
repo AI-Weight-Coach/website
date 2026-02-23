@@ -41,6 +41,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/blog/weight-loss-plateau-on-ozempic-what-to-do-next.html</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/blog/how-much-water-should-i-drink-calculator.html</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -79,6 +85,17 @@
   <url>
     <loc>https://aiweightcoach.app/calories/bowl-of-ramen.html</loc>
     <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/exercises/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/exercises/10000-steps.html</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

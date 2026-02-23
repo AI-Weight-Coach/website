@@ -1,5 +1,15 @@
 [
   {
+    "name": "Ideas Easy",
+    "slug": "ideas-easy",
+    "primary_stat": "210",
+    "primary_unit": "calories",
+    "primary_context": "per serving (1 cup non-fat Greek yogurt, 1/2 cup mixed berries, 1 tbsp almonds)",
+    "search_query": "healthy snack ideas easy",
+    "published_at": "2026-02-23T18:04:27.482033+00:00",
+    "meta_description": "210 calories: Discover why Greek yogurt with berries and nuts is an ideal, easy, high-protein snack for weight loss. Quick prep, filling & versatile."
+  },
+  {
     "name": "Recipes",
     "slug": "recipes",
     "primary_stat": "210",

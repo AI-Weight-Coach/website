@@ -1,5 +1,15 @@
 [
   {
+    "name": "Hot Chocolate",
+    "slug": "hot-chocolate",
+    "primary_stat": "180",
+    "primary_unit": "calories",
+    "primary_context": "per 8oz serving (typical homemade light)",
+    "search_query": "healthy recipe for hot chocolate",
+    "published_at": "2026-02-23T18:02:38.926280+00:00",
+    "meta_description": "180 calories per homemade light serving. Discover hot chocolate's antioxidant benefits and learn how to make a healthy version. Get a quick recipe here!"
+  },
+  {
     "name": "Ripe Bananas",
     "slug": "ripe-bananas",
     "primary_stat": "105",

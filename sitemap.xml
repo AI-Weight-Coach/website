@@ -2,38 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aiweightcoach.app/</loc>
-    <lastmod>2026-02-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/blog/</loc>
-    <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/pitch-deck.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/privacy-policy.html</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/terms-of-service.html</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/health-disclaimer.html</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.5</priority>
   </url>
-
-  <!-- Blog Posts -->
   <url>
-    <loc>https://aiweightcoach.app/blog/strength-training-for-beginners-at-home.html</loc>
+    <loc>https://aiweightcoach.app/blog/how-to-lose-weight-at-the-gym-female.html</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -81,21 +84,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/blog/how-to-lose-weight-at-the-gym-female.html</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Exercises -->
-  <url>
     <loc>https://aiweightcoach.app/exercises/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/exercises/effective-bodyweight-exercises.html</loc>
+    <loc>https://aiweightcoach.app/exercises/effective-cardio-for-female-weight-loss.html</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -107,17 +101,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/exercises/effective-cardio-for-female-weight-loss.html</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Recipes -->
-  <url>
     <loc>https://aiweightcoach.app/recipes/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -126,12 +111,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Supplements -->
   <url>
     <loc>https://aiweightcoach.app/supplements/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -140,13 +122,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Diets -->
   <url>
     <loc>https://aiweightcoach.app/diets/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/diets/best-diet-adjustments-for-a-weight-loss-plateau.html</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/diets/diets.html</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/diets/best-diet-adjustments-for-weight-loss-plateau.html</loc>
@@ -154,12 +145,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Drinks -->
   <url>
     <loc>https://aiweightcoach.app/drinks/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -168,16 +156,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Workouts -->
   <url>
     <loc>https://aiweightcoach.app/workouts/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/workouts/beginner-home-workouts.html</loc>
+    <loc>https://aiweightcoach.app/workouts/workouts.html</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -188,12 +173,14 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Protein -->
+  <url>
+    <loc>https://aiweightcoach.app/fast-food/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://aiweightcoach.app/protein/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -202,12 +189,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Snacks -->
   <url>
     <loc>https://aiweightcoach.app/snacks/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -228,12 +212,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Meal Plans -->
   <url>
     <loc>https://aiweightcoach.app/meal-plans/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -248,16 +229,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Myths -->
   <url>
     <loc>https://aiweightcoach.app/myths/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/myths/common-beginner-strength-training-myths.html</loc>
+    <loc>https://aiweightcoach.app/myths/common-female-weight-loss-myths.html</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -269,9 +247,23 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/myths/common-female-weight-loss-myths.html</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://aiweightcoach.app/vitamins/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/fasting/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/conditions/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/comparisons/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

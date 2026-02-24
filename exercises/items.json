@@ -1,5 +1,149 @@
 [
   {
+    "name": "Oblique Strengthening Exercises",
+    "slug": "oblique-strengthening-exercises",
+    "primary_stat": "280",
+    "primary_unit": "cal/hour",
+    "primary_context": "per 70kg person",
+    "search_query": "oblique strengthening exercises",
+    "published_at": "2025-12-11T10:08:33.817123+00:00",
+    "meta_description": "Burn 280 cal/hour (70kg) with oblique exercises. Discover muscles targeted, intensity, and how core strength fits into your weight loss journey.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-fast-in-1-week-with-exercise",
+        "title": "How to Lose Love Handles Fast in 1 Week with Exercise"
+      },
+      {
+        "slug": "how-to-lose-love-handles-in-2-weeks",
+        "title": "How to Lose Love Handles in 2 Weeks"
+      },
+      {
+        "slug": "how-to-lose-love-handles-male",
+        "title": "How to Lose Love Handles as a Male"
+      },
+      {
+        "slug": "how-to-lose-love-handles-exercises",
+        "title": "How to Lose Love Handles Exercises"
+      },
+      {
+        "slug": "how-men-can-lose-love-handles-comprehensive-guide",
+        "title": "How Men Can Lose Love Handles: A Comprehensive Guide"
+      }
+    ]
+  },
+  {
+    "name": "Targeted Core Exercises for Women",
+    "slug": "targeted-core-exercises-for-women",
+    "primary_stat": "257",
+    "primary_unit": "cal/hour",
+    "primary_context": "for 70kg person",
+    "search_query": "targeted core exercises for women",
+    "published_at": "2025-12-08T10:08:33.817123+00:00",
+    "meta_description": "257 cal/hour for 70kg. Targeted core exercises strengthen abs and back (3.5 METs, moderate intensity). Great for posture, not primary for weight loss. Use AI Coach for balanced plans.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-fast-female",
+        "title": "How to Lose Love Handles Fast Female"
+      }
+    ]
+  },
+  {
+    "name": "Effective Cardio for Overall Fat Loss",
+    "slug": "effective-cardio-for-overall-fat-loss",
+    "primary_stat": "700",
+    "primary_unit": "cal/hour",
+    "primary_context": "for 70kg/155lb person (Vigorous Activity)",
+    "search_query": "effective cardio for overall fat loss",
+    "published_at": "2025-12-02T10:08:33.817123+00:00",
+    "meta_description": "Burn up to 700 cal/hour (70kg person) with effective cardio like rowing, swimming, or HIIT for fat loss. Learn about intensity, muscles, and MET values for optimal results.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-fast",
+        "title": "How to Lose Love Handles Fast"
+      }
+    ]
+  },
+  {
+    "name": "Effective Exercises for Men's Fat Loss",
+    "slug": "effective-exercises-for-mens-fat-loss",
+    "primary_stat": "840",
+    "primary_unit": "cal/hour",
+    "primary_context": "max for vigorous cycling (70kg)",
+    "search_query": "effective exercises for men's fat loss",
+    "published_at": "2025-12-18T10:08:33.817123+00:00",
+    "meta_description": "Burn up to 840 cal/hr with effective fat loss exercises for men. Learn about calorie burn, intensity, and muscles targeted for running, HIIT, cycling & more.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-men",
+        "title": "How to Lose Love Handles Men"
+      },
+      {
+        "slug": "how-to-lose-love-handles-and-belly-fat-men",
+        "title": "How to Lose Love Handles and Belly Fat Men"
+      }
+    ]
+  },
+  {
+    "name": "Boosting Non-Exercise Activity (NEAT)",
+    "slug": "boosting-non-exercise-activity-neat",
+    "primary_stat": "105",
+    "primary_unit": "cal/hour",
+    "primary_context": "average additional burn vs. sitting (70kg)",
+    "search_query": "boosting non-exercise activity (neat)",
+    "published_at": "2025-11-26T10:08:33.817123+00:00",
+    "meta_description": "Boost NEAT to burn 105+ extra cal/hour (70kg) vs. sitting. Learn how standing, walking, and chores add up for weight loss. Your AI Weight Coach can help.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-diet-or-exercise",
+        "title": "How to Lose Weight Without Diet or Exercise"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-and-eating-healthy",
+        "title": "How to Lose Weight Without Exercise and Eating Healthy: A Realistic Guide"
+      },
+      {
+        "slug": "weight-loss-plateau-how-long-does-it-last",
+        "title": "Weight Loss Plateau: How Long Does It Last?"
+      },
+      {
+        "slug": "weight-loss-plateau-eating-too-little",
+        "title": "Weight Loss Plateau: Am I Eating Too Little?"
+      },
+      {
+        "slug": "weight-loss-plateau-meaning",
+        "title": "Weight Loss Plateau Meaning"
+      },
+      {
+        "slug": "weight-loss-plateau-after-1-month-what-to-do",
+        "title": "Weight Loss Plateau After 1 Month: What to Do Next?"
+      },
+      {
+        "slug": "how-to-stay-motivated-lose-weight-depressed",
+        "title": "How to Stay Motivated to Lose Weight When Depressed"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-with-adhd",
+        "title": "How to Stay Motivated to Lose Weight with ADHD"
+      }
+    ]
+  },
+  {
+    "name": "Boosting Non-Exercise Activity (NEAT)",
+    "slug": "boosting-non-exercise-activity",
+    "primary_stat": "184",
+    "primary_unit": "cal/hour",
+    "primary_context": "light walking (3.2 km/h)",
+    "search_query": "boosting non-exercise activity (neat)",
+    "published_at": "2025-10-06T10:08:33.817123+00:00",
+    "meta_description": "Boost NEAT & burn more calories! A 70kg person burns ~184 cal/hour light walking. Discover calorie burn for standing, fidgeting & more to enhance weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-exercise-and-dieting",
+        "title": "How to Lose Weight Without Exercise and Dieting"
+      }
+    ]
+  },
+  {
     "name": "Effective Exercises to Break a Weight Loss Plateau",
     "slug": "effective-exercises-to-break-a-weight-loss-plateau",
     "primary_stat": "710",
@@ -12,6 +156,34 @@
       {
         "slug": "why-am-i-not-losing-weight-on-mounjaro",
         "title": "Why Am I Not Losing Weight on Mounjaro?"
+      },
+      {
+        "slug": "weight-loss-plateau-reddit-what-to-do-when-scale-stops-moving",
+        "title": "Weight Loss Plateau Reddit: What to Do When the Scale Stops Moving"
+      },
+      {
+        "slug": "weight-loss-plateau-then-sudden-drop",
+        "title": "Weight Loss Plateau Then Sudden Drop"
+      },
+      {
+        "slug": "weight-loss-plateau-for-months-why-how-to-break-it",
+        "title": "Weight Loss Plateau for Months? Here's Why & How to Break It"
+      },
+      {
+        "slug": "weight-loss-plateau-2-months-strategies-to-break-through",
+        "title": "Weight Loss Plateau 2 Months: Strategies to Break Through"
+      },
+      {
+        "slug": "weight-loss-plateau-women-breaking-through-moving-forward",
+        "title": "Weight Loss Plateau Women: Breaking Through and Moving Forward"
+      },
+      {
+        "slug": "weight-loss-plateau-what-to-do",
+        "title": "Weight Loss Plateau: What to Do?"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-at-home",
+        "title": "How to Stay Motivated to Lose Weight at Home"
       }
     ]
   },

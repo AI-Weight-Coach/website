@@ -1,5 +1,85 @@
 [
   {
+    "name": "Full Body Workouts for Fat Loss",
+    "slug": "full-body-workouts-for-fat-loss",
+    "primary_stat": "380",
+    "primary_unit": "cal/session",
+    "primary_context": "per 60-minute session (approx. for 150lb individual)",
+    "search_query": "full body workouts for fat loss",
+    "published_at": "2025-11-23T10:08:33.817123+00:00",
+    "meta_description": "Burn ~380 cal/session with this full-body fat loss workout! Learn how full-body routines maximize metabolism and preserve muscle for effective weight loss. Get a detailed routine.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-at-the-gym",
+        "title": "How to Lose Love Handles at the Gym: A Comprehensive Guide"
+      },
+      {
+        "slug": "how-to-lose-love-handles-back-fat-effectively",
+        "title": "How to Lose Love Handles and Back Fat Effectively"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-in-1-week",
+        "title": "how to lose love handles fast in 1 week"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-in-1-week-with-exercise",
+        "title": "How to Lose Love Handles Fast in 1 Week with Exercise"
+      },
+      {
+        "slug": "how-to-lose-love-handles-exercises",
+        "title": "How to Lose Love Handles Exercises"
+      },
+      {
+        "slug": "weight-loss-plateau-how-long-does-it-last",
+        "title": "Weight Loss Plateau: How Long Does It Last?"
+      },
+      {
+        "slug": "weight-loss-plateau-on-wegovy-what-to-do-next",
+        "title": "Weight Loss Plateau on Wegovy: What to Do Next?"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-reddit",
+        "title": "How to Stay Motivated to Lose Weight Reddit"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-and-workout",
+        "title": "How to Stay Motivated to Lose Weight and Workout"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-at-home",
+        "title": "How to Stay Motivated to Lose Weight at Home"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-for-wedding",
+        "title": "How to Stay Motivated to Lose Weight for Wedding"
+      }
+    ]
+  },
+  {
+    "name": "Strength Training Workouts for Men",
+    "slug": "strength-training-workouts-for-men",
+    "primary_stat": "380",
+    "primary_unit": "cal/session",
+    "primary_context": "per 60-minute workout",
+    "search_query": "strength training workouts for men",
+    "published_at": "2025-12-18T10:08:33.817123+00:00",
+    "meta_description": "Boost metabolism & build muscle with effective strength training for men. Burn ~380 cal/session, 60 mins. Get workout routine & expert tips.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-men",
+        "title": "How to Lose Love Handles Men"
+      },
+      {
+        "slug": "how-to-lose-love-handles-and-belly-fat-men",
+        "title": "How to Lose Love Handles and Belly Fat Men"
+      },
+      {
+        "slug": "how-men-can-lose-love-handles-comprehensive-guide",
+        "title": "How Men Can Lose Love Handles: A Comprehensive Guide"
+      }
+    ]
+  },
+  {
     "name": "Strength Training Workouts for Women",
     "slug": "workouts",
     "primary_stat": "325",

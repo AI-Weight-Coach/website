@@ -1,5 +1,93 @@
 [
   {
+    "name": "The Myth of Spot Reduction",
+    "slug": "the-myth-of-spot-reduction",
+    "primary_stat": "Myth",
+    "primary_unit": "verdict",
+    "primary_context": "regarding targeted fat loss",
+    "search_query": "the myth of spot reduction",
+    "published_at": "2025-11-23T10:08:33.817123+00:00",
+    "meta_description": "Myth: Spot reduction is not supported by science. Fat loss is systemic, requiring an overall calorie deficit and full-body exercise for sustainable results.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-at-the-gym",
+        "title": "How to Lose Love Handles at the Gym: A Comprehensive Guide"
+      },
+      {
+        "slug": "how-to-lose-love-handles-diet",
+        "title": "How to Lose Love Handles Diet: Your Comprehensive Food Guide"
+      },
+      {
+        "slug": "how-to-lose-love-handles-back-fat-effectively",
+        "title": "How to Lose Love Handles and Back Fat Effectively"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast",
+        "title": "How to Lose Love Handles Fast"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-in-1-week",
+        "title": "how to lose love handles fast in 1 week"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-female",
+        "title": "How to Lose Love Handles Fast Female"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-in-1-week-with-exercise",
+        "title": "How to Lose Love Handles Fast in 1 Week with Exercise"
+      },
+      {
+        "slug": "how-to-lose-love-handles-in-2-weeks",
+        "title": "How to Lose Love Handles in 2 Weeks"
+      },
+      {
+        "slug": "how-to-lose-love-handles-male",
+        "title": "How to Lose Love Handles as a Male"
+      },
+      {
+        "slug": "how-to-lose-love-handles-exercises",
+        "title": "How to Lose Love Handles Exercises"
+      },
+      {
+        "slug": "how-men-can-lose-love-handles-comprehensive-guide",
+        "title": "How Men Can Lose Love Handles: A Comprehensive Guide"
+      }
+    ]
+  },
+  {
+    "name": "The Myth That Stress Doesn't Affect Weight Loss",
+    "slug": "the-myth-that-stress-doesnt-affect-weight-loss",
+    "primary_stat": "Myth",
+    "primary_unit": "verdict",
+    "primary_context": "stress significantly impacts weight loss",
+    "search_query": "the myth that stress doesn't affect weight loss",
+    "published_at": "2025-11-26T10:08:33.817123+00:00",
+    "meta_description": "Myth: Stress profoundly affects weight loss through hormonal, metabolic, and behavioral changes. Learn how cortisol, sleep, and eating habits are impacted.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-diet-or-exercise",
+        "title": "How to Lose Weight Without Diet or Exercise"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-in-one-month",
+        "title": "How to Lose Weight Without Exercise in One Month"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-in-1-week",
+        "title": "how to lose weight without exercise in 1 week"
+      },
+      {
+        "slug": "weight-loss-plateau-what-to-do",
+        "title": "Weight Loss Plateau: What to Do?"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-at-home",
+        "title": "How to Stay Motivated to Lose Weight at Home"
+      }
+    ]
+  },
+  {
     "name": "Common Female Weight Loss Myths",
     "slug": "common-female-weight-loss-myths",
     "primary_stat": "Myth",
@@ -12,6 +100,10 @@
       {
         "slug": "how-to-lose-weight-at-the-gym-female",
         "title": "How to Lose Weight at the Gym Female"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-and-diet-for-female",
+        "title": "How to Lose Weight Without Exercise and Diet for Female"
       }
     ]
   },
@@ -32,6 +124,46 @@
       {
         "slug": "why-am-i-not-losing-weight-on-mounjaro",
         "title": "Why Am I Not Losing Weight on Mounjaro?"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-reddit",
+        "title": "How to Lose Weight Without Exercise Reddit: The Definitive Guide"
+      },
+      {
+        "slug": "weight-loss-plateau-reddit-what-to-do-when-scale-stops-moving",
+        "title": "Weight Loss Plateau Reddit: What to Do When the Scale Stops Moving"
+      },
+      {
+        "slug": "weight-loss-plateau-for-months-why-how-to-break-it",
+        "title": "Weight Loss Plateau for Months? Here's Why & How to Break It"
+      },
+      {
+        "slug": "weight-loss-plateau-2-months-strategies-to-break-through",
+        "title": "Weight Loss Plateau 2 Months: Strategies to Break Through"
+      },
+      {
+        "slug": "weight-loss-plateau-eating-too-little",
+        "title": "Weight Loss Plateau: Am I Eating Too Little?"
+      },
+      {
+        "slug": "weight-loss-plateau-women-breaking-through-moving-forward",
+        "title": "Weight Loss Plateau Women: Breaking Through and Moving Forward"
+      },
+      {
+        "slug": "weight-loss-plateau-meaning",
+        "title": "Weight Loss Plateau Meaning"
+      },
+      {
+        "slug": "weight-loss-plateau-after-1-month-what-to-do",
+        "title": "Weight Loss Plateau After 1 Month: What to Do Next?"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-reddit",
+        "title": "How to Stay Motivated to Lose Weight Reddit"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-and-workout",
+        "title": "How to Stay Motivated to Lose Weight and Workout"
       }
     ]
   }

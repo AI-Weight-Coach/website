@@ -1,1 +1,170 @@
-[]
+[
+  {
+    "name": "Metabolic Adaptation",
+    "slug": "metabolic-adaptation",
+    "primary_stat": "Metabolic Rate",
+    "primary_unit": "adaptation",
+    "primary_context": "beyond expected after weight loss",
+    "search_query": "metabolic adaptation",
+    "published_at": "2026-01-25T10:08:33.817123+00:00",
+    "meta_description": "Understand metabolic adaptation, how it affects weight loss, and strategies for management. Learn about diet, exercise, and when to consult a doctor.",
+    "linked_blogs": [
+      {
+        "slug": "weight-loss-plateau-on-mounjaro",
+        "title": "Weight Loss Plateau on Mounjaro: Breaking Through with AI Weight Coach"
+      },
+      {
+        "slug": "weight-loss-plateau-meaning",
+        "title": "Weight Loss Plateau Meaning"
+      },
+      {
+        "slug": "weight-loss-plateau-after-1-month-what-to-do",
+        "title": "Weight Loss Plateau After 1 Month: What to Do Next?"
+      },
+      {
+        "slug": "weight-loss-plateau-on-wegovy-what-to-do-next",
+        "title": "Weight Loss Plateau on Wegovy: What to Do Next?"
+      },
+      {
+        "slug": "weight-loss-plateau-what-to-do",
+        "title": "Weight Loss Plateau: What to Do?"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-reddit",
+        "title": "How to Stay Motivated to Lose Weight Reddit"
+      }
+    ]
+  },
+  {
+    "name": "Water Retention and Weight Gain",
+    "slug": "water-retention-and-weight-gain",
+    "primary_stat": "2-5 lbs",
+    "primary_unit": "fluctuation",
+    "primary_context": "in daily body weight due to water",
+    "search_query": "water retention and weight gain",
+    "published_at": "2026-01-04T10:08:33.817123+00:00",
+    "meta_description": "Unexplained weight gain? Water retention can cause 2-5 lbs fluctuation. Learn how it affects weight loss, dietary tips, exercise, meds & when to see a doctor.",
+    "linked_blogs": [
+      {
+        "slug": "weight-loss-plateau-then-sudden-drop",
+        "title": "Weight Loss Plateau Then Sudden Drop"
+      }
+    ]
+  },
+  {
+    "name": "Poor Sleep Habits and Weight Gain",
+    "slug": "poor-sleep-habits-and-weight-gain",
+    "primary_stat": "38%",
+    "primary_unit": "approach",
+    "primary_context": "increased obesity risk for adults sleeping less than 7 hours per night consistently",
+    "search_query": "poor sleep habits and weight gain",
+    "published_at": "2025-11-26T10:08:33.817123+00:00",
+    "meta_description": "38% increased obesity risk with poor sleep. Learn how sleep impacts weight loss, including diet, exercise, and when to see a doctor. Consult a healthcare professional.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-diet-or-exercise",
+        "title": "How to Lose Weight Without Diet or Exercise"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-fast",
+        "title": "How to Lose Weight Without Exercise Fast"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-in-one-month",
+        "title": "How to Lose Weight Without Exercise in One Month"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-in-1-week",
+        "title": "how to lose weight without exercise in 1 week"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-overnight",
+        "title": "How to Lose Weight Without Exercise Overnight"
+      },
+      {
+        "slug": "how-to-lose-love-handles-men",
+        "title": "How to Lose Love Handles Men"
+      },
+      {
+        "slug": "how-to-stay-motivated-lose-weight-depressed",
+        "title": "How to Stay Motivated to Lose Weight When Depressed"
+      }
+    ]
+  },
+  {
+    "name": "Hormonal Imbalance and Weight Gain",
+    "slug": "hormonal-imbalance-and-weight-gain",
+    "primary_stat": "Multifactorial",
+    "primary_unit": "approach",
+    "primary_context": "to weight management",
+    "search_query": "hormonal imbalance and weight gain",
+    "published_at": "2025-10-06T10:08:33.817123+00:00",
+    "meta_description": "Multifactorial: Hormonal imbalance impacts weight gain. Understand hormone effects, get diet, exercise, medication advice. Consult your doctor.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-exercise-and-dieting",
+        "title": "How to Lose Weight Without Exercise and Dieting"
+      },
+      {
+        "slug": "how-to-lose-love-handles-and-belly-fat-men",
+        "title": "How to Lose Love Handles and Belly Fat Men"
+      },
+      {
+        "slug": "how-to-lose-love-handles-diet",
+        "title": "How to Lose Love Handles Diet: Your Comprehensive Food Guide"
+      },
+      {
+        "slug": "how-to-lose-love-handles-back-fat-effectively",
+        "title": "How to Lose Love Handles and Back Fat Effectively"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast",
+        "title": "How to Lose Love Handles Fast"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-female",
+        "title": "How to Lose Love Handles Fast Female"
+      },
+      {
+        "slug": "how-to-lose-love-handles-male",
+        "title": "How to Lose Love Handles as a Male"
+      },
+      {
+        "slug": "weight-loss-plateau-how-long-does-it-last",
+        "title": "Weight Loss Plateau: How Long Does It Last?"
+      },
+      {
+        "slug": "weight-loss-plateau-for-months-why-how-to-break-it",
+        "title": "Weight Loss Plateau for Months? Here's Why & How to Break It"
+      },
+      {
+        "slug": "weight-loss-plateau-eating-too-little",
+        "title": "Weight Loss Plateau: Am I Eating Too Little?"
+      },
+      {
+        "slug": "weight-loss-plateau-women-breaking-through-moving-forward",
+        "title": "Weight Loss Plateau Women: Breaking Through and Moving Forward"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-for-wedding",
+        "title": "How to Stay Motivated to Lose Weight for Wedding"
+      }
+    ]
+  },
+  {
+    "name": "Hormonal Imbalance and Weight Gain",
+    "slug": "hormonal-imbalance-weight-gain",
+    "primary_stat": "Complex",
+    "primary_unit": "approach",
+    "primary_context": "to weight management",
+    "search_query": "hormonal imbalance and weight gain",
+    "published_at": "2025-11-18T10:08:33.817123+00:00",
+    "meta_description": "Understand the complex interplay of hormonal imbalance and weight gain. Learn about dietary, exercise, and medication strategies, plus when to consult a doctor for personalized weight management. Always consult a physician.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-exercise-and-diet-for-female",
+        "title": "How to Lose Weight Without Exercise and Diet for Female"
+      }
+    ]
+  }
+]

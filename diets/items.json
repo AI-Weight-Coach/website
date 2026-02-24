@@ -1,5 +1,205 @@
 [
   {
+    "name": "Reverse Dieting Strategies",
+    "slug": "reverse-dieting-strategies",
+    "primary_stat": "8",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "reverse dieting strategies",
+    "published_at": "2026-01-19T10:08:33.817123+00:00",
+    "meta_description": "Discover reverse dieting strategies: an 8/10 rated approach for metabolic recovery post-dieting. Learn its pros, cons, difficulty, and who it's best for.",
+    "linked_blogs": [
+      {
+        "slug": "weight-loss-plateau-eating-too-little",
+        "title": "Weight Loss Plateau: Am I Eating Too Little?"
+      },
+      {
+        "slug": "weight-loss-plateau-women-breaking-through-moving-forward",
+        "title": "Weight Loss Plateau Women: Breaking Through and Moving Forward"
+      }
+    ]
+  },
+  {
+    "name": "Calorie Deficit Strategies",
+    "slug": "caloric-deficit-strategies",
+    "primary_stat": "9",
+    "primary_unit": "rating /10",
+    "primary_context": "overall effectiveness as a principle",
+    "search_query": "calorie deficit strategies",
+    "published_at": "2026-01-11T10:08:33.817123+00:00",
+    "meta_description": "9/10 effectiveness. Understand calorie deficit strategies for weight loss. Get expert insights on pros, cons, difficulty, and sustainable rates for healthy weight management.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-exercises",
+        "title": "How to Lose Love Handles Exercises"
+      }
+    ]
+  },
+  {
+    "name": "Calorie Deficit Strategies",
+    "slug": "calorie-deficit-strategies",
+    "primary_stat": "9.5",
+    "primary_unit": "rating /10",
+    "primary_context": "Overall Effectiveness",
+    "search_query": "calorie deficit strategies",
+    "published_at": "2025-11-23T10:08:33.817123+00:00",
+    "meta_description": "9.5/10 rating for Calorie Deficit Strategies. Learn evidence-based pros, cons, and how to achieve sustainable weight loss by understanding energy balance.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-love-handles-at-the-gym",
+        "title": "How to Lose Love Handles at the Gym: A Comprehensive Guide"
+      },
+      {
+        "slug": "how-to-lose-love-handles-diet",
+        "title": "How to Lose Love Handles Diet: Your Comprehensive Food Guide"
+      },
+      {
+        "slug": "how-to-lose-love-handles-back-fat-effectively",
+        "title": "How to Lose Love Handles and Back Fat Effectively"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast",
+        "title": "How to Lose Love Handles Fast"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-in-1-week",
+        "title": "how to lose love handles fast in 1 week"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-female",
+        "title": "How to Lose Love Handles Fast Female"
+      },
+      {
+        "slug": "how-to-lose-love-handles-fast-in-1-week-with-exercise",
+        "title": "How to Lose Love Handles Fast in 1 Week with Exercise"
+      },
+      {
+        "slug": "how-to-lose-love-handles-in-2-weeks",
+        "title": "How to Lose Love Handles in 2 Weeks"
+      },
+      {
+        "slug": "how-to-lose-love-handles-male",
+        "title": "How to Lose Love Handles as a Male"
+      },
+      {
+        "slug": "how-men-can-lose-love-handles-comprehensive-guide",
+        "title": "How Men Can Lose Love Handles: A Comprehensive Guide"
+      },
+      {
+        "slug": "weight-loss-plateau-on-mounjaro",
+        "title": "Weight Loss Plateau on Mounjaro: Breaking Through with AI Weight Coach"
+      },
+      {
+        "slug": "weight-loss-plateau-meaning",
+        "title": "Weight Loss Plateau Meaning"
+      },
+      {
+        "slug": "weight-loss-plateau-after-1-month-what-to-do",
+        "title": "Weight Loss Plateau After 1 Month: What to Do Next?"
+      },
+      {
+        "slug": "weight-loss-plateau-what-to-do",
+        "title": "Weight Loss Plateau: What to Do?"
+      }
+    ]
+  },
+  {
+    "name": "Mindful Eating Practices",
+    "slug": "mindful-eating-practices",
+    "primary_stat": "9",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "mindful eating practices",
+    "published_at": "2025-10-06T10:08:33.817123+00:00",
+    "meta_description": "Discover mindful eating's 9/10 rating for sustainable health. Learn pros, cons, and how this practice can transform your relationship with food for lasting well-being.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-exercise-and-dieting",
+        "title": "How to Lose Weight Without Exercise and Dieting"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-reddit",
+        "title": "How to Lose Weight Without Exercise Reddit: The Definitive Guide"
+      },
+      {
+        "slug": "how-to-lose-weight-without-diet-or-exercise",
+        "title": "How to Lose Weight Without Diet or Exercise"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-fast",
+        "title": "How to Lose Weight Without Exercise Fast"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-and-eating-healthy",
+        "title": "How to Lose Weight Without Exercise and Eating Healthy: A Realistic Guide"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-in-one-month",
+        "title": "How to Lose Weight Without Exercise in One Month"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-overnight",
+        "title": "How to Lose Weight Without Exercise Overnight"
+      },
+      {
+        "slug": "how-to-lose-love-handles-men",
+        "title": "How to Lose Love Handles Men"
+      },
+      {
+        "slug": "how-to-lose-love-handles-and-belly-fat-men",
+        "title": "How to Lose Love Handles and Belly Fat Men"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-reddit",
+        "title": "How to Stay Motivated to Lose Weight Reddit"
+      },
+      {
+        "slug": "how-to-stay-motivated-lose-weight-depressed",
+        "title": "How to Stay Motivated to Lose Weight When Depressed"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-and-workout",
+        "title": "How to Stay Motivated to Lose Weight and Workout"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-with-adhd",
+        "title": "How to Stay Motivated to Lose Weight with ADHD"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-at-home",
+        "title": "How to Stay Motivated to Lose Weight at Home"
+      },
+      {
+        "slug": "how-to-stay-motivated-to-lose-weight-for-wedding",
+        "title": "How to Stay Motivated to Lose Weight for Wedding"
+      }
+    ]
+  },
+  {
+    "name": "Quick Weight Loss Diets",
+    "slug": "quick-weight-loss-diets",
+    "primary_stat": "2",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "quick weight loss diets",
+    "published_at": "2025-10-03T10:08:33.817123+00:00",
+    "meta_description": "Overall rating: 2/10. Quick weight loss diets offer rapid initial loss but are often unsustainable & risky. Learn about their cons, who they're for, and sustainable alternatives.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-exercise-in-a-week",
+        "title": "How to Lose Weight Without Exercise in a Week"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-in-1-week",
+        "title": "how to lose weight without exercise in 1 week"
+      },
+      {
+        "slug": "how-to-lose-weight-without-exercise-in-2-weeks",
+        "title": "How to Lose Weight Without Exercise in 2 Weeks"
+      }
+    ]
+  },
+  {
     "name": "Best Diet Adjustments for a Weight Loss Plateau",
     "slug": "best-diet-adjustments-for-a-weight-loss-plateau",
     "primary_stat": "8",
@@ -24,6 +224,30 @@
       {
         "slug": "why-am-i-not-losing-weight-on-mounjaro",
         "title": "Why Am I Not Losing Weight on Mounjaro?"
+      },
+      {
+        "slug": "weight-loss-plateau-reddit-what-to-do-when-scale-stops-moving",
+        "title": "Weight Loss Plateau Reddit: What to Do When the Scale Stops Moving"
+      },
+      {
+        "slug": "weight-loss-plateau-how-long-does-it-last",
+        "title": "Weight Loss Plateau: How Long Does It Last?"
+      },
+      {
+        "slug": "weight-loss-plateau-then-sudden-drop",
+        "title": "Weight Loss Plateau Then Sudden Drop"
+      },
+      {
+        "slug": "weight-loss-plateau-for-months-why-how-to-break-it",
+        "title": "Weight Loss Plateau for Months? Here's Why & How to Break It"
+      },
+      {
+        "slug": "weight-loss-plateau-2-months-strategies-to-break-through",
+        "title": "Weight Loss Plateau 2 Months: Strategies to Break Through"
+      },
+      {
+        "slug": "weight-loss-plateau-on-wegovy-what-to-do-next",
+        "title": "Weight Loss Plateau on Wegovy: What to Do Next?"
       }
     ]
   },

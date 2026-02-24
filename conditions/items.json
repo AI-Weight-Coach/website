@@ -1,5 +1,21 @@
 [
   {
+    "name": "Emotional Eating and Weight Gain",
+    "slug": "emotional-eating-and-weight-gain",
+    "primary_stat": "Holistic",
+    "primary_unit": "approach",
+    "primary_context": "to managing emotional eating",
+    "search_query": "emotional eating and weight gain",
+    "published_at": "2026-02-24T12:00:28.422648+00:00",
+    "meta_description": "Discover a holistic approach to managing emotional eating & weight gain. Learn about dietary tips, safe exercise, medications, & when to see a doctor.",
+    "linked_blogs": [
+      {
+        "slug": "mindful-eating-for-weight-loss-guide",
+        "title": "Mindful Eating for Weight Loss: Your Comprehensive Guide (No PDF Needed)"
+      }
+    ]
+  },
+  {
     "name": "Metabolic Adaptation",
     "slug": "metabolic-adaptation",
     "primary_stat": "Metabolic Rate",
@@ -32,10 +48,6 @@
       {
         "slug": "how-to-stay-motivated-to-lose-weight-reddit",
         "title": "How to Stay Motivated to Lose Weight Reddit"
-      },
-      {
-        "slug": "hiit-workout-for-weight-loss-female",
-        "title": "HIIT Workout for Weight Loss: A Female's Guide"
       }
     ]
   },

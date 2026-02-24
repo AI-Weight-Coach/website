@@ -1,5 +1,21 @@
 [
   {
+    "name": "HIIT Workouts for Women",
+    "slug": "hiit-workouts-for-women",
+    "primary_stat": "320",
+    "primary_unit": "cal/session",
+    "primary_context": "per 30-min session",
+    "search_query": "hiit workouts for women",
+    "published_at": "2026-02-24T12:00:22.185955+00:00",
+    "meta_description": "Burn up to 320 calories per 30-min HIIT session for women. Learn the benefits, get a workout routine, and discover how effective HIIT is for fat loss.",
+    "linked_blogs": [
+      {
+        "slug": "hiit-workout-for-weight-loss-female",
+        "title": "HIIT Workout for Weight Loss: A Female's Guide"
+      }
+    ]
+  },
+  {
     "name": "Full Body Workouts for Fat Loss",
     "slug": "full-body-workouts-for-fat-loss",
     "primary_stat": "380",

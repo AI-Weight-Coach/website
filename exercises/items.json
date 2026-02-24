@@ -1,5 +1,21 @@
 [
   {
+    "name": "Effective Exercises to Break a Weight Loss Plateau",
+    "slug": "effective-exercises-to-break-a-weight-loss-plateau",
+    "primary_stat": "710",
+    "primary_unit": "cal/hour",
+    "primary_context": "average for listed exercises (70kg/155lb person)",
+    "search_query": "effective exercises to break a weight loss plateau",
+    "published_at": "2026-02-24T06:00:18.121719+00:00",
+    "meta_description": "Boost metabolism and break your weight loss plateau with effective exercises like HIIT, strength training, and vigorous cardio. Burn 710+ cal/hour for 70kg person. Learn how to reignite fat loss.",
+    "linked_blogs": [
+      {
+        "slug": "why-am-i-not-losing-weight-on-mounjaro",
+        "title": "Why Am I Not Losing Weight on Mounjaro?"
+      }
+    ]
+  },
+  {
     "name": "Effective Cardio for Female Weight Loss",
     "slug": "effective-cardio-for-female-weight-loss",
     "primary_stat": "720",
@@ -12,10 +28,6 @@
       {
         "slug": "how-to-lose-weight-at-the-gym-female",
         "title": "How to Lose Weight at the Gym Female"
-      },
-      {
-        "slug": "how-much-water-should-i-drink-daily",
-        "title": "How Much Water Should I Drink Daily?"
       }
     ]
   },

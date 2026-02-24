@@ -1,5 +1,21 @@
 [
   {
+    "name": "Stress-Reducing Workouts",
+    "slug": "stress-reducing-workouts",
+    "primary_stat": "200",
+    "primary_unit": "cal/session",
+    "primary_context": "per 35-40 minute session",
+    "search_query": "stress-reducing workouts",
+    "published_at": "2026-02-24T18:00:18.875774+00:00",
+    "meta_description": "Combat stress effectively with mindful movement! This 35-40 minute workout burns ~200 calories, reduces cortisol, and boosts mood. Learn benefits & get a routine.",
+    "linked_blogs": [
+      {
+        "slug": "how-stress-affects-weight-loss",
+        "title": "How Stress Affects Weight Loss"
+      }
+    ]
+  },
+  {
     "name": "HIIT Workouts for Women",
     "slug": "hiit-workouts-for-women",
     "primary_stat": "320",

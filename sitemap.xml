@@ -36,6 +36,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/blog/how-stress-affects-weight-loss.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/blog/mindful-eating-for-weight-loss-guide.html</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -496,6 +502,12 @@
     <loc>https://aiweightcoach.app/workouts/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/workouts/stress-reducing-workouts.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/workouts/hiit-workouts-for-women.html</loc>

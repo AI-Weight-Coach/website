@@ -1,5 +1,21 @@
 [
   {
+    "name": "Bodyweight Exercises for Beginners",
+    "slug": "bodyweight-exercises-for-beginners",
+    "primary_stat": "331",
+    "primary_unit": "cal/hour",
+    "primary_context": "for 70kg person",
+    "search_query": "bodyweight exercises for beginners",
+    "published_at": "2026-02-26T12:00:17.439113+00:00",
+    "meta_description": "Burn approximately 331 calories/hour with beginner bodyweight exercises (70kg person). Effective for building strength & supporting weight loss. Get tips from an AI Weight Coach.",
+    "linked_blogs": [
+      {
+        "slug": "strength-training-for-beginners-at-home",
+        "title": "Strength Training for Beginners at Home: Your Ultimate Guide"
+      }
+    ]
+  },
+  {
     "name": "Oblique Strengthening Exercises",
     "slug": "oblique-strengthening-exercises",
     "primary_stat": "280",

@@ -1,25 +1,20 @@
 [
   {
-    "title": "How to Lose Weight at the Gym for Beginners",
-    "slug": "how-to-lose-weight-at-the-gym-for-beginners",
-    "excerpt": "To lose weight at the gym as a beginner, focus on a consistent routine blending strength training and cardio, coupled with a calorie-controlled diet.",
-    "category": "exercise_and_weight",
-    "search_query": "how to lose weight at the gym for beginners",
-    "published_at": "2026-02-26T06:00:14.950714+00:00",
+    "title": "Why Do I Gain Weight So Easily But Can't Lose It?",
+    "slug": "why-do-i-gain-weight-so-easily-but-cant-lose-it",
+    "excerpt": "You gain weight easily and struggle to lose it due to a complex interplay of metabolism, genetics, hormones, lifestyle habits, and psychological factors influencing calorie balance and energy expenditure.",
+    "category": "nutrition_science",
+    "search_query": "why do i gain weight so easily but can't lose it",
+    "published_at": "2026-02-26T06:00:31.283124+00:00",
     "reading_time_min": 6,
-    "meta_title": "How to Lose Weight at the Gym for Beginners | AI Weight Coach",
-    "meta_description": "Learn how to lose weight at the gym as a beginner with this comprehensive guide. Discover beginner-friendly workouts, nutrition tips, and common mistakes to avoid.",
-    "keywords": "lose weight gym beginners, beginner gym workouts, gym weight loss plan, how to start gym for weight loss, gym diet for beginners",
+    "meta_title": "Why Gain Weight Easily & Struggle to Lose It? Answered",
+    "meta_description": "Unravel the complex reasons behind easy weight gain and difficult loss, from metabolism and hormones to genetics and lifestyle. Find science-backed strategies.",
+    "keywords": "easy weight gain, difficult weight loss, metabolism, hormones, genetics, lifestyle, weight loss strategies, AI Weight Coach",
     "linked_micros": [
       {
-        "type": "workouts",
-        "slug": "full-body-workouts-for-fat-loss",
-        "name": "Full Body Workouts for Fat Loss"
-      },
-      {
-        "type": "exercises",
-        "slug": "effective-cardio-for-overall-fat-loss",
-        "name": "Effective Cardio for Overall Fat Loss"
+        "type": "conditions",
+        "slug": "metabolic-adaptation",
+        "name": "Metabolic Adaptation"
       },
       {
         "type": "diets",
@@ -27,9 +22,9 @@
         "name": "Calorie Deficit Strategies"
       },
       {
-        "type": "meal-plans",
-        "slug": "budget-high-protein-meal-plans",
-        "name": "Budget High-Protein Meal Plans"
+        "type": "workouts",
+        "slug": "full-body-workouts-for-fat-loss",
+        "name": "Full Body Workouts for Fat Loss"
       }
     ]
   },

@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Stress Affects Weight Gain: Understanding the Connection",
+    "slug": "how-stress-affects-weight-gain",
+    "excerpt": "Stress significantly impacts weight gain by triggering cortisol release, promoting fat storage, increasing cravings for unhealthy foods, and disrupting healthy habits.",
+    "category": "behavior_psychology",
+    "search_query": "how stress affects weight gain",
+    "published_at": "2026-02-27T12:00:14.409242+00:00",
+    "reading_time_min": 9,
+    "meta_title": "How Stress Affects Weight Gain: Mechanisms & Solutions",
+    "meta_description": "Discover how stress leads to weight gain through cortisol, cravings, sleep disruption, and poor habits. Learn practical strategies to manage stress for effective weight loss.",
+    "keywords": "stress and weight gain, cortisol weight gain, stress eating, emotional eating, chronic stress, weight loss tips, stress management, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      },
+      {
+        "type": "myths",
+        "slug": "the-myth-that-stress-doesnt-affect-weight-loss",
+        "name": "The Myth That Stress Doesn't Affect Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "How to Reduce Bloating Fast: Quick Relief Strategies",
     "slug": "how-to-reduce-bloating-fast",
     "excerpt": "To reduce bloating fast, focus on mindful eating, gentle movement, increasing water intake, and consuming specific foods like ginger or peppermint tea. Temporarily avoid gas-producing foods and high-sodium meals for rapid relief.",

@@ -15,3 +15,4 @@ Disallow: /og-image.html
 Disallow: /feature-banner.html
 Disallow: /blog.html
 Disallow: /pitch-deck.html
+Disallow: /partners/

@@ -1,5 +1,21 @@
 [
   {
+    "name": "Bodyweight Exercises for Beginners",
+    "slug": "bodyweight-exercises-for-beginners",
+    "primary_stat": "280",
+    "primary_unit": "cal/hour",
+    "primary_context": "for a 70kg/155lb person",
+    "search_query": "bodyweight exercises for beginners",
+    "published_at": "2026-02-26T12:00:19.383339+00:00",
+    "meta_description": "Burn 280 cal/hour with beginner bodyweight exercises (70kg person). Learn about intensity, muscles targeted & MET value. Effective for weight loss when combined with diet.",
+    "linked_blogs": [
+      {
+        "slug": "strength-training-for-beginners-at-home",
+        "title": "Strength Training for Beginners at Home"
+      }
+    ]
+  },
+  {
     "name": "Oblique Strengthening Exercises",
     "slug": "oblique-strengthening-exercises",
     "primary_stat": "280",
@@ -60,6 +76,14 @@
       {
         "slug": "how-to-lose-love-handles-fast",
         "title": "How to Lose Love Handles Fast"
+      },
+      {
+        "slug": "how-to-lose-weight-at-the-gym-for-beginners",
+        "title": "How to Lose Weight at the Gym for Beginners"
+      },
+      {
+        "slug": "does-walking-help-you-lose-weight-in-your-stomach",
+        "title": "Does Walking Help You Lose Weight In Your Stomach?"
       }
     ]
   },
@@ -124,6 +148,10 @@
       {
         "slug": "how-to-stay-motivated-to-lose-weight-with-adhd",
         "title": "How to Stay Motivated to Lose Weight with ADHD"
+      },
+      {
+        "slug": "how-to-reduce-bloating-fast",
+        "title": "How to Reduce Bloating Fast: Quick Relief Strategies"
       }
     ]
   },

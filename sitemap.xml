@@ -36,7 +36,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/blog/body-recomposition-how-to-start.html</loc>
+    <loc>https://aiweightcoach.app/blog/what-to-eat-before-a-workout-in-the-morning.html</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -594,6 +594,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/workouts/optimal-morning-workouts.html</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/workouts/stress-reducing-workouts.html</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -651,6 +657,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/snacks/pre-workout-snacks.html</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/snacks/affordable-high-protein-snacks.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -689,6 +701,12 @@
     <loc>https://aiweightcoach.app/myths/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/myths/the-myth-of-fasted-cardio.html</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/myths/the-myth-of-spot-reduction.html</loc>

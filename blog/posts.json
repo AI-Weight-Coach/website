@@ -1,35 +1,35 @@
 [
   {
-    "title": "Body Recomposition: How to Start Your Journey",
-    "slug": "body-recomposition-how-to-start",
-    "excerpt": "To start body recomposition, prioritize consistent resistance training, high protein intake, and precise calorie management based on your body fat percentage. Focus on a sustainable approach with adequate recovery.",
-    "category": "exercise_and_weight",
-    "search_query": "body recomposition how to start",
-    "published_at": "2026-03-01T06:00:17.820833+00:00",
-    "reading_time_min": 7,
-    "meta_title": "Body Recomposition: How to Start Building Muscle & Losing Fat",
-    "meta_description": "Learn how to start body recomposition with expert tips on training, nutrition, and recovery. Build muscle and lose fat effectively with AI Weight Coach.",
-    "keywords": "body recomposition, how to start, build muscle, lose fat, resistance training, high protein diet, calorie management, progressive overload, weight loss, fitness goals",
+    "title": "What to Eat Before a Workout in the Morning",
+    "slug": "what-to-eat-before-a-workout-in-the-morning",
+    "excerpt": "Before a morning workout, prioritize easily digestible carbohydrates like a banana or oatmeal to fuel energy, combined with a small amount of protein for muscle support, about 30-60 minutes prior.",
+    "category": "practical_tips",
+    "search_query": "what to eat before a workout in the morning",
+    "published_at": "2026-03-01T06:00:16.538675+00:00",
+    "reading_time_min": 9,
+    "meta_title": "What to Eat Before a Morning Workout: Fuel Your Fitness",
+    "meta_description": "Fuel your morning workout effectively. Learn what to eat\u2014like carbs for energy and protein for muscles\u2014and when to eat it for optimal performance and weight loss.",
+    "keywords": "morning workout food, pre-workout meal, what to eat before exercise, morning exercise fuel, fasted cardio, workout nutrition, healthy breakfast, exercise energy, pre-workout snacks",
     "linked_micros": [
       {
-        "type": "diets",
-        "slug": "calorie-deficit-strategies",
-        "name": "Calorie Deficit Strategies"
+        "type": "snacks",
+        "slug": "pre-workout-snacks",
+        "name": "Pre-Workout Snacks"
+      },
+      {
+        "type": "myths",
+        "slug": "the-myth-of-fasted-cardio",
+        "name": "The Myth of Fasted Cardio"
+      },
+      {
+        "type": "workouts",
+        "slug": "optimal-morning-workouts",
+        "name": "Optimal Morning Workouts"
       },
       {
         "type": "protein",
         "slug": "affordable-protein-sources",
         "name": "Affordable Protein Sources"
-      },
-      {
-        "type": "workouts",
-        "slug": "full-body-workouts-for-fat-loss",
-        "name": "Full Body Workouts for Fat Loss"
-      },
-      {
-        "type": "recipes",
-        "slug": "high-protein-recipes-for-weight-loss",
-        "name": "High-Protein Recipes for Weight Loss"
       }
     ]
   },

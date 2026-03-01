@@ -1,5 +1,21 @@
 [
   {
+    "name": "Optimal Morning Workouts",
+    "slug": "optimal-morning-workouts",
+    "primary_stat": "350",
+    "primary_unit": "cal/session",
+    "primary_context": "per session",
+    "search_query": "optimal morning workouts",
+    "published_at": "2026-03-01T06:00:16.538675+00:00",
+    "meta_description": "Burn 320-380 calories with this 35-40 min optimal morning workout. Boost metabolism, energy & consistency. Bodyweight routine. Certified trainer tips included.",
+    "linked_blogs": [
+      {
+        "slug": "what-to-eat-before-a-workout-in-the-morning",
+        "title": "What to Eat Before a Workout in the Morning"
+      }
+    ]
+  },
+  {
     "name": "Stress-Reducing Workouts",
     "slug": "stress-reducing-workouts",
     "primary_stat": "200",
@@ -112,10 +128,6 @@
       {
         "slug": "strength-training-for-beginners-at-home",
         "title": "Strength Training for Beginners at Home"
-      },
-      {
-        "slug": "body-recomposition-how-to-start",
-        "title": "Body Recomposition: How to Start Your Journey"
       }
     ]
   },

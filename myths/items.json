@@ -1,5 +1,21 @@
 [
   {
+    "name": "The Myth of Fasted Cardio",
+    "slug": "the-myth-of-fasted-cardio",
+    "primary_stat": "Myth",
+    "primary_unit": "verdict",
+    "primary_context": "regarding superior fat loss",
+    "search_query": "the myth of fasted cardio",
+    "published_at": "2026-03-01T06:00:16.538675+00:00",
+    "meta_description": "Myth: Fasted cardio is superior for fat loss. While it burns more fat acutely, overall 24-hour fat loss is similar. Focus on total calorie deficit.",
+    "linked_blogs": [
+      {
+        "slug": "what-to-eat-before-a-workout-in-the-morning",
+        "title": "What to Eat Before a Workout in the Morning"
+      }
+    ]
+  },
+  {
     "name": "The Myth of Spot Reduction",
     "slug": "the-myth-of-spot-reduction",
     "primary_stat": "Myth",

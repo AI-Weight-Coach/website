@@ -1,5 +1,21 @@
 [
   {
+    "name": "Pre-Workout Snacks",
+    "slug": "pre-workout-snacks",
+    "primary_stat": "150-250",
+    "primary_unit": "calories",
+    "primary_context": "per typical serving",
+    "search_query": "pre-workout snacks",
+    "published_at": "2026-03-01T06:00:16.538675+00:00",
+    "meta_description": "Fuel your workouts effectively! Discover typical calories (150-250), protein, prep time & variations for pre-workout snacks. Learn if they aid weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "what-to-eat-before-a-workout-in-the-morning",
+        "title": "What to Eat Before a Workout in the Morning"
+      }
+    ]
+  },
+  {
     "name": "Affordable High-Protein Snacks",
     "slug": "affordable-high-protein-snacks",
     "primary_stat": "120",

@@ -1,5 +1,39 @@
 [
   {
+    "title": "Body Recomposition: How to Start Your Journey",
+    "slug": "body-recomposition-how-to-start",
+    "excerpt": "To start body recomposition, prioritize consistent resistance training, high protein intake, and precise calorie management based on your body fat percentage. Focus on a sustainable approach with adequate recovery.",
+    "category": "exercise_and_weight",
+    "search_query": "body recomposition how to start",
+    "published_at": "2026-03-01T06:00:17.820833+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Body Recomposition: How to Start Building Muscle & Losing Fat",
+    "meta_description": "Learn how to start body recomposition with expert tips on training, nutrition, and recovery. Build muscle and lose fat effectively with AI Weight Coach.",
+    "keywords": "body recomposition, how to start, build muscle, lose fat, resistance training, high protein diet, calorie management, progressive overload, weight loss, fitness goals",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "workouts",
+        "slug": "full-body-workouts-for-fat-loss",
+        "name": "Full Body Workouts for Fat Loss"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "How to Stop Bad Eating Habits",
     "slug": "how-to-stop-bad-eating-habits",
     "excerpt": "Stopping bad eating habits involves identifying triggers, developing healthier coping mechanisms, and consistently practicing new routines. It's a journey of self-awareness and consistent effort.",

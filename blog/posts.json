@@ -1,5 +1,39 @@
 [
   {
+    "title": "Body Recomposition: How to Start Your Journey to Lose Fat and Gain Muscle",
+    "slug": "body-recomposition-how-to-start",
+    "excerpt": "To start body recomposition, focus on a slight caloric deficit or maintenance, prioritize high protein intake, engage in consistent strength training, ensure adequate sleep, and track your progress diligently.",
+    "category": "exercise_and_weight",
+    "search_query": "body recomposition how to start",
+    "published_at": "2026-03-02T06:00:22.795486+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Body Recomposition: How to Start for Fat Loss & Muscle Gain",
+    "meta_description": "Starting body recomposition means optimizing diet for high protein, strategic calories, and consistent strength training. Learn to lose fat and build muscle simultaneously.",
+    "keywords": "body recomposition, how to start, lose fat gain muscle, strength training, high protein diet, calorie deficit, body transformation, weight loss coaching",
+    "linked_micros": [
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "crafting-macro-friendly-meal-plans-with-quality-carbs",
+        "name": "Crafting Macro-Friendly Meal Plans with Quality Carbs"
+      },
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      }
+    ]
+  },
+  {
     "title": "How Much Should I Walk to Lose Weight Calculator",
     "slug": "how-much-should-i-walk-to-lose-weight-calculator",
     "excerpt": "To lose weight, aim for at least 7,000-10,000 steps daily or 150-300 minutes of brisk walking per week, combined with a calorie deficit of 500-750 calories per day.",

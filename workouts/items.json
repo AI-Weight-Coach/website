@@ -1,5 +1,21 @@
 [
   {
+    "name": "Strength Training Workouts",
+    "slug": "strength-training-workouts",
+    "primary_stat": "320",
+    "primary_unit": "cal/session",
+    "primary_context": "for the workout session",
+    "search_query": "strength training workouts",
+    "published_at": "2026-03-02T06:00:22.795486+00:00",
+    "meta_description": "Burn approximately 320 cal/session with this moderate strength training workout. Learn how strength training boosts metabolism for effective weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "body-recomposition-how-to-start",
+        "title": "Body Recomposition: How to Start Your Journey to Lose Fat and Gain Muscle"
+      }
+    ]
+  },
+  {
     "name": "Optimal Morning Workouts",
     "slug": "optimal-morning-workouts",
     "primary_stat": "350",

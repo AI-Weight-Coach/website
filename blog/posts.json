@@ -1,20 +1,25 @@
 [
   {
-    "title": "High Protein Low Calorie Meals for Weight Loss",
-    "slug": "high-protein-low-calorie-meals-for-weight-loss",
-    "excerpt": "High protein, low calorie meals are key for weight loss by promoting satiety, preserving muscle, and boosting metabolism. Focus on lean proteins, non-starchy veggies, and smart prep for a calorie deficit.",
-    "category": "meal_planning",
-    "search_query": "high protein low calorie meals for weight loss",
-    "published_at": "2026-03-03T06:00:17.970289+00:00",
+    "title": "How to Lose Belly Fat in 2 Weeks",
+    "slug": "how-to-lose-belly-fat-in-2-weeks",
+    "excerpt": "While achieving significant, targeted belly fat loss in just two weeks is challenging, you can kickstart weight loss, reduce bloating, and improve your abdominal appearance through targeted dietary and lifestyle changes.",
+    "category": "practical_tips",
+    "search_query": "how to lose belly fat in 2 weeks",
+    "published_at": "2026-03-03T06:00:18.988232+00:00",
     "reading_time_min": 7,
-    "meta_title": "High Protein Low Calorie Meals for Weight Loss | AI Weight Coach",
-    "meta_description": "Discover effective high protein, low calorie meal ideas to boost satiety, preserve muscle, and accelerate your weight loss journey. Practical tips from AI Weight Coach.",
-    "keywords": "high protein low calorie meals, weight loss meals, lean protein recipes, calorie deficit meals, healthy weight loss foods, meal prep for weight loss, protein for satiety, low calorie high protein",
+    "meta_title": "How to Lose Belly Fat in 2 Weeks: Realistic Strategies",
+    "meta_description": "Learn how to reduce belly bloat and kickstart fat loss in 2 weeks with practical diet, exercise, and lifestyle tips for a visibly flatter stomach.",
+    "keywords": "how to lose belly fat in 2 weeks, lose belly fat fast, reduce bloating, flatten stomach, belly fat diet, belly fat exercise, quick weight loss, healthy habits",
     "linked_micros": [
       {
-        "type": "recipes",
-        "slug": "high-protein-recipes-for-weight-loss",
-        "name": "High-Protein Recipes for Weight Loss"
+        "type": "myths",
+        "slug": "the-myth-of-spot-reduction",
+        "name": "The Myth of Spot Reduction"
+      },
+      {
+        "type": "conditions",
+        "slug": "water-retention-and-weight-gain",
+        "name": "Water Retention and Weight Gain"
       },
       {
         "type": "diets",
@@ -22,14 +27,9 @@
         "name": "Calorie Deficit Strategies"
       },
       {
-        "type": "meal-plans",
-        "slug": "budget-high-protein-meal-plans",
-        "name": "Budget High-Protein Meal Plans"
-      },
-      {
-        "type": "protein",
-        "slug": "affordable-protein-sources",
-        "name": "Affordable Protein Sources"
+        "type": "workouts",
+        "slug": "full-body-workouts-for-fat-loss",
+        "name": "Full Body Workouts for Fat Loss"
       }
     ]
   },

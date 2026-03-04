@@ -1,5 +1,73 @@
 [
   {
+    "name": "Understanding Cholesterol",
+    "slug": "understanding-cholesterol",
+    "primary_stat": "5-10%",
+    "primary_unit": "Reduction in Body Weight",
+    "primary_context": "can significantly improve cholesterol levels",
+    "search_query": "understanding cholesterol",
+    "published_at": "2026-02-14T12:57:37.201993+00:00",
+    "meta_description": "5-10% weight loss can significantly improve cholesterol. Learn how weight impacts cholesterol, dietary recommendations, exercise guidelines, medications, and when to see a doctor.",
+    "linked_blogs": [
+      {
+        "slug": "is-keto-good-for-cholesterol",
+        "title": "Is Keto Good for Cholesterol?"
+      }
+    ]
+  },
+  {
+    "name": "Understanding Insulin Resistance",
+    "slug": "understanding-insulin-resistance",
+    "primary_stat": "High",
+    "primary_unit": "Insulin",
+    "primary_context": "A key factor in weight gain & difficulty losing weight",
+    "search_query": "understanding insulin resistance",
+    "published_at": "2026-01-30T12:57:37.201993+00:00",
+    "meta_description": "High insulin levels from resistance hinder weight loss. Learn evidence-based strategies: diet, exercise, meds, and when to see a doctor for effective management. (Always consult a doctor.)",
+    "linked_blogs": [
+      {
+        "slug": "is-keto-good-for-diabetics",
+        "title": "Is Keto Good for Diabetics?"
+      },
+      {
+        "slug": "is-keto-good-for-autoimmune-disease",
+        "title": "Is Keto Good for Autoimmune Disease?"
+      },
+      {
+        "slug": "is-keto-good-for-gut-health",
+        "title": "Is Keto Good for Gut Health?"
+      },
+      {
+        "slug": "is-keto-good-for-you",
+        "title": "Is Keto Good For You?"
+      },
+      {
+        "slug": "is-keto-good-for-high-blood-pressure",
+        "title": "Is Keto Good for High Blood Pressure?"
+      },
+      {
+        "slug": "is-keto-good-for-inflammation",
+        "title": "Is Keto Good for Inflammation?"
+      }
+    ]
+  },
+  {
+    "name": "Non-Alcoholic Fatty Liver Disease",
+    "slug": "non-alcoholic-fatty-liver-disease",
+    "primary_stat": "7-10%",
+    "primary_unit": "weight loss",
+    "primary_context": "of body weight",
+    "search_query": "non-alcoholic fatty liver disease",
+    "published_at": "2026-02-06T12:57:37.201993+00:00",
+    "meta_description": "7-10% weight loss is key for Non-Alcoholic Fatty Liver Disease (NAFLD). Learn how NAFLD affects weight, dietary tips, exercise, medications, & when to see a doctor.",
+    "linked_blogs": [
+      {
+        "slug": "is-keto-good-for-the-liver",
+        "title": "Is Keto Good for the Liver?"
+      }
+    ]
+  },
+  {
     "name": "Emotional Eating and Weight Gain",
     "slug": "emotional-eating-and-weight-gain",
     "primary_stat": "Holistic",
@@ -32,6 +100,18 @@
       {
         "slug": "how-to-stop-binge-eating-at-night",
         "title": "How to Stop Binge Eating at Night"
+      },
+      {
+        "slug": "weight-loss-motivation-and-tips-sustainable-success",
+        "title": "Weight Loss Motivation and Tips: Your Guide to Sustainable Success"
+      },
+      {
+        "slug": "weight-loss-motivation-to-start",
+        "title": "Weight Loss Motivation to Start: Finding Your Spark"
+      },
+      {
+        "slug": "weight-loss-motivation-find-keep-it",
+        "title": "Weight Loss Motivation: How to Find and Keep It"
       }
     ]
   },
@@ -88,6 +168,14 @@
       {
         "slug": "why-am-i-not-losing-weight-on-mounjaro-7-5-mg",
         "title": "Why Am I Not Losing Weight on Mounjaro 7.5 mg?"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-naturally",
+        "title": "Foods That Boost Metabolism Naturally"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-and-burn-fat",
+        "title": "Foods That Boost Metabolism and Burn Fat"
       }
     ]
   },
@@ -176,6 +264,10 @@
       {
         "slug": "how-to-lose-love-handles-and-belly-fat",
         "title": "How to Lose Love Handles and Belly Fat"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-while-sleeping",
+        "title": "Foods That Boost Metabolism While Sleeping"
       }
     ]
   },
@@ -256,6 +348,22 @@
       {
         "slug": "how-to-lose-love-handles-women",
         "title": "How to Lose Love Handles Women: A Comprehensive Guide"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-in-women",
+        "title": "Foods That Boost Metabolism in Women"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-after-50",
+        "title": "Foods That Boost Metabolism After 50"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-in-perimenopause",
+        "title": "Foods That Boost Metabolism in Perimenopause"
+      },
+      {
+        "slug": "is-keto-good-for-menopause",
+        "title": "Is Keto Good for Menopause?"
       }
     ]
   },

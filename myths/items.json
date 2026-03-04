@@ -1,5 +1,61 @@
 [
   {
+    "name": "Common Keto Myths Debunked",
+    "slug": "common-keto-myths-debunked",
+    "primary_stat": "Partially True",
+    "primary_unit": "verdict",
+    "primary_context": "on keto's universal superiority & safety for weight loss",
+    "search_query": "common keto myths debunked",
+    "published_at": "2026-01-30T12:57:37.201993+00:00",
+    "meta_description": "Partially True: While keto can offer short-term weight loss, long-term efficacy often mirrors other diets, with adherence and nutrient balance posing challenges. Learn more.",
+    "linked_blogs": [
+      {
+        "slug": "is-keto-good-for-diabetics",
+        "title": "Is Keto Good for Diabetics?"
+      },
+      {
+        "slug": "is-keto-good-for-autoimmune-disease",
+        "title": "Is Keto Good for Autoimmune Disease?"
+      },
+      {
+        "slug": "is-keto-good-for-gut-health",
+        "title": "Is Keto Good for Gut Health?"
+      },
+      {
+        "slug": "is-keto-good-for-you",
+        "title": "Is Keto Good For You?"
+      },
+      {
+        "slug": "is-keto-good-for-cholesterol",
+        "title": "Is Keto Good for Cholesterol?"
+      },
+      {
+        "slug": "is-keto-good-for-inflammation",
+        "title": "Is Keto Good for Inflammation?"
+      }
+    ]
+  },
+  {
+    "name": "Metabolism Myths Debunked",
+    "slug": "metabolism-myths-debunked",
+    "primary_stat": "Myth",
+    "primary_unit": "verdict",
+    "primary_context": "regarding 'my slow metabolism prevents weight loss'",
+    "search_query": "metabolism myths debunked",
+    "published_at": "2025-12-22T12:57:37.201993+00:00",
+    "meta_description": "Debunking the 'slow metabolism' myth: Learn what truly influences metabolic rate and why it's rarely the sole barrier to weight loss. Get evidence-based facts and practical tips.",
+    "linked_blogs": [
+      {
+        "slug": "foods-that-boost-metabolism-fast",
+        "title": "Foods That Boost Metabolism Fast"
+      },
+      {
+        "slug": "is-keto-good-for-menopause",
+        "title": "Is Keto Good for Menopause?"
+      }
+    ]
+  },
+  {
     "name": "The Myth of Fasted Cardio",
     "slug": "the-myth-of-fasted-cardio",
     "primary_stat": "Myth",
@@ -136,6 +192,14 @@
       {
         "slug": "weight-loss-for-women-over-40",
         "title": "Weight Loss for Women Over 40"
+      },
+      {
+        "slug": "weight-loss-motivation-to-start",
+        "title": "Weight Loss Motivation to Start: Finding Your Spark"
+      },
+      {
+        "slug": "how-to-lose-love-handles-men",
+        "title": "How to Lose Love Handles Men: A Comprehensive Guide"
       }
     ]
   },
@@ -224,6 +288,10 @@
       {
         "slug": "why-am-i-not-losing-weight-on-mounjaro-7-5-mg",
         "title": "Why Am I Not Losing Weight on Mounjaro 7.5 mg?"
+      },
+      {
+        "slug": "weight-loss-motivation-and-tips-sustainable-success",
+        "title": "Weight Loss Motivation and Tips: Your Guide to Sustainable Success"
       }
     ]
   }

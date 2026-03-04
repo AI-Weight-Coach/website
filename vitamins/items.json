@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "name": "Essential Micronutrients for Metabolism",
+    "slug": "essential-micronutrients-for-metabolism",
+    "primary_stat": "Limited",
+    "primary_unit": "impact",
+    "primary_context": "on direct weight loss",
+    "search_query": "essential micronutrients for metabolism",
+    "published_at": "2025-11-19T12:57:37.201993+00:00",
+    "meta_description": "Limited impact on direct weight loss. Chromium enhances insulin action for glucose metabolism but has weak evidence for significant weight loss. Most get enough from diet.",
+    "linked_blogs": [
+      {
+        "slug": "foods-that-boost-metabolism-in-perimenopause",
+        "title": "Foods That Boost Metabolism in Perimenopause"
+      },
+      {
+        "slug": "is-keto-good-for-the-liver",
+        "title": "Is Keto Good for the Liver?"
+      }
+    ]
+  }
+]

@@ -1,5 +1,922 @@
 [
   {
+    "title": "How to Lose Love Handles Men: A Comprehensive Guide",
+    "slug": "how-to-lose-love-handles-men",
+    "excerpt": "To effectively lose love handles, men must focus on overall body fat reduction through a consistent calorie deficit, combining balanced nutrition with regular exercise.",
+    "category": "practical_tips",
+    "published_at": "2026-03-04T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "How to Lose Love Handles Men: Diet & Exercise Guide",
+    "meta_description": "Learn how to effectively lose love handles for men with a focus on overall body fat reduction through a consistent calorie deficit, balanced nutrition, and regular exercise.",
+    "keywords": "how to lose love handles men, lose love handles, stubborn fat men, men's weight loss, belly fat men, flank fat, exercise for love handles, diet for love handles",
+    "linked_micros": [
+      {
+        "type": "exercises",
+        "slug": "effective-exercises-for-mens-fat-loss",
+        "name": "Effective Exercises for Men's Fat Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      },
+      {
+        "type": "myths",
+        "slug": "the-myth-that-stress-doesnt-affect-weight-loss",
+        "name": "The Myth That Stress Doesn't Affect Weight Loss"
+      }
+    ],
+    "search_query": "how to lose love handles men"
+  },
+  {
+    "title": "Is Keto Good for Menopause?",
+    "slug": "is-keto-good-for-menopause",
+    "excerpt": "While some women find the ketogenic diet helpful for managing weight and symptoms during menopause, it's not universally recommended. Its effectiveness depends on individual health and sustainability.",
+    "category": "nutrition_science",
+    "published_at": "2026-02-24T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Is Keto Good for Menopause? What to Know for Weight & Health",
+    "meta_description": "The ketogenic diet can aid menopausal weight management for some, but consider potential risks like nutrient deficiencies and sustainability. Consult a doctor for personalized advice.",
+    "keywords": "keto menopause, ketogenic diet menopause, menopause weight loss, menopause diet, menopausal symptoms, keto risks menopause, healthy menopause diet, AI Weight Coach menopause",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "diets-for-menopause",
+        "name": "Diets for Menopause"
+      },
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      },
+      {
+        "type": "exercises",
+        "slug": "effective-cardio-for-female-weight-loss",
+        "name": "Effective Cardio for Female Weight Loss"
+      }
+    ],
+    "search_query": "is keto good for menopause"
+  },
+  {
+    "title": "Is Keto Good for Inflammation?",
+    "slug": "is-keto-good-for-inflammation",
+    "excerpt": "A well-formulated ketogenic diet can potentially reduce inflammation for some individuals by stabilizing blood sugar and promoting the production of anti-inflammatory ketone bodies. However, its effectiveness depends heavily on food choices and individual metabolic responses.",
+    "category": "nutrition_science",
+    "published_at": "2026-02-23T12:57:37.201993+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Is Keto Good for Inflammation? An AI Weight Coach Guide",
+    "meta_description": "Explore if a ketogenic diet can reduce inflammation. Learn about clean keto, its anti-inflammatory mechanisms, and important considerations with AI Weight Coach's insights. Consult a doctor.",
+    "keywords": "ketogenic diet, inflammation, anti-inflammatory, keto benefits, weight loss, metabolic health, clean keto, low carb",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "ketogenic-diet-strategies",
+        "name": "Ketogenic Diet Strategies"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-insulin-resistance",
+        "name": "Understanding Insulin Resistance"
+      },
+      {
+        "type": "recipes",
+        "slug": "low-carb-recipes-for-diabetics",
+        "name": "Low Carb Recipes For Diabetics"
+      },
+      {
+        "type": "myths",
+        "slug": "common-keto-myths-debunked",
+        "name": "Common Keto Myths Debunked"
+      }
+    ],
+    "search_query": "is keto good for inflammation"
+  },
+  {
+    "title": "Is Keto Good for High Blood Pressure?",
+    "slug": "is-keto-good-for-high-blood-pressure",
+    "excerpt": "The ketogenic diet may help lower blood pressure through weight loss and improved metabolic health, but it requires careful consideration and medical supervision.",
+    "category": "nutrition_science",
+    "published_at": "2026-02-17T12:57:37.201993+00:00",
+    "reading_time_min": 9,
+    "meta_title": "Is Keto Good for High Blood Pressure? What You Need to Know",
+    "meta_description": "The keto diet may help lower blood pressure through weight loss and improved metabolic health. Learn its benefits, risks, and if it's right for you.",
+    "keywords": "keto and high blood pressure, ketogenic diet, blood pressure, hypertension, keto risks, keto benefits, weight loss, nutrition science",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "ketogenic-diet-strategies",
+        "name": "Ketogenic Diet Strategies"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-insulin-resistance",
+        "name": "Understanding Insulin Resistance"
+      },
+      {
+        "type": "exercises",
+        "slug": "effective-cardio-for-overall-fat-loss",
+        "name": "Effective Cardio for Overall Fat Loss"
+      },
+      {
+        "type": "recipes",
+        "slug": "low-carb-recipes-for-diabetics",
+        "name": "Low-Carb Recipes for Diabetics"
+      }
+    ],
+    "search_query": "is keto good for high blood pressure"
+  },
+  {
+    "title": "Is Keto Good For You?",
+    "slug": "is-keto-good-for-you",
+    "excerpt": "The ketogenic diet can offer rapid initial weight loss and blood sugar management for some individuals, but it also carries potential risks and isn't universally suitable. Careful consideration and medical consultation are essential.",
+    "category": "nutrition_science",
+    "published_at": "2026-02-16T12:57:37.201993+00:00",
+    "reading_time_min": 9,
+    "meta_title": "Is Keto Good For You? A Balanced Look at the Ketogenic Diet",
+    "meta_description": "The ketogenic diet offers rapid weight loss for some, but it has potential drawbacks and isn't for everyone. Learn the pros, cons, and if keto is right for your health goals.",
+    "keywords": "keto diet, ketogenic diet, is keto healthy, keto benefits, keto risks, low carb diet, weight loss, nutrition science, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "myths",
+        "slug": "common-keto-myths-debunked",
+        "name": "Common Keto Myths Debunked"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-insulin-resistance",
+        "name": "Understanding Insulin Resistance"
+      }
+    ],
+    "search_query": "is keto good for you"
+  },
+  {
+    "title": "Is Keto Good for Cholesterol?",
+    "slug": "is-keto-good-for-cholesterol",
+    "excerpt": "The ketogenic diet's effect on cholesterol is complex and highly individualized. While some may see improvements in triglycerides and HDL, others might experience an increase in LDL cholesterol.",
+    "category": "nutrition_science",
+    "published_at": "2026-02-14T12:57:37.201993+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Is Keto Good for Cholesterol? What You Need to Know",
+    "meta_description": "The keto diet's impact on cholesterol is complex and varies. While it can lower triglycerides and raise HDL, LDL may increase. Consult your doctor first.",
+    "keywords": "keto and cholesterol, ketogenic diet, LDL cholesterol, HDL cholesterol, triglycerides, heart health, keto diet risks, nutrition science",
+    "linked_micros": [
+      {
+        "type": "myths",
+        "slug": "common-keto-myths-debunked",
+        "name": "Common Keto Myths Debunked"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-cholesterol",
+        "name": "Understanding Cholesterol"
+      },
+      {
+        "type": "diets",
+        "slug": "ketogenic-diet-strategies",
+        "name": "Ketogenic Diet Strategies"
+      }
+    ],
+    "search_query": "is keto good for cholesterol"
+  },
+  {
+    "title": "Is Keto Good for Autoimmune Disease?",
+    "slug": "is-keto-good-for-autoimmune-disease",
+    "excerpt": "The ketogenic diet's role in managing autoimmune diseases is a complex and evolving area of research, showing potential benefits for some but also carrying significant risks. It is not a universally recommended approach and requires careful consideration and professional medical guidance.",
+    "category": "nutrition_science",
+    "published_at": "2026-02-12T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Is Keto Good for Autoimmune Disease? What You Need to Know",
+    "meta_description": "The ketogenic diet's role in autoimmune disease is complex, with potential benefits and significant risks. Always consult a healthcare professional before considering it for managing an autoimmune condition.",
+    "keywords": "keto, ketogenic diet, autoimmune disease, inflammation, gut microbiome, multiple sclerosis, hashimoto's, rheumatoid arthritis, diet risks, medical advice",
+    "linked_micros": [
+      {
+        "type": "myths",
+        "slug": "common-keto-myths-debunked",
+        "name": "Common Keto Myths Debunked"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-insulin-resistance",
+        "name": "Understanding Insulin Resistance"
+      }
+    ],
+    "search_query": "is keto good for autoimmune disease"
+  },
+  {
+    "title": "Is Keto Good for the Liver?",
+    "slug": "is-keto-good-for-the-liver",
+    "excerpt": "The ketogenic diet's impact on liver health is complex; it can be beneficial for conditions like non-alcoholic fatty liver disease (NAFLD) but may pose risks for others, requiring careful medical supervision.",
+    "category": "nutrition_science",
+    "published_at": "2026-02-06T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Is Keto Good for the Liver? Benefits, Risks & Guidance",
+    "meta_description": "Is keto good for the liver? The ketogenic diet can help reduce liver fat in NAFLD, but its long-term effects and suitability depend on individual health, warranting medical guidance.",
+    "keywords": "keto liver health, ketogenic diet liver, NAFLD keto, fatty liver diet, keto risks liver, liver health nutrition, low carb liver, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "non-alcoholic-fatty-liver-disease",
+        "name": "Non-Alcoholic Fatty Liver Disease"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "vitamins",
+        "slug": "essential-micronutrients-for-metabolism",
+        "name": "Essential Micronutrients for Metabolism"
+      }
+    ],
+    "search_query": "is keto good for the liver"
+  },
+  {
+    "title": "Is Keto Good for Gut Health?",
+    "slug": "is-keto-good-for-gut-health",
+    "excerpt": "The ketogenic diet's impact on gut health is complex, altering the microbiome by reducing carbohydrate-fermenting bacteria while potentially increasing others. Its effects vary significantly among individuals.",
+    "category": "nutrition_science",
+    "published_at": "2026-02-05T12:57:37.201993+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Is Keto Good for Gut Health? A Detailed Look",
+    "meta_description": "The keto diet's impact on gut health is complex. Learn how it affects the gut microbiome, its potential benefits for some, and crucial downsides, plus tips to support gut health.",
+    "keywords": "keto gut health, ketogenic diet, gut microbiome, digestive health, low-carb, fiber intake, AI Weight Coach, weight loss",
+    "linked_micros": [
+      {
+        "type": "myths",
+        "slug": "common-keto-myths-debunked",
+        "name": "Common Keto Myths Debunked"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-insulin-resistance",
+        "name": "Understanding Insulin Resistance"
+      },
+      {
+        "type": "fasting",
+        "slug": "intermittent-fasting-and-gut-health",
+        "name": "Intermittent Fasting and Gut Health"
+      }
+    ],
+    "search_query": "is keto good for gut health"
+  },
+  {
+    "title": "Is Keto Good for Diabetics?",
+    "slug": "is-keto-good-for-diabetics",
+    "excerpt": "The ketogenic diet can significantly impact blood sugar control for diabetics, often leading to lower glucose levels, but it requires careful medical supervision.",
+    "category": "nutrition_science",
+    "published_at": "2026-01-30T12:57:37.201993+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Is Keto Good for Diabetics? Risks & Benefits | AI Weight Coach",
+    "meta_description": "Explore if the ketogenic diet is suitable for diabetics. Learn about its benefits for blood sugar control, potential risks like DKA, and why medical supervision is crucial.",
+    "keywords": "keto for diabetics, ketogenic diet diabetes, low carb diabetes, diabetes management, blood sugar control, keto risks diabetes, type 2 diabetes keto, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "recipes",
+        "slug": "low-carb-recipes-for-diabetics",
+        "name": "Low-Carb Recipes for Diabetics"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-insulin-resistance",
+        "name": "Understanding Insulin Resistance"
+      },
+      {
+        "type": "myths",
+        "slug": "common-keto-myths-debunked",
+        "name": "Common Keto Myths Debunked"
+      }
+    ],
+    "search_query": "is keto good for diabetics"
+  },
+  {
+    "title": "Weight Loss Motivation to Start: Finding Your Spark",
+    "slug": "weight-loss-motivation-to-start",
+    "excerpt": "Finding weight loss motivation to start involves identifying your 'why,' setting realistic goals, and breaking down the journey into manageable steps to build momentum and sustainable habits.",
+    "category": "behavior_psychology",
+    "published_at": "2026-01-29T12:57:37.201993+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Weight Loss Motivation: How to Start & Stay Motivated",
+    "meta_description": "Struggling to find weight loss motivation to start? Discover practical strategies to kickstart your journey, set achievable goals, and build lasting habits for success.",
+    "keywords": "weight loss motivation, how to start weight loss, finding motivation, weight loss tips, healthy habits, sustainable weight loss, goal setting, mindset",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "conditions",
+        "slug": "emotional-eating-and-weight-gain",
+        "name": "Emotional Eating and Weight Gain"
+      },
+      {
+        "type": "exercises",
+        "slug": "bodyweight-exercises-for-beginners",
+        "name": "Bodyweight Exercises for Beginners"
+      },
+      {
+        "type": "myths",
+        "slug": "the-myth-that-stress-doesnt-affect-weight-loss",
+        "name": "The Myth That Stress Doesn't Affect Weight Loss"
+      }
+    ],
+    "search_query": "weight loss motivation to start"
+  },
+  {
+    "title": "Weight Loss Motivation: How to Find and Keep It",
+    "slug": "weight-loss-motivation-find-keep-it",
+    "excerpt": "Weight loss motivation is the internal drive that propels and sustains your efforts toward achieving a healthier weight. It stems from a combination of personal goals, intrinsic desires, and external support.",
+    "category": "behavior_psychology",
+    "published_at": "2026-01-15T12:57:37.201993+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Weight Loss Motivation: Find & Keep Your Drive | AI Weight Coach",
+    "meta_description": "Struggling with weight loss motivation? Discover practical strategies to find and maintain your drive, set realistic goals, and overcome plateaus on your health journey.",
+    "keywords": "weight loss motivation, how to stay motivated, weight loss goals, overcome plateaus, healthy habits, self-compassion, weight loss support, AI Weight Coach, sustainable weight loss, healthy lifestyle",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "emotional-eating-and-weight-gain",
+        "name": "Emotional Eating and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "best-diet-adjustments-for-a-weight-loss-plateau",
+        "name": "Best Diet Adjustments for a Weight Loss Plateau"
+      },
+      {
+        "type": "exercises",
+        "slug": "effective-exercises-to-break-a-weight-loss-plateau",
+        "name": "Effective Exercises to Break a Weight Loss Plateau"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      }
+    ],
+    "search_query": "weight loss motivation"
+  },
+  {
+    "title": "High Protein Low Calorie Vegetarian Meals for Weight Loss",
+    "slug": "high-protein-low-calorie-vegetarian-meals-weight-loss",
+    "excerpt": "Create high-protein, low-calorie vegetarian meals by combining plant-based proteins like lentils, tofu, and Greek yogurt with non-starchy vegetables for satiety and muscle support.",
+    "category": "meal_planning",
+    "published_at": "2026-01-11T12:57:37.201993+00:00",
+    "reading_time_min": 4,
+    "meta_title": "High Protein Low Calorie Vegetarian Meals for Weight Loss",
+    "meta_description": "Discover delicious high-protein, low-calorie vegetarian meals using ingredients like tofu, lentils, and Greek yogurt. Achieve your weight loss goals effectively.",
+    "keywords": "high protein vegetarian meals, low calorie vegetarian, vegetarian weight loss, plant-based protein, healthy vegetarian recipes, tofu recipes, lentil meals, weight management vegetarian",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "protein",
+        "slug": "plant-based-protein-sources",
+        "name": "Plant-Based Protein Sources"
+      },
+      {
+        "type": "diets",
+        "slug": "vegetarian-diets-for-weight-loss",
+        "name": "Vegetarian Diets for Weight Loss"
+      }
+    ],
+    "search_query": "high protein low calorie meals vegetarian"
+  },
+  {
+    "title": "Weight Loss Motivation and Tips: Your Guide to Sustainable Success",
+    "slug": "weight-loss-motivation-and-tips-sustainable-success",
+    "excerpt": "Maintaining weight loss motivation and implementing effective strategies are key to achieving sustainable results. Focus on realistic goals, track progress beyond the scale, and adopt a holistic approach.",
+    "category": "behavior_psychology",
+    "published_at": "2026-01-06T12:57:37.201993+00:00",
+    "reading_time_min": 6,
+    "meta_title": "Weight Loss Motivation and Tips for Sustainable Success",
+    "meta_description": "Boost your weight loss motivation and get practical tips for sustainable success. Learn how to set goals, track progress, eat mindfully, and maintain healthy habits.",
+    "keywords": "weight loss motivation, weight loss tips, sustainable weight loss, healthy habits, mindful eating, goal setting, exercise for weight loss, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "workouts",
+        "slug": "full-body-workouts-for-fat-loss",
+        "name": "Full Body Workouts for Fat Loss"
+      },
+      {
+        "type": "myths",
+        "slug": "common-weight-loss-plateau-myths-debunked",
+        "name": "Common Weight Loss Plateau Myths Debunked"
+      },
+      {
+        "type": "conditions",
+        "slug": "emotional-eating-and-weight-gain",
+        "name": "Emotional Eating and Weight Gain"
+      }
+    ],
+    "search_query": "weight loss motivation and tips"
+  },
+  {
+    "title": "High Protein Low Calorie Meals with Potatoes",
+    "slug": "high-protein-low-calorie-meals-with-potatoes",
+    "excerpt": "Potatoes can be a fantastic base for high-protein, low-calorie meals when paired with lean protein sources and prepared mindfully, offering great satiety and nutrition for weight loss.",
+    "category": "meal_planning",
+    "published_at": "2026-01-03T12:57:37.201993+00:00",
+    "reading_time_min": 5,
+    "meta_title": "High Protein Low Calorie Meals with Potatoes for Weight Loss",
+    "meta_description": "Discover delicious high-protein, low-calorie meals featuring potatoes. Learn how to prepare potatoes and pair them with lean proteins to support your weight loss journey.",
+    "keywords": "high protein low calorie, meals with potatoes, weight loss potatoes, healthy potato recipes, lean protein potatoes, potato meal prep, AI Weight Coach, satiety",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "budget-high-protein-meal-plans",
+        "name": "Budget High-Protein Meal Plans"
+      },
+      {
+        "type": "protein",
+        "slug": "plant-based-protein-sources",
+        "name": "Plant-Based Protein Sources"
+      }
+    ],
+    "search_query": "high protein low calorie meals with potatoes"
+  },
+  {
+    "title": "Foods That Boost Metabolism Fast",
+    "slug": "foods-that-boost-metabolism-fast",
+    "excerpt": "While no food offers an instant \"fast\" metabolism boost, certain nutrient-dense options like lean proteins, whole grains, and specific beverages can incrementally support your metabolic rate.",
+    "category": "nutrition_science",
+    "published_at": "2025-12-22T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Foods That Boost Metabolism Fast | AI Weight Coach",
+    "meta_description": "Discover foods that can incrementally support your metabolism. Learn how lean proteins, green tea, and other nutrient-rich options contribute to a healthy metabolic rate.",
+    "keywords": "metabolism boost, metabolism foods, healthy metabolism, weight loss, protein, green tea, whole grains, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "drinks",
+        "slug": "metabolism-boosting-drinks",
+        "name": "Metabolism-Boosting Drinks"
+      },
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      }
+    ],
+    "search_query": "foods that boost metabolism fast"
+  },
+  {
+    "title": "Foods That Boost Metabolism Reddit",
+    "slug": "foods-that-boost-metabolism-reddit",
+    "excerpt": "Foods high in protein, fiber, nuts, and certain spices can subtly boost metabolism by increasing the thermic effect of food and supporting muscle mass. Think lean proteins and whole grains.",
+    "category": "nutrition_science",
+    "published_at": "2025-12-14T12:57:37.201993+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Foods That Boost Metabolism: Science-Backed Insights",
+    "meta_description": "Foods rich in protein, fiber, nuts, and certain spices can subtly enhance metabolism by increasing the thermic effect of food and supporting muscle mass. Learn how.",
+    "keywords": "metabolism boost, foods, weight loss, protein, fiber, thermic effect, spices, caffeine, whole grains, lean protein, healthy fats",
+    "linked_micros": [
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "drinks",
+        "slug": "metabolism-boosting-drinks",
+        "name": "Metabolism-Boosting Drinks"
+      },
+      {
+        "type": "snacks",
+        "slug": "metabolism-boosting-snacks",
+        "name": "Metabolism-Boosting Snacks"
+      }
+    ],
+    "search_query": "foods that boost metabolism reddit"
+  },
+  {
+    "title": "Foods That Boost Metabolism and Burn Fat",
+    "slug": "foods-that-boost-metabolism-and-burn-fat",
+    "excerpt": "To support metabolism and fat burning, focus on lean proteins, fiber-rich foods, green tea, coffee, and spices. No single food is a miracle solution.",
+    "category": "nutrition_science",
+    "published_at": "2025-12-04T12:57:37.201993+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Foods That Boost Metabolism & Burn Fat for Weight Loss",
+    "meta_description": "Discover foods that support metabolism and fat burning, including lean proteins, fiber-rich options, and healthy beverages. Learn how diet and lifestyle impact your metabolic health.",
+    "keywords": "foods that boost metabolism, burn fat foods, metabolism boosting foods, fat burning foods, lean protein, fiber, green tea, healthy fats, weight loss foods",
+    "linked_micros": [
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "drinks",
+        "slug": "hydrating-drinks-for-optimal-health",
+        "name": "Hydrating Drinks for Optimal Health"
+      },
+      {
+        "type": "conditions",
+        "slug": "metabolic-adaptation",
+        "name": "Metabolic Adaptation"
+      }
+    ],
+    "search_query": "foods that boost metabolism and burn fat"
+  },
+  {
+    "title": "High Protein Low Calorie Meals for Lunch: Your Weight Loss Guide",
+    "slug": "high-protein-low-calorie-meals-lunch-weight-loss-guide",
+    "excerpt": "Fuel your weight loss journey with satisfying high-protein, low-calorie lunch ideas like chicken salads, tuna lettuce wraps, or cottage cheese with veggies. These meals boost fullness and support muscle health.",
+    "category": "meal_planning",
+    "published_at": "2025-12-04T12:57:37.201993+00:00",
+    "reading_time_min": 8,
+    "meta_title": "High Protein Low Calorie Lunches for Weight Loss",
+    "meta_description": "Discover delicious high-protein, low-calorie lunch ideas designed for weight loss. Stay full, energized, and on track with AI Weight Coach.",
+    "keywords": "high protein lunch, low calorie lunch, weight loss meals, healthy lunch ideas, protein lunch recipes, meal prep lunch, diet lunch, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "snacks",
+        "slug": "affordable-high-protein-snacks",
+        "name": "Affordable High-Protein Snacks"
+      }
+    ],
+    "search_query": "high protein low calorie meals lunch"
+  },
+  {
+    "title": "Foods That Boost Metabolism Permanently",
+    "slug": "foods-that-boost-metabolism-permanently",
+    "excerpt": "While no single food can permanently \"boost\" metabolism in a dramatic, isolated way, a balanced diet rich in protein, fiber, and micronutrients can support a healthy metabolic rate over time.",
+    "category": "nutrition_science",
+    "published_at": "2025-12-02T12:57:37.201993+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Foods That Boost Metabolism Permanently | AI Weight Coach",
+    "meta_description": "Debunking myths about foods that permanently boost metabolism. Learn which foods support a healthy metabolic rate and how lifestyle choices contribute to long-term metabolic health.",
+    "keywords": "metabolism boost foods, permanent metabolism, metabolic health diet, protein for metabolism, fiber for metabolism, healthy metabolism, AI Weight Coach, weight loss nutrition, strength training metabolism",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      }
+    ],
+    "search_query": "foods that boost metabolism permanently"
+  },
+  {
+    "title": "High Protein Low Calorie Meals Chicken: Your Ultimate Guide",
+    "slug": "high-protein-low-calorie-meals-chicken",
+    "excerpt": "High protein low calorie chicken meals leverage lean chicken breast, skin removed, prepared with minimal added fats with abundant non-starchy vegetables.",
+    "category": "meal_planning",
+    "published_at": "2025-12-01T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "High Protein Low Calorie Chicken Meals for Weight Loss",
+    "meta_description": "Discover delicious high protein low calorie chicken meals perfect for weight loss. Learn recipes, cooking tips, and how AI Weight Coach can help.",
+    "keywords": "high protein chicken, low calorie chicken, chicken weight loss, healthy chicken recipes, lean protein, calorie management, meal planning",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "budget-high-protein-meal-plans",
+        "name": "Budget High-Protein Meal Plans"
+      },
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      }
+    ],
+    "search_query": "high protein low calorie meals chicken"
+  },
+  {
+    "title": "Foods That Boost Metabolism Naturally",
+    "slug": "foods-that-boost-metabolism-naturally",
+    "excerpt": "Certain nutrient-dense foods, like lean proteins, fiber-rich fruits and vegetables, and some spices, can naturally and subtly enhance your metabolism by increasing energy for digestion.",
+    "category": "nutrition_science",
+    "published_at": "2025-11-28T12:57:37.201993+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Foods That Boost Metabolism Naturally \u2013 AI Weight Coach",
+    "meta_description": "Discover foods like lean protein, fiber-rich produce, and spices that naturally boost metabolism. Learn how these foods and lifestyle changes support metabolic health.",
+    "keywords": "metabolism-boosting foods, natural metabolism boosters, foods for metabolism, how to boost metabolism, metabolic health diet, protein for metabolism, fiber for metabolism, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "exercises",
+        "slug": "boosting-non-exercise-activity-neat",
+        "name": "Boosting Non-Exercise Activity (NEAT)"
+      },
+      {
+        "type": "conditions",
+        "slug": "metabolic-adaptation",
+        "name": "Metabolic Adaptation"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      }
+    ],
+    "search_query": "foods that boost metabolism naturally"
+  },
+  {
+    "title": "Foods That Boost Metabolism in Perimenopause",
+    "slug": "foods-that-boost-metabolism-in-perimenopause",
+    "excerpt": "During perimenopause, metabolism can be supported by prioritizing lean proteins, fiber-rich whole foods, healthy fats, and specific micronutrients.",
+    "category": "nutrition_science",
+    "published_at": "2025-11-19T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Foods That Boost Metabolism in Perimenopause",
+    "meta_description": "Discover foods that naturally support metabolism during perimenopause, focusing on protein, fiber, healthy fats, and key nutrients.",
+    "keywords": "perimenopause metabolism, boost metabolism, weight loss perimenopause, healthy fats perimenopause, protein perimenopause, fiber perimenopause, micronutrients metabolism, perimenopause diet",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "protein",
+        "slug": "high-protein-foods-for-perimenopause",
+        "name": "High-Protein Foods for Perimenopause"
+      },
+      {
+        "type": "vitamins",
+        "slug": "essential-micronutrients-for-metabolism",
+        "name": "Essential Micronutrients for Metabolism"
+      }
+    ],
+    "search_query": "foods that boost metabolism in perimenopause"
+  },
+  {
+    "title": "Foods That Boost Metabolism After 50",
+    "slug": "foods-that-boost-metabolism-after-50",
+    "excerpt": "After 50, metabolism can slow, but incorporating lean protein, fiber-rich foods, healthy fats, and adequate hydration can help support metabolic function.",
+    "category": "nutrition_science",
+    "published_at": "2025-11-13T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Foods That Boost Metabolism After 50 | AI Weight Coach",
+    "meta_description": "Discover foods that naturally support and boost metabolism after 50, including lean proteins, healthy fats, and fiber, essential for maintaining energy and healthy weight.",
+    "keywords": "foods boost metabolism after 50, slow metabolism after 50, metabolism boosting foods, diet for metabolism, healthy aging metabolism, protein for metabolism, fiber for metabolism, healthy fats for metabolism",
+    "linked_micros": [
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      }
+    ],
+    "search_query": "foods that boost metabolism after 50"
+  },
+  {
+    "title": "Foods That Boost Metabolism in the Morning",
+    "slug": "foods-that-boost-metabolism-in-the-morning",
+    "excerpt": "Kickstart your day with foods rich in protein, fiber, and beneficial compounds like green tea and certain spices, which can support your metabolism and provide sustained energy.",
+    "category": "nutrition_science",
+    "published_at": "2025-11-10T12:57:37.201993+00:00",
+    "reading_time_min": 6,
+    "meta_title": "Morning Foods for Metabolism Boost | AI Weight Coach",
+    "meta_description": "Discover which breakfast foods, like eggs, oatmeal, and green tea, can gently support your metabolism and keep you energized throughout the morning. Learn more from AI Weight Coach.",
+    "keywords": "metabolism boosting foods, morning metabolism, breakfast for metabolism, protein breakfast, fiber rich breakfast, green tea metabolism, healthy morning foods, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "drinks",
+        "slug": "metabolism-boosting-drinks",
+        "name": "Metabolism-Boosting Drinks"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      }
+    ],
+    "search_query": "foods that boost metabolism in the morning"
+  },
+  {
+    "title": "Foods That Boost Metabolism for Weight Loss",
+    "slug": "foods-that-boost-metabolism-for-weight-loss",
+    "excerpt": "Certain foods can indeed support a healthy metabolism, potentially aiding in weight loss by increasing calorie expenditure and promoting satiety.",
+    "category": "nutrition_science",
+    "published_at": "2025-10-29T12:57:37.201993+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Foods That Boost Metabolism for Weight Loss | AIWC",
+    "meta_description": "Discover foods that support a healthy metabolism for weight loss, including lean proteins, fiber-rich options, and spices. Learn how they boost calorie burning.",
+    "keywords": "metabolism boosting foods, weight loss foods, foods for metabolism, thermic effect of food, healthy metabolism, protein for weight loss, fiber for metabolism, green tea weight loss",
+    "linked_micros": [
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "workouts",
+        "slug": "full-body-workouts-for-fat-loss",
+        "name": "Full Body Workouts for Fat Loss"
+      }
+    ],
+    "search_query": "foods that boost metabolism for weight loss"
+  },
+  {
+    "title": "Foods That Boost Metabolism in Women",
+    "slug": "foods-that-boost-metabolism-in-women",
+    "excerpt": "To boost metabolism in women, focus on a diet rich in lean protein, fiber-rich whole grains, fresh produce, healthy fats, and hydrating fluids like water.",
+    "category": "nutrition_science",
+    "published_at": "2025-10-23T12:57:37.201993+00:00",
+    "reading_time_min": 10,
+    "meta_title": "Foods That Boost Metabolism in Women: A Comprehensive Guide",
+    "meta_description": "Discover foods like lean protein, fiber-rich whole grains, and healthy fats that can help boost metabolism in women. Learn how diet and lifestyle impact your metabolic rate.",
+    "keywords": "foods that boost metabolism, metabolism boost women, metabolic foods, high protein foods, fiber-rich diet, healthy fats metabolism, women's metabolism, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "protein",
+        "slug": "affordable-protein-sources",
+        "name": "Affordable Protein Sources"
+      },
+      {
+        "type": "supplements",
+        "slug": "best-protein-supplements-for-women",
+        "name": "Best Protein Supplements for Women"
+      },
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      }
+    ],
+    "search_query": "foods that boost metabolism in women"
+  },
+  {
+    "title": "Foods That Boost Metabolism While Sleeping",
+    "slug": "foods-that-boost-metabolism-while-sleeping",
+    "excerpt": "While no specific food dramatically boosts metabolism overnight, consuming lean protein, complex carbohydrates, and certain nutrient-rich foods before bed can support muscle repair, optimize sleep quality, and maintain stable blood sugar, all crucial for healthy metabolic function.",
+    "category": "nutrition_science",
+    "published_at": "2025-10-14T12:57:37.201993+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Foods That Boost Metabolism While Sleeping",
+    "meta_description": "Discover how lean protein, complex carbs, and nutrient-rich foods before bed support metabolic function, muscle repair, and sleep quality for better overall health.",
+    "keywords": "metabolism, sleep, night eating, protein, complex carbs, healthy fats, metabolic health, weight loss, AI Weight Coach, sleep quality",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      }
+    ],
+    "search_query": "foods that boost metabolism while sleeping"
+  },
+  {
     "title": "How Long to Break a Bad Eating Habit?",
     "slug": "how-long-to-break-a-bad-eating-habit",
     "excerpt": "Breaking a bad eating habit doesn't have a fixed timeline; research suggests new habits can form in 18-254 days (avg. 66). Consistently replacing the habit with healthier choices is key.",

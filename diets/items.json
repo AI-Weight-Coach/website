@@ -1,5 +1,133 @@
 [
   {
+    "name": "Diets for Menopause",
+    "slug": "diets-for-menopause",
+    "primary_stat": "8",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "diets for menopause",
+    "published_at": "2026-02-24T12:57:37.201993+00:00",
+    "meta_description": "8/10 rating. Explore evidence-based dietary approaches for menopause to manage symptoms, support bone & heart health, and promote healthy weight. RD-approved insights.",
+    "linked_blogs": [
+      {
+        "slug": "is-keto-good-for-menopause",
+        "title": "Is Keto Good for Menopause?"
+      }
+    ]
+  },
+  {
+    "name": "Ketogenic Diet Strategies",
+    "slug": "ketogenic-diet-strategies",
+    "primary_stat": "5",
+    "primary_unit": "/10",
+    "primary_context": "Overall Rating (for general weight loss)",
+    "search_query": "ketogenic diet strategies",
+    "published_at": "2026-02-14T12:57:37.201993+00:00",
+    "meta_description": "Overall Rating: 5/10. Explore the ketogenic diet: pros, cons, typical weight loss rate, and who it's best for. Learn if this restrictive diet is right for your goals.",
+    "linked_blogs": [
+      {
+        "slug": "is-keto-good-for-cholesterol",
+        "title": "Is Keto Good for Cholesterol?"
+      },
+      {
+        "slug": "is-keto-good-for-high-blood-pressure",
+        "title": "Is Keto Good for High Blood Pressure?"
+      },
+      {
+        "slug": "is-keto-good-for-inflammation",
+        "title": "Is Keto Good for Inflammation?"
+      }
+    ]
+  },
+  {
+    "name": "Vegetarian Diets for Weight Loss",
+    "slug": "vegetarian-diets-for-weight-loss",
+    "primary_stat": "8.5",
+    "primary_unit": "rating",
+    "primary_context": "/10 (Overall Rating)",
+    "search_query": "vegetarian diets for weight loss",
+    "published_at": "2026-01-11T12:57:37.201993+00:00",
+    "meta_description": "8.5/10: Vegetarian diets for weight loss are effective, promoting satiety with fiber-rich foods. Learn pros, cons, and if this sustainable approach is right for you.",
+    "linked_blogs": [
+      {
+        "slug": "high-protein-low-calorie-vegetarian-meals-weight-loss",
+        "title": "High Protein Low Calorie Vegetarian Meals for Weight Loss"
+      }
+    ]
+  },
+  {
+    "name": "Diets for Metabolic Health",
+    "slug": "diets-for-metabolic-health",
+    "primary_stat": "9",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "diets for metabolic health",
+    "published_at": "2025-11-28T12:57:37.201993+00:00",
+    "meta_description": "9/10 rating. Discover diets for metabolic health focusing on whole foods, reducing chronic disease risk, and sustainable weight loss. Learn pros, cons, and who it's best for.",
+    "linked_blogs": [
+      {
+        "slug": "foods-that-boost-metabolism-naturally",
+        "title": "Foods That Boost Metabolism Naturally"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-while-sleeping",
+        "title": "Foods That Boost Metabolism While Sleeping"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-permanently",
+        "title": "Foods That Boost Metabolism Permanently"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-in-women",
+        "title": "Foods That Boost Metabolism in Women"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-for-weight-loss",
+        "title": "Foods That Boost Metabolism for Weight Loss"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-reddit",
+        "title": "Foods That Boost Metabolism Reddit"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-in-the-morning",
+        "title": "Foods That Boost Metabolism in the Morning"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-after-50",
+        "title": "Foods That Boost Metabolism After 50"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-fast",
+        "title": "Foods That Boost Metabolism Fast"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-in-perimenopause",
+        "title": "Foods That Boost Metabolism in Perimenopause"
+      },
+      {
+        "slug": "is-keto-good-for-the-liver",
+        "title": "Is Keto Good for the Liver?"
+      },
+      {
+        "slug": "is-keto-good-for-diabetics",
+        "title": "Is Keto Good for Diabetics?"
+      },
+      {
+        "slug": "is-keto-good-for-autoimmune-disease",
+        "title": "Is Keto Good for Autoimmune Disease?"
+      },
+      {
+        "slug": "is-keto-good-for-gut-health",
+        "title": "Is Keto Good for Gut Health?"
+      },
+      {
+        "slug": "is-keto-good-for-you",
+        "title": "Is Keto Good For You?"
+      }
+    ]
+  },
+  {
     "name": "Reverse Dieting Strategies",
     "slug": "reverse-dieting-strategies",
     "primary_stat": "8",
@@ -176,6 +304,26 @@
       {
         "slug": "how-to-lose-love-handles-and-belly-fat",
         "title": "How to Lose Love Handles and Belly Fat"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-and-burn-fat",
+        "title": "Foods That Boost Metabolism and Burn Fat"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-chicken",
+        "title": "High Protein Low Calorie Meals Chicken: Your Ultimate Guide"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-lunch-weight-loss-guide",
+        "title": "High Protein Low Calorie Meals for Lunch: Your Weight Loss Guide"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-with-potatoes",
+        "title": "High Protein Low Calorie Meals with Potatoes"
+      },
+      {
+        "slug": "how-to-lose-love-handles-men",
+        "title": "How to Lose Love Handles Men: A Comprehensive Guide"
       }
     ]
   },
@@ -280,6 +428,14 @@
       {
         "slug": "how-to-stop-binge-eating-at-night",
         "title": "How to Stop Binge Eating at Night"
+      },
+      {
+        "slug": "weight-loss-motivation-and-tips-sustainable-success",
+        "title": "Weight Loss Motivation and Tips: Your Guide to Sustainable Success"
+      },
+      {
+        "slug": "weight-loss-motivation-to-start",
+        "title": "Weight Loss Motivation to Start: Finding Your Spark"
       }
     ]
   },
@@ -356,6 +512,10 @@
       {
         "slug": "weight-loss-plateau-on-wegovy-what-to-do-next",
         "title": "Weight Loss Plateau on Wegovy: What to Do Next?"
+      },
+      {
+        "slug": "weight-loss-motivation-find-keep-it",
+        "title": "Weight Loss Motivation: How to Find and Keep It"
       }
     ]
   },

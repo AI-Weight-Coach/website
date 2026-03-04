@@ -1,5 +1,29 @@
 [
   {
+    "name": "Low-Carb Recipes for Diabetics",
+    "slug": "low-carb-recipes-for-diabetics",
+    "primary_stat": "10-20",
+    "primary_unit": "grams net carbs",
+    "primary_context": "per low-carb meal",
+    "search_query": "low-carb recipes for diabetics",
+    "published_at": "2026-01-30T12:57:37.201993+00:00",
+    "meta_description": "Discover how 10-20g net carbs per meal can transform diabetic health. Learn about low-carb benefits for weight loss, blood sugar control, and a quick, healthy recipe.",
+    "linked_blogs": [
+      {
+        "slug": "is-keto-good-for-diabetics",
+        "title": "Is Keto Good for Diabetics?"
+      },
+      {
+        "slug": "is-keto-good-for-high-blood-pressure",
+        "title": "Is Keto Good for High Blood Pressure?"
+      },
+      {
+        "slug": "is-keto-good-for-inflammation",
+        "title": "Is Keto Good for Inflammation?"
+      }
+    ]
+  },
+  {
     "name": "High-Protein Recipes for Weight Loss",
     "slug": "high-protein-recipes-for-weight-loss",
     "primary_stat": "490",
@@ -64,6 +88,34 @@
       {
         "slug": "high-protein-low-calorie-meals-for-weight-loss",
         "title": "High Protein Low Calorie Meals for Weight Loss"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-while-sleeping",
+        "title": "Foods That Boost Metabolism While Sleeping"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-for-weight-loss",
+        "title": "Foods That Boost Metabolism for Weight Loss"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-in-the-morning",
+        "title": "Foods That Boost Metabolism in the Morning"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-chicken",
+        "title": "High Protein Low Calorie Meals Chicken: Your Ultimate Guide"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-lunch-weight-loss-guide",
+        "title": "High Protein Low Calorie Meals for Lunch: Your Weight Loss Guide"
+      },
+      {
+        "slug": "high-protein-low-calorie-vegetarian-meals-weight-loss",
+        "title": "High Protein Low Calorie Vegetarian Meals for Weight Loss"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-with-potatoes",
+        "title": "High Protein Low Calorie Meals with Potatoes"
       }
     ]
   }

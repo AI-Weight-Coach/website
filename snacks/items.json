@@ -1,5 +1,21 @@
 [
   {
+    "name": "Metabolism-Boosting Snacks",
+    "slug": "metabolism-boosting-snacks",
+    "primary_stat": "210",
+    "primary_unit": "calories",
+    "primary_context": "per serving of Greek yogurt with berries & chia",
+    "search_query": "metabolism-boosting snacks",
+    "published_at": "2025-12-14T12:57:37.201993+00:00",
+    "meta_description": "210 calories. Discover how high-protein Greek yogurt with berries & chia supports metabolic health & satiety. Quick, filling snacks for weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "foods-that-boost-metabolism-reddit",
+        "title": "Foods That Boost Metabolism Reddit"
+      }
+    ]
+  },
+  {
     "name": "Pre-Workout Snacks",
     "slug": "pre-workout-snacks",
     "primary_stat": "150-250",
@@ -44,6 +60,10 @@
       {
         "slug": "how-to-stop-bad-eating-habits",
         "title": "How to Stop Bad Eating Habits"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-lunch-weight-loss-guide",
+        "title": "High Protein Low Calorie Meals for Lunch: Your Weight Loss Guide"
       }
     ]
   },

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "name": "Intermittent Fasting and Gut Health",
+    "slug": "intermittent-fasting-and-gut-health",
+    "primary_stat": "5",
+    "primary_unit": "difficulty /10",
+    "primary_context": "out of 10",
+    "search_query": "intermittent fasting and gut health",
+    "published_at": "2026-02-05T12:57:37.201993+00:00",
+    "meta_description": "5/10 difficulty: Intermittent Fasting, particularly 16/8, can boost gut health, aid weight loss, and improve metabolic markers. Learn how it works, who benefits, and beginner tips.",
+    "linked_blogs": [
+      {
+        "slug": "is-keto-good-for-gut-health",
+        "title": "Is Keto Good for Gut Health?"
+      }
+    ]
+  }
+]

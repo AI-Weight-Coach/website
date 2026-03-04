@@ -1,5 +1,41 @@
 [
   {
+    "name": "Plant-Based Protein Sources",
+    "slug": "plant-based-protein-sources",
+    "primary_stat": "16",
+    "primary_unit": "grams",
+    "primary_context": "per 3 oz (85g) serving of tempeh",
+    "search_query": "plant-based protein sources",
+    "published_at": "2026-01-11T12:57:37.201993+00:00",
+    "meta_description": "Discover the protein power of plant-based foods, offering 4-20g per 100g, rich fiber, and healthy fats. Excellent for weight loss and overall health.",
+    "linked_blogs": [
+      {
+        "slug": "high-protein-low-calorie-vegetarian-meals-weight-loss",
+        "title": "High Protein Low Calorie Vegetarian Meals for Weight Loss"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-with-potatoes",
+        "title": "High Protein Low Calorie Meals with Potatoes"
+      }
+    ]
+  },
+  {
+    "name": "High-Protein Foods for Perimenopause",
+    "slug": "high-protein-foods-for-perimenopause",
+    "primary_stat": "17",
+    "primary_unit": "grams",
+    "primary_context": "protein per 170g serving (Plain, Non-Fat Greek Yogurt)",
+    "search_query": "high-protein foods for perimenopause",
+    "published_at": "2025-11-19T12:57:37.201993+00:00",
+    "meta_description": "Get 17g protein per serving of Greek yogurt, an excellent choice for perimenopause. Supports muscle, bone health, and satiety. Learn more.",
+    "linked_blogs": [
+      {
+        "slug": "foods-that-boost-metabolism-in-perimenopause",
+        "title": "Foods That Boost Metabolism in Perimenopause"
+      }
+    ]
+  },
+  {
     "name": "Affordable Protein Sources",
     "slug": "affordable-protein-sources",
     "primary_stat": "22",
@@ -56,6 +92,46 @@
       {
         "slug": "how-to-lose-weight-without-exercise-quickly",
         "title": "How to Lose Weight Without Exercise Quickly"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-naturally",
+        "title": "Foods That Boost Metabolism Naturally"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-permanently",
+        "title": "Foods That Boost Metabolism Permanently"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-and-burn-fat",
+        "title": "Foods That Boost Metabolism and Burn Fat"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-in-women",
+        "title": "Foods That Boost Metabolism in Women"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-for-weight-loss",
+        "title": "Foods That Boost Metabolism for Weight Loss"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-reddit",
+        "title": "Foods That Boost Metabolism Reddit"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-after-50",
+        "title": "Foods That Boost Metabolism After 50"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-fast",
+        "title": "Foods That Boost Metabolism Fast"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-chicken",
+        "title": "High Protein Low Calorie Meals Chicken: Your Ultimate Guide"
+      },
+      {
+        "slug": "high-protein-low-calorie-meals-lunch-weight-loss-guide",
+        "title": "High Protein Low Calorie Meals for Lunch: Your Weight Loss Guide"
       }
     ]
   }

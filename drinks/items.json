@@ -1,5 +1,29 @@
 [
   {
+    "name": "Metabolism-Boosting Drinks",
+    "slug": "metabolism-boosting-drinks",
+    "primary_stat": "50-100",
+    "primary_unit": "calories",
+    "primary_context": "daily boost (approx.)",
+    "search_query": "metabolism-boosting drinks",
+    "published_at": "2025-12-14T12:57:37.201993+00:00",
+    "meta_description": "Boost your metabolism slightly (50-100 calories daily approx.) with certain drinks. Learn the truth about 'metabolism-boosting' drinks, their ingredients, and calorie facts.",
+    "linked_blogs": [
+      {
+        "slug": "foods-that-boost-metabolism-reddit",
+        "title": "Foods That Boost Metabolism Reddit"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-in-the-morning",
+        "title": "Foods That Boost Metabolism in the Morning"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-fast",
+        "title": "Foods That Boost Metabolism Fast"
+      }
+    ]
+  },
+  {
     "name": "Hydrating Drinks for Optimal Health",
     "slug": "hydrating-drinks-for-optimal-health",
     "primary_stat": "0",
@@ -56,6 +80,10 @@
       {
         "slug": "how-to-stop-bad-eating-habits",
         "title": "How to Stop Bad Eating Habits"
+      },
+      {
+        "slug": "foods-that-boost-metabolism-and-burn-fat",
+        "title": "Foods That Boost Metabolism and Burn Fat"
       }
     ]
   }

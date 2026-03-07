@@ -1,5 +1,21 @@
 [
   {
+    "name": "Dietary Protein for Skin Health",
+    "slug": "dietary-protein-for-skin-health",
+    "primary_stat": "28",
+    "primary_unit": "% of dry weight",
+    "primary_context": "of skin's dry weight is protein (primarily collagen)",
+    "search_query": "dietary protein for skin health",
+    "published_at": "2026-03-07T12:00:18.147655+00:00",
+    "meta_description": "28% of skin's dry weight is protein. Learn how adequate dietary protein intake supports skin health by providing collagen precursors and how it aligns with weight loss goals.",
+    "linked_blogs": [
+      {
+        "slug": "loose-skin-after-weight-loss-surgery",
+        "title": "Loose Skin After Weight Loss Surgery"
+      }
+    ]
+  },
+  {
     "name": "Plant-Based Protein Sources",
     "slug": "plant-based-protein-sources",
     "primary_stat": "16",

@@ -36,7 +36,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/blog/how-long-does-it-take-to-lose-10kg.html</loc>
+    <loc>https://aiweightcoach.app/blog/how-to-reduce-bloating-and-gas.html</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -452,6 +452,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/diets/low-fodmap-diet.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/diets/diets-for-menopause.html</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -758,6 +764,12 @@
     <loc>https://aiweightcoach.app/conditions/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/conditions/understanding-ibs.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/conditions/body-contouring-options-for-excess-skin.html</loc>

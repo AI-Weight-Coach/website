@@ -1,5 +1,39 @@
 [
   {
+    "title": "Best Foods for Weight Loss and Muscle Gain",
+    "slug": "best-foods-for-weight-loss-and-muscle-gain",
+    "excerpt": "The best foods for weight loss and muscle gain are lean proteins, complex carbohydrates, healthy fats, and fiber-rich fruits and vegetables, promoting satiety and supporting muscle repair.",
+    "category": "nutrition_science",
+    "search_query": "best foods for weight loss and muscle gain",
+    "published_at": "2026-03-09T18:00:21.424431+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Best Foods for Weight Loss and Muscle Gain | AI Weight Coach",
+    "meta_description": "Discover the best foods for weight loss and muscle gain, including lean proteins, complex carbs, healthy fats, and fiber-rich options for optimal results.",
+    "keywords": "best foods for weight loss, best foods for muscle gain, lean protein, complex carbs, healthy fats, fiber-rich foods, nutrition for body composition, muscle building diet, fat loss diet, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "crafting-macro-friendly-meal-plans-with-quality-carbs",
+        "name": "Crafting Macro-Friendly Meal Plans with Quality Carbs"
+      }
+    ]
+  },
+  {
     "title": "How to Reduce Bloating and Gas",
     "slug": "how-to-reduce-bloating-and-gas",
     "excerpt": "To reduce bloating and gas, focus on mindful eating, identify and limit trigger foods, ensure adequate hydration, and incorporate regular physical activity.",

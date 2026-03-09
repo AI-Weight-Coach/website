@@ -1,35 +1,35 @@
 [
   {
-    "title": "How Long Does It Take to Lose 10kg? Your Guide to Sustainable Weight Loss",
-    "slug": "how-long-does-it-take-to-lose-10kg",
-    "excerpt": "Losing 10kg typically takes between 10 to 20 weeks when adopting a healthy and sustainable rate of 0.5 to 1 kilogram per week, though individual results can vary based on numerous factors.",
+    "title": "How to Reduce Bloating and Gas",
+    "slug": "how-to-reduce-bloating-and-gas",
+    "excerpt": "To reduce bloating and gas, focus on mindful eating, identify and limit trigger foods, ensure adequate hydration, and incorporate regular physical activity.",
     "category": "practical_tips",
-    "search_query": "how long does it take to lose 10kg",
-    "published_at": "2026-03-09T06:00:17.245571+00:00",
-    "reading_time_min": 5,
-    "meta_title": "How Long to Lose 10kg? A Guide to Healthy Weight Loss",
-    "meta_description": "Learn how long it takes to lose 10kg safely and sustainably. Discover factors influencing weight loss and practical strategies for achieving your goals.",
-    "keywords": "lose 10kg time, how long to lose weight, healthy weight loss rate, sustainable weight loss, lose 10kg safely, weight loss journey, calorie deficit, weight loss factors",
+    "search_query": "how to reduce bloating and gas",
+    "published_at": "2026-03-09T06:00:22.416167+00:00",
+    "reading_time_min": 6,
+    "meta_title": "How to Reduce Bloating and Gas: Practical Tips for Relief",
+    "meta_description": "Effectively reduce bloating and gas by focusing on mindful eating, identifying trigger foods, staying hydrated, and making lifestyle changes. Learn practical, evidence-based strategies.",
+    "keywords": "bloating relief, reduce gas, gut health, digestive issues, mindful eating, trigger foods, FODMAPs, digestive health tips, AI Weight Coach",
     "linked_micros": [
       {
         "type": "diets",
-        "slug": "calorie-deficit-strategies",
-        "name": "Calorie Deficit Strategies"
+        "slug": "low-fodmap-diet",
+        "name": "Low-FODMAP Diet"
       },
       {
-        "type": "exercises",
-        "slug": "effective-cardio-for-overall-fat-loss",
-        "name": "Effective Cardio for Overall Fat Loss"
-      },
-      {
-        "type": "myths",
-        "slug": "metabolism-myths-debunked",
-        "name": "Metabolism Myths Debunked"
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
       },
       {
         "type": "conditions",
-        "slug": "hormonal-imbalance-and-weight-gain",
-        "name": "Hormonal Imbalance and Weight Gain"
+        "slug": "understanding-ibs",
+        "name": "Understanding IBS"
+      },
+      {
+        "type": "exercises",
+        "slug": "boosting-non-exercise-activity-neat",
+        "name": "Boosting Non-Exercise Activity (NEAT)"
       }
     ]
   },

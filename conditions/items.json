@@ -1,5 +1,21 @@
 [
   {
+    "name": "Understanding IBS",
+    "slug": "understanding-ibs",
+    "primary_stat": "Personalized",
+    "primary_unit": "approach",
+    "primary_context": "is key for IBS symptom & weight management",
+    "search_query": "understanding ibs",
+    "published_at": "2026-03-09T06:00:22.416167+00:00",
+    "meta_description": "Personalized approach is key for IBS & weight management. Learn how IBS affects weight, dietary tips, exercise, medications, and when to see a doctor for IBS.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-reduce-bloating-and-gas",
+        "title": "How to Reduce Bloating and Gas"
+      }
+    ]
+  },
+  {
     "name": "Body Contouring Options for Excess Skin",
     "slug": "body-contouring-options-for-excess-skin",
     "primary_stat": "Multiple",
@@ -408,10 +424,6 @@
       {
         "slug": "does-sleep-affect-weight-loss-reddit",
         "title": "Does Sleep Affect Weight Loss Reddit? The Crucial Link Explained"
-      },
-      {
-        "slug": "how-long-does-it-take-to-lose-10kg",
-        "title": "How Long Does It Take to Lose 10kg? Your Guide to Sustainable Weight Loss"
       }
     ]
   },

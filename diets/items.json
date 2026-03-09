@@ -1,5 +1,21 @@
 [
   {
+    "name": "Low-FODMAP Diet",
+    "slug": "low-fodmap-diet",
+    "primary_stat": "8",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10 for IBS symptom management",
+    "search_query": "low-fodmap diet",
+    "published_at": "2026-03-09T06:00:22.416167+00:00",
+    "meta_description": "8/10 for IBS relief. Explore the Low-FODMAP diet's pros, cons, difficulty, and who it's best for. Highly effective for IBS, but restrictive. Learn more.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-reduce-bloating-and-gas",
+        "title": "How to Reduce Bloating and Gas"
+      }
+    ]
+  },
+  {
     "name": "Diets for Menopause",
     "slug": "diets-for-menopause",
     "primary_stat": "8",
@@ -336,10 +352,6 @@
       {
         "slug": "how-to-lose-face-fat-and-get-jawline",
         "title": "How to Lose Face Fat and Get a Defined Jawline"
-      },
-      {
-        "slug": "how-long-does-it-take-to-lose-10kg",
-        "title": "How Long Does It Take to Lose 10kg? Your Guide to Sustainable Weight Loss"
       }
     ]
   },

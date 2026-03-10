@@ -1,5 +1,21 @@
 [
   {
+    "name": "Signs of Dehydration",
+    "slug": "signs-of-dehydration",
+    "primary_stat": "Hydration",
+    "primary_unit": "approach",
+    "primary_context": "key to weight management",
+    "search_query": "signs of dehydration",
+    "published_at": "2026-03-10T12:00:17.831504+00:00",
+    "meta_description": "Hydration approach is key to weight management. Learn the signs of dehydration, how it affects weight, and get expert tips for healthy fluid intake.",
+    "linked_blogs": [
+      {
+        "slug": "how-much-water-should-i-drink-daily",
+        "title": "How Much Water Should I Drink Daily?"
+      }
+    ]
+  },
+  {
     "name": "Understanding IBS",
     "slug": "understanding-ibs",
     "primary_stat": "Personalized",

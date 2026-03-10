@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Much Water Should I Drink Daily?",
+    "slug": "how-much-water-should-i-drink-daily",
+    "excerpt": "For most healthy adults, a general guideline is about 11.5 cups (2.7 liters) of fluids daily for women and 15.5 cups (3.7 liters) for men, including water from food.",
+    "category": "practical_tips",
+    "search_query": "how much water should i drink daily",
+    "published_at": "2026-03-10T12:00:17.831504+00:00",
+    "reading_time_min": 8,
+    "meta_title": "How Much Water Should You Drink Daily? Your Hydration Guide",
+    "meta_description": "Discover how much water you should drink daily for optimal health and weight loss. Learn factors influencing your needs & practical tips for better hydration.",
+    "keywords": "how much water to drink, daily water intake, hydration for weight loss, benefits of water, signs of dehydration, water intake guidelines, healthy hydration, water for health",
+    "linked_micros": [
+      {
+        "type": "drinks",
+        "slug": "hydrating-drinks-for-optimal-health",
+        "name": "Hydrating Drinks for Optimal Health"
+      },
+      {
+        "type": "conditions",
+        "slug": "signs-of-dehydration",
+        "name": "Signs of Dehydration"
+      },
+      {
+        "type": "snacks",
+        "slug": "metabolism-boosting-snacks",
+        "name": "Metabolism-Boosting Snacks"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      }
+    ]
+  },
+  {
     "title": "Is Keto Good for Fatty Liver?",
     "slug": "is-keto-good-for-fatty-liver",
     "excerpt": "The ketogenic (keto) diet can be a beneficial strategy for managing non-alcoholic fatty liver disease (NAFLD) by promoting weight loss and reducing liver fat. However, it requires careful planning and medical supervision.",

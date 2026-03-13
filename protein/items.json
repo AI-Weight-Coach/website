@@ -1,5 +1,21 @@
 [
   {
+    "name": "Dietary Protein for Weight Loss",
+    "slug": "dietary-protein-for-weight-loss",
+    "primary_stat": "1.6-2.2",
+    "primary_unit": "grams",
+    "primary_context": "protein per kg body weight for weight loss",
+    "search_query": "dietary protein for weight loss",
+    "published_at": "2026-03-13T06:00:15.562887+00:00",
+    "meta_description": "Aim for 1.6-2.2 g/kg body weight/day for weight loss. Protein boosts satiety, preserves muscle, and increases metabolism. Get evidence-based tips here.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-weight-without-exercise-and-diet",
+        "title": "How to Lose Weight Without Exercise and Diet"
+      }
+    ]
+  },
+  {
     "name": "Dietary Protein for Skin Health",
     "slug": "dietary-protein-for-skin-health",
     "primary_stat": "28",

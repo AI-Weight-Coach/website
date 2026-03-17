@@ -1,5 +1,21 @@
 [
   {
+    "name": "Understanding Visceral Fat Risks",
+    "slug": "understanding-visceral-fat-risks",
+    "primary_stat": "Metabolic Syndrome",
+    "primary_unit": "Risk Factor",
+    "primary_context": "Increased by Visceral Fat",
+    "search_query": "understanding visceral fat risks",
+    "published_at": "2026-03-17T06:00:24.648878+00:00",
+    "meta_description": "Increased Metabolic Syndrome Risk: Understand visceral fat dangers, how it impacts weight, and strategies for management. Learn about diet, exercise, and when to consult a doctor.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-belly-fat-fast",
+        "title": "How to Lose Belly Fat Fast"
+      }
+    ]
+  },
+  {
     "name": "Signs of Dehydration",
     "slug": "signs-of-dehydration",
     "primary_stat": "Hydration",

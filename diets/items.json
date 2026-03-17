@@ -1,5 +1,21 @@
 [
   {
+    "name": "Anti-Inflammatory Diets",
+    "slug": "anti-inflammatory-diets",
+    "primary_stat": "8",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "anti-inflammatory diets",
+    "published_at": "2026-03-17T18:00:20.374423+00:00",
+    "meta_description": "8/10 rating. Learn about anti-inflammatory diets: pros, cons, weight loss, and who it's best for. Improve health & manage inflammation with evidence-based insights.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-face-fat-without-losing-weight",
+        "title": "How to Lose Face Fat Without Losing Weight"
+      }
+    ]
+  },
+  {
     "name": "Low-FODMAP Diet",
     "slug": "low-fodmap-diet",
     "primary_stat": "8",

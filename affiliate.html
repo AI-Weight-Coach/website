@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Affiliate Program - AI Weight Coach | Earn 50% Commission</title>
+  <meta name="description" content="Join the AI Weight Coach affiliate program. Promote our AI-powered weight loss app and earn 50% recurring commission on every subscription. Perfect for fitness influencers and health bloggers.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://aiweightcoach.app/affiliate.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aiweightcoach.app/affiliate.html">
+  <meta property="og:title" content="Earn 50% Commission - AI Weight Coach Affiliate Program">
+  <meta property="og:description" content="Promote AI Weight Coach and earn 50% recurring commission on every subscription. Get your own promo code and white-label app access.">
+  <meta property="og:image" content="https://aiweightcoach.app/og-image.png">
+
+  <meta name="theme-color" content="#0a0a1a">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --cyan: #00D9FF;
+      --green: #00FF94;
+      --orange: #FFB800;
+      --dark: #0a0a1a;
+      --dark-light: #1a1a3a;
+      --gradient: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
+      --gradient-orange: linear-gradient(135deg, #FFB800 0%, #FF6B00 100%);
+    }
+
+    html { scroll-behavior: smooth; }
+    html, body { overflow-x: hidden; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--dark);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    .bg-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .bg-orb.orange { background: rgba(255, 184, 0, 0.12); }
+    .bg-orb.cyan { background: rgba(0, 217, 255, 0.1); }
+
+    /* Navigation */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 20px 0; background: rgba(10, 10, 26, 0.9);
+      backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    nav .container { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .logo-icon {
+      width: 44px; height: 44px; background: var(--gradient); border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .logo-text { font-size: 20px; font-weight: 700; color: #fff; }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 15px; font-weight: 500; transition: color 0.3s; }
+    .nav-links a:hover { color: #fff; }
+    .mobile-menu-btn { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; }
+
+    /* Hero */
+    .affiliate-hero {
+      min-height: 70vh; display: flex; align-items: center;
+      padding: 140px 0 80px; position: relative; overflow: hidden;
+    }
+    .affiliate-hero .bg-orb.orange { width: 600px; height: 600px; top: -150px; right: -100px; }
+    .affiliate-hero .bg-orb.cyan { width: 400px; height: 400px; bottom: -100px; left: -150px; }
+
+    .hero-inner { position: relative; z-index: 1; text-align: center; max-width: 800px; margin: 0 auto; }
+    .hero-badge {
+      display: inline-block; background: rgba(255, 184, 0, 0.12); color: var(--orange);
+      padding: 10px 20px; border-radius: 24px; font-size: 14px; font-weight: 600; margin-bottom: 24px;
+    }
+    .hero-inner h1 { font-size: 56px; font-weight: 900; line-height: 1.1; margin-bottom: 24px; }
+    .hero-inner h1 .orange-text {
+      background: var(--gradient-orange); -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .hero-inner p { font-size: 20px; color: rgba(255,255,255,0.7); margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto; }
+
+    .btn-affiliate {
+      background: var(--gradient-orange); color: var(--dark); padding: 18px 36px;
+      border-radius: 14px; font-weight: 700; font-size: 17px; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s; border: none; cursor: pointer;
+    }
+    .btn-affiliate:hover { transform: translateY(-3px); box-shadow: 0 15px 40px rgba(255, 184, 0, 0.4); }
+
+    /* Stats row */
+    .stats-row {
+      display: flex; justify-content: center; gap: 48px; margin-top: 60px; flex-wrap: wrap;
+    }
+    .stat-item { text-align: center; }
+    .stat-value {
+      font-size: 48px; font-weight: 900;
+      background: var(--gradient-orange); -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .stat-label { font-size: 14px; color: rgba(255,255,255,0.5); margin-top: 4px; }
+
+    /* How it works */
+    .how-section { padding: 100px 0; position: relative; }
+    .section-header { text-align: center; margin-bottom: 64px; }
+    .section-label {
+      display: inline-block; background: rgba(255, 184, 0, 0.1); color: var(--orange);
+      padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-bottom: 16px;
+    }
+    .section-title { font-size: 44px; font-weight: 800; margin-bottom: 16px; }
+    .section-subtitle { font-size: 18px; color: rgba(255,255,255,0.6); max-width: 600px; margin: 0 auto; }
+
+    .steps-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+    .step-card {
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px; padding: 36px 28px; text-align: center; position: relative;
+      transition: all 0.4s;
+    }
+    .step-card:hover { transform: translateY(-8px); border-color: rgba(255, 184, 0, 0.3); }
+    .step-num {
+      width: 56px; height: 56px; background: var(--gradient-orange); border-radius: 16px;
+      display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 800;
+      color: var(--dark); margin: 0 auto 20px;
+    }
+    .step-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 10px; }
+    .step-card p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.6; }
+
+    /* Benefits */
+    .benefits-section {
+      padding: 100px 0; position: relative;
+      background: linear-gradient(180deg, transparent 0%, rgba(255, 184, 0, 0.03) 50%, transparent 100%);
+    }
+    .benefits-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .benefit-card {
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px; padding: 36px; transition: all 0.4s;
+    }
+    .benefit-card:hover { transform: translateY(-8px); border-color: rgba(255, 184, 0, 0.3); }
+    .benefit-icon {
+      width: 56px; height: 56px;
+      background: linear-gradient(135deg, rgba(255, 184, 0, 0.15) 0%, rgba(255, 120, 0, 0.15) 100%);
+      border-radius: 16px; display: flex; align-items: center; justify-content: center;
+      font-size: 28px; margin-bottom: 20px;
+    }
+    .benefit-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 10px; }
+    .benefit-card p { font-size: 15px; color: rgba(255,255,255,0.6); line-height: 1.6; }
+
+    /* Earnings calculator */
+    .earnings-section { padding: 100px 0; position: relative; }
+    .earnings-card {
+      max-width: 700px; margin: 0 auto; background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255, 184, 0, 0.2); border-radius: 28px; padding: 48px; text-align: center;
+    }
+    .earnings-table { width: 100%; margin: 32px 0; border-collapse: collapse; }
+    .earnings-table th {
+      text-align: left; padding: 14px 16px; font-size: 13px; text-transform: uppercase;
+      letter-spacing: 1px; color: rgba(255,255,255,0.4); border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .earnings-table td {
+      padding: 16px; font-size: 16px; border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .earnings-table td:last-child {
+      text-align: right; font-weight: 700;
+      background: linear-gradient(135deg, #FFB800, #FF6B00); -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .earnings-table td:first-child { color: rgba(255,255,255,0.7); }
+    .earnings-note { font-size: 13px; color: rgba(255,255,255,0.4); margin-top: 16px; }
+
+    /* Who is it for */
+    .audience-section {
+      padding: 100px 0;
+      background: linear-gradient(180deg, transparent 0%, rgba(0, 217, 255, 0.03) 50%, transparent 100%);
+    }
+    .audience-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .audience-card {
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px; padding: 36px; text-align: center; transition: all 0.4s;
+    }
+    .audience-card:hover { transform: translateY(-8px); }
+    .audience-icon { font-size: 48px; margin-bottom: 16px; }
+    .audience-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 10px; }
+    .audience-card p { font-size: 15px; color: rgba(255,255,255,0.6); line-height: 1.6; }
+
+    /* Contact form section */
+    .contact-section { padding: 100px 0; position: relative; }
+    .contact-section .bg-orb.orange { width: 500px; height: 500px; top: 50%; right: -200px; transform: translateY(-50%); }
+
+    .contact-card {
+      max-width: 650px; margin: 0 auto; background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 28px; padding: 48px; position: relative; z-index: 1;
+    }
+    .contact-card h2 { font-size: 32px; font-weight: 800; margin-bottom: 8px; text-align: center; }
+    .contact-card > p { font-size: 16px; color: rgba(255,255,255,0.6); margin-bottom: 32px; text-align: center; }
+
+    .form-group { margin-bottom: 20px; }
+    .form-group label {
+      display: block; font-size: 14px; font-weight: 600; margin-bottom: 8px; color: rgba(255,255,255,0.8);
+    }
+    .form-group input, .form-group textarea, .form-group select {
+      width: 100%; padding: 14px 18px; background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; color: #fff;
+      font-family: inherit; font-size: 15px; transition: border-color 0.3s;
+    }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+      outline: none; border-color: var(--orange);
+    }
+    .form-group textarea { resize: vertical; min-height: 100px; }
+    .form-group select option { background: var(--dark); color: #fff; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+    .btn-submit {
+      width: 100%; background: var(--gradient-orange); color: var(--dark); padding: 18px;
+      border-radius: 14px; font-weight: 700; font-size: 16px; border: none; cursor: pointer;
+      transition: all 0.3s; margin-top: 8px;
+    }
+    .btn-submit:hover { box-shadow: 0 15px 40px rgba(255, 184, 0, 0.4); transform: translateY(-2px); }
+
+    .form-success {
+      display: none; text-align: center; padding: 32px;
+    }
+    .form-success .check { font-size: 48px; margin-bottom: 16px; }
+    .form-success h3 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+    .form-success p { color: rgba(255,255,255,0.6); }
+
+    /* Footer */
+    footer {
+      padding: 40px 0; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;
+    }
+    footer p { color: rgba(255,255,255,0.4); font-size: 14px; }
+    footer a { color: rgba(255,255,255,0.6); text-decoration: none; }
+    footer a:hover { color: var(--cyan); }
+
+    /* Mobile */
+    @media (max-width: 1024px) {
+      .steps-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 768px) {
+      .mobile-menu-btn { display: block; }
+      .nav-links {
+        display: none; position: absolute; top: 100%; left: 0; right: 0;
+        background: rgba(10, 10, 26, 0.97); backdrop-filter: blur(20px);
+        flex-direction: column; padding: 20px 24px; gap: 16px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+      }
+      .nav-links.show { display: flex; }
+      .hero-inner h1 { font-size: 36px; }
+      .stat-value { font-size: 36px; }
+      .stats-row { gap: 24px; }
+      .section-title { font-size: 32px; }
+      .steps-grid, .benefits-grid, .audience-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .contact-card { padding: 32px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="/" class="logo">
+        <div class="logo-icon"><img src="icon.png" alt="AI Weight Coach" style="width: 28px; height: 28px; border-radius: 6px;"></div>
+        <span class="logo-text">AI Weight Coach</span>
+      </a>
+      <div class="nav-links">
+        <a href="/#features">Features</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="blog/">Blog</a>
+        <a href="#apply" class="btn-affiliate" style="padding: 10px 20px; font-size: 14px;">Become an Affiliate</a>
+      </div>
+      <button class="mobile-menu-btn">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="affiliate-hero">
+    <div class="bg-orb orange"></div>
+    <div class="bg-orb cyan"></div>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-badge">Affiliate Program</div>
+        <h1>Promote AI Weight Coach.<br>Earn <span class="orange-text">50% Commission</span>.</h1>
+        <p>Share our AI weight loss app with your audience. You promote, users subscribe, you earn 50% of every subscription. Recurring. Every month.</p>
+        <a href="#apply" class="btn-affiliate">Apply Now &#8594;</a>
+        <div class="stats-row">
+          <div class="stat-item">
+            <div class="stat-value">50%</div>
+            <div class="stat-label">Commission Rate</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">Recurring</div>
+            <div class="stat-label">Monthly Payouts</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">Free</div>
+            <div class="stat-label">App Access for You</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="how-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Start Earning in 4 Steps</h2>
+        <p class="section-subtitle">No upfront costs. No technical skills needed. Just share and earn.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h3>Apply</h3>
+          <p>Fill out the form below. We'll review your application and get back to you within 48 hours.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h3>Get Your Link</h3>
+          <p>Receive your personal promo code, tracking link, and free Pro app access to try it yourself.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h3>Promote</h3>
+          <p>Share with your audience via social media, blog, YouTube, email, or however you reach people.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <h3>Get Paid</h3>
+          <p>Earn 50% of every subscription that comes through your link. Paid out monthly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="benefits-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Why Partner With Us</span>
+        <h2 class="section-title">Built for Affiliates Who Care</h2>
+        <p class="section-subtitle">We give you everything you need to succeed</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">💰</div>
+          <h3>50% Recurring Revenue</h3>
+          <p>Not a one-time payout. You earn 50% every month for as long as each user stays subscribed.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">📱</div>
+          <h3>Free Pro Access</h3>
+          <p>Get a complimentary Pro subscription so you can genuinely use and showcase the app to your audience.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🔗</div>
+          <h3>Personal Promo Code</h3>
+          <p>Your own branded promo code and tracking link. Easy to share, easy to track your earnings.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">📊</div>
+          <h3>Real-Time Dashboard</h3>
+          <p>Track clicks, signups, and earnings in real-time. Full transparency on your performance.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🎨</div>
+          <h3>Marketing Materials</h3>
+          <p>Ready-made banners, screenshots, copy snippets, and video clips to make promoting easy.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🤝</div>
+          <h3>Dedicated Support</h3>
+          <p>Direct contact with our team. We help you optimize your campaigns and maximize earnings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Earnings Calculator -->
+  <section class="earnings-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Earning Potential</span>
+        <h2 class="section-title">See What You Could Earn</h2>
+        <p class="section-subtitle">At &euro;9.99/month per subscription, your 50% share adds up fast</p>
+      </div>
+      <div class="earnings-card">
+        <table class="earnings-table">
+          <thead>
+            <tr><th>Subscribers</th><th style="text-align: right;">Your Monthly Earnings</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>10 subscribers</td><td>&euro;49.95/mo</td></tr>
+            <tr><td>25 subscribers</td><td>&euro;124.88/mo</td></tr>
+            <tr><td>50 subscribers</td><td>&euro;249.75/mo</td></tr>
+            <tr><td>100 subscribers</td><td>&euro;499.50/mo</td></tr>
+            <tr><td>250 subscribers</td><td>&euro;1,248.75/mo</td></tr>
+            <tr><td>500 subscribers</td><td>&euro;2,497.50/mo</td></tr>
+          </tbody>
+        </table>
+        <p class="earnings-note">Based on Pro subscription at &euro;9.99/mo with 50% commission. Earnings are recurring for as long as users remain subscribed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who is it for -->
+  <section class="audience-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Perfect For</span>
+        <h2 class="section-title">Who Should Apply?</h2>
+      </div>
+      <div class="audience-grid">
+        <div class="audience-card">
+          <div class="audience-icon">📹</div>
+          <h3>Fitness Influencers</h3>
+          <p>Share the app with your followers on Instagram, TikTok, or YouTube. Your audience already wants this.</p>
+        </div>
+        <div class="audience-card">
+          <div class="audience-icon">✍️</div>
+          <h3>Health Bloggers</h3>
+          <p>Write reviews, comparisons, or how-to guides. Embed your link and earn from organic traffic.</p>
+        </div>
+        <div class="audience-card">
+          <div class="audience-icon">🏋️</div>
+          <h3>Personal Trainers</h3>
+          <p>Recommend to your clients as a nutrition tracking companion. They get results, you get paid.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Application Form -->
+  <section class="contact-section" id="apply">
+    <div class="bg-orb orange"></div>
+    <div class="container">
+      <div class="contact-card">
+        <h2>Apply to Become an Affiliate</h2>
+        <p>Tell us about yourself and how you plan to promote AI Weight Coach. We review applications within 48 hours.</p>
+
+        <form id="affiliate-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="aebe699f-1257-47ac-96a7-107b8f4bad3e">
+          <input type="hidden" name="subject" value="New Affiliate Application">
+          <input type="hidden" name="from_name" value="AI Weight Coach Affiliate">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="platform">Primary Platform *</label>
+              <select id="platform" name="platform" required>
+                <option value="" disabled selected>Select platform</option>
+                <option value="instagram">Instagram</option>
+                <option value="tiktok">TikTok</option>
+                <option value="youtube">YouTube</option>
+                <option value="blog">Blog / Website</option>
+                <option value="twitter">X / Twitter</option>
+                <option value="email">Email Newsletter</option>
+                <option value="personal-trainer">Personal Training</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="audience">Audience Size</label>
+              <select id="audience" name="audience_size">
+                <option value="" disabled selected>Select range</option>
+                <option value="0-1000">0 - 1,000</option>
+                <option value="1000-5000">1,000 - 5,000</option>
+                <option value="5000-25000">5,000 - 25,000</option>
+                <option value="25000-100000">25,000 - 100,000</option>
+                <option value="100000+">100,000+</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="profile">Profile / Website URL</label>
+            <input type="url" id="profile" name="profile_url" placeholder="https://instagram.com/yourhandle">
+          </div>
+          <div class="form-group">
+            <label for="promotion">How do you plan to promote AI Weight Coach? *</label>
+            <textarea id="promotion" name="promotion_plan" required placeholder="Tell us about your promotion strategy..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Submit Application &#8594;</button>
+        </form>
+
+        <div class="form-success" id="form-success">
+          <div class="check">&#10003;</div>
+          <h3>Application Received!</h3>
+          <p>We'll review your application and get back to you within 48 hours at the email you provided.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 AI Weight Coach by Spengen IT B.V. &middot; <a href="/">Home</a> &middot; <a href="privacy-policy.html">Privacy</a> &middot; <a href="terms-of-service.html">Terms</a> &middot; <a href="mailto:hello@aiweightcoach.app">Contact</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu
+    document.querySelector('.mobile-menu-btn').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('show');
+    });
+
+    // Form submission
+    const form = document.getElementById('affiliate-form');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('.btn-submit');
+      btn.textContent = 'Submitting...';
+      btn.disabled = true;
+
+      try {
+        const resp = await fetch(form.action, {
+          method: 'POST',
+          body: JSON.stringify(Object.fromEntries(new FormData(form))),
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        });
+        const result = await resp.json();
+        if (result.success) {
+          form.style.display = 'none';
+          document.getElementById('form-success').style.display = 'block';
+        } else {
+          btn.textContent = 'Submit Application \u2192';
+          btn.disabled = false;
+          alert('Something went wrong. Please email us at hello@aiweightcoach.app');
+        }
+      } catch {
+        btn.textContent = 'Submit Application \u2192';
+        btn.disabled = false;
+        alert('Something went wrong. Please email us at hello@aiweightcoach.app');
+      }
+    });
+  </script>
+</body>
+</html>

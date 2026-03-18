@@ -1421,6 +1421,174 @@
       scroll-margin-top: 100px;
     }
 
+    /* Affiliate Section */
+    .affiliate {
+      padding: 100px 0;
+      position: relative;
+      background: linear-gradient(180deg, transparent 0%, rgba(255, 184, 0, 0.04) 50%, transparent 100%);
+    }
+
+    .affiliate-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .affiliate-text h2 {
+      font-size: 44px;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .affiliate-text p {
+      font-size: 18px;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 28px;
+      line-height: 1.7;
+    }
+
+    .affiliate-perks {
+      list-style: none;
+      margin-bottom: 32px;
+    }
+
+    .affiliate-perks li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 12px 0;
+      font-size: 16px;
+      color: rgba(255,255,255,0.85);
+    }
+
+    .affiliate-perks li .perk-icon {
+      flex-shrink: 0;
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, rgba(255, 184, 0, 0.15) 0%, rgba(255, 120, 0, 0.15) 100%);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+    .affiliate-perks li .perk-text strong {
+      display: block;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+
+    .affiliate-perks li .perk-text span {
+      font-size: 14px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    .affiliate-highlight {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255, 184, 0, 0.2);
+      border-radius: 24px;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .affiliate-big-number {
+      font-size: 80px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #FFB800 0%, #FF6B00 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .affiliate-big-label {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+
+    .affiliate-big-desc {
+      font-size: 16px;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+
+    .affiliate-example {
+      background: rgba(255, 184, 0, 0.08);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 28px;
+    }
+
+    .affiliate-example-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--orange);
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .affiliate-example-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      font-size: 15px;
+    }
+
+    .affiliate-example-row span:first-child {
+      color: rgba(255,255,255,0.6);
+    }
+
+    .affiliate-example-row span:last-child {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .btn-affiliate {
+      background: linear-gradient(135deg, #FFB800 0%, #FF6B00 100%);
+      color: var(--dark);
+      padding: 16px 32px;
+      border-radius: 14px;
+      font-weight: 700;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-affiliate:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 40px rgba(255, 184, 0, 0.4);
+    }
+
+    @media (max-width: 1024px) {
+      .affiliate-content {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .affiliate-text h2 {
+        font-size: 32px;
+      }
+      .affiliate-big-number {
+        font-size: 60px;
+      }
+    }
+
     /* Store badges */
     .store-badges {
       display: flex;
@@ -1554,6 +1722,7 @@
         <a href="#demo">Demo</a>
         <a href="#pricing">Pricing</a>
         <a href="blog/">Blog</a>
+        <a href="affiliate.html">Affiliate</a>
       </div>
       <button class="mobile-menu-btn">☰</button>
     </div>
@@ -1848,6 +2017,64 @@
     </div>
   </section>
 
+  <!-- Affiliate Section -->
+  <section class="affiliate" id="affiliate">
+    <div class="container">
+      <div class="affiliate-content">
+        <div class="affiliate-text fade-in">
+          <span class="section-label" style="background: rgba(255, 184, 0, 0.1); color: var(--orange);">Affiliate Program</span>
+          <h2>Earn Money Promoting <span style="background: linear-gradient(135deg, #FFB800, #FF6B00); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AI Weight Coach</span></h2>
+          <p>Share AI Weight Coach with your audience and earn 50% recurring commission on every subscription. Perfect for fitness influencers, health bloggers, and wellness coaches.</p>
+          <ul class="affiliate-perks">
+            <li>
+              <div class="perk-icon">💰</div>
+              <div class="perk-text">
+                <strong>50% Recurring Commission</strong>
+                <span>Earn half of every subscription, every month, for as long as they stay</span>
+              </div>
+            </li>
+            <li>
+              <div class="perk-icon">🏷️</div>
+              <div class="perk-text">
+                <strong>Your Own Promo Code</strong>
+                <span>Personal promo link and code to share with your audience</span>
+              </div>
+            </li>
+            <li>
+              <div class="perk-icon">🎨</div>
+              <div class="perk-text">
+                <strong>White-Label App Access</strong>
+                <span>Get a free personal subscription to use and showcase the app</span>
+              </div>
+            </li>
+          </ul>
+          <a href="affiliate.html" class="btn-affiliate">Become an Affiliate &#8594;</a>
+        </div>
+        <div class="affiliate-highlight fade-in">
+          <div class="affiliate-big-number">50%</div>
+          <div class="affiliate-big-label">Revenue Share</div>
+          <div class="affiliate-big-desc">For every user that subscribes through your link, you earn half. It's that simple.</div>
+          <div class="affiliate-example">
+            <div class="affiliate-example-title">Earnings Example</div>
+            <div class="affiliate-example-row">
+              <span>10 subscribers</span>
+              <span>€49.95/mo</span>
+            </div>
+            <div class="affiliate-example-row">
+              <span>50 subscribers</span>
+              <span>€249.75/mo</span>
+            </div>
+            <div class="affiliate-example-row">
+              <span>100 subscribers</span>
+              <span>€499.50/mo</span>
+            </div>
+          </div>
+          <a href="affiliate.html" class="btn-affiliate">Apply Now &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA Section -->
   <section class="cta" id="cta">
     <div class="bg-orb cyan"></div>
@@ -1910,6 +2137,7 @@
           <a href="terms-of-service.html">Terms of Service</a>
           <a href="health-disclaimer.html">Health Disclaimer</a>
           <a href="mailto:hello@aiweightcoach.app">Contact</a>
+          <a href="affiliate.html">Affiliate Program</a>
         </div>
       </div>
       <div class="footer-bottom">

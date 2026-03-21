@@ -1,35 +1,35 @@
 [
   {
-    "title": "How Much Should I Walk to Lose Weight Calculator?",
-    "slug": "how-much-should-i-walk-to-lose-weight-calculator",
-    "excerpt": "To lose weight through walking, aim for at least 150-300 minutes of moderate-intensity walking per week, or roughly 7,000-10,000 steps daily, combined with a calorie-controlled diet.",
-    "category": "exercise_and_weight",
-    "search_query": "how much should i walk to lose weight calculator",
-    "published_at": "2026-03-21T06:00:16.417879+00:00",
+    "title": "Foods That Boost Metabolism and Testosterone",
+    "slug": "foods-that-boost-metabolism-and-testosterone",
+    "excerpt": "To naturally boost metabolism and testosterone, prioritize nutrient-dense foods like lean proteins, healthy fats, fiber-rich carbohydrates, and key micronutrients such as zinc, vitamin D, and magnesium.",
+    "category": "nutrition_science",
+    "search_query": "foods that boost metabolism and testosterone",
+    "published_at": "2026-03-21T06:00:22.154100+00:00",
     "reading_time_min": 7,
-    "meta_title": "How Much to Walk for Weight Loss? Calculate Your Steps",
-    "meta_description": "To lose weight through walking, aim for 150-300 mins of moderate-intensity walking (7,000-10,000 steps) weekly, combined with a calorie deficit. Learn more.",
-    "keywords": "walk to lose weight, walking for weight loss, steps for weight loss, calories burned walking, weight loss exercise, walking program weight loss, how many steps to lose weight, brisk walking weight loss, walking calculator",
+    "meta_title": "Foods That Boost Metabolism & Testosterone Naturally",
+    "meta_description": "Discover nutrient-dense foods like lean proteins, healthy fats, and zinc-rich options that naturally boost metabolism and support healthy testosterone levels. Learn practical tips.",
+    "keywords": "foods that boost metabolism, foods that boost testosterone, metabolism boosting foods, testosterone boosting foods, zinc, vitamin D, healthy fats, lean protein, magnesium, AI Weight Coach",
     "linked_micros": [
       {
+        "type": "vitamins",
+        "slug": "essential-micronutrients-for-metabolism",
+        "name": "Essential Micronutrients for Metabolism"
+      },
+      {
         "type": "diets",
-        "slug": "calorie-deficit-strategies",
-        "name": "Calorie Deficit Strategies"
-      },
-      {
-        "type": "exercises",
-        "slug": "boosting-non-exercise-activity-neat",
-        "name": "Boosting Non-Exercise Activity (NEAT)"
-      },
-      {
-        "type": "myths",
-        "slug": "metabolism-myths-debunked",
-        "name": "Metabolism Myths Debunked"
+        "slug": "anti-inflammatory-diets",
+        "name": "Anti-Inflammatory Diets"
       },
       {
         "type": "conditions",
         "slug": "hormonal-imbalance-and-weight-gain",
         "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
       }
     ]
   },

@@ -16,9 +16,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Primary Meta Tags -->
-  <title>AI Weight Coach - Pitch Deck | The Future of AI-Powered Weight Loss</title>
-  <meta name="title" content="AI Weight Coach - Pitch Deck | The Future of AI-Powered Weight Loss">
-  <meta name="description" content="Explore AI Weight Coach's vision for sustainable weight loss. Photo-based tracking, proactive AI coaching, and personalized guidance at 10x less than human coaches.">
+  <title>The Future of AI-Powered Weight Loss | AI Weight Coach</title>
+  <meta name="title" content="The Future of AI-Powered Weight Loss | AI Weight Coach">
+  <meta name="description" content="Discover the future of AI-powered weight loss. Photo-based calorie tracking, proactive AI coaching, and personalized guidance that actually works. 10x cheaper than human coaches. Try free for 7 days.">
+  <meta name="keywords" content="future of AI-powered weight loss, AI weight loss, AI diet coach, AI calorie tracker, photo food tracking, proactive weight loss coaching, AI health coach, smart weight loss app">
   <meta name="robots" content="index, follow">
 
   <!-- Canonical URL -->
@@ -27,14 +28,14 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://aiweightcoach.app/pitch-deck.html">
-  <meta property="og:title" content="AI Weight Coach - Pitch Deck">
-  <meta property="og:description" content="Explore AI Weight Coach's vision for sustainable weight loss with AI-powered coaching.">
+  <meta property="og:title" content="The Future of AI-Powered Weight Loss | AI Weight Coach">
+  <meta property="og:description" content="Photo-based calorie tracking, proactive AI coaching, and personalized guidance. The future of weight loss is here.">
   <meta property="og:image" content="https://aiweightcoach.app/og-image.png">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AI Weight Coach - Pitch Deck">
-  <meta name="twitter:description" content="Explore AI Weight Coach's vision for sustainable weight loss.">
+  <meta name="twitter:title" content="The Future of AI-Powered Weight Loss | AI Weight Coach">
+  <meta name="twitter:description" content="Photo-based calorie tracking, proactive AI coaching, and personalized guidance. The future of weight loss is here.">
   <meta name="twitter:image" content="https://aiweightcoach.app/og-image.png">
 
   <!-- Theme Color -->
@@ -59,202 +60,218 @@
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       background: #0a0a1a;
       color: #fff;
-      overflow: hidden;
+      overflow-x: hidden;
     }
 
-    /* Slide container */
-    .deck-container {
-      width: 100vw;
-      height: 100vh;
-      position: relative;
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
     }
 
-    .slide {
-      width: 100%;
-      height: 100%;
-      position: absolute;
+    /* Navigation */
+    nav {
+      position: fixed;
       top: 0;
       left: 0;
-      display: none;
-      padding: 60px 80px;
-      background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 50%, #0f0f23 100%);
-      overflow: hidden;
+      right: 0;
+      z-index: 1000;
+      padding: 16px 0;
+      background: rgba(10, 10, 26, 0.9);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
 
-    .slide.active {
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
       display: flex;
-      flex-direction: column;
-      animation: fadeIn 0.5s ease;
+      align-items: center;
+      justify-content: space-between;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
     }
 
-    /* Animated background elements */
-    .bg-orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(80px);
-      pointer-events: none;
-      animation: float 8s ease-in-out infinite;
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
-    .bg-orb.cyan {
-      background: radial-gradient(circle, rgba(0, 217, 255, 0.3) 0%, transparent 70%);
+    .logo-text {
+      font-size: 18px;
+      font-weight: 700;
     }
 
-    .bg-orb.green {
-      background: radial-gradient(circle, rgba(0, 255, 148, 0.2) 0%, transparent 70%);
-    }
-
-    .bg-orb.orange {
-      background: radial-gradient(circle, rgba(255, 184, 0, 0.15) 0%, transparent 70%);
-    }
-
-    @keyframes float {
-      0%, 100% { transform: translate(0, 0); }
-      50% { transform: translate(30px, -30px); }
-    }
-
-    /* Typography */
-    .slide-number {
-      position: absolute;
-      top: 30px;
-      right: 40px;
-      color: rgba(255,255,255,0.3);
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
+      color: #0a0a1a;
+      padding: 10px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
       font-size: 14px;
-      font-weight: 500;
+      transition: transform 0.2s, box-shadow 0.2s;
     }
 
-    h1 {
-      font-size: 64px;
-      font-weight: 800;
-      line-height: 1.1;
-      margin-bottom: 24px;
-      background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.8) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    .nav-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 217, 255, 0.3);
     }
 
-    h1.gradient {
+    /* Gradient text */
+    .gradient-text {
       background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
-    h2 {
-      font-size: 48px;
-      font-weight: 700;
-      margin-bottom: 32px;
+    /* Sections */
+    section {
+      padding: 100px 0;
+      position: relative;
+      overflow: hidden;
     }
 
-    h3 {
-      font-size: 28px;
+    .bg-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      pointer-events: none;
+      opacity: 0.6;
+    }
+
+    .bg-orb.cyan { background: radial-gradient(circle, rgba(0, 217, 255, 0.25) 0%, transparent 70%); }
+    .bg-orb.green { background: radial-gradient(circle, rgba(0, 255, 148, 0.2) 0%, transparent 70%); }
+    .bg-orb.orange { background: radial-gradient(circle, rgba(255, 184, 0, 0.15) 0%, transparent 70%); }
+
+    .section-label {
+      display: inline-block;
+      padding: 6px 16px;
+      background: rgba(0, 217, 255, 0.1);
+      border: 1px solid rgba(0, 217, 255, 0.3);
+      border-radius: 20px;
+      color: #00D9FF;
+      font-size: 14px;
       font-weight: 600;
       margin-bottom: 16px;
-      color: #00D9FF;
     }
 
-    p {
-      font-size: 20px;
-      line-height: 1.6;
-      color: rgba(255,255,255,0.7);
-    }
-
-    .subtitle {
-      font-size: 24px;
-      color: rgba(255,255,255,0.6);
-      margin-bottom: 20px;
-    }
-
-    /* Layout helpers */
-    .flex {
-      display: flex;
-    }
-
-    .flex-1 {
-      flex: 1;
-    }
-
-    .gap-40 {
-      gap: 40px;
-    }
-
-    .gap-24 {
-      gap: 24px;
-    }
-
-    .items-center {
-      align-items: center;
-    }
-
-    .justify-center {
-      justify-content: center;
-    }
-
-    .text-center {
+    .section-header {
       text-align: center;
+      margin-bottom: 60px;
     }
 
-    /* Glass card */
-    .glass-card {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border-radius: 24px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      padding: 32px;
+    .section-title {
+      font-size: 44px;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 16px;
     }
 
-    .glass-card.highlight {
-      background: linear-gradient(135deg, rgba(0, 217, 255, 0.1) 0%, rgba(0, 255, 148, 0.1) 100%);
-      border: 1px solid rgba(0, 217, 255, 0.3);
+    .section-subtitle {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.6);
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
     }
 
-    /* Feature list */
-    .feature-list {
-      list-style: none;
+    /* Hero */
+    .hero {
+      padding: 160px 0 100px;
+      text-align: center;
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
     }
 
-    .feature-list li {
+    .hero h1 {
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+
+    .hero p.subtitle {
       font-size: 20px;
-      padding: 16px 0;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
+      color: rgba(255, 255, 255, 0.65);
+      max-width: 700px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+
+    /* Store badges */
+    .store-badges {
       display: flex;
-      align-items: center;
       gap: 16px;
-    }
-
-    .feature-list li:last-child {
-      border-bottom: none;
-    }
-
-    .feature-icon {
-      width: 48px;
-      height: 48px;
-      border-radius: 12px;
-      background: linear-gradient(135deg, rgba(0, 217, 255, 0.2) 0%, rgba(0, 255, 148, 0.2) 100%);
-      display: flex;
-      align-items: center;
       justify-content: center;
-      font-size: 24px;
+      flex-wrap: wrap;
     }
 
-    /* Stats grid */
+    .store-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #fff;
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 14px;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .store-badge:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(255, 255, 255, 0.15);
+    }
+
+    .store-badge-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .store-badge-text .label {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      color: #555;
+    }
+
+    .store-badge-text .store-name {
+      font-size: 17px;
+      font-weight: 700;
+      color: #000;
+    }
+
+    /* Problem stats */
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 24px;
+      margin-bottom: 48px;
     }
 
     .stat-card {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 20px;
-      padding: 32px;
+      padding: 40px 24px;
       text-align: center;
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .stat-value {
@@ -268,1038 +285,634 @@
 
     .stat-label {
       font-size: 16px;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255, 255, 255, 0.5);
     }
 
-    /* Timeline */
-    .timeline {
-      display: flex;
-      gap: 0;
-      position: relative;
-    }
-
-    .timeline-item {
-      flex: 1;
-      padding: 24px;
-      position: relative;
-    }
-
-    .timeline-item::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, #00D9FF, #00FF94);
-      border-radius: 2px;
-    }
-
-    .timeline-month {
-      font-size: 14px;
-      color: #00D9FF;
-      font-weight: 600;
-      margin-bottom: 12px;
-      margin-top: 16px;
-    }
-
-    .timeline-title {
-      font-size: 18px;
-      font-weight: 600;
-      color: #fff;
-      margin-bottom: 8px;
-    }
-
-    .timeline-desc {
-      font-size: 14px;
-      color: rgba(255,255,255,0.5);
-      line-height: 1.5;
-    }
-
-    /* Pricing cards */
-    .pricing-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 32px;
-      max-width: 900px;
-    }
-
-    .pricing-card {
+    /* Glass card */
+    .glass-card {
       background: rgba(255, 255, 255, 0.05);
-      border-radius: 24px;
-      padding: 40px;
-      border: 1px solid rgba(255,255,255,0.1);
-      position: relative;
-    }
-
-    .pricing-card.featured {
-      background: linear-gradient(135deg, rgba(0, 217, 255, 0.1) 0%, rgba(0, 255, 148, 0.1) 100%);
-      border: 2px solid rgba(0, 217, 255, 0.5);
-    }
-
-    .pricing-badge {
-      position: absolute;
-      top: -12px;
-      right: 24px;
-      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
-      padding: 6px 16px;
-      border-radius: 20px;
-      font-size: 12px;
-      font-weight: 700;
-      color: #0a0a1a;
-    }
-
-    .pricing-name {
-      font-size: 24px;
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
-
-    .pricing-price {
-      font-size: 48px;
-      font-weight: 800;
-      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 24px;
-    }
-
-    .pricing-price span {
-      font-size: 18px;
-      font-weight: 400;
-      -webkit-text-fill-color: rgba(255,255,255,0.5);
-    }
-
-    .pricing-features {
-      list-style: none;
-    }
-
-    .pricing-features li {
-      padding: 12px 0;
-      font-size: 16px;
-      color: rgba(255,255,255,0.7);
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .pricing-features li::before {
-      content: '✓';
-      color: #00FF94;
-      font-weight: 700;
-    }
-
-    /* Phone mockup in slides */
-    .phone-mockup {
-      width: 280px;
-      height: 580px;
-      background: linear-gradient(180deg, #1a1a2e 0%, #0f0f1a 100%);
-      border-radius: 40px;
-      padding: 10px;
-      box-shadow: 0 50px 100px rgba(0, 0, 0, 0.5), inset 0 0 0 2px rgba(255,255,255,0.1);
-      position: relative;
-      flex-shrink: 0;
-    }
-
-    .phone-notch {
-      position: absolute;
-      top: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 120px;
-      height: 28px;
-      background: #000;
-      border-radius: 16px;
-      z-index: 10;
-    }
-
-    .phone-screen {
-      width: 100%;
-      height: 100%;
-      border-radius: 32px;
-      overflow: hidden;
-      background: linear-gradient(180deg, #0a0a1a 0%, #1a1a3a 100%);
-    }
-
-    /* Demo phone with animation */
-    .demo-screen {
-      padding: 50px 16px 24px;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .demo-header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .demo-logo {
-      width: 60px;
-      height: 60px;
-      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
-      border-radius: 18px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 32px;
-      margin: 0 auto 12px;
-      box-shadow: 0 10px 30px rgba(0, 217, 255, 0.3);
-    }
-
-    .demo-title {
-      font-size: 18px;
-      font-weight: 700;
-      color: #fff;
-    }
-
-    .demo-subtitle {
-      font-size: 12px;
-      color: rgba(255,255,255,0.5);
-    }
-
-    .demo-card {
-      background: rgba(255, 255, 255, 0.08);
-      backdrop-filter: blur(10px);
-      border-radius: 16px;
-      padding: 16px;
-      margin-bottom: 12px;
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .demo-progress {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .demo-ring {
-      width: 60px;
-      height: 60px;
-      border-radius: 30px;
-      border: 4px solid rgba(255,255,255,0.1);
-      border-top-color: #00D9FF;
-      border-right-color: #00FF94;
-      animation: spin 3s linear infinite;
-    }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-
-    .demo-stats {
-      flex: 1;
-    }
-
-    .demo-stat-row {
-      display: flex;
-      justify-content: space-between;
-      font-size: 11px;
-      margin-bottom: 6px;
-    }
-
-    .demo-stat-label {
-      color: rgba(255,255,255,0.5);
-    }
-
-    .demo-stat-value {
-      color: #00D9FF;
-      font-weight: 600;
-    }
-
-    .demo-button {
-      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
-      border: none;
-      border-radius: 12px;
-      padding: 14px;
-      width: 100%;
-      color: #0a0a1a;
-      font-size: 14px;
-      font-weight: 600;
-      margin-top: auto;
-    }
-
-    /* Navigation */
-    .nav-bar {
-      position: fixed;
-      bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(20px);
-      border-radius: 30px;
-      padding: 12px 24px;
-      display: flex;
-      gap: 16px;
-      z-index: 1000;
-      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 32px;
     }
 
-    .nav-dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 6px;
-      background: rgba(255,255,255,0.3);
-      cursor: pointer;
-      transition: all 0.3s ease;
+    .glass-card.highlight {
+      background: linear-gradient(135deg, rgba(0, 217, 255, 0.1) 0%, rgba(0, 255, 148, 0.1) 100%);
+      border: 1px solid rgba(0, 217, 255, 0.3);
     }
 
-    .nav-dot.active {
-      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
-      width: 32px;
-    }
-
-    .nav-arrows {
-      position: fixed;
-      bottom: 30px;
-      right: 40px;
-      display: flex;
-      gap: 12px;
-      z-index: 1000;
-    }
-
-    .nav-arrow {
-      width: 50px;
-      height: 50px;
-      border-radius: 25px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255,255,255,0.2);
-      color: #fff;
-      font-size: 20px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.3s ease;
-    }
-
-    .nav-arrow:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
-
-    /* Principles grid */
-    .principles-grid {
+    /* Features grid */
+    .features-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 24px;
     }
 
-    .principle-card {
+    .feature-card {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 20px;
-      padding: 28px;
-      border: 1px solid rgba(255,255,255,0.1);
+      padding: 32px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
       transition: all 0.3s ease;
     }
 
-    .principle-card:hover {
+    .feature-card:hover {
       transform: translateY(-4px);
       border-color: rgba(0, 217, 255, 0.3);
     }
 
-    .principle-icon {
+    .feature-icon {
       font-size: 36px;
       margin-bottom: 16px;
     }
 
-    .principle-title {
+    .feature-title {
       font-size: 20px;
       font-weight: 600;
-      color: #fff;
       margin-bottom: 8px;
     }
 
-    .principle-desc {
+    .feature-desc {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 1.6;
+    }
+
+    /* How it works */
+    .steps-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .step {
+      text-align: center;
+      padding: 32px 16px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      position: relative;
+    }
+
+    .step-number {
+      font-size: 40px;
+      margin-bottom: 16px;
+    }
+
+    .step-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .step-desc {
       font-size: 14px;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255, 255, 255, 0.5);
       line-height: 1.5;
     }
 
-    /* Logo */
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      margin-bottom: 32px;
+    /* Comparison */
+    .comparison {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
     }
 
-    .logo-icon {
-      width: 64px;
-      height: 64px;
-      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
-      border-radius: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 36px;
-      box-shadow: 0 10px 40px rgba(0, 217, 255, 0.3);
-    }
-
-    .logo-text {
-      font-size: 28px;
+    .comparison-card h3 {
+      font-size: 22px;
       font-weight: 700;
+      margin-bottom: 20px;
     }
 
-    /* Interactive demo embed */
-    .demo-embed {
-      width: 100%;
-      max-width: 400px;
-      border-radius: 50px;
-      overflow: hidden;
-      box-shadow: 0 50px 100px rgba(0, 0, 0, 0.5);
+    .comparison-card ul {
+      list-style: none;
     }
 
-    /* Flow diagram */
-    .flow-container {
+    .comparison-card ul li {
       display: flex;
       align-items: center;
-      gap: 24px;
-      flex-wrap: wrap;
-      justify-content: center;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.7);
     }
 
-    .flow-step {
+    .comparison-card ul li:last-child {
+      border-bottom: none;
+    }
+
+    /* Coaching cards */
+    .coaching-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .coaching-card {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 20px;
-      padding: 24px;
-      text-align: center;
-      width: 160px;
-      border: 1px solid rgba(255,255,255,0.1);
+      padding: 28px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .flow-step-icon {
-      font-size: 40px;
-      margin-bottom: 12px;
-    }
-
-    .flow-step-title {
-      font-size: 14px;
-      font-weight: 600;
-      color: #fff;
-      margin-bottom: 4px;
-    }
-
-    .flow-step-desc {
-      font-size: 11px;
-      color: rgba(255,255,255,0.5);
-    }
-
-    .flow-arrow {
-      color: #00D9FF;
+    .coaching-card .emoji {
       font-size: 24px;
+      margin-right: 12px;
     }
 
-    /* Full width content */
-    .content-wrapper {
-      flex: 1;
+    .coaching-card h4 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .coaching-card p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.5);
+      line-height: 1.5;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .cta-section h2 {
+      font-size: 44px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .cta-section p {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 40px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-buttons {
       display: flex;
       flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .cta-divider {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.4);
+      font-weight: 500;
+    }
+
+    .affiliate-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 32px;
+      border-radius: 14px;
+      border: 2px solid rgba(255, 184, 0, 0.5);
+      background: rgba(255, 184, 0, 0.1);
+      color: #FFB800;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      transition: all 0.2s;
+    }
+
+    .affiliate-cta:hover {
+      background: rgba(255, 184, 0, 0.2);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(255, 184, 0, 0.15);
+    }
+
+    /* Pricing highlight */
+    .pricing-highlight {
+      display: flex;
+      align-items: center;
       justify-content: center;
-      position: relative;
-      z-index: 1;
+      gap: 32px;
+      margin-top: 48px;
+      flex-wrap: wrap;
+    }
+
+    .pricing-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 20px 32px;
+      text-align: center;
+    }
+
+    .pricing-pill .value {
+      font-size: 32px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #00D9FF 0%, #00FF94 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .pricing-pill .label {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.5);
+      margin-top: 4px;
+    }
+
+    /* Footer */
+    footer {
+      padding: 40px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.3);
+    }
+
+    footer a {
+      color: rgba(255, 255, 255, 0.5);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+
+    /* Fade in animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p.subtitle {
+        font-size: 16px;
+      }
+
+      .section-title {
+        font-size: 32px;
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .features-grid,
+      .comparison,
+      .coaching-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .steps-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .pricing-highlight {
+        flex-direction: column;
+      }
+
+      .stat-value {
+        font-size: 40px;
+      }
+
+      section {
+        padding: 60px 0;
+      }
+
+      .hero {
+        padding: 120px 0 60px;
+        min-height: auto;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="deck-container">
-
-    <!-- Slide 1: Title -->
-    <div class="slide active" id="slide-1">
-      <div class="bg-orb cyan" style="width: 500px; height: 500px; top: -200px; right: -100px;"></div>
-      <div class="bg-orb green" style="width: 400px; height: 400px; bottom: -100px; left: -100px;"></div>
-      <span class="slide-number">01</span>
-
-      <div class="content-wrapper">
-        <div class="flex items-center gap-40">
-          <div class="flex-1">
-            <div class="logo">
-              <div class="logo-icon"><img src="icon.png" alt="AI Weight Coach" style="width: 36px; height: 36px; border-radius: 10px;"></div>
-              <span class="logo-text">AI Weight Coach</span>
-            </div>
-            <h1>The Future of<br><span class="gradient">Weight Loss</span></h1>
-            <p class="subtitle">A proactive, vision-first AI coach that helps users lose weight realistically, sustainably, and with minimal manual effort.</p>
-            <p style="color: rgba(255,255,255,0.4); font-size: 16px;">Press → to navigate</p>
-          </div>
-
-          <div class="phone-mockup">
-            <div class="phone-notch"></div>
-            <div class="phone-screen">
-              <div class="demo-screen">
-                <div class="demo-header">
-                  <div class="demo-logo"><img src="icon.png" alt="AI Weight Coach" style="width: 36px; height: 36px; border-radius: 10px;"></div>
-                  <div class="demo-title">AI Weight Coach</div>
-                  <div class="demo-subtitle">Your pocket fitness expert</div>
-                </div>
-                <div class="demo-card">
-                  <div class="demo-progress">
-                    <div class="demo-ring"></div>
-                    <div class="demo-stats">
-                      <div class="demo-stat-row">
-                        <span class="demo-stat-label">Calories</span>
-                        <span class="demo-stat-value">820 / 1,680</span>
-                      </div>
-                      <div class="demo-stat-row">
-                        <span class="demo-stat-label">Protein</span>
-                        <span class="demo-stat-value">45g / 120g</span>
-                      </div>
-                      <div class="demo-stat-row">
-                        <span class="demo-stat-label">Mood</span>
-                        <span class="demo-stat-value">😊 Great</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="demo-card" style="background: linear-gradient(135deg, rgba(0, 217, 255, 0.15) 0%, rgba(0, 255, 148, 0.15) 100%); border-color: rgba(0, 217, 255, 0.3);">
-                  <div style="display: flex; align-items: center; gap: 10px;">
-                    <span style="font-size: 20px;">💡</span>
-                    <div>
-                      <div style="font-size: 11px; color: #00D9FF; font-weight: 600;">AI Coach Tip</div>
-                      <div style="font-size: 12px; color: rgba(255,255,255,0.8);">Add protein before dinner!</div>
-                    </div>
-                  </div>
-                </div>
-                <button class="demo-button">📷 Log Food</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slide 2: Problem -->
-    <div class="slide" id="slide-2">
-      <div class="bg-orb orange" style="width: 400px; height: 400px; top: 50%; right: -100px; transform: translateY(-50%);"></div>
-      <span class="slide-number">02</span>
-
-      <div class="content-wrapper">
-        <h2>The Problem</h2>
-        <p class="subtitle">Why traditional weight loss apps fail</p>
-
-        <div class="stats-grid" style="margin-bottom: 48px;">
-          <div class="stat-card">
-            <div class="stat-value">95%</div>
-            <div class="stat-label">of diets fail within 5 years</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value">73%</div>
-            <div class="stat-label">quit tracking within 2 weeks</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value">80%</div>
-            <div class="stat-label">want a coach, can't afford one</div>
-          </div>
-        </div>
-
-        <div class="glass-card">
-          <h3 style="margin-bottom: 20px;">Current Solutions Fall Short</h3>
-          <div class="flex gap-40">
-            <div class="flex-1">
-              <p style="font-size: 16px; margin-bottom: 12px;">❌ Manual calorie logging is tedious</p>
-              <p style="font-size: 16px; margin-bottom: 12px;">❌ Generic advice doesn't adapt to behavior</p>
-              <p style="font-size: 16px;">❌ Motivation disappears after initial excitement</p>
-            </div>
-            <div class="flex-1">
-              <p style="font-size: 16px; margin-bottom: 12px;">❌ No intervention before failure happens</p>
-              <p style="font-size: 16px; margin-bottom: 12px;">❌ Unrealistic goal setting leads to burnout</p>
-              <p style="font-size: 16px;">❌ Human coaches cost $200-500/month</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slide 3: Solution -->
-    <div class="slide" id="slide-3">
-      <div class="bg-orb cyan" style="width: 600px; height: 600px; top: -200px; left: -200px;"></div>
-      <div class="bg-orb green" style="width: 300px; height: 300px; bottom: -50px; right: 100px;"></div>
-      <span class="slide-number">03</span>
-
-      <div class="content-wrapper">
-        <h2>Our Solution</h2>
-        <p class="subtitle">AI coaching that actually works</p>
-
-        <div class="principles-grid">
-          <div class="principle-card">
-            <div class="principle-icon">📸</div>
-            <div class="principle-title">Vision-First</div>
-            <div class="principle-desc">Snap a photo of your meal. AI estimates calories, portions, and macros instantly. No manual input needed.</div>
-          </div>
-          <div class="principle-card">
-            <div class="principle-icon">🎯</div>
-            <div class="principle-title">Honest Goals</div>
-            <div class="principle-desc">AI reality-checks your goals with achievable timelines. No false promises, just sustainable results.</div>
-          </div>
-          <div class="principle-card">
-            <div class="principle-icon">🤖</div>
-            <div class="principle-title">Proactive Coaching</div>
-            <div class="principle-desc">Detects patterns and intervenes before bad habits form. Weekend overeating? We'll warn you Friday.</div>
-          </div>
-          <div class="principle-card">
-            <div class="principle-icon">✨</div>
-            <div class="principle-title">Low Friction</div>
-            <div class="principle-desc">Minimal manual input. Just snap photos and live your life. The AI handles the rest.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slide 4: How It Works - Onboarding -->
-    <div class="slide" id="slide-4">
-      <div class="bg-orb green" style="width: 400px; height: 400px; top: -100px; right: 200px;"></div>
-      <span class="slide-number">04</span>
-
-      <div class="content-wrapper">
-        <h2>Smart Onboarding</h2>
-        <p class="subtitle">Establish trust and set realistic expectations</p>
-
-        <div class="flex items-center gap-40">
-          <div class="flex-1">
-            <div class="flow-container">
-              <div class="flow-step">
-                <div class="flow-step-icon">📋</div>
-                <div class="flow-step-title">User Basics</div>
-                <div class="flow-step-desc">Age, sex, height, weight, activity</div>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <div class="flow-step-icon">📸</div>
-                <div class="flow-step-title">Body Photo</div>
-                <div class="flow-step-desc">Front & side analysis</div>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <div class="flow-step-icon">🎯</div>
-                <div class="flow-step-title">Set Goals</div>
-                <div class="flow-step-desc">Target weight or visual</div>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <div class="flow-step-icon">🤖</div>
-                <div class="flow-step-title">AI Check</div>
-                <div class="flow-step-desc">Reality, risks, timeline</div>
-              </div>
-            </div>
-
-            <div class="glass-card highlight" style="margin-top: 40px;">
-              <h3 style="font-size: 18px; margin-bottom: 12px;">AI Reality Check Example</h3>
-              <p style="font-size: 15px; color: #fff; line-height: 1.6;">
-                "Losing 7kg is achievable in <strong style="color: #00D9FF;">3-4 months</strong> with consistent effort. This means a ~500 calorie daily deficit, 0.5-0.75 kg loss per week. Sustainable, no crash dieting required."
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slide 5: Food Photo AI -->
-    <div class="slide" id="slide-5">
-      <div class="bg-orb cyan" style="width: 500px; height: 500px; bottom: -200px; left: -100px;"></div>
-      <span class="slide-number">05</span>
-
-      <div class="content-wrapper">
-        <div class="flex items-center gap-40">
-          <div class="flex-1">
-            <h2>Food Tracking<br>Made Effortless</h2>
-            <p class="subtitle">Just snap a photo. AI does the rest.</p>
-
-            <ul class="feature-list">
-              <li>
-                <div class="feature-icon">📸</div>
-                <div>
-                  <strong style="color: #fff;">Instant Recognition</strong>
-                  <p style="font-size: 14px; margin-top: 4px;">AI identifies food type, portion size, and individual ingredients</p>
-                </div>
-              </li>
-              <li>
-                <div class="feature-icon">📊</div>
-                <div>
-                  <strong style="color: #fff;">Accurate Estimation</strong>
-                  <p style="font-size: 14px; margin-top: 4px;">Calories and macros with confidence ranges (e.g., 450-520 cal)</p>
-                </div>
-              </li>
-              <li>
-                <div class="feature-icon">🍺</div>
-                <div>
-                  <strong style="color: #fff;">Full Coverage</strong>
-                  <p style="font-size: 14px; margin-top: 4px;">Meals, snacks, drinks, and alcohol automatically detected</p>
-                </div>
-              </li>
-              <li>
-                <div class="feature-icon">✏️</div>
-                <div>
-                  <strong style="color: #fff;">Optional Correction</strong>
-                  <p style="font-size: 14px; margin-top: 4px;">Fine-tune if needed, but most users never do</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="phone-mockup">
-            <div class="phone-notch"></div>
-            <div class="phone-screen">
-              <div class="demo-screen" style="padding-top: 60px;">
-                <div style="text-align: center; margin-bottom: 16px;">
-                  <span style="font-size: 14px; color: #00D9FF;">← Back</span>
-                </div>
-                <div style="height: 140px; background: linear-gradient(135deg, #2a2a2a, #1a1a1a); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; position: relative;">
-                  <span style="font-size: 50px;">🥗</span>
-                  <div style="position: absolute; bottom: 10px; right: 10px; background: rgba(0, 217, 255, 0.9); padding: 4px 10px; border-radius: 6px;">
-                    <span style="color: #000; font-size: 10px; font-weight: 600;">✓ Analyzed</span>
-                  </div>
-                </div>
-                <div class="demo-card">
-                  <div style="font-size: 16px; font-weight: 600; color: #fff; margin-bottom: 6px;">Grilled Chicken Salad</div>
-                  <div style="font-size: 11px; color: rgba(255,255,255,0.5); margin-bottom: 12px;">chicken, greens, tomatoes, cucumber, dressing</div>
-                  <div style="display: flex; justify-content: space-between; text-align: center;">
-                    <div>
-                      <div style="font-size: 20px; font-weight: 700; background: linear-gradient(135deg, #00D9FF, #00FF94); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">485</div>
-                      <div style="font-size: 9px; color: rgba(255,255,255,0.5);">calories</div>
-                    </div>
-                    <div>
-                      <div style="font-size: 20px; font-weight: 700; color: #00D9FF;">42g</div>
-                      <div style="font-size: 9px; color: rgba(255,255,255,0.5);">protein</div>
-                    </div>
-                    <div>
-                      <div style="font-size: 20px; font-weight: 700; color: #00FF94;">18g</div>
-                      <div style="font-size: 9px; color: rgba(255,255,255,0.5);">carbs</div>
-                    </div>
-                    <div>
-                      <div style="font-size: 20px; font-weight: 700; color: #FFB800;">24g</div>
-                      <div style="font-size: 9px; color: rgba(255,255,255,0.5);">fat</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="demo-card" style="padding: 12px;">
-                  <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <span style="font-size: 11px; color: rgba(255,255,255,0.6);">AI Confidence</span>
-                    <span style="font-size: 11px; color: #00FF94; font-weight: 600;">High (92%)</span>
-                  </div>
-                </div>
-                <button class="demo-button">Log This Meal</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slide 6: Proactive Coaching -->
-    <div class="slide" id="slide-6">
-      <div class="bg-orb orange" style="width: 450px; height: 450px; top: -100px; left: 50%; transform: translateX(-50%);"></div>
-      <span class="slide-number">06</span>
-
-      <div class="content-wrapper">
-        <h2>Proactive AI Coaching</h2>
-        <p class="subtitle">Intervene before failure, not after</p>
-
-        <div class="flex items-center gap-40">
-          <div class="flex-1">
-            <div class="glass-card" style="margin-bottom: 24px; background: linear-gradient(135deg, rgba(255, 107, 0, 0.1) 0%, rgba(255, 184, 0, 0.1) 100%); border-color: rgba(255, 184, 0, 0.3);">
-              <div style="display: flex; align-items: flex-start; gap: 16px;">
-                <span style="font-size: 32px;">⚠️</span>
-                <div>
-                  <h3 style="color: #FFB800; font-size: 18px; margin-bottom: 8px;">Pattern Detection</h3>
-                  <p style="font-size: 15px; color: #fff;">
-                    "I've noticed you tend to exceed your calorie budget on Saturdays (+400 avg). It's Friday—want me to suggest a strategy for tomorrow?"
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="glass-card" style="margin-bottom: 24px;">
-              <h3 style="font-size: 18px; margin-bottom: 16px;">Behavior Intelligence</h3>
-              <div style="display: flex; flex-direction: column; gap: 12px;">
-                <div style="display: flex; align-items: center; gap: 12px;">
-                  <span style="font-size: 24px;">🌙</span>
-                  <div style="flex: 1;">
-                    <p style="color: #fff; font-size: 14px;">Late Night Eating</p>
-                    <p style="color: rgba(255,255,255,0.5); font-size: 12px;">3 times this week after 9pm</p>
-                  </div>
-                  <span style="background: rgba(255, 107, 0, 0.2); color: #FF6B00; padding: 4px 10px; border-radius: 6px; font-size: 11px;">Watch</span>
-                </div>
-                <div style="display: flex; align-items: center; gap: 12px;">
-                  <span style="font-size: 24px;">📅</span>
-                  <div style="flex: 1;">
-                    <p style="color: #fff; font-size: 14px;">Weekend Pattern</p>
-                    <p style="color: rgba(255,255,255,0.5); font-size: 12px;">+35% calories Sat & Sun</p>
-                  </div>
-                  <span style="background: rgba(255, 184, 0, 0.2); color: #FFB800; padding: 4px 10px; border-radius: 6px; font-size: 11px;">Improve</span>
-                </div>
-                <div style="display: flex; align-items: center; gap: 12px;">
-                  <span style="font-size: 24px;">🥗</span>
-                  <div style="flex: 1;">
-                    <p style="color: #fff; font-size: 14px;">Vegetable Intake</p>
-                    <p style="color: rgba(255,255,255,0.5); font-size: 12px;">Great variety this week!</p>
-                  </div>
-                  <span style="background: rgba(0, 255, 148, 0.2); color: #00FF94; padding: 4px 10px; border-radius: 6px; font-size: 11px;">Great</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex-1">
-            <div class="glass-card highlight">
-              <h3 style="font-size: 18px; margin-bottom: 16px;">Context-Aware Nudges</h3>
-              <p style="font-size: 14px; color: rgba(255,255,255,0.7); line-height: 1.6; margin-bottom: 16px;">
-                The AI combines multiple signals to deliver the right message at the right time:
-              </p>
-              <ul style="list-style: none;">
-                <li style="display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                  <span style="font-size: 20px;">😔</span>
-                  <span style="font-size: 14px; color: #fff;">Low mood → comfort eating prevention</span>
-                </li>
-                <li style="display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                  <span style="font-size: 20px;">😊</span>
-                  <span style="font-size: 14px; color: #fff;">Great mood → maximize motivation</span>
-                </li>
-                <li style="display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                  <span style="font-size: 20px;">📊</span>
-                  <span style="font-size: 14px; color: #fff;">Consistency drop → motivation boost</span>
-                </li>
-                <li style="display: flex; align-items: center; gap: 12px; padding: 10px 0;">
-                  <span style="font-size: 20px;">🎉</span>
-                  <span style="font-size: 14px; color: #fff;">Milestone reached → celebration</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slide 7: Mood & Behavior Tracking -->
-    <div class="slide" id="slide-7">
-      <div class="bg-orb cyan" style="width: 400px; height: 400px; bottom: -150px; right: -100px;"></div>
-      <span class="slide-number">07</span>
-
-      <div class="content-wrapper">
-        <h2>Mood & Behavior Tracking</h2>
-        <p class="subtitle">Understanding the emotional side of eating</p>
-
-        <div class="flex gap-40">
-          <div class="flex-1">
-            <div class="glass-card" style="margin-bottom: 24px;">
-              <h3 style="font-size: 20px; margin-bottom: 20px;">Daily Mood Check-in</h3>
-              <div style="display: flex; gap: 16px;">
-                <div style="flex: 1; text-align: center; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px;">
-                  <span style="font-size: 36px;">😊</span>
-                  <p style="font-size: 14px; color: #fff; margin-top: 8px;">Great</p>
-                </div>
-                <div style="flex: 1; text-align: center; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px;">
-                  <span style="font-size: 36px;">🙂</span>
-                  <p style="font-size: 14px; color: #fff; margin-top: 8px;">Good</p>
-                </div>
-                <div style="flex: 1; text-align: center; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px;">
-                  <span style="font-size: 36px;">😐</span>
-                  <p style="font-size: 14px; color: #fff; margin-top: 8px;">Okay</p>
-                </div>
-                <div style="flex: 1; text-align: center; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px;">
-                  <span style="font-size: 36px;">😔</span>
-                  <p style="font-size: 14px; color: #fff; margin-top: 8px;">Low</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="glass-card highlight">
-              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
-                <span style="font-size: 24px;">🧠</span>
-                <h3 style="font-size: 20px; margin: 0;">AI Mood-Food Correlation</h3>
-              </div>
-              <p style="font-size: 15px; color: rgba(255,255,255,0.8); line-height: 1.6;">
-                The AI learns how your mood affects eating patterns. Feeling stressed? Get tips to avoid comfort eating. Having a great day? Maximize your motivation.
-              </p>
-              <div style="display: flex; gap: 12px; margin-top: 16px;">
-                <div style="flex: 1; padding: 12px; background: rgba(0, 217, 255, 0.1); border-radius: 12px; text-align: center;">
-                  <span style="font-size: 24px;">📊</span>
-                  <p style="font-size: 12px; color: #fff; margin-top: 4px;">Pattern Detection</p>
-                </div>
-                <div style="flex: 1; padding: 12px; background: rgba(0, 217, 255, 0.1); border-radius: 12px; text-align: center;">
-                  <span style="font-size: 24px;">💡</span>
-                  <p style="font-size: 12px; color: #fff; margin-top: 4px;">Smart Tips</p>
-                </div>
-                <div style="flex: 1; padding: 12px; background: rgba(0, 217, 255, 0.1); border-radius: 12px; text-align: center;">
-                  <span style="font-size: 24px;">🎯</span>
-                  <p style="font-size: 12px; color: #fff; margin-top: 4px;">Better Outcomes</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <!-- Slide 8: What Makes Us Different -->
-      <div class="slide" id="slide-8">
-          <div class="bg-orb orange" style="width: 350px; height: 350px; top: 100px; right: 100px;"></div>
-          <span class="slide-number">08</span>
-
-          <div class="content-wrapper">
-              <h2>What Makes Us Different</h2>
-              <p class="subtitle">The AI coaching advantage</p>
-
-              <div class="flex gap-40">
-                  <div class="flex-1">
-                      <div class="glass-card" style="margin-bottom: 24px;">
-                          <h3 style="font-size: 20px; margin-bottom: 20px;">Traditional Solutions Fall Short</h3>
-                          <ul style="list-style: none;">
-                              <li style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                                  <span style="font-size: 20px; color: rgba(255,255,255,0.3);">✗</span>
-                                  <span style="font-size: 15px; color: rgba(255,255,255,0.7);">Manual calorie logging is tedious and inaccurate</span>
-                              </li>
-                              <li style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                                  <span style="font-size: 20px; color: rgba(255,255,255,0.3);">✗</span>
-                                  <span style="font-size: 15px; color: rgba(255,255,255,0.7);">Generic advice that doesn't adapt to your behavior</span>
-                              </li>
-                              <li style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                                  <span style="font-size: 20px; color: rgba(255,255,255,0.3);">✗</span>
-                                  <span style="font-size: 15px; color: rgba(255,255,255,0.7);">Human coaches cost €200-500/month</span>
-                              </li>
-                              <li style="display: flex; align-items: center; gap: 12px; padding: 12px 0;">
-                                  <span style="font-size: 20px; color: rgba(255,255,255,0.3);">✗</span>
-                                  <span style="font-size: 15px; color: rgba(255,255,255,0.7);">Reactive support only after problems occur</span>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-
-                  <div class="flex-1">
-                      <div class="glass-card highlight">
-                          <h3 style="font-size: 20px; margin-bottom: 20px;">AI Weight Coach Delivers</h3>
-                          <ul style="list-style: none;">
-                              <li style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                                  <span style="font-size: 20px; color: #00FF94;">✓</span>
-                                  <span style="font-size: 15px; color: #fff;">Snap a photo, AI does the rest in seconds</span>
-                              </li>
-                              <li style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                                  <span style="font-size: 20px; color: #00FF94;">✓</span>
-                                  <span style="font-size: 15px; color: #fff;">Proactive coaching that learns your patterns</span>
-                              </li>
-                              <li style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                                  <span style="font-size: 20px; color: #00FF94;">✓</span>
-                                  <span style="font-size: 15px; color: #fff;">Just €9.99/month - accessible to everyone</span>
-                              </li>
-                              <li style="display: flex; align-items: center; gap: 12px; padding: 12px 0;">
-                                  <span style="font-size: 20px; color: #00FF94;">✓</span>
-                                  <span style="font-size: 15px; color: #fff;">Intervenes before bad habits form</span>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-      <!-- Slide 9: Pricing -->
-    <div class="slide" id="slide-9">
-      <div class="bg-orb cyan" style="width: 500px; height: 500px; top: -200px; right: -150px;"></div>
-      <div class="bg-orb green" style="width: 400px; height: 400px; bottom: -100px; left: -100px;"></div>
-      <span class="slide-number">09</span>
-
-      <div class="content-wrapper text-center">
-        <h2>Simple, Transparent Pricing</h2>
-        <p class="subtitle">Start free, upgrade when you're ready</p>
-
-        <div class="pricing-grid" style="margin: 0 auto;">
-          <div class="pricing-card">
-            <div class="pricing-name">Basic</div>
-            <div class="pricing-price">Free</div>
-            <ul class="pricing-features">
-              <li>Food photo → calorie estimation</li>
-              <li>Daily calorie budget</li>
-              <li>Basic progress tracking</li>
-              <li>Manual corrections</li>
-            </ul>
-          </div>
-
-          <div class="pricing-card featured">
-            <div class="pricing-badge">RECOMMENDED</div>
-            <div class="pricing-name">Pro</div>
-            <div class="pricing-price">€9.99<span>/month</span></div>
-            <p style="font-size: 14px; color: #00FF94; margin-bottom: 16px; font-weight: 600;">7-Day Free Trial Included</p>
-            <ul class="pricing-features">
-              <li>Everything in Basic</li>
-              <li>Full body analysis & goal realism</li>
-              <li>Proactive AI coaching & motivation</li>
-              <li>Macro analysis & habit detection</li>
-              <li>Mood tracking & correlation</li>
-              <li>Weekly AI coach check-ins</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
 
   <!-- Navigation -->
-  <div class="nav-bar">
-    <div class="nav-dot active" onclick="goToSlide(1)"></div>
-    <div class="nav-dot" onclick="goToSlide(2)"></div>
-    <div class="nav-dot" onclick="goToSlide(3)"></div>
-    <div class="nav-dot" onclick="goToSlide(4)"></div>
-    <div class="nav-dot" onclick="goToSlide(5)"></div>
-    <div class="nav-dot" onclick="goToSlide(6)"></div>
-    <div class="nav-dot" onclick="goToSlide(7)"></div>
-    <div class="nav-dot" onclick="goToSlide(8)"></div>
-    <div class="nav-dot" onclick="goToSlide(9)"></div>
-  </div>
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <div class="logo-icon"><img src="icon.png" alt="AI Weight Coach" style="width: 24px; height: 24px; border-radius: 6px;"></div>
+        <span class="logo-text">AI Weight Coach</span>
+      </a>
+      <a href="https://apps.apple.com/us/app/ai-weight-coach/id6758988519" target="_blank" rel="noopener" class="nav-cta">Download Free</a>
+    </div>
+  </nav>
 
-  <div class="nav-arrows">
-    <button class="nav-arrow" onclick="prevSlide()">←</button>
-    <button class="nav-arrow" onclick="nextSlide()">→</button>
-  </div>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="bg-orb cyan" style="width: 600px; height: 600px; top: -200px; right: -200px;"></div>
+    <div class="bg-orb green" style="width: 500px; height: 500px; bottom: -100px; left: -200px;"></div>
+    <div class="container">
+      <span class="section-label fade-in">The Future Is Here</span>
+      <h1 class="fade-in">The Future of<br><span class="gradient-text">AI-Powered Weight Loss</span></h1>
+      <p class="subtitle fade-in">A proactive AI coach that sees what you eat, learns your patterns, and intervenes before bad habits form. Sustainable weight loss at a fraction of the cost of a human coach.</p>
+      <div class="store-badges fade-in">
+        <a href="https://play.google.com/store/apps/details?id=com.aiweightcoach.app&hl=en" target="_blank" rel="noopener" class="store-badge">
+          <svg class="kOqhQd" aria-hidden="true" width="26" height="26" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0,0h40v40H0V0z"></path><g><path d="M19.7,19.2L4.3,35.3c0,0,0,0,0,0c0.5,1.7,2.1,3,4,3c0.8,0,1.5-0.2,2.1-0.6l0,0l17.4-9.9L19.7,19.2z" fill="#EA4335"></path><path d="M35.3,16.4L35.3,16.4l-7.5-4.3l-8.4,7.4l8.5,8.3l7.5-4.2c1.3-0.7,2.2-2.1,2.2-3.6C37.5,18.5,36.6,17.1,35.3,16.4z" fill="#FBBC04"></path><path d="M4.3,4.7C4.2,5,4.2,5.4,4.2,5.8v28.5c0,0.4,0,0.7,0.1,1.1l16-15.7L4.3,4.7z" fill="#4285F4"></path><path d="M19.8,20l8-7.9L10.5,2.3C9.9,1.9,9.1,1.7,8.3,1.7c-1.9,0-3.6,1.3-4,3c0,0,0,0,0,0L19.8,20z" fill="#34A853"></path></g></svg>
+          <span class="store-badge-text">
+            <span class="label">GET IT ON</span>
+            <span class="store-name">Google Play</span>
+          </span>
+        </a>
+        <a href="https://apps.apple.com/us/app/ai-weight-coach/id6758988519" target="_blank" rel="noopener" class="store-badge">
+          <svg width="26" height="26" viewBox="0 0 24 24"><path fill="#000" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          <span class="store-badge-text">
+            <span class="label">DOWNLOAD ON THE</span>
+            <span class="store-name">App Store</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Problem -->
+  <section>
+    <div class="bg-orb orange" style="width: 400px; height: 400px; top: -100px; right: -100px;"></div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">The Problem</span>
+        <h2 class="section-title">Why Traditional Weight Loss <span class="gradient-text">Fails</span></h2>
+        <p class="section-subtitle">Most people know what to eat. The problem is staying consistent without support.</p>
+      </div>
+
+      <div class="stats-grid fade-in">
+        <div class="stat-card">
+          <div class="stat-value">95%</div>
+          <div class="stat-label">of diets fail within 5 years</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">73%</div>
+          <div class="stat-label">quit tracking within 2 weeks</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">80%</div>
+          <div class="stat-label">want a coach, can't afford one</div>
+        </div>
+      </div>
+
+      <div class="glass-card fade-in">
+        <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+          <div style="flex: 1; min-width: 250px;">
+            <p style="font-size: 16px; margin-bottom: 12px; color: rgba(255,255,255,0.7);">&#10060; Manual calorie logging is tedious</p>
+            <p style="font-size: 16px; margin-bottom: 12px; color: rgba(255,255,255,0.7);">&#10060; Generic advice doesn't adapt to behavior</p>
+            <p style="font-size: 16px; color: rgba(255,255,255,0.7);">&#10060; Motivation disappears after initial excitement</p>
+          </div>
+          <div style="flex: 1; min-width: 250px;">
+            <p style="font-size: 16px; margin-bottom: 12px; color: rgba(255,255,255,0.7);">&#10060; No intervention before failure happens</p>
+            <p style="font-size: 16px; margin-bottom: 12px; color: rgba(255,255,255,0.7);">&#10060; Unrealistic goal setting leads to burnout</p>
+            <p style="font-size: 16px; color: rgba(255,255,255,0.7);">&#10060; Human coaches cost $200-500/month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Solution -->
+  <section>
+    <div class="bg-orb cyan" style="width: 600px; height: 600px; top: -200px; left: -200px;"></div>
+    <div class="bg-orb green" style="width: 300px; height: 300px; bottom: -50px; right: 100px;"></div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">The Solution</span>
+        <h2 class="section-title">AI Coaching That <span class="gradient-text">Actually Works</span></h2>
+        <p class="section-subtitle">AI Weight Coach combines computer vision, behavioral AI, and proactive coaching into one effortless experience.</p>
+      </div>
+
+      <div class="features-grid fade-in">
+        <div class="feature-card">
+          <div class="feature-icon">&#128248;</div>
+          <div class="feature-title">Vision-First Tracking</div>
+          <div class="feature-desc">Snap a photo of your meal. AI estimates calories, portions, and macros instantly. No manual input needed.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#127919;</div>
+          <div class="feature-title">Honest, Realistic Goals</div>
+          <div class="feature-desc">AI reality-checks your goals with achievable timelines. No false promises, just sustainable results.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#129302;</div>
+          <div class="feature-title">Proactive Coaching</div>
+          <div class="feature-desc">Detects patterns and intervenes before bad habits form. Weekend overeating? We'll warn you on Friday.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#10024;</div>
+          <div class="feature-title">Zero Friction</div>
+          <div class="feature-desc">Minimal manual input. Just snap photos and live your life. The AI handles the rest.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section>
+    <div class="bg-orb green" style="width: 400px; height: 400px; top: -100px; right: 200px;"></div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Start in <span class="gradient-text">Minutes</span>, See Results in Weeks</h2>
+      </div>
+
+      <div class="steps-container fade-in">
+        <div class="step">
+          <div class="step-number">&#128203;</div>
+          <div class="step-title">Quick Onboarding</div>
+          <div class="step-desc">Tell us your basics: age, weight, activity level. Optional body photo for composition analysis.</div>
+        </div>
+        <div class="step">
+          <div class="step-number">&#128248;</div>
+          <div class="step-title">Snap Your Meals</div>
+          <div class="step-desc">Just photograph your food. AI identifies it, estimates calories and macros with 92% confidence.</div>
+        </div>
+        <div class="step">
+          <div class="step-number">&#129302;</div>
+          <div class="step-title">Get AI Coaching</div>
+          <div class="step-desc">Receive personalized tips, behavior insights, and proactive nudges to stay on track.</div>
+        </div>
+        <div class="step">
+          <div class="step-number">&#127881;</div>
+          <div class="step-title">See Results</div>
+          <div class="step-desc">Track progress with visual comparisons. Celebrate milestones as the AI adjusts your plan.</div>
+        </div>
+      </div>
+
+      <div class="glass-card highlight fade-in" style="margin-top: 48px; max-width: 700px; margin-left: auto; margin-right: auto; text-align: center;">
+        <h3 style="color: #00D9FF; font-size: 18px; margin-bottom: 12px;">AI Reality Check Example</h3>
+        <p style="font-size: 16px; color: #fff; line-height: 1.6;">
+          "Losing 7kg is achievable in <strong style="color: #00D9FF;">3-4 months</strong> with consistent effort. This means a ~500 calorie daily deficit, 0.5-0.75 kg loss per week. Sustainable, no crash dieting required."
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proactive Coaching -->
+  <section>
+    <div class="bg-orb orange" style="width: 450px; height: 450px; top: -100px; left: 50%; transform: translateX(-50%);"></div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Smart Coaching</span>
+        <h2 class="section-title">Intervenes <span class="gradient-text">Before</span> You Fail</h2>
+        <p class="section-subtitle">Unlike traditional apps that only track past behavior, AI Weight Coach predicts and prevents problems.</p>
+      </div>
+
+      <div class="glass-card fade-in" style="margin-bottom: 32px; background: linear-gradient(135deg, rgba(255, 107, 0, 0.1) 0%, rgba(255, 184, 0, 0.1) 100%); border-color: rgba(255, 184, 0, 0.3); max-width: 800px; margin-left: auto; margin-right: auto;">
+        <div style="display: flex; align-items: flex-start; gap: 16px;">
+          <span style="font-size: 32px;">&#9888;&#65039;</span>
+          <div>
+            <h3 style="color: #FFB800; font-size: 18px; margin-bottom: 8px;">Pattern Detection in Action</h3>
+            <p style="font-size: 16px; color: #fff; line-height: 1.6;">
+              "I've noticed you tend to exceed your calorie budget on Saturdays (+400 avg). It's Friday -- want me to suggest a strategy for tomorrow?"
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="coaching-grid fade-in">
+        <div class="coaching-card">
+          <div style="display: flex; align-items: center; margin-bottom: 12px;">
+            <span class="emoji">&#128556;</span>
+            <h4>Low mood detected</h4>
+          </div>
+          <p>Comfort eating prevention tips and healthier alternatives before cravings hit.</p>
+        </div>
+        <div class="coaching-card">
+          <div style="display: flex; align-items: center; margin-bottom: 12px;">
+            <span class="emoji">&#128522;</span>
+            <h4>Great mood detected</h4>
+          </div>
+          <p>Maximize your motivation with stretch goals and positive reinforcement.</p>
+        </div>
+        <div class="coaching-card">
+          <div style="display: flex; align-items: center; margin-bottom: 12px;">
+            <span class="emoji">&#128200;</span>
+            <h4>Consistency dropping</h4>
+          </div>
+          <p>Motivation boost and adjusted targets to get you back on track gently.</p>
+        </div>
+        <div class="coaching-card">
+          <div style="display: flex; align-items: center; margin-bottom: 12px;">
+            <span class="emoji">&#127881;</span>
+            <h4>Milestone reached</h4>
+          </div>
+          <p>Celebration and recalibration to keep momentum going strong.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison -->
+  <section>
+    <div class="bg-orb cyan" style="width: 400px; height: 400px; bottom: -150px; right: -100px;"></div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Why AI Weight Coach</span>
+        <h2 class="section-title">What Makes Us <span class="gradient-text">Different</span></h2>
+      </div>
+
+      <div class="comparison fade-in">
+        <div class="glass-card comparison-card">
+          <h3 style="color: rgba(255,255,255,0.4);">Traditional Solutions</h3>
+          <ul>
+            <li><span style="color: rgba(255,255,255,0.3);">&#10007;</span> Manual calorie logging is tedious and inaccurate</li>
+            <li><span style="color: rgba(255,255,255,0.3);">&#10007;</span> Generic advice that doesn't adapt to your behavior</li>
+            <li><span style="color: rgba(255,255,255,0.3);">&#10007;</span> Human coaches cost &euro;200-500/month</li>
+            <li><span style="color: rgba(255,255,255,0.3);">&#10007;</span> Reactive support only after problems occur</li>
+          </ul>
+        </div>
+        <div class="glass-card highlight comparison-card">
+          <h3 style="color: #00FF94;">AI Weight Coach</h3>
+          <ul>
+            <li><span style="color: #00FF94; font-weight: 700;">&#10003;</span> <span style="color: #fff;">Snap a photo, AI does the rest in seconds</span></li>
+            <li><span style="color: #00FF94; font-weight: 700;">&#10003;</span> <span style="color: #fff;">Proactive coaching that learns your patterns</span></li>
+            <li><span style="color: #00FF94; font-weight: 700;">&#10003;</span> <span style="color: #fff;">Just &euro;9.99/month -- accessible to everyone</span></li>
+            <li><span style="color: #00FF94; font-weight: 700;">&#10003;</span> <span style="color: #fff;">Intervenes before bad habits form</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="bg-orb cyan" style="width: 500px; height: 500px; top: -200px; right: -150px;"></div>
+    <div class="bg-orb green" style="width: 400px; height: 400px; bottom: -100px; left: -100px;"></div>
+    <div class="container">
+      <h2 class="fade-in">Ready to Experience the <span class="gradient-text">Future of Weight Loss</span>?</h2>
+      <p class="fade-in">Start your free 7-day trial today. No commitment, cancel anytime.</p>
+
+      <div class="cta-buttons fade-in">
+        <div class="store-badges">
+          <a href="https://play.google.com/store/apps/details?id=com.aiweightcoach.app&hl=en" target="_blank" rel="noopener" class="store-badge">
+            <svg class="kOqhQd" aria-hidden="true" width="26" height="26" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0,0h40v40H0V0z"></path><g><path d="M19.7,19.2L4.3,35.3c0,0,0,0,0,0c0.5,1.7,2.1,3,4,3c0.8,0,1.5-0.2,2.1-0.6l0,0l17.4-9.9L19.7,19.2z" fill="#EA4335"></path><path d="M35.3,16.4L35.3,16.4l-7.5-4.3l-8.4,7.4l8.5,8.3l7.5-4.2c1.3-0.7,2.2-2.1,2.2-3.6C37.5,18.5,36.6,17.1,35.3,16.4z" fill="#FBBC04"></path><path d="M4.3,4.7C4.2,5,4.2,5.4,4.2,5.8v28.5c0,0.4,0,0.7,0.1,1.1l16-15.7L4.3,4.7z" fill="#4285F4"></path><path d="M19.8,20l8-7.9L10.5,2.3C9.9,1.9,9.1,1.7,8.3,1.7c-1.9,0-3.6,1.3-4,3c0,0,0,0,0,0L19.8,20z" fill="#34A853"></path></g></svg>
+            <span class="store-badge-text">
+              <span class="label">GET IT ON</span>
+              <span class="store-name">Google Play</span>
+            </span>
+          </a>
+          <a href="https://apps.apple.com/us/app/ai-weight-coach/id6758988519" target="_blank" rel="noopener" class="store-badge">
+            <svg width="26" height="26" viewBox="0 0 24 24"><path fill="#000" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="store-badge-text">
+              <span class="label">DOWNLOAD ON THE</span>
+              <span class="store-name">App Store</span>
+            </span>
+          </a>
+        </div>
+
+        <span class="cta-divider">or</span>
+
+        <a href="affiliate.html" class="affiliate-cta">Earn 50% Commission as an Affiliate &rarr;</a>
+      </div>
+
+      <div class="pricing-highlight fade-in">
+        <div class="pricing-pill">
+          <div class="value">Free</div>
+          <div class="label">Basic plan forever</div>
+        </div>
+        <div class="pricing-pill">
+          <div class="value">&euro;9.99</div>
+          <div class="label">Pro plan / month</div>
+        </div>
+        <div class="pricing-pill">
+          <div class="value">7 days</div>
+          <div class="label">Free trial included</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 AI Weight Coach by Spengen IT B.V. | <a href="/">Home</a> | <a href="privacy-policy.html">Privacy</a> | <a href="terms-of-service.html">Terms</a> | <a href="affiliate.html">Affiliate Program</a></p>
+    </div>
+  </footer>
 
   <script>
-    let currentSlide = 1;
-    const totalSlides = 9;
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
 
-    function goToSlide(n) {
-      document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
-      document.querySelectorAll('.nav-dot').forEach(d => d.classList.remove('active'));
-
-      currentSlide = n;
-      document.getElementById(`slide-${n}`).classList.add('active');
-      document.querySelectorAll('.nav-dot')[n - 1].classList.add('active');
-    }
-
-    function nextSlide() {
-      if (currentSlide < totalSlides) {
-        goToSlide(currentSlide + 1);
-      }
-    }
-
-    function prevSlide() {
-      if (currentSlide > 1) {
-        goToSlide(currentSlide - 1);
-      }
-    }
-
-    // Keyboard navigation
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowRight' || e.key === ' ') {
-        e.preventDefault();
-        nextSlide();
-      } else if (e.key === 'ArrowLeft') {
-        e.preventDefault();
-        prevSlide();
-      }
-    });
-
-    // Touch/swipe support
-    let touchStartX = 0;
-    document.addEventListener('touchstart', (e) => {
-      touchStartX = e.touches[0].clientX;
-    });
-
-    document.addEventListener('touchend', (e) => {
-      const touchEndX = e.changedTouches[0].clientX;
-      const diff = touchStartX - touchEndX;
-
-      if (Math.abs(diff) > 50) {
-        if (diff > 0) nextSlide();
-        else prevSlide();
-      }
-    });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
   </script>
 </body>
 </html>

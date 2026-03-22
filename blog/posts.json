@@ -1,5 +1,39 @@
 [
   {
+    "title": "Strength Training for Beginners at Home",
+    "slug": "strength-training-for-beginners-at-home",
+    "excerpt": "For beginners, strength training at home can effectively build muscle and boost metabolism using just your body weight and minimal equipment. Focus on compound exercises, proper form, and consistency.",
+    "category": "exercise_and_weight",
+    "search_query": "strength training for beginners at home",
+    "published_at": "2026-03-22T18:00:16.061476+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Strength Training for Beginners at Home Guide",
+    "meta_description": "Start strength training at home as a beginner with bodyweight exercises and minimal equipment. Learn essential moves, proper form, and how to progress for weight loss and muscle gain.",
+    "keywords": "strength training beginners, at home workouts, bodyweight exercises, beginner strength, home fitness, weight loss strength, muscle building home, no equipment workout",
+    "linked_micros": [
+      {
+        "type": "exercises",
+        "slug": "bodyweight-exercises-for-beginners",
+        "name": "Bodyweight Exercises for Beginners"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "budget-high-protein-meal-plans",
+        "name": "Budget High-Protein Meal Plans"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      }
+    ]
+  },
+  {
     "title": "How to Reduce Bloating Immediately",
     "slug": "how-to-reduce-bloating-immediately",
     "excerpt": "To reduce bloating immediately, try gentle movement, sip on peppermint or ginger tea, apply light abdominal massage, drink plenty of water, and avoid common trigger foods.",

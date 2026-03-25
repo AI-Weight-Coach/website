@@ -1,5 +1,34 @@
 [
   {
+    "title": "Do Sleep Affect Weight Loss?",
+    "slug": "do-sleep-affect-weight-loss",
+    "excerpt": "Yes, sleep significantly affects weight loss by influencing your body's hunger hormones, metabolism, energy levels, and daily food choices. Prioritizing quality sleep is crucial for effective weight management.",
+    "category": "behavior_psychology",
+    "search_query": "do sleep affect weight loss",
+    "published_at": "2026-03-25T12:00:24.648814+00:00",
+    "reading_time_min": 5,
+    "meta_title": "How Does Sleep Affect Weight Loss? The Complete Guide",
+    "meta_description": "Yes, sleep profoundly affects weight loss by influencing hunger hormones, metabolism, energy levels, and food choices. Learn how quality sleep is crucial for managing your weight.",
+    "keywords": "sleep, weight loss, sleep deprivation, ghrelin, leptin, cortisol, metabolism, sleep hygiene, healthy habits, weight management",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      },
+      {
+        "type": "myths",
+        "slug": "the-myth-that-stress-doesnt-affect-weight-loss",
+        "name": "The Myth That Stress Doesn't Affect Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      }
+    ]
+  },
+  {
     "title": "How to Stop Binge Eating at Night",
     "slug": "how-to-stop-binge-eating-at-night",
     "excerpt": "To stop binge eating at night, focus on consistent meal patterns throughout the day, manage stress effectively, improve sleep hygiene, and identify/address emotional triggers.",

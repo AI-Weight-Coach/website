@@ -1,5 +1,39 @@
 [
   {
+    "title": "Best Exercises to Burn Fat and Build Muscle",
+    "slug": "best-exercises-to-burn-fat-and-build-muscle",
+    "excerpt": "To effectively burn fat and build muscle, prioritize a strategic combination of resistance training, especially compound movements, and high-intensity interval training (HIIT).",
+    "category": "exercise_and_weight",
+    "search_query": "best exercises to burn fat and build muscle",
+    "published_at": "2026-03-27T18:00:16.526027+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Best Exercises to Burn Fat & Build Muscle | AI Weight Coach",
+    "meta_description": "Discover the most effective exercises for fat loss and muscle gain, including resistance training and HIIT. Optimize your workouts with AI Weight Coach for lasting results.",
+    "keywords": "best exercises, burn fat, build muscle, resistance training, HIIT, compound movements, strength training, fat loss workouts, muscle gain exercises, weight loss",
+    "linked_micros": [
+      {
+        "type": "exercises",
+        "slug": "compound-exercises",
+        "name": "Compound Exercises"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "drinks",
+        "slug": "metabolism-boosting-drinks",
+        "name": "Metabolism-Boosting Drinks"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "Why Am I Not Losing Weight in a Calorie Deficit?",
     "slug": "why-am-i-not-losing-weight-in-a-calorie-deficit",
     "excerpt": "If you're in a calorie deficit but not losing weight, it's often due to miscalculating intake/expenditure, metabolic adaptation, or non-scale factors like water retention.",

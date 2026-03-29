@@ -1,5 +1,21 @@
 [
   {
+    "name": "Protein Supplements for Men",
+    "slug": "protein-supplements-for-men",
+    "primary_stat": "Strong",
+    "primary_unit": "evidence",
+    "primary_context": "for supporting weight loss",
+    "search_query": "protein supplements for men",
+    "published_at": "2026-03-29T18:00:16.401563+00:00",
+    "meta_description": "Strong evidence supports protein supplements for weight loss in men by boosting satiety and preserving muscle. Learn dosage, mechanisms, and side effects.",
+    "linked_blogs": [
+      {
+        "slug": "protein-for-weight-loss-male-ultimate-guide",
+        "title": "Protein for Weight Loss Male: The Ultimate Guide for Men"
+      }
+    ]
+  },
+  {
     "name": "Collagen Supplements for Skin Health",
     "slug": "collagen-supplements-for-skin-health",
     "primary_stat": "Weak",

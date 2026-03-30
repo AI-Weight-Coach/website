@@ -1,5 +1,21 @@
 [
   {
+    "name": "High-Protein Low-Calorie Recipes",
+    "slug": "high-protein-low-calorie-recipes",
+    "primary_stat": "350",
+    "primary_unit": "calories",
+    "primary_context": "per serving (example meal)",
+    "search_query": "high-protein low-calorie recipes",
+    "published_at": "2026-03-30T18:00:17.683923+00:00",
+    "meta_description": "350 calories. Discover the power of high-protein, low-calorie recipes for weight loss. Boost satiety, preserve muscle, and enjoy delicious, healthy meals. Get a quick chicken & asparagus recipe!",
+    "linked_blogs": [
+      {
+        "slug": "high-protein-low-calorie-meals-meal-prep",
+        "title": "High Protein Low Calorie Meals Meal Prep: Your Ultimate Guide for Weight Loss"
+      }
+    ]
+  },
+  {
     "name": "Low-Carb Recipes for Diabetics",
     "slug": "low-carb-recipes-for-diabetics",
     "primary_stat": "10-20",

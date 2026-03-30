@@ -1,5 +1,21 @@
 [
   {
+    "name": "High-Protein Low-Calorie Meal Plans",
+    "slug": "high-protein-low-calorie-meal-plans",
+    "primary_stat": "1555",
+    "primary_unit": "cal/day",
+    "primary_context": "for weight management",
+    "search_query": "high-protein low-calorie meal plans",
+    "published_at": "2026-03-30T18:00:17.683923+00:00",
+    "meta_description": "Discover a 1555 cal/day high-protein, low-calorie meal plan designed by an RD for weight management. Includes macros, daily meals, prep tips & expert analysis.",
+    "linked_blogs": [
+      {
+        "slug": "high-protein-low-calorie-meals-meal-prep",
+        "title": "High Protein Low Calorie Meals Meal Prep: Your Ultimate Guide for Weight Loss"
+      }
+    ]
+  },
+  {
     "name": "Budget High-Protein Meal Plans",
     "slug": "budget-high-protein-meal-plans",
     "primary_stat": "1875",

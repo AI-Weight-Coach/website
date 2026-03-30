@@ -1,5 +1,39 @@
 [
   {
+    "title": "Body Recomposition: How to Start Losing Fat and Gaining Muscle",
+    "slug": "body-recomposition-how-to-start",
+    "excerpt": "To start body recomposition, focus on a high-protein diet with a slight calorie deficit or maintenance, prioritize consistent resistance training, ensure adequate sleep, and manage stress.",
+    "category": "exercise_and_weight",
+    "search_query": "body recomposition how to start",
+    "published_at": "2026-03-30T06:00:17.635279+00:00",
+    "reading_time_min": 9,
+    "meta_title": "Body Recomposition: How to Start Losing Fat & Gaining Muscle",
+    "meta_description": "Learn how to begin your body recomposition journey. Discover key strategies for nutrition, resistance training, sleep, and stress management to build muscle while losing fat.",
+    "keywords": "body recomposition, how to start body recomposition, lose fat gain muscle, strength training for fat loss, high protein diet, calorie deficit muscle gain, body recomposition diet, fitness goals",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      },
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      }
+    ]
+  },
+  {
     "title": "Protein for Weight Loss Male: The Ultimate Guide for Men",
     "slug": "protein-for-weight-loss-male-ultimate-guide",
     "excerpt": "For men aiming for weight loss, protein is a cornerstone nutrient that boosts satiety, preserves lean muscle mass, and increases metabolism, making it easier to reduce overall calorie intake and achieve sustainable fat loss.",

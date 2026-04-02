@@ -1,5 +1,21 @@
 [
   {
+    "name": "Understanding Osteoporosis",
+    "slug": "understanding-osteoporosis",
+    "primary_stat": "1 in 2",
+    "primary_unit": "women",
+    "primary_context": "over 50 will experience an osteoporosis-related fracture",
+    "search_query": "understanding osteoporosis",
+    "published_at": "2026-04-02T06:00:17.500728+00:00",
+    "meta_description": "1 in 2 women over 50 face osteoporosis-related fractures. Learn about managing weight with osteoporosis, including diet, safe exercise, and medications.",
+    "linked_blogs": [
+      {
+        "slug": "strength-training-for-beginners-over-50",
+        "title": "Strength Training for Beginners Over 50"
+      }
+    ]
+  },
+  {
     "name": "Understanding Visceral Fat Risks",
     "slug": "understanding-visceral-fat-risks",
     "primary_stat": "Metabolic Syndrome",

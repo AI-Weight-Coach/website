@@ -1,5 +1,21 @@
 [
   {
+    "name": "Walking Workouts for Weight Loss",
+    "slug": "walking-workouts-for-weight-loss",
+    "primary_stat": "375",
+    "primary_unit": "cal/session",
+    "primary_context": "per 45-60 min brisk walk",
+    "search_query": "walking workouts for weight loss",
+    "published_at": "2026-04-04T06:00:14.465477+00:00",
+    "meta_description": "Burn ~375 calories per session with our evidence-based walking workout routine for weight loss. Learn effective techniques & optimize your fitness journey.",
+    "linked_blogs": [
+      {
+        "slug": "how-much-should-i-walk-to-lose-weight-calculator-free",
+        "title": "How Much Should I Walk to Lose Weight Calculator Free"
+      }
+    ]
+  },
+  {
     "name": "Strength Training Workouts",
     "slug": "strength-training-workouts",
     "primary_stat": "320",

@@ -1,5 +1,39 @@
 [
   {
+    "title": "Healthy Meal Prep Ideas for Sustainable Weight Loss",
+    "slug": "healthy-meal-prep-ideas-sustainable-weight-loss",
+    "excerpt": "Healthy meal prep involves preparing meals and snacks in advance to save time, control portions, and make nutritious choices easier, supporting sustainable weight loss goals.",
+    "category": "meal_planning",
+    "search_query": "healthy meal prep ideas",
+    "published_at": "2026-04-05T06:00:17.953392+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Healthy Meal Prep Ideas for Weight Loss & Busy Lifestyles",
+    "meta_description": "Discover healthy meal prep ideas to save time, control portions, and make nutritious choices easier for sustainable weight loss. Get practical tips and recipes.",
+    "keywords": "healthy meal prep, meal prep ideas, weight loss meal prep, easy meal prep, healthy eating, portion control, AI Weight Coach, meal planning, nutrition",
+    "linked_micros": [
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calorie-meal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "snacks",
+        "slug": "affordable-high-protein-snacks",
+        "name": "Affordable High-Protein Snacks"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "How Stress Causes Weight Gain: The Surprising Link Between Your Mind and Your Metabolism",
     "slug": "how-stress-causes-weight-gain",
     "excerpt": "Stress triggers hormonal changes, like increased cortisol, which promotes fat storage and boosts cravings for high-calorie foods, directly contributing to weight gain.",

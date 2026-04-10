@@ -1,5 +1,39 @@
 [
   {
+    "title": "High Protein Low Calorie Meals Recipes for Sustainable Weight Loss",
+    "slug": "high-protein-low-calorie-meals-recipes",
+    "excerpt": "High protein, low calorie meals are crucial for sustainable weight loss, promoting satiety, preserving muscle, and boosting metabolism.",
+    "category": "meal_planning",
+    "search_query": "high protein low calorie meals recipes",
+    "published_at": "2026-04-10T18:00:21.135167+00:00",
+    "reading_time_min": 8,
+    "meta_title": "High Protein Low Calorie Meals Recipes for Weight Loss",
+    "meta_description": "Discover high protein low calorie meals and recipes designed for sustainable weight loss. Learn key benefits, meal ideas, and cooking tips.",
+    "keywords": "high protein low calorie meals, low calorie high protein recipes, weight loss meals, healthy protein recipes, meal planning for weight loss, lean protein meals, calorie deficit meals, diet recipes",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-low-calorie-recipes",
+        "name": "High-Protein Low-Calorie Recipes"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calorie-meal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      }
+    ]
+  },
+  {
     "title": "How to Reduce Bloating Quickly",
     "slug": "how-to-reduce-bloating-quickly",
     "excerpt": "To reduce bloating quickly, try gentle movement like walking, hydrate with water and herbal teas, avoid carbonated drinks, and consider temporary dietary adjustments like limiting high-FODMAP foods.",

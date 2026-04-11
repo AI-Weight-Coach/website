@@ -1,5 +1,21 @@
 [
   {
+    "name": "Healthy Eating Habits for Children",
+    "slug": "healthy-eating-habits-for-children",
+    "primary_stat": "10",
+    "primary_unit": "rating /10",
+    "primary_context": "Overall health impact",
+    "search_query": "healthy eating habits for children",
+    "published_at": "2026-04-11T12:00:22.772448+00:00",
+    "meta_description": "10/10 rating for Healthy Eating Habits for Children. Learn the benefits, challenges, and how to promote optimal growth and prevent disease for kids.",
+    "linked_blogs": [
+      {
+        "slug": "healthy-breakfast-ideas-for-kids",
+        "title": "Healthy Breakfast Ideas for Kids"
+      }
+    ]
+  },
+  {
     "name": "Anti-Inflammatory Diets",
     "slug": "anti-inflammatory-diets",
     "primary_stat": "8",

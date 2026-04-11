@@ -1,5 +1,21 @@
 [
   {
+    "name": "Weekly Breakfast Meal Plans for Kids",
+    "slug": "weekly-breakfast-meal-plans-for-kids",
+    "primary_stat": "1875",
+    "primary_unit": "cal/day",
+    "primary_context": "for an active 8-10 year old",
+    "search_query": "weekly breakfast meal plans for kids",
+    "published_at": "2026-04-11T12:00:22.772448+00:00",
+    "meta_description": "1875 cal/day: Discover a balanced 1-day sample meal plan for active kids (8-10 years old) with macro breakdown, meal ideas, and prep tips. Learn more.",
+    "linked_blogs": [
+      {
+        "slug": "healthy-breakfast-ideas-for-kids",
+        "title": "Healthy Breakfast Ideas for Kids"
+      }
+    ]
+  },
+  {
     "name": "High-Protein Low-Calorie Meal Plans",
     "slug": "high-protein-low-calorie-meal-plans",
     "primary_stat": "1555",

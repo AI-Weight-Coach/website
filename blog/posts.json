@@ -1,5 +1,39 @@
 [
   {
+    "title": "Healthy Breakfast Ideas for Kids",
+    "slug": "healthy-breakfast-ideas-for-kids",
+    "excerpt": "Fueling your child's day starts with a balanced breakfast. Focus on meals rich in protein, fiber from whole grains and fruits, and healthy fats to support energy and concentration.",
+    "category": "practical_tips",
+    "search_query": "healthy breakfast ideas for kids",
+    "published_at": "2026-04-11T12:00:22.772448+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Healthy Breakfast Ideas for Kids: Fuel Their Day Right",
+    "meta_description": "Discover easy, healthy breakfast ideas for kids that provide essential nutrients for energy, focus, and growth. From overnight oats to savory egg dishes, fuel their day right.",
+    "keywords": "healthy breakfast, kids breakfast ideas, easy kids breakfast, nutritious breakfast, breakfast for children, balanced meals kids, healthy eating kids, quick breakfast",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "easy-healthy-breakfast-recipes-for-kids",
+        "name": "Easy and Healthy Breakfast Recipes for Kids"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "weekly-breakfast-meal-plans-for-kids",
+        "name": "Weekly Breakfast Meal Plans for Kids"
+      },
+      {
+        "type": "diets",
+        "slug": "healthy-eating-habits-for-children",
+        "name": "Healthy Eating Habits for Children"
+      },
+      {
+        "type": "conditions",
+        "slug": "childhood-weight-management-strategies",
+        "name": "Childhood Weight Management Strategies"
+      }
+    ]
+  },
+  {
     "title": "How to Lose Belly Fat in a Week: Setting Realistic Expectations",
     "slug": "how-to-lose-belly-fat-in-a-week",
     "excerpt": "While significant belly fat loss in just one week is largely unrealistic, you can start reducing bloating and water retention, and lay the groundwork for sustainable fat loss through immediate dietary adjustments and increased activity.",

@@ -1,5 +1,21 @@
 [
   {
+    "name": "Protein Supplements for Women",
+    "slug": "protein-supplements-for-women",
+    "primary_stat": "Moderate",
+    "primary_unit": "evidence",
+    "primary_context": "for Weight Loss",
+    "search_query": "protein supplements for women",
+    "published_at": "2026-04-13T18:00:21.968713+00:00",
+    "meta_description": "Moderate evidence suggests protein supplements support weight loss in women by increasing satiety and preserving muscle. Learn dosage, side effects, and if they're right for you.",
+    "linked_blogs": [
+      {
+        "slug": "weight-loss-for-women-over-60",
+        "title": "Weight Loss for Women Over 60"
+      }
+    ]
+  },
+  {
     "name": "Protein Supplements for Men",
     "slug": "protein-supplements-for-men",
     "primary_stat": "Strong",

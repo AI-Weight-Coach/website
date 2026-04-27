@@ -1,15 +1,15 @@
 [
   {
-    "title": "How Much Should I Walk to Lose Weight Fast?",
-    "slug": "how-much-should-i-walk-to-lose-weight-fast",
-    "excerpt": "To lose weight effectively, aim for at least 150-300 minutes of brisk walking per week, ideally combined with a calorie-controlled diet. This often means 7,000-10,000 steps or more daily, depending on your pace and terrain.",
-    "category": "exercise_and_weight",
-    "search_query": "how much should i walk to lose weight fast",
-    "published_at": "2026-04-27T12:00:17.774342+00:00",
-    "reading_time_min": 5,
-    "meta_title": "How Much to Walk for Fast Weight Loss | AI Weight Coach",
-    "meta_description": "To lose weight fast, aim for 150-300 min of brisk walking weekly, combined with a calorie deficit. Learn effective walking strategies with AI Weight Coach.",
-    "keywords": "walking for weight loss, how much to walk, lose weight fast, walking steps for weight loss, brisk walking, exercise for weight loss, walking calorie burn, AI Weight Coach",
+    "title": "What is a Calorie Deficit for Women?",
+    "slug": "what-is-a-calorie-deficit-for-women",
+    "excerpt": "A calorie deficit for women occurs when they consistently consume fewer calories than their body expends, prompting the body to use stored energy (fat) for fuel, leading to weight loss. This foundational principle of weight management is tailored to individual female physiology.",
+    "category": "calorie_management",
+    "search_query": "what is a calorie deficit for women",
+    "published_at": "2026-04-27T12:00:45.670864+00:00",
+    "reading_time_min": 6,
+    "meta_title": "Calorie Deficit for Women: A Comprehensive Guide",
+    "meta_description": "Understand what a calorie deficit means for women, how to calculate it safely, and practical strategies for sustainable weight loss with AI Weight Coach.",
+    "keywords": "calorie deficit women, weight loss for women, how to lose weight, female metabolism, calorie needs, safe calorie deficit, AI Weight Coach, healthy weight loss",
     "linked_micros": [
       {
         "type": "diets",
@@ -17,19 +17,19 @@
         "name": "Calorie Deficit Strategies"
       },
       {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
         "type": "workouts",
-        "slug": "walking-workouts-for-weight-loss",
-        "name": "Walking Workouts for Weight Loss"
+        "slug": "strength-training-workouts-for-women",
+        "name": "Strength Training Workouts for Women"
       },
       {
-        "type": "protein",
-        "slug": "dietary-protein-for-weight-loss",
-        "name": "Dietary Protein for Weight Loss"
-      },
-      {
-        "type": "exercises",
-        "slug": "running",
-        "name": "Running"
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
       }
     ]
   },

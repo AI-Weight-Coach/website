@@ -1,5 +1,21 @@
 [
   {
+    "name": "Running",
+    "slug": "running",
+    "primary_stat": "686",
+    "primary_unit": "cal/hour",
+    "primary_context": "for a 70kg/155lb person at a vigorous pace (~9.7 km/h or 6 mph)",
+    "search_query": "running",
+    "published_at": "2026-04-27T12:00:17.774342+00:00",
+    "meta_description": "Burn 686+ calories/hour running! Learn calorie burn, muscles targeted, and how running supports weight loss for a 70kg/155lb person. Expert fitness advice.",
+    "linked_blogs": [
+      {
+        "slug": "how-much-should-i-walk-to-lose-weight-fast",
+        "title": "How Much Should I Walk to Lose Weight Fast?"
+      }
+    ]
+  },
+  {
     "name": "Core Strengthening Exercises",
     "slug": "core-strengthening-exercises",
     "primary_stat": "257",

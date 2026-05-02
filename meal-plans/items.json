@@ -1,5 +1,21 @@
 [
   {
+    "name": "High-Protein Low-Calorie Meal Plans",
+    "slug": "high-protein-low-calor",
+    "primary_stat": "1500",
+    "primary_unit": "cal/day",
+    "primary_context": "for healthy weight management",
+    "search_query": "high-protein low-calorie meal plans",
+    "published_at": "2026-05-02T18:00:16.969767+00:00",
+    "meta_description": "1500 cal/day. Discover a dietitian-designed high-protein, low-calorie meal plan for weight loss. Includes macros, 1-day sample, and meal prep tips.",
+    "linked_blogs": [
+      {
+        "slug": "how-long-does-it-take-to-lose-5kg",
+        "title": "How Long Does It Take to Lose 5kg?"
+      }
+    ]
+  },
+  {
     "name": "Weekly Breakfast Meal Plans for Kids",
     "slug": "weekly-breakfast-meal-plans-for-kids",
     "primary_stat": "1875",

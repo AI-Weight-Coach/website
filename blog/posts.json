@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Stress Causes Weight Loss",
+    "slug": "how-stress-causes-weight-loss",
+    "excerpt": "Stress can lead to weight loss through various physiological and behavioral mechanisms, including increased metabolism, short-term appetite suppression, and digestive disturbances, particularly during acute or severe chronic stress.",
+    "category": "behavior_psychology",
+    "search_query": "how stress causes weight loss",
+    "published_at": "2026-05-03T18:00:28.724318+00:00",
+    "reading_time_min": 7,
+    "meta_title": "How Stress Causes Weight Loss: Mechanisms & Management",
+    "meta_description": "Learn how stress can lead to unintentional weight loss through increased metabolism, appetite suppression, and digestive issues. Understand the mechanisms and find healthy management strategies.",
+    "keywords": "stress weight loss, how stress affects weight, stress metabolism, appetite suppression stress, unintentional weight loss, stress management, healthy weight",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "myths",
+        "slug": "the-myth-that-stress-doesnt-affect-weight-loss",
+        "name": "The Myth That Stress Doesn't Affect Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "Best Foods for Weight Loss Fast",
     "slug": "best-foods-for-weight-loss-fast",
     "excerpt": "For fast weight loss, prioritize nutrient-dense, high-satiety foods like lean proteins, fiber-rich vegetables, fruits, and whole grains, alongside adequate hydration.",

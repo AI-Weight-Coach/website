@@ -1,5 +1,39 @@
 [
   {
+    "title": "Do Sleep Affect Weight Loss?",
+    "slug": "do-sleep-affect-weight-loss",
+    "excerpt": "Yes, sleep profoundly affects weight loss by influencing hunger hormones, metabolism, and energy levels. Poor sleep can disrupt your body's ability to burn fat effectively and make healthy choices.",
+    "category": "nutrition_science",
+    "search_query": "do sleep affect weight loss",
+    "published_at": "2026-05-08T12:00:18.397667+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Do Sleep Affect Weight Loss? The Critical Link | AI Weight Coach",
+    "meta_description": "Yes, sleep profoundly affects weight loss by influencing hunger hormones, metabolism, and energy levels. Learn how optimizing your sleep can boost your weight loss journey.",
+    "keywords": "sleep, weight loss, metabolism, hormones, ghrelin, leptin, cortisol, sleep hygiene, healthy lifestyle, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "drinks",
+        "slug": "metabolism-boosting-drinks",
+        "name": "Metabolism-Boosting Drinks"
+      }
+    ]
+  },
+  {
     "title": "Healthy Breakfast Ideas On The Go",
     "slug": "healthy-breakfast-ideas-on-the-go",
     "excerpt": "Fueling your day with a healthy breakfast on the go is simple with options like overnight oats, Greek yogurt parfaits, whole-wheat breakfast burritos, or pre-made protein smoothies.",

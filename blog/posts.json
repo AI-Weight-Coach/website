@@ -1,5 +1,34 @@
 [
   {
+    "title": "Healthy Meal Prep Lunches: Your Guide to Nutritious Midday Meals",
+    "slug": "healthy-meal-prep-lunches",
+    "excerpt": "Healthy meal prep lunches involve planning and preparing balanced meals in advance, focusing on lean protein, complex carbohydrates, healthy fats, and plenty of vegetables to support weight management and sustained energy.",
+    "category": "meal_planning",
+    "search_query": "healthy meal prep lunches",
+    "published_at": "2026-05-09T06:00:30.231326+00:00",
+    "reading_time_min": 9,
+    "meta_title": "Healthy Meal Prep Lunches for Weight Loss & Energy",
+    "meta_description": "Discover how healthy meal prep lunches boost weight management, energy, and save time. Learn key components, practical steps, and delicious ideas for nutritious midday meals.",
+    "keywords": "healthy meal prep lunches, meal prep for weight loss, nutritious lunches, easy meal prep ideas, healthy lunch ideas, balanced meals, batch cooking, weight management tips",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calorie-meal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      }
+    ]
+  },
+  {
     "title": "Foods That Boost Metabolism and Burn Belly Fat",
     "slug": "foods-that-boost-metabolism-and-burn-belly-fat",
     "excerpt": "Foods rich in protein, fiber, and specific thermogenic compounds can support metabolism, increase satiety, and aid in the reduction of belly fat.",

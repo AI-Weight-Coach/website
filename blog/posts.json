@@ -1,5 +1,34 @@
 [
   {
+    "title": "How Stress Impacts Weight Loss",
+    "slug": "how-stress-impacts-weight-loss",
+    "excerpt": "Stress significantly hinders weight loss by triggering hormonal changes, increasing cravings for comfort foods, and disrupting sleep, making it harder to maintain healthy habits.",
+    "category": "behavior_psychology",
+    "search_query": "how stress impacts weight loss",
+    "published_at": "2026-05-11T18:00:19.564876+00:00",
+    "reading_time_min": 8,
+    "meta_title": "How Stress Impacts Weight Loss & How to Manage It",
+    "meta_description": "Stress hinders weight loss by increasing cortisol, cravings, and disrupting sleep. Learn how managing stress can unlock your weight loss journey. Optimize your health.",
+    "keywords": "stress, weight loss, cortisol, emotional eating, stress management, weight gain, healthy habits, diet, exercise",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "emotional-eating-and-weight-gain",
+        "name": "Emotional Eating and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      }
+    ]
+  },
+  {
     "title": "How to Stop Binge Eating: Reddit's Insights & Expert Strategies",
     "slug": "how-to-stop-binge-eating-reddit",
     "excerpt": "Stopping binge eating involves understanding triggers, practicing mindful eating, establishing regular meal patterns, and developing healthy coping mechanisms.",

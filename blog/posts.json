@@ -1,5 +1,34 @@
 [
   {
+    "title": "Does Stress Affect Weight Loss?",
+    "slug": "does-stress-affect-weight-loss",
+    "excerpt": "Yes, stress significantly impacts weight loss by influencing hormones, metabolism, and behavioral choices, often leading to increased cravings, fat storage, and difficulty adhering to healthy habits. Effectively managing stress is crucial for successful weight management.",
+    "category": "behavior_psychology",
+    "search_query": "does stress affects weight loss",
+    "published_at": "2026-05-13T18:00:18.797159+00:00",
+    "reading_time_min": 10,
+    "meta_title": "Does Stress Affect Weight Loss? The Full Impact & Solutions",
+    "meta_description": "Discover how stress impacts weight loss through hormones, metabolism, and behavior. Learn practical strategies to manage stress for effective and sustainable weight management.",
+    "keywords": "stress and weight loss, cortisol weight gain, emotional eating, stress management for weight loss, metabolism and stress, weight loss challenges, healthy coping mechanisms, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      }
+    ]
+  },
+  {
     "title": "Healthy Breakfast Ideas for Work",
     "slug": "healthy-breakfast-ideas-for-work",
     "excerpt": "Fuel your workday with balanced, portable, and easy-to-prep healthy breakfast ideas like overnight oats, egg muffins, and nutrient-packed smoothies, ensuring sustained energy and focus.",

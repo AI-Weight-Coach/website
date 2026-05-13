@@ -1,5 +1,39 @@
 [
   {
+    "title": "Healthy Breakfast Ideas for Work",
+    "slug": "healthy-breakfast-ideas-for-work",
+    "excerpt": "Fuel your workday with balanced, portable, and easy-to-prep healthy breakfast ideas like overnight oats, egg muffins, and nutrient-packed smoothies, ensuring sustained energy and focus.",
+    "category": "practical_tips",
+    "search_query": "healthy breakfast ideas for work",
+    "published_at": "2026-05-13T06:00:25.354473+00:00",
+    "reading_time_min": 9,
+    "meta_title": "Healthy Breakfast Ideas for Work | AI Weight Coach",
+    "meta_description": "Discover easy and healthy breakfast ideas perfect for busy workdays. Fuel your body, boost focus, and support your weight loss goals with AI Weight Coach.",
+    "keywords": "healthy breakfast, breakfast for work, quick breakfast ideas, weight loss breakfast, easy meal prep, healthy work meals, grab and go breakfast, high protein breakfast",
+    "linked_micros": [
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calorie-meal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      }
+    ]
+  },
+  {
     "title": "Why Do I Gain Weight So Easily But Can't Lose It?",
     "slug": "why-do-i-gain-weight-so-easily-but-cant-lose-it",
     "excerpt": "Gaining weight easily and struggling to lose it often stems from a complex interplay of metabolic adaptations, hormonal influences, genetics, and lifestyle factors.",

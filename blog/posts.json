@@ -1,30 +1,35 @@
 [
   {
-    "title": "What is a Calorie Deficit For Me?",
-    "slug": "what-is-a-calorie-deficit-for-me",
-    "excerpt": "A calorie deficit for you means consistently consuming fewer calories than your body burns, leading to fat loss. It's a personalized energy balance based on your unique metabolism, activity, and goals.",
-    "category": "calorie_management",
-    "search_query": "what is a calorie deficit for me",
-    "published_at": "2026-05-16T12:00:25.638013+00:00",
-    "reading_time_min": 5,
-    "meta_title": "What is a Calorie Deficit For Me? Your Personalized Guide",
-    "meta_description": "Understand what a calorie deficit means for *you*. Learn how to calculate your personalized deficit and sustain healthy weight loss with AI Weight Coach.",
-    "keywords": "calorie deficit, weight loss, how to lose weight, TDEE, BMR, fat loss, sustainable weight loss, calorie tracking",
+    "title": "Weight Loss Motivation Quotes in Hindi",
+    "slug": "weight-loss-motivation-quotes-in-hindi",
+    "excerpt": "Ignite your weight loss journey with powerful Hindi motivational quotes like \"\u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0939\u0940 \u0938\u092c\u0938\u0947 \u092c\u0921\u093c\u093e \u0927\u0928 \u0939\u0948\" (Health is the greatest wealth) and \"\u0927\u0940\u0930\u0947-\u0927\u0940\u0930\u0947 \u0930\u0947 \u092e\u0928\u093e, \u0927\u0940\u0930\u0947 \u0938\u092c \u0915\u0941\u091b \u0939\u094b\u092f\" (Slowly, O mind, everything happens slowly), emphasizing patience and well-being.",
+    "category": "behavior_psychology",
+    "search_query": "weight loss motivation quotes in hindi",
+    "published_at": "2026-05-16T12:00:28.491891+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Weight Loss Motivation Quotes in Hindi | AI Weight Coach",
+    "meta_description": "Find inspiring Hindi quotes to fuel your weight loss journey. Discover powerful messages of patience, health, and persistence to keep you motivated. Learn practical strategies.",
+    "keywords": "weight loss motivation, Hindi quotes, inspirational quotes, health quotes, fitness motivation, weight loss tips, Hindi wisdom, AI Weight Coach",
     "linked_micros": [
+      {
+        "type": "myths",
+        "slug": "common-weight-loss-plateau-myths-debunked",
+        "name": "Common Weight Loss Plateau Myths Debunked"
+      },
+      {
+        "type": "conditions",
+        "slug": "emotional-eating-and-weight-gain",
+        "name": "Emotional Eating and Weight Gain"
+      },
       {
         "type": "diets",
         "slug": "calorie-deficit-strategies",
         "name": "Calorie Deficit Strategies"
       },
       {
-        "type": "exercises",
-        "slug": "boosting-non-exercise-activity-neat",
-        "name": "Boosting Non-Exercise Activity (NEAT)"
-      },
-      {
-        "type": "recipes",
-        "slug": "high-protein-low-calorie-recipes",
-        "name": "High-Protein Low-Calorie Recipes"
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
       }
     ]
   },

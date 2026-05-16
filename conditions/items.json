@@ -1,5 +1,21 @@
 [
   {
+    "name": "Understanding Indigestion in Pregnancy",
+    "slug": "understanding-indigestion-in-pregnancy",
+    "primary_stat": "45-80",
+    "primary_unit": "percent",
+    "primary_context": "of pregnant women experience indigestion",
+    "search_query": "understanding indigestion in pregnancy",
+    "published_at": "2026-05-16T18:00:15.722316+00:00",
+    "meta_description": "45-80% of pregnant women experience indigestion. Learn evidence-based strategies for managing indigestion in pregnancy, including diet, safe exercise, and medications. Always consult your doctor.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-reduce-bloating-in-pregnancy",
+        "title": "How to Reduce Bloating in Pregnancy"
+      }
+    ]
+  },
+  {
     "name": "Childhood Weight Management Strategies",
     "slug": "childhood-weight-management-strategies",
     "primary_stat": "Family-Centered",

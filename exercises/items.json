@@ -1,5 +1,21 @@
 [
   {
+    "name": "Pregnancy-Safe Exercises",
+    "slug": "pregnancy-safe-exercises",
+    "primary_stat": "336",
+    "primary_unit": "cal/hour",
+    "primary_context": "for brisk walking (70kg person)",
+    "search_query": "pregnancy-safe exercises",
+    "published_at": "2026-05-16T18:00:15.722316+00:00",
+    "meta_description": "Burn 336 cal/hour brisk walking (70kg). Learn about safe pregnancy exercises, calorie burn, and benefits for expectant mothers. Evidence-based info.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-reduce-bloating-in-pregnancy",
+        "title": "How to Reduce Bloating in Pregnancy"
+      }
+    ]
+  },
+  {
     "name": "Running",
     "slug": "running",
     "primary_stat": "686",

@@ -1,5 +1,21 @@
 [
   {
+    "name": "Anti-Bloating Diets",
+    "slug": "anti-bloating-diets",
+    "primary_stat": "8",
+    "primary_unit": "rating /10",
+    "primary_context": "for symptom relief effectiveness",
+    "search_query": "anti-bloating diets",
+    "published_at": "2026-05-16T18:00:15.722316+00:00",
+    "meta_description": "8/10 rating for anti-bloating diets. Learn about pros, cons, difficulty, and who it's best for to alleviate digestive discomfort effectively and sustainably.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-reduce-bloating-in-pregnancy",
+        "title": "How to Reduce Bloating in Pregnancy"
+      }
+    ]
+  },
+  {
     "name": "Healthy Eating Habits for Children",
     "slug": "healthy-eating-habits-for-children",
     "primary_stat": "10",

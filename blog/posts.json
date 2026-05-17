@@ -1,5 +1,34 @@
 [
   {
+    "title": "Healthy Meal Prep Recipes",
+    "slug": "healthy-meal-prep-recipes",
+    "excerpt": "Healthy meal prep recipes focus on balanced nutrition, portion control, and convenience, helping you achieve weight loss goals and maintain overall well-being.",
+    "category": "meal_planning",
+    "search_query": "healthy meal prep recipes",
+    "published_at": "2026-05-17T12:00:19.159175+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Healthy Meal Prep Recipes for Weight Loss & Busy Lives",
+    "meta_description": "Discover healthy meal prep recipes designed for weight loss, featuring balanced ingredients, portion control, and simple preparation. Optimize your nutrition and save time.",
+    "keywords": "healthy meal prep, meal prep recipes, weight loss meals, healthy eating, meal planning, weekly meal prep, easy healthy recipes, balanced diet",
+    "linked_micros": [
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calor",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "How to Reduce Bloating in Pregnancy",
     "slug": "how-to-reduce-bloating-in-pregnancy",
     "excerpt": "Reducing bloating in pregnancy often involves dietary and lifestyle adjustments, such as eating smaller, frequent meals, staying hydrated, and gentle exercise.",

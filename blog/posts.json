@@ -1,5 +1,39 @@
 [
   {
+    "title": "Does Stress Affect Weight?",
+    "slug": "does-stress-affect-weight",
+    "excerpt": "Yes, stress significantly affects weight by triggering physiological and behavioral changes that can lead to weight gain or make weight loss more challenging.",
+    "category": "behavior_psychology",
+    "search_query": "does stress affect weight",
+    "published_at": "2026-05-18T12:00:18.216920+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Does Stress Affect Weight? The Connection Explained",
+    "meta_description": "Yes, stress significantly impacts weight through hormones like cortisol, affecting metabolism, appetite, and fat storage. Learn how to manage stress for weight loss.",
+    "keywords": "stress and weight, cortisol, stress weight gain, emotional eating, stress management, weight loss, stress hormones, metabolism, sleep and weight",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      },
+      {
+        "type": "myths",
+        "slug": "the-myth-that-stress-doesnt-affect-weight-loss",
+        "name": "The Myth That Stress Doesn't Affect Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "Strength Training for Beginners Female at Home: Your Ultimate Guide",
     "slug": "strength-training-for-beginners-female-at-home",
     "excerpt": "Beginner females can start strength training at home with bodyweight exercises, focusing on proper form and consistency for effective results.",

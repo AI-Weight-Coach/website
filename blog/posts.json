@@ -1,5 +1,39 @@
 [
   {
+    "title": "Does Sleep Cause Weight Loss?",
+    "slug": "does-sleep-cause-weight-loss",
+    "excerpt": "Sleep doesn't directly cause weight loss, but it profoundly influences the hormonal balance and behavioral choices crucial for successful weight management.",
+    "category": "behavior_psychology",
+    "search_query": "does sleep cause weight loss",
+    "published_at": "2026-05-26T12:00:16.809333+00:00",
+    "reading_time_min": 6,
+    "meta_title": "Does Sleep Cause Weight Loss? The Link Explained",
+    "meta_description": "Sleep doesn't directly cause weight loss, but it's a critical factor. Learn how sleep impacts hormones, metabolism, and food choices for weight management.",
+    "keywords": "sleep, weight loss, hormones, metabolism, ghrelin, leptin, cortisol, insulin, sleep deprivation, healthy habits",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      }
+    ]
+  },
+  {
     "title": "Is Keto Good for Diabetics Type 2?",
     "slug": "is-keto-good-for-diabetics-type-2",
     "excerpt": "For some individuals with Type 2 diabetes, a ketogenic diet can be effective for improving blood sugar control and promoting weight loss, but it requires strict medical supervision.",

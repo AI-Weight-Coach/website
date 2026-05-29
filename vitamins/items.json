@@ -1,5 +1,21 @@
 [
   {
+    "name": "Essential Vitamins for Pregnancy",
+    "slug": "essential-vitamins-for-pregnancy",
+    "primary_stat": "Often Deficient",
+    "primary_unit": "importance",
+    "primary_context": "in pregnant populations",
+    "search_query": "essential vitamins for pregnancy",
+    "published_at": "2026-05-29T18:00:20.106457+00:00",
+    "meta_description": "Vitamin D is crucial for a healthy pregnancy. Learn its recommended intake, food sources, deficiency symptoms, and its indirect, limited role in weight management. Is supplementation needed?",
+    "linked_blogs": [
+      {
+        "slug": "why-do-i-gain-weight-so-easily-while-pregnant",
+        "title": "Why Do I Gain Weight So Easily While Pregnant?"
+      }
+    ]
+  },
+  {
     "name": "Essential Micronutrients for Skin Elasticity",
     "slug": "essential-micronutrients-for-skin-elasticity",
     "primary_stat": "Crucial",

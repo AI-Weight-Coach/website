@@ -1,35 +1,35 @@
 [
   {
-    "title": "How Much Should I Walk to Lose Weight for My Age?",
-    "slug": "how-much-should-i-walk-to-lose-weight-for-my-age",
-    "excerpt": "For most adults aiming for weight loss, a general recommendation is 150-300 minutes of moderate-intensity walking per week. While age doesn't change this fundamental goal, it influences how you approach intensity and progression, making personalized adjustments key.",
-    "category": "exercise_and_weight",
-    "search_query": "how much should i walk to lose weight for my age",
-    "published_at": "2026-05-30T18:00:17.846051+00:00",
-    "reading_time_min": 5,
-    "meta_title": "How Much Should I Walk for Weight Loss by Age?",
-    "meta_description": "Discover how much walking you should do for weight loss, considering your age. Learn general guidelines, intensity tips, and how to make walking effective.",
-    "keywords": "walking for weight loss, how much to walk, walking by age, brisk walking, weight loss exercise, moderate intensity walking, AI Weight Coach",
+    "title": "Why Do I Crave Sugar in the Morning?",
+    "slug": "why-do-i-crave-sugar-in-the-morning",
+    "excerpt": "Morning sugar cravings often stem from low blood sugar after an overnight fast, hormonal shifts like cortisol, poor sleep, or imbalanced meals. Addressing these factors can help stabilize energy and reduce the urge for sweets.",
+    "category": "nutrition_science",
+    "search_query": "why do i crave sugar in the morning",
+    "published_at": "2026-05-30T18:00:16.002357+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Why Do I Crave Sugar in the Morning? Expert Answers",
+    "meta_description": "Discover the reasons behind morning sugar cravings, from blood sugar imbalances to hormonal shifts and sleep deprivation. Learn practical strategies to manage and reduce your sweet tooth.",
+    "keywords": "sugar cravings, morning cravings, why crave sugar, blood sugar, hormones, sleep, healthy breakfast, weight loss, AI Weight Coach, nutrition",
     "linked_micros": [
       {
-        "type": "workouts",
-        "slug": "walking-workouts-for-weight-loss",
-        "name": "Walking Workouts for Weight Loss"
+        "type": "conditions",
+        "slug": "understanding-insulin-resistance",
+        "name": "Understanding Insulin Resistance"
+      },
+      {
+        "type": "recipes",
+        "slug": "healthy-breakfast-recipes",
+        "name": "Healthy Breakfast Recipes"
       },
       {
         "type": "diets",
-        "slug": "calorie-deficit-strategies",
-        "name": "Calorie Deficit Strategies"
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
       },
       {
-        "type": "exercises",
-        "slug": "boosting-non-exercise-activity-neat",
-        "name": "Boosting Non-Exercise Activity (NEAT)"
-      },
-      {
-        "type": "conditions",
-        "slug": "hormonal-imbalance-and-weight-gain",
-        "name": "Hormonal Imbalance and Weight Gain"
+        "type": "fasting",
+        "slug": "intermittent-fasting-and-gut-health",
+        "name": "Intermittent Fasting and Gut Health"
       }
     ]
   },

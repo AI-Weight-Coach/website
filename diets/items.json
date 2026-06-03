@@ -1,5 +1,21 @@
 [
   {
+    "name": "Healthy Postpartum Diet",
+    "slug": "healthy-postpartum-diet",
+    "primary_stat": "9",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "healthy postpartum diet",
+    "published_at": "2026-06-03T06:00:17.410628+00:00",
+    "meta_description": "9/10 rating. Discover the Healthy Postpartum Diet: supports recovery, breastfeeding, and gradual weight loss. Learn pros, cons, and who it's best for.",
+    "linked_blogs": [
+      {
+        "slug": "how-long-does-it-take-to-lose-baby-weight",
+        "title": "How Long Does It Take to Lose Baby Weight?"
+      }
+    ]
+  },
+  {
     "name": "Anti-Bloating Diets",
     "slug": "anti-bloating-diets",
     "primary_stat": "8",
@@ -924,10 +940,6 @@
       {
         "slug": "mindful-eating-for-weight-loss-book-guide-conscious-eating",
         "title": "Mindful Eating for Weight Loss Book: Your Guide to Conscious Eating"
-      },
-      {
-        "slug": "how-to-stop-emotional-eating-at-night",
-        "title": "How to Stop Emotional Eating at Night"
       }
     ]
   },

@@ -1,5 +1,21 @@
 [
   {
+    "name": "Postpartum Workouts for Weight Loss",
+    "slug": "postpartum-workouts-for-weight-loss",
+    "primary_stat": "300",
+    "primary_unit": "cal/session",
+    "primary_context": "per 30-45 minutes",
+    "search_query": "postpartum workouts for weight loss",
+    "published_at": "2026-06-03T06:00:17.410628+00:00",
+    "meta_description": "300 cal/session. Learn about safe and effective postpartum workouts for weight loss, including a sample routine, benefits, and key considerations for core health.",
+    "linked_blogs": [
+      {
+        "slug": "how-long-does-it-take-to-lose-baby-weight",
+        "title": "How Long Does It Take to Lose Baby Weight?"
+      }
+    ]
+  },
+  {
     "name": "Walking Workouts for Weight Loss",
     "slug": "walking-workouts-for-weight-loss",
     "primary_stat": "375",
@@ -252,10 +268,6 @@
       {
         "slug": "how-to-reduce-bloating-from-mirena",
         "title": "How to Reduce Bloating from Mirena"
-      },
-      {
-        "slug": "how-to-stop-emotional-eating-at-night",
-        "title": "How to Stop Emotional Eating at Night"
       }
     ]
   },

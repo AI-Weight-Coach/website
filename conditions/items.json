@@ -1,5 +1,21 @@
 [
   {
+    "name": "Breastfeeding and Weight Loss",
+    "slug": "breastfeeding-and-weight-loss",
+    "primary_stat": "300-500",
+    "primary_unit": "calories",
+    "primary_context": "extra burned per day",
+    "search_query": "breastfeeding and weight loss",
+    "published_at": "2026-06-03T06:00:17.410628+00:00",
+    "meta_description": "Burn 300-500 extra calories breastfeeding! Learn about safe weight loss strategies, diet, exercise, and medication cautions for nursing mothers. Always consult your doctor.",
+    "linked_blogs": [
+      {
+        "slug": "how-long-does-it-take-to-lose-baby-weight",
+        "title": "How Long Does It Take to Lose Baby Weight?"
+      }
+    ]
+  },
+  {
     "name": "Understanding Indigestion in Pregnancy",
     "slug": "understanding-indigestion-in-pregnancy",
     "primary_stat": "45-80",
@@ -692,10 +708,6 @@
       {
         "slug": "best-way-to-lose-weight-fast-for-women",
         "title": "The Best Way to Lose Weight Fast for Women: A Comprehensive Guide"
-      },
-      {
-        "slug": "how-to-stop-emotional-eating-at-night",
-        "title": "How to Stop Emotional Eating at Night"
       }
     ]
   },

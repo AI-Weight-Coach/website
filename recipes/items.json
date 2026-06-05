@@ -1,5 +1,21 @@
 [
   {
+    "name": "Pre-Workout Meals",
+    "slug": "pre-workout-meals",
+    "primary_stat": "60-120",
+    "primary_unit": "minutes",
+    "primary_context": "before workout",
+    "search_query": "pre-workout meals",
+    "published_at": "2026-06-05T12:00:19.323070+00:00",
+    "meta_description": "Fuel your workouts! Learn why a pre-workout meal 60-120 minutes prior boosts performance, aids muscle preservation, and supports effective weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "what-to-eat-before-workout-for-muscle-gain",
+        "title": "What to Eat Before a Workout for Muscle Gain"
+      }
+    ]
+  },
+  {
     "name": "Healthy Breakfast Recipes",
     "slug": "healthy-breakfast-recipes",
     "primary_stat": "287",

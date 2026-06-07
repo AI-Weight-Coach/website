@@ -1,5 +1,34 @@
 [
   {
+    "title": "Strength Training for Beginners at Gym: Your Ultimate Guide",
+    "slug": "strength-training-for-beginners-at-gym",
+    "excerpt": "For beginners at the gym, strength training involves starting with basic compound exercises using bodyweight, machines, or light free weights, focusing on proper form, and gradually increasing resistance over time to build muscle and boost metabolism.",
+    "category": "exercise_and_weight",
+    "search_query": "strength training for beginners at gym",
+    "published_at": "2026-06-07T06:00:18.061742+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Strength Training for Beginners at Gym | AI Weight Coach",
+    "meta_description": "Learn how to start strength training at the gym as a beginner. Discover essential exercises, proper form tips, and how to build a routine for effective weight loss and muscle gain.",
+    "keywords": "strength training for beginners, gym workout plan, beginner strength exercises, weight loss strength training, muscle building for beginners, gym routine for beginners, how to start lifting, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-muscle-gain",
+        "name": "Dietary Protein for Muscle Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      }
+    ]
+  },
+  {
     "title": "How Long Does It Take to Lose Muscle?",
     "slug": "how-long-does-it-take-to-lose-muscle",
     "excerpt": "Muscle loss can begin relatively quickly, within days to a few weeks, particularly under conditions of severe calorie restriction, insufficient protein, and lack of resistance training. The exact timeline depends on individual factors.",

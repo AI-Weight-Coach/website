@@ -1,5 +1,39 @@
 [
   {
+    "title": "Healthy Meal Prep Ideas for Weight Loss",
+    "slug": "healthy-meal-prep-ideas-for-weight-loss",
+    "excerpt": "Healthy meal prep for weight loss involves planning and preparing balanced meals rich in lean protein, fiber-rich vegetables, and complex carbohydrates to control portions and caloric intake.",
+    "category": "meal_planning",
+    "search_query": "healthy meal prep ideas for weight loss",
+    "published_at": "2026-06-07T18:00:20.932078+00:00",
+    "reading_time_min": 6,
+    "meta_title": "Healthy Meal Prep Ideas for Weight Loss | AI Weight Coach",
+    "meta_description": "Discover effective, healthy meal prep ideas for weight loss. Learn how to plan and prepare balanced, portion-controlled meals for sustainable results with AI Weight Coach.",
+    "keywords": "healthy meal prep, weight loss meals, meal prep ideas, healthy eating, losing weight, portion control, lean protein meals, balanced diet",
+    "linked_micros": [
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calor",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-recipes-for-weight-loss",
+        "name": "High-Protein Recipes for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "Does Stress Affect Weight Lifting?",
     "slug": "does-stress-affect-weight-lifting",
     "excerpt": "Yes, stress significantly impacts weight lifting by affecting hormone levels, recovery, muscle function, and mental focus, hindering performance and progress.",

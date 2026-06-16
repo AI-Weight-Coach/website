@@ -1,5 +1,21 @@
 [
   {
+    "name": "Strength and Balance Exercises for Seniors",
+    "slug": "strength-and-balance-exercises-for-seniors",
+    "primary_stat": "280",
+    "primary_unit": "cal/hour",
+    "primary_context": "estimated for a 70kg person",
+    "search_query": "strength and balance exercises for seniors",
+    "published_at": "2026-06-16T18:00:18.381498+00:00",
+    "meta_description": "Burn around 280 cal/hour doing strength and balance exercises (70kg person). Moderate intensity, targets full body. Essential for seniors' health & functional independence.",
+    "linked_blogs": [
+      {
+        "slug": "weight-loss-for-women-over-75",
+        "title": "Weight Loss for Women Over 75: A Gentle, Health-Focused Approach"
+      }
+    ]
+  },
+  {
     "name": "Gentle Exercises for Bloating Relief",
     "slug": "gentle-exercises-for-bloating-relief",
     "primary_stat": "206",

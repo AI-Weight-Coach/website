@@ -1,5 +1,21 @@
 [
   {
+    "name": "Nutrient-Dense Diets for Seniors",
+    "slug": "nutrient-dense-diets-for-seniors",
+    "primary_stat": "9",
+    "primary_unit": "rating /10",
+    "primary_context": "out of 10",
+    "search_query": "nutrient-dense diets for seniors",
+    "published_at": "2026-06-16T18:00:18.381498+00:00",
+    "meta_description": "9/10 rating: Discover the benefits of Nutrient-Dense Diets for Seniors. Learn pros, cons, difficulty, and why this eating pattern supports healthy aging and vitality.",
+    "linked_blogs": [
+      {
+        "slug": "weight-loss-for-women-over-75",
+        "title": "Weight Loss for Women Over 75: A Gentle, Health-Focused Approach"
+      }
+    ]
+  },
+  {
     "name": "Healthy Postpartum Diet",
     "slug": "healthy-postpartum-diet",
     "primary_stat": "9",

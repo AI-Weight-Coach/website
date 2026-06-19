@@ -1,5 +1,39 @@
 [
   {
+    "title": "Does Walking Help You Lose Weight Fast?",
+    "slug": "does-walking-help-you-lose-weight-fast",
+    "excerpt": "Walking is an excellent, accessible form of exercise that can significantly contribute to weight loss, though achieving \"fast\" results typically requires a comprehensive approach combining consistent walking with dietary adjustments.",
+    "category": "exercise_and_weight",
+    "search_query": "does walking help you lose weight fast",
+    "published_at": "2026-06-19T18:00:21.357670+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Does Walking Help You Lose Weight Fast? | AI Weight Coach",
+    "meta_description": "Discover if walking helps you lose weight fast. Learn effective strategies, benefits beyond weight loss, and how to maximize your walking routine for sustainable results.",
+    "keywords": "walking for weight loss, lose weight fast, walking benefits, exercise and weight, calorie deficit, consistent walking, health and fitness, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "workouts",
+        "slug": "walking-workouts-for-weight-loss",
+        "name": "Walking Workouts for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "drinks",
+        "slug": "metabolism-boosting-drinks",
+        "name": "Metabolism-Boosting Drinks"
+      },
+      {
+        "type": "exercises",
+        "slug": "running",
+        "name": "Running"
+      }
+    ]
+  },
+  {
     "title": "Does Stress Cause Weight Loss?",
     "slug": "does-stress-cause-weight-loss",
     "excerpt": "While acute stress can lead to temporary weight loss due to appetite suppression or increased metabolism, chronic stress more commonly contributes to weight gain through hormonal changes and disrupted lifestyle.",

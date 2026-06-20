@@ -1,5 +1,21 @@
 [
   {
+    "name": "ADHD and Eating Habits",
+    "slug": "adhd-and-eating-habits",
+    "primary_stat": "Structured Eating",
+    "primary_unit": "approach",
+    "primary_context": "for better weight management",
+    "search_query": "adhd and eating habits",
+    "published_at": "2026-06-20T18:00:18.408381+00:00",
+    "meta_description": "Structured Eating approach: ADHD impacts eating habits and weight. Learn how ADHD affects weight, dietary tips, safe exercise, medications, and when to see a doctor.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-stop-binge-eating-with-adhd",
+        "title": "How to Stop Binge Eating When You Have ADHD"
+      }
+    ]
+  },
+  {
     "name": "Breastfeeding and Weight Loss",
     "slug": "breastfeeding-and-weight-loss",
     "primary_stat": "300-500",

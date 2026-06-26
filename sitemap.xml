@@ -36,6 +36,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/blog/why-do-i-crave-sugar-so-much.html</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/blog/does-stress-cause-weight-gain-or-loss.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -1868,6 +1874,12 @@
     <loc>https://aiweightcoach.app/protein/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/protein/protein-for-blood-sugar-control.html</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/protein/dietary-protein-for-muscle-gain.html</loc>

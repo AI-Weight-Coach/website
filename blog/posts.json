@@ -1,5 +1,39 @@
 [
   {
+    "title": "What Does a Calorie Deficit Mean?",
+    "slug": "what-does-a-calorie-deficit-mean",
+    "excerpt": "A calorie deficit means consuming fewer calories than your body expends, forcing it to use stored energy like fat for fuel, which is essential for weight loss.",
+    "category": "calorie_management",
+    "search_query": "what is a calorie deficit mean",
+    "published_at": "2026-06-27T12:00:21.107014+00:00",
+    "reading_time_min": 5,
+    "meta_title": "What Does a Calorie Deficit Mean? Your Guide to Weight Loss",
+    "meta_description": "A calorie deficit means eating fewer calories than your body burns. Learn how to safely create one for sustainable weight loss with AI Weight Coach's expert guidance.",
+    "keywords": "calorie deficit, weight loss, how to lose weight, energy balance, calorie tracking, healthy eating, exercise, AI Weight Coach, metabolism",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "exercises",
+        "slug": "boosting-non-exercise-activity-neat",
+        "name": "Boosting Non-Exercise Activity (NEAT)"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calorie-meal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      },
+      {
+        "type": "conditions",
+        "slug": "metabolic-adaptation",
+        "name": "Metabolic Adaptation"
+      }
+    ]
+  },
+  {
     "title": "Best Foods for Weight Loss Reddit: An Expert Guide",
     "slug": "best-foods-for-weight-loss-reddit-expert-guide",
     "excerpt": "For effective weight loss, the best foods prioritize satiety and nutrient density, featuring lean proteins, fiber-rich fruits and vegetables, whole grains, and healthy fats.",

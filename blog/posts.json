@@ -1,5 +1,39 @@
 [
   {
+    "title": "Does Sleep Affect Weight Gain?",
+    "slug": "does-sleep-affect-weight-gain",
+    "excerpt": "Yes, sleep significantly affects weight gain. Insufficient or poor-quality sleep disrupts hormones that regulate appetite and metabolism, leading to increased hunger, altered food choices, and reduced energy expenditure, all contributing factors to weight gain.",
+    "category": "behavior_psychology",
+    "search_query": "does sleep affect weight gain",
+    "published_at": "2026-06-28T12:00:21.976820+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Does Sleep Affect Weight Gain? The Crucial Link Explored",
+    "meta_description": "Yes, poor sleep significantly affects weight gain by disrupting hormones, metabolism, and food choices. Learn how sleep impacts your weight and get practical tips for better rest.",
+    "keywords": "sleep and weight gain, sleep deprivation, weight management, appetite hormones, metabolism, sleep hygiene, cortisol, ghrelin, leptin",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "snacks",
+        "slug": "affordable-high-protein-snacks",
+        "name": "Affordable High-Protein Snacks"
+      }
+    ]
+  },
+  {
     "title": "How to Lose 10 Pounds in a Week: Understanding the Reality and Healthy Strategies",
     "slug": "how-to-lose-10-pounds-in-a-week",
     "excerpt": "While losing 10 pounds in a week is largely water weight and not sustainable fat loss, it involves a significant, temporary caloric deficit, reduced sodium and carb intake, and increased hydration. Focus on healthy, gradual strategies for lasting results.",

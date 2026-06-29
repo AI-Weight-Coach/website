@@ -1,5 +1,21 @@
 [
   {
+    "name": "Easy and Healthy Breakfast Recipes for Kids",
+    "slug": "easy-and-healthy-breakfast-recipes-for-kids",
+    "primary_stat": "320",
+    "primary_unit": "calories",
+    "primary_context": "per serving",
+    "search_query": "easy and healthy breakfast recipes for kids",
+    "published_at": "2026-06-29T06:00:20.827532+00:00",
+    "meta_description": "320 calories per serving: Discover easy & healthy breakfast recipes for kids! Berry Blast Overnight Oats pack fiber & protein for sustained energy, supporting healthy growth. Get tips & use an AI Weight Coach.",
+    "linked_blogs": [
+      {
+        "slug": "healthy-breakfast-ideas-for-picky-eaters",
+        "title": "Healthy Breakfast Ideas for Picky Eaters"
+      }
+    ]
+  },
+  {
     "name": "Pre-Workout Meals",
     "slug": "pre-workout-meals",
     "primary_stat": "60-120",

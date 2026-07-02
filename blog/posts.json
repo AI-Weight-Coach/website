@@ -1,5 +1,39 @@
 [
   {
+    "title": "What Is a Calorie Deficit and How Do I Do It?",
+    "slug": "what-is-a-calorie-deficit-and-how-do-i-do-it",
+    "excerpt": "A calorie deficit occurs when you consistently consume fewer calories than your body burns, prompting it to use stored energy (fat) for fuel, leading to weight loss. You create one by making mindful dietary choices and increasing physical activity.",
+    "category": "calorie_management",
+    "search_query": "what is a calorie deficit and how do i do it",
+    "published_at": "2026-07-02T18:00:18.948336+00:00",
+    "reading_time_min": 7,
+    "meta_title": "What is a Calorie Deficit & How to Do It Safely?",
+    "meta_description": "Learn what a calorie deficit is and how to create one safely and effectively for weight loss. Understand calorie needs, practical strategies, and common pitfalls.",
+    "keywords": "calorie deficit, weight loss, how to lose weight, calorie tracking, energy balance, sustainable weight loss, healthy eating, exercise for weight loss, AI Weight Coach, metabolic rate",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "exercises",
+        "slug": "boosting-non-exercise-activity-neat",
+        "name": "Boosting Non-Exercise Activity (NEAT)"
+      },
+      {
+        "type": "conditions",
+        "slug": "metabolic-adaptation",
+        "name": "Metabolic Adaptation"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-caloric-meal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      }
+    ]
+  },
+  {
     "title": "Why Am I Not Losing Weight on Saxenda?",
     "slug": "why-am-i-not-losing-weight-on-saxenda",
     "excerpt": "Not losing weight on Saxenda can stem from insufficient caloric deficit, inadequate physical activity, individual response, or underlying health issues. A holistic approach with medical guidance is key.",

@@ -1,5 +1,21 @@
 [
   {
+    "name": "Creatine Supplements",
+    "slug": "creatine-supplements",
+    "primary_stat": "Weak",
+    "primary_unit": "evidence",
+    "primary_context": "for direct weight loss",
+    "search_query": "creatine supplements",
+    "published_at": "2026-07-09T18:00:17.718998+00:00",
+    "meta_description": "Weak evidence for direct weight loss with creatine. Learn how creatine works, its dosage, side effects, and its indirect role in weight management.",
+    "linked_blogs": [
+      {
+        "slug": "how-much-water-should-i-drink-on-creatine",
+        "title": "How Much Water Should I Drink on Creatine?"
+      }
+    ]
+  },
+  {
     "name": "Protein Supplements for Women",
     "slug": "protein-supplements-for-women",
     "primary_stat": "Moderate",

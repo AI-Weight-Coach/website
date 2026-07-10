@@ -1,21 +1,5 @@
 [
   {
-    "name": "Understanding Sleep Apnea",
-    "slug": "understanding-sleep-apnea",
-    "primary_stat": "10",
-    "primary_unit": "approach",
-    "primary_context": "weight loss can improve sleep apnea severity",
-    "search_query": "understanding sleep apnea",
-    "published_at": "2026-07-10T12:00:17.626261+00:00",
-    "meta_description": "10% weight loss can significantly improve sleep apnea. Learn how sleep apnea affects weight, dietary recommendations, safe exercise, and when to see a doctor.",
-    "linked_blogs": [
-      {
-        "slug": "how-does-weight-loss-affect-sleep",
-        "title": "How Does Weight Loss Affect Sleep?"
-      }
-    ]
-  },
-  {
     "name": "ADHD and Eating Habits",
     "slug": "adhd-and-eating-habits",
     "primary_stat": "Structured Eating",
@@ -168,6 +152,10 @@
       {
         "slug": "does-walking-help-you-lose-weight-in-your-stomach",
         "title": "Does Walking Help You Lose Weight In Your Stomach?"
+      },
+      {
+        "slug": "how-to-lose-love-handles-in-2-weeks-at-home",
+        "title": "How to Lose Love Handles in 2 Weeks at Home"
       }
     ]
   },

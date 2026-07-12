@@ -1952,29 +1952,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aiweightcoach.app/drinks/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aiweightcoach.app/drinks/herbal-teas-for-digestion.html</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aiweightcoach.app/drinks/metabolism-boosting-drinks.html</loc>
-    <lastmod>2025-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aiweightcoach.app/drinks/hydrating-drinks-for-optimal-health.html</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://aiweightcoach.app/workouts/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

@@ -1,35 +1,35 @@
 [
   {
-    "title": "Healthy Indian Breakfast Ideas for Weight Loss",
-    "slug": "healthy-indian-breakfast-ideas-weight-loss",
-    "excerpt": "Discover delicious and nutritious Indian breakfast ideas like vegetable upma, moong dal cheela, and sprouts salad, optimized for weight loss and sustained energy.",
+    "title": "How to Lose Weight Without Exercise at Home",
+    "slug": "how-to-lose-weight-without-exercise-at-home",
+    "excerpt": "Losing weight at home without exercise is primarily achieved through a sustained calorie deficit created by dietary changes and mindful eating habits.",
     "category": "practical_tips",
-    "search_query": "healthy breakfast ideas indian",
-    "published_at": "2026-07-12T12:00:24.382542+00:00",
-    "reading_time_min": 7,
-    "meta_title": "Healthy Indian Breakfast Ideas for Weight Loss & Energy",
-    "meta_description": "Discover delicious, protein-rich, and fiber-packed Indian breakfast ideas like moong dal cheela and oats upma to support your weight loss journey.",
-    "keywords": "healthy indian breakfast, indian breakfast for weight loss, high protein indian breakfast, fiber rich indian breakfast, weight loss indian recipes, moong dal cheela, oats upma, ragi dosa, sprouts salad",
+    "search_query": "how to lose weight without exercise at home",
+    "published_at": "2026-07-12T12:00:20.487134+00:00",
+    "reading_time_min": 9,
+    "meta_title": "How to Lose Weight Without Exercise at Home | AI Weight Coach",
+    "meta_description": "Learn how to lose weight effectively without exercise at home by focusing on diet, portion control, mindful eating, sleep, and stress management.",
+    "keywords": "how to lose weight without exercise, lose weight at home, diet for weight loss, healthy eating at home, mindful eating, portion control, meal planning, stress management weight loss, sleep and weight loss, calorie deficit",
     "linked_micros": [
       {
-        "type": "protein",
-        "slug": "dietary-protein-for-weight-loss",
-        "name": "Dietary Protein for Weight Loss"
-      },
-      {
-        "type": "recipes",
-        "slug": "high-protein-recipes-for-weight-loss",
-        "name": "High-Protein Recipes for Weight Loss"
-      },
-      {
         "type": "diets",
-        "slug": "vegetarian-diets-for-weight-loss",
-        "name": "Vegetarian Diets for Weight Loss"
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
       },
       {
         "type": "meal-plans",
         "slug": "high-protein-low-calorie-meal-plans",
         "name": "High-Protein Low-Calorie Meal Plans"
+      },
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
       }
     ]
   },

@@ -1,35 +1,35 @@
 [
   {
-    "title": "Weight Loss for Women Over 40 Meal Plan",
-    "slug": "weight-loss-women-over-40-meal-plan",
-    "excerpt": "A weight loss meal plan for women over 40 should prioritize nutrient-dense whole foods, lean protein, fiber, and healthy fats to support metabolism and hormonal balance.",
-    "category": "meal_planning",
-    "search_query": "weight loss for women over 40 meal plan",
-    "published_at": "2026-08-03T12:00:17.118357+00:00",
+    "title": "Why Do I Put On Weight So Easily?",
+    "slug": "why-do-i-put-on-weight-so-easily",
+    "excerpt": "Gaining weight easily can stem from a complex interplay of genetics, metabolism, lifestyle choices, hormonal factors, and environmental influences, making consistent healthy habits crucial for management.",
+    "category": "nutrition_science",
+    "search_query": "why do i put on weight so easily",
+    "published_at": "2026-08-03T12:00:21.432214+00:00",
     "reading_time_min": 8,
-    "meta_title": "Weight Loss for Women Over 40: Meal Plan Guide",
-    "meta_description": "Discover an effective weight loss meal plan for women over 40, focusing on nutrient-dense foods, protein, fiber, and healthy fats to support metabolism and hormonal changes.",
-    "keywords": "weight loss, women over 40, meal plan, healthy eating, perimenopause diet, metabolism, protein, fiber, healthy fats",
+    "meta_title": "Why Do I Put On Weight So Easily? Understanding the Causes",
+    "meta_description": "Discover the common reasons behind easy weight gain, from genetics and metabolism to hormones and lifestyle. Learn how AI Weight Coach can help.",
+    "keywords": "weight gain reasons, easy weight gain, metabolism and weight, hormones and weight, genetics weight, lifestyle weight gain, why gain weight, body composition",
     "linked_micros": [
-      {
-        "type": "meal-plans",
-        "slug": "high-protein-low-calorie-meal-plans",
-        "name": "High-Protein Low-Calorie Meal Plans"
-      },
-      {
-        "type": "diets",
-        "slug": "diets-for-menopause",
-        "name": "Diets for Menopause"
-      },
-      {
-        "type": "protein",
-        "slug": "dietary-protein-for-weight-loss",
-        "name": "Dietary Protein for Weight Loss"
-      },
       {
         "type": "conditions",
         "slug": "hormonal-imbalance-and-weight-gain",
         "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
       }
     ]
   },

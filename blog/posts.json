@@ -1,5 +1,39 @@
 [
   {
+    "title": "Does Walking Help You Lose Weight More Than Running?",
+    "slug": "does-walking-help-you-lose-weight-more-than-running",
+    "excerpt": "While running typically burns more calories per minute, walking can be equally effective for weight loss, especially when done consistently, for longer durations, or at a brisk pace. The \"better\" option depends on individual fitness levels, goals, and consistency.",
+    "category": "exercise_and_weight",
+    "search_query": "does walking help you lose weight more than running",
+    "published_at": "2026-08-05T06:00:19.893492+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Walking vs. Running for Weight Loss: Which is Better?",
+    "meta_description": "Discover whether walking helps you lose weight more than running. Learn calorie burn, benefits, and how to choose the best exercise for your goals.",
+    "keywords": "walking for weight loss, running for weight loss, exercise for weight loss, calorie burn walking vs running, sustained weight loss, fitness for weight loss, low-impact exercise",
+    "linked_micros": [
+      {
+        "type": "exercises",
+        "slug": "running",
+        "name": "Running"
+      },
+      {
+        "type": "workouts",
+        "slug": "walking-workouts-for-weight-loss",
+        "name": "Walking Workouts for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-muscle-gain",
+        "name": "Dietary Protein for Muscle Gain"
+      }
+    ]
+  },
+  {
     "title": "Mindful Eating for Weight Loss: What Reddit Discussions Reveal",
     "slug": "mindful-eating-for-weight-loss-reddit-insights",
     "excerpt": "Mindful eating, a frequently discussed topic on Reddit, is an effective strategy for weight loss that involves paying full attention to your food and body's hunger and satiety cues.",

@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Much Water Should I Drink a Day?",
+    "slug": "how-much-water-should-i-drink-a-day",
+    "excerpt": "The general guideline for daily water intake is around 2.7 liters (91 ounces) for women and 3.7 liters (125 ounces) for men, but individual needs vary.",
+    "category": "practical_tips",
+    "search_query": "how much water should i drink a day",
+    "published_at": "2026-08-05T18:00:15.406295+00:00",
+    "reading_time_min": 7,
+    "meta_title": "How Much Water Should I Drink a Day? | AI Weight Coach",
+    "meta_description": "Discover how much water you should drink daily for optimal health and weight loss. Learn to calculate your needs, recognize dehydration, and boost your intake with practical tips from AI Weight Coach.",
+    "keywords": "daily water intake, hydration, weight loss, water benefits, how much water, dehydration symptoms, drinking water tips, healthy habits",
+    "linked_micros": [
+      {
+        "type": "drinks",
+        "slug": "hydrating-drinks-for-optimal-health",
+        "name": "Hydrating Drinks for Optimal Health"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "workouts",
+        "slug": "full-body-workouts-for-fat-loss",
+        "name": "Full Body Workouts for Fat Loss"
+      },
+      {
+        "type": "conditions",
+        "slug": "signs-of-dehydration",
+        "name": "Signs of Dehydration"
+      }
+    ]
+  },
+  {
     "title": "Does Walking Help You Lose Weight More Than Running?",
     "slug": "does-walking-help-you-lose-weight-more-than-running",
     "excerpt": "While running typically burns more calories per minute, walking can be equally effective for weight loss, especially when done consistently, for longer durations, or at a brisk pace. The \"better\" option depends on individual fitness levels, goals, and consistency.",

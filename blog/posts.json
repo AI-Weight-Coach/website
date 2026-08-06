@@ -1,5 +1,34 @@
 [
   {
+    "title": "Does Sleep Apnea Affect Weight Loss?",
+    "slug": "does-sleep-apnea-affect-weight-loss",
+    "excerpt": "Yes, sleep apnea significantly affects weight loss by disrupting hormones, metabolism, and energy levels, making it harder to shed pounds.",
+    "category": "behavior_psychology",
+    "search_query": "does sleep apnea affect weight loss",
+    "published_at": "2026-08-06T18:00:15.247445+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Sleep Apnea & Weight Loss: The Connection Explained",
+    "meta_description": "Learn how sleep apnea profoundly affects weight loss by disrupting hormones, metabolism, and energy levels, making it harder to shed pounds.",
+    "keywords": "sleep apnea, weight loss, metabolism, hormones, ghrelin, leptin, insulin resistance, cortisol, CPAP, obesity, sleep health",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      }
+    ]
+  },
+  {
     "title": "How Much Water Should I Drink a Day?",
     "slug": "how-much-water-should-i-drink-a-day",
     "excerpt": "The general guideline for daily water intake is around 2.7 liters (91 ounces) for women and 3.7 liters (125 ounces) for men, but individual needs vary.",

@@ -1,5 +1,21 @@
 [
   {
+    "name": "Meal Planning Strategies",
+    "slug": "meal-planning-strategies",
+    "primary_stat": "2000",
+    "primary_unit": "cal/day",
+    "primary_context": "estimated for moderate activity",
+    "search_query": "meal planning strategies",
+    "published_at": "2026-08-07T18:00:18.627091+00:00",
+    "meta_description": "2000 cal/day sample meal plan: Learn evidence-based meal planning strategies to save time & money. Includes macros, grocery estimate & prep tips. Get started today!",
+    "linked_blogs": [
+      {
+        "slug": "how-to-break-bad-eating-habits-reddit",
+        "title": "How to Break Bad Eating Habits, According to Experts and Reddit Users"
+      }
+    ]
+  },
+  {
     "name": "High-Protein Low-Calorie Meal Plans",
     "slug": "high-protein-low-caloric-meal-plans",
     "primary_stat": "1500",

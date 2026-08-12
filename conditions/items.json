@@ -1,5 +1,21 @@
 [
   {
+    "name": "Understanding Gastritis",
+    "slug": "understanding-gastritis",
+    "primary_stat": "Variable",
+    "primary_unit": "Weight Impact",
+    "primary_context": "due to symptoms and management strategies",
+    "search_query": "understanding gastritis",
+    "published_at": "2026-08-12T06:00:16.829105+00:00",
+    "meta_description": "Understand how gastritis affects weight, get dietary tips, safe exercises, medication insights, and know when to see a doctor. Consult a doctor.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-reduce-bloating-from-alcohol",
+        "title": "How to Reduce Bloating from Alcohol"
+      }
+    ]
+  },
+  {
     "name": "Understanding Sleep Apnea",
     "slug": "understanding-sleep-apnea",
     "primary_stat": "40-60",

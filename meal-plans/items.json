@@ -1,5 +1,21 @@
 [
   {
+    "name": "High-Protein Low-Calorie Meal Plans",
+    "slug": "high-protein-low-calor-meal-plans",
+    "primary_stat": "1500",
+    "primary_unit": "cal/day",
+    "primary_context": "for weight loss",
+    "search_query": "high-protein low-calorie meal plans",
+    "published_at": "2026-08-15T18:00:17.906565+00:00",
+    "meta_description": "1500 cal/day high-protein, low-calorie meal plan for weight loss. Learn about macros, sample meals, prep tips, and if this plan is right for you. Get RD insights.",
+    "linked_blogs": [
+      {
+        "slug": "how-much-should-i-walk-to-lose-weight-according-to-my-weight",
+        "title": "How Much Should I Walk to Lose Weight According to My Weight?"
+      }
+    ]
+  },
+  {
     "name": "Meal Planning Strategies",
     "slug": "meal-planning-strategies",
     "primary_stat": "2000",

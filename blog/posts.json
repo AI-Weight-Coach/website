@@ -1,35 +1,30 @@
 [
   {
-    "title": "Healthy Meal Prep Lunch Ideas for Sustainable Weight Loss",
-    "slug": "healthy-meal-prep-lunch-ideas",
-    "excerpt": "For healthy meal prep lunches, focus on balanced meals rich in lean protein, fiber-filled vegetables, and complex carbohydrates. Great ideas include colorful power bowls, Mason jar salads, and hearty homemade soups.",
-    "category": "practical_tips",
-    "search_query": "healthy meal prep lunch ideas",
-    "published_at": "2026-08-20T06:00:20.680244+00:00",
-    "reading_time_min": 8,
-    "meta_title": "Healthy Meal Prep Lunch Ideas for Sustainable Weight Loss",
-    "meta_description": "Discover easy, delicious, and healthy meal prep lunch ideas like power bowls, Mason jar salads, and hearty soups to support your weight loss journey. Optimize your nutrition and save time.",
-    "keywords": "healthy meal prep, lunch ideas, weight loss meals, easy meal prep, meal planning, high protein lunch, fiber rich meals, healthy lunches",
+    "title": "HIIT Workout for Weight Loss Without Equipment",
+    "slug": "hiit-workout-for-weight-loss-without-equipment",
+    "excerpt": "No-equipment HIIT for weight loss uses intense bodyweight exercises followed by brief recovery, effectively boosting metabolism and burning calories to support fat loss without gear.",
+    "category": "exercise_and_weight",
+    "search_query": "hiit workout for weight loss without equipment",
+    "published_at": "2026-08-20T06:00:28.763864+00:00",
+    "reading_time_min": 4,
+    "meta_title": "HIIT Workout for Weight Loss Without Equipment",
+    "meta_description": "Discover how no-equipment HIIT workouts effectively boost metabolism and burn calories for weight loss. Learn effective exercises, structuring, and benefits.",
+    "keywords": "hiit workout, weight loss, no equipment, bodyweight exercises, cardio, fat loss, home workout, high intensity interval training",
     "linked_micros": [
       {
-        "type": "meal-plans",
-        "slug": "meal-planning-strategies",
-        "name": "Meal Planning Strategies"
+        "type": "exercises",
+        "slug": "bodyweight-exercises-for-beginners",
+        "name": "Bodyweight Exercises for Beginners"
       },
       {
-        "type": "recipes",
-        "slug": "healthy-weight-loss-recipes",
-        "name": "Healthy Weight Loss Recipes"
+        "type": "workouts",
+        "slug": "full-body-workouts-for-fat-loss",
+        "name": "Full Body Workouts for Fat Loss"
       },
       {
-        "type": "diets",
-        "slug": "calorie-deficit-strategies",
-        "name": "Calorie Deficit Strategies"
-      },
-      {
-        "type": "protein",
-        "slug": "dietary-protein-for-weight-loss",
-        "name": "Dietary Protein for Weight Loss"
+        "type": "drinks",
+        "slug": "hydrating-drinks-for-optimal-health",
+        "name": "Hydrating Drinks for Optimal Health"
       }
     ]
   },

@@ -1,5 +1,39 @@
 [
   {
+    "title": "Healthy Meal Prep Lunch Ideas for Sustainable Weight Loss",
+    "slug": "healthy-meal-prep-lunch-ideas",
+    "excerpt": "For healthy meal prep lunches, focus on balanced meals rich in lean protein, fiber-filled vegetables, and complex carbohydrates. Great ideas include colorful power bowls, Mason jar salads, and hearty homemade soups.",
+    "category": "practical_tips",
+    "search_query": "healthy meal prep lunch ideas",
+    "published_at": "2026-08-20T06:00:20.680244+00:00",
+    "reading_time_min": 8,
+    "meta_title": "Healthy Meal Prep Lunch Ideas for Sustainable Weight Loss",
+    "meta_description": "Discover easy, delicious, and healthy meal prep lunch ideas like power bowls, Mason jar salads, and hearty soups to support your weight loss journey. Optimize your nutrition and save time.",
+    "keywords": "healthy meal prep, lunch ideas, weight loss meals, easy meal prep, meal planning, high protein lunch, fiber rich meals, healthy lunches",
+    "linked_micros": [
+      {
+        "type": "meal-plans",
+        "slug": "meal-planning-strategies",
+        "name": "Meal Planning Strategies"
+      },
+      {
+        "type": "recipes",
+        "slug": "healthy-weight-loss-recipes",
+        "name": "Healthy Weight Loss Recipes"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "What is a Calorie Deficit to Lose Weight?",
     "slug": "what-is-a-calorie-deficit-to-lose-weight",
     "excerpt": "A calorie deficit occurs when you consistently consume fewer calories than your body burns, prompting it to use stored fat for energy, which leads to weight loss over time.",

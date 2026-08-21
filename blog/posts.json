@@ -1,5 +1,39 @@
 [
   {
+    "title": "Is Keto Good for Your Heart?",
+    "slug": "is-keto-good-for-your-heart",
+    "excerpt": "The ketogenic diet's impact on heart health is complex and highly individualized, with potential benefits and concerns depending on its implementation and a person's metabolic response. While some markers like triglycerides may improve, others like LDL cholesterol can increase in some individuals.",
+    "category": "nutrition_science",
+    "search_query": "is keto good for your heart",
+    "published_at": "2026-08-21T06:00:17.256249+00:00",
+    "reading_time_min": 9,
+    "meta_title": "Is Keto Good for Your Heart? A Deep Dive into Health",
+    "meta_description": "The ketogenic diet's impact on heart health is complex. Learn about potential benefits like weight loss and triglyceride reduction, as well as concerns like LDL cholesterol and how to make keto heart-healthy. Consult a doctor.",
+    "keywords": "keto and heart health, ketogenic diet, heart health, cholesterol, LDL, HDL, triglycerides, saturated fat, healthy fats, weight loss, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "ketogenic-diet-strategies",
+        "name": "Ketogenic Diet Strategies"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-cholesterol",
+        "name": "Understanding Cholesterol"
+      },
+      {
+        "type": "myths",
+        "slug": "common-keto-myths-debunked",
+        "name": "Common Keto Myths Debunked"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      }
+    ]
+  },
+  {
     "title": "How to Lose Love Handles and Belly Fat",
     "slug": "how-to-lose-love-handles-and-belly-fat",
     "excerpt": "Losing love handles and belly fat involves overall body fat reduction through a sustainable calorie deficit, prioritizing protein and fiber, and a balanced routine of strength training and cardio.",

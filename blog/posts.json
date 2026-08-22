@@ -1,5 +1,34 @@
 [
   {
+    "title": "Healthy Breakfast Ideas Vegetarian",
+    "slug": "healthy-breakfast-ideas-vegetarian",
+    "excerpt": "Healthy vegetarian breakfast ideas prioritize whole grains, plant-based protein, healthy fats, and fiber-rich produce for sustained energy and satiety. Options include oatmeal, tofu scrambles, and avocado toast.",
+    "category": "practical_tips",
+    "search_query": "healthy breakfast ideas vegetarian",
+    "published_at": "2026-08-22T18:00:20.062288+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Healthy Vegetarian Breakfast Ideas for Weight Loss | AIWC",
+    "meta_description": "Discover delicious and easy healthy vegetarian breakfast ideas to support weight loss and provide sustained energy. Recipes for oats, tofu scrambles, and more.",
+    "keywords": "healthy breakfast ideas vegetarian, vegetarian breakfast for weight loss, high protein vegetarian breakfast, plant-based breakfast, easy vegetarian breakfast, healthy morning meals, vegetarian diet, weight loss tips",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "healthy-breakfast-recipes",
+        "name": "Healthy Breakfast Recipes"
+      },
+      {
+        "type": "protein",
+        "slug": "plant-based-protein-sources",
+        "name": "Plant-Based Protein Sources"
+      },
+      {
+        "type": "diets",
+        "slug": "vegetarian-diets-for-weight-loss",
+        "name": "Vegetarian Diets for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "Body Recomposition: How to Eat for Building Muscle and Losing Fat",
     "slug": "body-recomposition-how-to-eat",
     "excerpt": "Eating for body recomposition involves strategic calorie management (often a slight deficit or maintenance), prioritizing high protein intake to support muscle synthesis, and consuming adequate complex carbohydrates and healthy fats.",

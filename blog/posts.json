@@ -1,5 +1,39 @@
 [
   {
+    "title": "Body Recomposition: How to Eat for Building Muscle and Losing Fat",
+    "slug": "body-recomposition-how-to-eat",
+    "excerpt": "Eating for body recomposition involves strategic calorie management (often a slight deficit or maintenance), prioritizing high protein intake to support muscle synthesis, and consuming adequate complex carbohydrates and healthy fats.",
+    "category": "macro_tracking",
+    "search_query": "body recomposition how to eat",
+    "published_at": "2026-08-22T06:00:21.007683+00:00",
+    "reading_time_min": 10,
+    "meta_title": "Body Recomposition: How to Eat for Muscle & Fat Loss",
+    "meta_description": "Learn how to eat for body recomposition: strategically manage calories, prioritize high protein, and balance complex carbs and healthy fats to build muscle and lose fat simultaneously.",
+    "keywords": "body recomposition, how to eat, muscle gain, fat loss, protein intake, macronutrients, calorie management, nutrition for recomposition, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-muscle-gain",
+        "name": "Dietary Protein for Muscle Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calorimeal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      }
+    ]
+  },
+  {
     "title": "How Long Does It Take to Lose Water Weight?",
     "slug": "how-long-does-it-take-to-lose-water-weight",
     "excerpt": "Losing water weight typically happens quite quickly, often within a few days to a week, once you address the underlying causes like high sodium intake or dehydration. Significant changes can be observed in as little as 24-48 hours.",

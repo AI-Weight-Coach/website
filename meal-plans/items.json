@@ -1,6 +1,22 @@
 [
   {
     "name": "High-Protein Low-Calorie Meal Plans",
+    "slug": "high-protein-low-calorimeal-plans",
+    "primary_stat": "1523",
+    "primary_unit": "cal/day",
+    "primary_context": "sample plan total, typical range for weight loss is 1500-1800 cal/day",
+    "search_query": "high-protein low-calorie meal plans",
+    "published_at": "2026-08-22T06:00:21.007683+00:00",
+    "meta_description": "1523 cal/day. Explore the benefits, risks, and a 1-day sample high-protein, low-calorie meal plan. Learn to optimize satiety and preserve muscle mass for weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "body-recomposition-how-to-eat",
+        "title": "Body Recomposition: How to Eat for Building Muscle and Losing Fat"
+      }
+    ]
+  },
+  {
+    "name": "High-Protein Low-Calorie Meal Plans",
     "slug": "high-protein-low-calor-meal-plans",
     "primary_stat": "1500",
     "primary_unit": "cal/day",

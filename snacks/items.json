@@ -1,5 +1,21 @@
 [
   {
+    "name": "Healthy Snacks for Toddlers",
+    "slug": "healthy-snacks-for-toddlers",
+    "primary_stat": "80",
+    "primary_unit": "calories",
+    "primary_context": "per toddler serving of plain whole milk Greek yogurt with berries",
+    "search_query": "healthy snacks for toddlers",
+    "published_at": "2026-08-25T06:00:54.347325+00:00",
+    "meta_description": "80 calories per serving: Discover healthy toddler snacks like Greek yogurt & berries. Learn about protein, prep time, and variations for healthy growth.",
+    "linked_blogs": [
+      {
+        "slug": "healthy-breakfast-ideas-for-toddlers",
+        "title": "Healthy Breakfast Ideas for Toddlers"
+      }
+    ]
+  },
+  {
     "name": "Metabolism-Boosting Snacks",
     "slug": "metabolism-boosting-snacks",
     "primary_stat": "210",

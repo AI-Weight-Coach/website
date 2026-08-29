@@ -1,5 +1,34 @@
 [
   {
+    "title": "How Does Stress Affect Weight Loss?",
+    "slug": "how-does-stress-affect-weight-loss",
+    "excerpt": "Stress significantly impacts weight loss by increasing cortisol, which promotes fat storage, boosts appetite, disrupts sleep, and reduces motivation for healthy habits.",
+    "category": "behavior_psychology",
+    "search_query": "how does stress affects weight loss",
+    "published_at": "2026-08-29T18:00:21.796030+00:00",
+    "reading_time_min": 7,
+    "meta_title": "How Does Stress Affect Weight Loss? | AI Weight Coach",
+    "meta_description": "Stress significantly impacts weight loss by increasing cortisol, boosting appetite, disrupting sleep, and reducing motivation. Learn how to manage stress effectively for better weight loss results.",
+    "keywords": "stress weight loss, cortisol and weight, stress eating, weight gain stress, stress management weight, chronic stress weight, ghrelin leptin stress, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      }
+    ]
+  },
+  {
     "title": "Does Walking Help You Lose Weight Faster Than Running?",
     "slug": "does-walking-help-you-lose-weight-faster-than-running",
     "excerpt": "While running generally burns more calories per minute, walking can be equally or even more effective for sustainable weight loss due to its lower impact and adherence.",

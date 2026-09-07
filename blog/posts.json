@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Much Should I Walk to Lose Weight According to My BMI?",
+    "slug": "how-much-should-i-walk-to-lose-weight-according-to-my-bmi",
+    "excerpt": "Your BMI helps contextualize your health, but weight loss walking goals are primarily based on creating a calorie deficit. Aim for 150-300 minutes of brisk walking weekly, adjusting for fitness and health.",
+    "category": "exercise_and_weight",
+    "search_query": "how much should i walk to lose weight according to my bmi",
+    "published_at": "2026-09-07T18:00:20.801352+00:00",
+    "reading_time_min": 7,
+    "meta_title": "How Much Should I Walk for Weight Loss Based on My BMI?",
+    "meta_description": "Your BMI helps contextualize walking goals, but a calorie deficit is key for weight loss. Aim for 150-300 minutes of brisk walking weekly, adjusted for fitness. Get a personalized plan.",
+    "keywords": "walking for weight loss, BMI and exercise, how much to walk, weight loss walking plan, exercise for weight loss, daily steps for weight loss, brisk walking, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "workouts",
+        "slug": "walking-workouts-for-weight-loss",
+        "name": "Walking Workouts for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-low-calorie-recipes",
+        "name": "High-Protein Low-Calorie Recipes"
+      },
+      {
+        "type": "exercises",
+        "slug": "effective-cardio-for-overall-fat-loss",
+        "name": "Effective Cardio for Overall Fat Loss"
+      }
+    ]
+  },
+  {
     "title": "How Does Stress Affects Weight Loss?",
     "slug": "how-does-stress-affects-weight-loss",
     "excerpt": "Chronic stress can hinder weight loss by increasing cortisol, which promotes fat storage and cravings, disrupting sleep, and reducing motivation for healthy habits. Managing stress is crucial for a successful weight loss journey.",

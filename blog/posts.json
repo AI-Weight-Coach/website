@@ -1,5 +1,39 @@
 [
   {
+    "title": "What is a Calorie Deficit for Men?",
+    "slug": "what-is-a-calorie-deficit-for-men",
+    "excerpt": "A calorie deficit for men means consistently consuming fewer calories than your body burns, prompting your body to use stored fat for energy, which is essential for healthy and sustainable weight loss.",
+    "category": "calorie_management",
+    "search_query": "what is a calorie deficit for men",
+    "published_at": "2026-09-10T12:00:17.699936+00:00",
+    "reading_time_min": 10,
+    "meta_title": "What is a Calorie Deficit for Men? Your Guide to Weight Loss",
+    "meta_description": "A calorie deficit for men means eating fewer calories than burned, crucial for fat loss. Learn how to calculate it, strategies, common mistakes, and how AI Weight Coach can help you achieve sustainable weight loss goals.",
+    "keywords": "calorie deficit for men, men's weight loss, how to lose weight for men, calorie tracking, weight loss strategies, healthy deficit, AI Weight Coach, male nutrition, fat loss",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "exercises",
+        "slug": "effective-exercises-for-mens-fat-loss",
+        "name": "Effective Exercises for Men's Fat Loss"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      },
+      {
+        "type": "myths",
+        "slug": "common-weight-loss-plateau-myths-debunked",
+        "name": "Common Weight Loss Plateau Myths Debunked"
+      }
+    ]
+  },
+  {
     "title": "What to Eat Before a Workout Class: Your Fueling Guide",
     "slug": "what-to-eat-before-a-workout-class",
     "excerpt": "Before a workout class, focus on easily digestible carbohydrates for energy, with a small amount of lean protein if time allows, to optimize performance and prevent fatigue.",

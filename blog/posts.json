@@ -1,5 +1,39 @@
 [
   {
+    "title": "Why Do I Gain Weight So Easy?",
+    "slug": "why-do-i-gain-weight-so-easy",
+    "excerpt": "Gaining weight easily is often a complex interplay of genetics, metabolism, hormones, lifestyle, and environmental factors. It's rarely just one thing.",
+    "category": "nutrition_science",
+    "search_query": "why do i gain weight so easy",
+    "published_at": "2026-09-14T06:00:17.535882+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Why Do I Gain Weight So Easy? Unraveling the Causes",
+    "meta_description": "Gaining weight easily is complex. Learn how genetics, metabolism, hormones, and lifestyle factors combine to influence weight and what you can do about it.",
+    "keywords": "gain weight easily, easy weight gain, metabolism, genetics, hormones, lifestyle, weight management, weight loss factors, why do I gain weight",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "vitamins",
+        "slug": "essential-micronutrients-for-metabolism",
+        "name": "Essential Micronutrients for Metabolism"
+      }
+    ]
+  },
+  {
     "title": "Does Stress Cause Weight Gain in Women?",
     "slug": "does-stress-cause-weight-gain-in-women",
     "excerpt": "Yes, stress can significantly contribute to weight gain in women by triggering hormonal changes, increasing cravings, disrupting sleep, and impacting overall lifestyle choices.",

@@ -1,5 +1,21 @@
 [
   {
+    "name": "Weight Loss Supplements",
+    "slug": "weight-loss-supplements",
+    "primary_stat": "Weak",
+    "primary_unit": "evidence",
+    "primary_context": "for most over-the-counter weight loss supplements",
+    "search_query": "weight loss supplements",
+    "published_at": "2026-09-22T06:00:17.576905+00:00",
+    "meta_description": "Most weight loss supplements lack strong scientific evidence for efficacy and can pose health risks. Learn about their true effectiveness & why a balanced diet + exercise are key.",
+    "linked_blogs": [
+      {
+        "slug": "weight-loss-for-women-over-50-pills",
+        "title": "Weight Loss for Women Over 50 Pills: What You Need to Know"
+      }
+    ]
+  },
+  {
     "name": "Creatine Supplements",
     "slug": "creatine-supplements",
     "primary_stat": "Weak",

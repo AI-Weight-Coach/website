@@ -1,6 +1,22 @@
 [
   {
     "name": "High-Protein Low-Calorie Recipes",
+    "slug": "high-protein-low-caloriel-recipes",
+    "primary_stat": "190",
+    "primary_unit": "calories",
+    "primary_context": "per serving",
+    "search_query": "high-protein low-calorie recipes",
+    "published_at": "2026-09-22T18:00:34.082363+00:00",
+    "meta_description": "190 calories per serving. Discover the power of high-protein low-calorie recipes for weight loss. Learn why they boost metabolism & satiety, plus get a quick, healthy recipe.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-lose-10-pounds-in-3-weeks",
+        "title": "How to Lose 10 Pounds in 3 Weeks"
+      }
+    ]
+  },
+  {
+    "name": "High-Protein Low-Calorie Recipes",
     "slug": "high-protein-low-calorine-recipes",
     "primary_stat": "246",
     "primary_unit": "calories",

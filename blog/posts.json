@@ -1,5 +1,39 @@
 [
   {
+    "title": "Why Am I Gaining Weight So Easily?",
+    "slug": "why-am-i-gaining-weight-so-easily",
+    "excerpt": "Gaining weight easily can stem from a complex interplay of factors including metabolism, hormonal fluctuations, genetics, lifestyle habits, and underlying health conditions.",
+    "category": "nutrition_science",
+    "search_query": "why am i gaining weight so easily",
+    "published_at": "2026-09-22T18:00:23.676529+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Why Am I Gaining Weight So Easily? Understanding the Causes",
+    "meta_description": "Discover the complex reasons behind easy weight gain, from metabolism and hormones to genetics and lifestyle. Learn how to approach weight management effectively.",
+    "keywords": "weight gain easily, why gain weight, metabolism, hormones, genetics, lifestyle, weight management, health conditions",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "metabolic-adaptation",
+        "name": "Metabolic Adaptation"
+      },
+      {
+        "type": "exercises",
+        "slug": "boosting-non-exercise-activity-neat",
+        "name": "Boosting Non-Exercise Activity (NEAT)"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      }
+    ]
+  },
+  {
     "title": "Weight Loss for Women Over 50 Pills: What You Need to Know",
     "slug": "weight-loss-for-women-over-50-pills",
     "excerpt": "While there are prescription weight loss medications available for women over 50, they are generally used as part of a comprehensive, medically supervised weight management plan.",

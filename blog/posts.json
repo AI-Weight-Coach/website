@@ -1,5 +1,39 @@
 [
   {
+    "title": "High Protein Low Calorie Meals Prep",
+    "slug": "high-protein-low-calorie-meals-prep",
+    "excerpt": "High protein, low calorie meal prep involves preparing nutrient-dense meals in advance, focusing on lean proteins and non-starchy vegetables to support satiety and weight loss.",
+    "category": "meal_planning",
+    "search_query": "high protein low calorie meals prep",
+    "published_at": "2026-09-23T06:00:37.848288+00:00",
+    "reading_time_min": 5,
+    "meta_title": "High Protein Low Calorie Meals Prep for Weight Loss",
+    "meta_description": "Discover effective strategies for high protein low calorie meal prep, including ingredient ideas and practical tips to support your weight loss journey.",
+    "keywords": "high protein meals, low calorie meals, meal prep, weight loss, protein rich, calorie deficit, lean protein, meal planning",
+    "linked_micros": [
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calorie-meal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      },
+      {
+        "type": "recipes",
+        "slug": "high-protein-low-calorie-recipes",
+        "name": "High-Protein Low-Calorie Recipes"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      }
+    ]
+  },
+  {
     "title": "How to Lose 10 Pounds in 3 Weeks",
     "slug": "how-to-lose-10-pounds-in-3-weeks",
     "excerpt": "Achieving a 10-pound weight loss in 3 weeks generally requires a significant caloric deficit through dietary changes, increased activity, and consistent habits, emphasizing individual variation and professional guidance.",

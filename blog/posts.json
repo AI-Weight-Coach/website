@@ -1,5 +1,39 @@
 [
   {
+    "title": "Strength Training for Beginners: Women Over 40",
+    "slug": "strength-training-for-beginners-women-over-40",
+    "excerpt": "Strength training is crucial for women over 40, helping combat muscle loss, boost metabolism, improve bone density, and enhance overall well-being. Start with bodyweight exercises and light weights, focusing on proper form 2-3 times a week.",
+    "category": "exercise_and_weight",
+    "search_query": "strength training for beginners women over 40",
+    "published_at": "2026-09-27T12:00:19.163321+00:00",
+    "reading_time_min": 10,
+    "meta_title": "Strength Training for Beginners Women Over 40 | AI Weight Coach",
+    "meta_description": "Starting strength training over 40? Combat muscle loss, boost metabolism, and improve bone density with our beginner-friendly guide. Learn key exercises and tips.",
+    "keywords": "strength training, women over 40, beginners, muscle loss, bone density, weight management, resistance training, fitness for women, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts-for-women",
+        "name": "Strength Training Workouts for Women"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-osteoporosis",
+        "name": "Understanding Osteoporosis"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-muscle-gain",
+        "name": "Dietary Protein for Muscle Gain"
+      },
+      {
+        "type": "exercises",
+        "slug": "bodyweight-exercises-for-beginners",
+        "name": "Bodyweight Exercises for Beginners"
+      }
+    ]
+  },
+  {
     "title": "What Is a Calorie Deficit and How Does It Work?",
     "slug": "what-is-a-calorie-deficit-and-how-does-it-work",
     "excerpt": "A calorie deficit occurs when you consistently consume fewer calories than your body expends, leading your body to use stored energy (fat) for fuel and resulting in weight loss.",

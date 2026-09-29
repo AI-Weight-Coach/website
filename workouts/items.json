@@ -1,5 +1,21 @@
 [
   {
+    "name": "Workout Performance",
+    "slug": "workout-performance",
+    "primary_stat": "350",
+    "primary_unit": "cal/session",
+    "primary_context": "Estimated for a 150lb person, 50-min moderate full-body strength workout",
+    "search_query": "workout performance",
+    "published_at": "2026-09-29T18:00:18.770164+00:00",
+    "meta_description": "Boost your fitness! Burn ~350 calories with our full-body strength routine. Understand workout performance's role in weight loss, supported by evidence-based facts and coach tips.",
+    "linked_blogs": [
+      {
+        "slug": "what-to-eat-before-a-workout-and-how-long-before",
+        "title": "What to Eat Before a Workout and How Long Before?"
+      }
+    ]
+  },
+  {
     "name": "Postpartum Workouts for Weight Loss",
     "slug": "postpartum-workouts-for-weight-loss",
     "primary_stat": "300",

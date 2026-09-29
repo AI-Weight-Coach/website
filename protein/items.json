@@ -1,5 +1,21 @@
 [
   {
+    "name": "Pre-Workout Protein",
+    "slug": "pre-workout-protein",
+    "primary_stat": "20-25",
+    "primary_unit": "grams",
+    "primary_context": "protein per typical serving",
+    "search_query": "pre-workout protein",
+    "published_at": "2026-09-29T18:00:18.770164+00:00",
+    "meta_description": "20-25g of protein per serving makes pre-workout protein excellent for muscle support and satiety. Learn its benefits for weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "what-to-eat-before-a-workout-and-how-long-before",
+        "title": "What to Eat Before a Workout and How Long Before?"
+      }
+    ]
+  },
+  {
     "name": "Protein for Blood Sugar Control",
     "slug": "protein-for-blood-sugar-control",
     "primary_stat": "Stabilizes",

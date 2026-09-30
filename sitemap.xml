@@ -36,6 +36,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/blog/what-to-eat-before-a-workout-and-how-long-before.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/blog/can-sleep-impact-weight-loss.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -2784,6 +2790,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiweightcoach.app/workouts/workout-performance.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiweightcoach.app/workouts/postpartum-workouts-for-weight-loss.html</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -2852,6 +2864,12 @@
     <loc>https://aiweightcoach.app/protein/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiweightcoach.app/protein/pre-workout-protein.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aiweightcoach.app/protein/protein-for-blood-sugar-control.html</loc>

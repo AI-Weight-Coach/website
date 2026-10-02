@@ -1,5 +1,39 @@
 [
   {
+    "title": "Does Sleep Schedule Affect Weight Loss?",
+    "slug": "does-sleep-schedule-affect-weight-loss",
+    "excerpt": "Yes, your sleep schedule significantly impacts weight loss by influencing hunger hormones, metabolism, food choices, and energy levels. Consistent, quality sleep is crucial.",
+    "category": "behavior_psychology",
+    "search_query": "does sleep schedule affect weight loss",
+    "published_at": "2026-10-02T12:00:15.829298+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Does Sleep Schedule Affect Weight Loss? (Expert Guide)",
+    "meta_description": "Discover how your sleep schedule profoundly impacts weight loss by influencing hormones, metabolism, cravings, and exercise performance. Learn practical tips to optimize your sleep.",
+    "keywords": "sleep schedule, weight loss, sleep and weight, sleep hormones, ghrelin, leptin, cortisol, insulin sensitivity, consistent sleep, metabolism, sleep tips, weight management, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "best-diet-adjustments-for-a-weight-loss-plateau",
+        "name": "Best Diet Adjustments for a Weight Loss Plateau"
+      },
+      {
+        "type": "workouts",
+        "slug": "workout-performance",
+        "name": "Workout Performance"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      }
+    ]
+  },
+  {
     "title": "Does Less Sleep Affect Weight Loss?",
     "slug": "does-less-sleep-affect-weight-loss",
     "excerpt": "Yes, less sleep significantly affects weight loss by disrupting appetite-regulating hormones, increasing cravings, reducing metabolism, and impairing exercise performance.",

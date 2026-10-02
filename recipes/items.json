@@ -1,6 +1,22 @@
 [
   {
     "name": "High-Protein Low-Calorie Recipes",
+    "slug": "high-protein-low-calor",
+    "primary_stat": "25-30",
+    "primary_unit": "grams",
+    "primary_context": "of protein per meal for satiety",
+    "search_query": "high-protein low-calorie recipes",
+    "published_at": "2026-10-02T18:00:25.807087+00:00",
+    "meta_description": "25-30 grams of protein per meal promotes satiety for weight loss. Discover evidence-based facts and a quick, healthy high-protein, low-calorie recipe to support your journey.",
+    "linked_blogs": [
+      {
+        "slug": "high-protein-low-calorie-meals-near-me-weight-loss",
+        "title": "High Protein Low Calorie Meals Near Me: Finding & Making Smart Choices for Weight Loss"
+      }
+    ]
+  },
+  {
+    "name": "High-Protein Low-Calorie Recipes",
     "slug": "high-protein-low-caloriel-recipes",
     "primary_stat": "190",
     "primary_unit": "calories",

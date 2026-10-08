@@ -1,5 +1,21 @@
 [
   {
+    "name": "Diabetes-Friendly Diets for Weight Loss",
+    "slug": "diabetes-friendly-diets-for-weight-loss",
+    "primary_stat": "9",
+    "primary_unit": "/10",
+    "primary_context": "overall rating",
+    "search_query": "diabetes-friendly diets for weight loss",
+    "published_at": "2026-10-08T18:00:16.983911+00:00",
+    "meta_description": "RD reviews diabetes-friendly diets for weight loss: 9/10 overall, 1-2 lbs/week typical loss. Learn pros, cons, and who it's best for to manage diabetes & lose weight.",
+    "linked_blogs": [
+      {
+        "slug": "best-foods-for-weight-loss-and-diabetes",
+        "title": "Best Foods for Weight Loss and Diabetes"
+      }
+    ]
+  },
+  {
     "name": "Nutrient-Dense Diets for Seniors",
     "slug": "nutrient-dense-diets-for-seniors",
     "primary_stat": "9",

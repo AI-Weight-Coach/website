@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Far Should I Walk to Lose Weight?",
+    "slug": "how-far-should-i-walk-to-lose-weight",
+    "excerpt": "To lose weight through walking, aim for at least 150-300 minutes of moderate-intensity walking per week, combined with a caloric deficit.",
+    "category": "exercise_and_weight",
+    "search_query": "how far should i walk to lose weight",
+    "published_at": "2026-10-12T18:00:15.363666+00:00",
+    "reading_time_min": 7,
+    "meta_title": "How Far Should You Walk to Lose Weight? AI Weight Coach",
+    "meta_description": "To lose weight through walking, aim for 150-300 minutes of moderate-intensity walking weekly, combined with a caloric deficit. Learn how to maximize your walks!",
+    "keywords": "walking for weight loss, how far to walk, exercise for weight loss, brisk walking, step count, walking routine, weight loss tips, calorie burn walking",
+    "linked_micros": [
+      {
+        "type": "workouts",
+        "slug": "walking-workouts-for-weight-loss",
+        "name": "Walking Workouts for Weight Loss"
+      },
+      {
+        "type": "exercises",
+        "slug": "running",
+        "name": "Running"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "conditions",
+        "slug": "understanding-insulin-resistance",
+        "name": "Understanding Insulin Resistance"
+      }
+    ]
+  },
+  {
     "title": "How to Stay Motivated to Lose Weight Postpartum",
     "slug": "how-to-stay-motivated-to-lose-weight-postpartum",
     "excerpt": "Staying motivated postpartum involves realistic goal setting, prioritizing self-care, focusing on nutrient-dense foods, and embracing gentle activity while practicing self-compassion.",

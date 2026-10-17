@@ -1,5 +1,34 @@
 [
   {
+    "title": "Strength Training for Beginners: No Equipment Needed",
+    "slug": "strength-training-beginners-no-equipment",
+    "excerpt": "Starting strength training without equipment is easy with bodyweight exercises like squats, push-ups, and planks, which build foundational strength and support weight loss.",
+    "category": "exercise_and_weight",
+    "search_query": "strength training for beginners no equipment",
+    "published_at": "2026-10-17T18:00:18.022974+00:00",
+    "reading_time_min": 7,
+    "meta_title": "Strength Training for Beginners: No Equipment Exercises",
+    "meta_description": "Discover effective no-equipment strength training for beginners. Learn bodyweight exercises like squats, push-ups, and planks to build muscle and aid weight loss.",
+    "keywords": "strength training beginners, no equipment workout, bodyweight exercises, home workout, weight loss strength training, beginner fitness, workout at home, muscle building no equipment",
+    "linked_micros": [
+      {
+        "type": "exercises",
+        "slug": "bodyweight-exercises-for-beginners",
+        "name": "Bodyweight Exercises for Beginners"
+      },
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "high-protein-low-calorie-meal-plans",
+        "name": "High-Protein Low-Calorie Meal Plans"
+      }
+    ]
+  },
+  {
     "title": "Does Sleep Patterns Affect Weight Loss?",
     "slug": "does-sleep-patterns-affect-weight-loss",
     "excerpt": "Yes, sleep patterns significantly affect weight loss by influencing hunger hormones, energy levels, food choices, and metabolism. Prioritizing quality sleep is a crucial, often overlooked component of successful weight management.",

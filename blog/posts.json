@@ -1,5 +1,34 @@
 [
   {
+    "title": "Does Sleep Patterns Affect Weight Loss?",
+    "slug": "does-sleep-patterns-affect-weight-loss",
+    "excerpt": "Yes, sleep patterns significantly affect weight loss by influencing hunger hormones, energy levels, food choices, and metabolism. Prioritizing quality sleep is a crucial, often overlooked component of successful weight management.",
+    "category": "behavior_psychology",
+    "search_query": "does sleep patterns affect weight loss",
+    "published_at": "2026-10-17T06:00:17.646360+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Does Sleep Patterns Affect Weight Loss? | AI Weight Coach",
+    "meta_description": "Discover how your sleep patterns profoundly impact weight loss by affecting hormones, cravings, and energy. Learn practical strategies for better sleep to support your weight management journey.",
+    "keywords": "sleep and weight loss, sleep patterns, weight management, sleep hygiene, hunger hormones, metabolism, healthy habits",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "poor-sleep-habits-and-weight-gain",
+        "name": "Poor Sleep Habits and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      }
+    ]
+  },
+  {
     "title": "What is a Calorie Deficit for a Man?",
     "slug": "what-is-a-calorie-deficit-for-a-man",
     "excerpt": "A calorie deficit for a man is when he consistently consumes fewer calories than his body burns, leading to stored fat being used for energy.",

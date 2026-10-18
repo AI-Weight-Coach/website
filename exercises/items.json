@@ -1,5 +1,21 @@
 [
   {
+    "name": "Gentle Exercises for Low Energy",
+    "slug": "gentle-exercises-for-low-energy",
+    "primary_stat": "175",
+    "primary_unit": "cal/hour",
+    "primary_context": "per hour of gentle exercise for a 70kg (155lb) person",
+    "search_query": "gentle exercises for low energy",
+    "published_at": "2026-10-18T18:00:22.340431+00:00",
+    "meta_description": "Discover gentle exercises for low energy (e.g., 175 cal/hour for 70kg person). Learn METs, calorie burn, muscles targeted, and how they aid weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-get-motivated-to-lose-weight-when-depressed",
+        "title": "How to Get Motivated to Lose Weight When Depressed"
+      }
+    ]
+  },
+  {
     "name": "Strength and Balance Exercises for Seniors",
     "slug": "strength-and-balance-exercises-for-seniors",
     "primary_stat": "280",

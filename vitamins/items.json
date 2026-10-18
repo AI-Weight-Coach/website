@@ -1,5 +1,21 @@
 [
   {
+    "name": "Essential Vitamins for Mood and Energy",
+    "slug": "essential-vitamins-for-mood-and-energy",
+    "primary_stat": "600-800",
+    "primary_unit": "IU/day",
+    "primary_context": "Adult DRI for Vitamin D",
+    "search_query": "essential vitamins for mood and energy",
+    "published_at": "2026-10-18T18:00:22.340431+00:00",
+    "meta_description": "Understand Vitamin D's role in mood, energy, and its nuanced link to weight management. Learn DRI, food sources, deficiency, and if supplementation helps with weight loss.",
+    "linked_blogs": [
+      {
+        "slug": "how-to-get-motivated-to-lose-weight-when-depressed",
+        "title": "How to Get Motivated to Lose Weight When Depressed"
+      }
+    ]
+  },
+  {
     "name": "Essential Vitamins for Pregnancy",
     "slug": "essential-vitamins-for-pregnancy",
     "primary_stat": "Often Deficient",

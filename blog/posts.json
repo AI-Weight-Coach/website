@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Often Should I Walk to Lose Weight?",
+    "slug": "how-often-should-i-walk-to-lose-weight",
+    "excerpt": "To effectively lose weight, aim for 150-300 minutes of moderate-intensity walking weekly, ideally 30-60 minutes on most days, combined with a calorie deficit. Consistency is key.",
+    "category": "exercise_and_weight",
+    "search_query": "how often should i walk to lose weight",
+    "published_at": "2026-10-23T12:00:17.183535+00:00",
+    "reading_time_min": 7,
+    "meta_title": "How Often Should I Walk to Lose Weight? | AI Weight Coach",
+    "meta_description": "Discover how often you should walk to lose weight effectively. Learn about optimal frequency, intensity, and how AI Weight Coach can help you reach your goals.",
+    "keywords": "walking for weight loss, how often to walk, walking frequency, walking intensity, weight loss exercise, daily walking, steps for weight loss, AI Weight Coach, calorie deficit",
+    "linked_micros": [
+      {
+        "type": "workouts",
+        "slug": "walking-workouts-for-weight-loss",
+        "name": "Walking Workouts for Weight Loss"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "recipes",
+        "slug": "healthy-weight-loss-recipes",
+        "name": "Healthy Weight Loss Recipes"
+      },
+      {
+        "type": "exercises",
+        "slug": "running",
+        "name": "Running"
+      }
+    ]
+  },
+  {
     "title": "How to Stop Binge Eating Sugar",
     "slug": "how-to-stop-binge-eating-sugar",
     "excerpt": "To stop binge eating sugar, focus on identifying triggers, balancing blood sugar with consistent meals, practicing mindful eating, and developing non-food coping strategies for stress.",

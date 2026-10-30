@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Much Do I Walk to Lose Weight?",
+    "slug": "how-much-do-i-walk-to-lose-weight",
+    "excerpt": "To effectively lose weight through walking, aim for at least 150-300 minutes of moderate-intensity walking per week, combined with a consistent calorie deficit.",
+    "category": "exercise_and_weight",
+    "search_query": "how much do i walk to lose weight",
+    "published_at": "2026-10-30T18:00:33.592897+00:00",
+    "reading_time_min": 8,
+    "meta_title": "How Much Walking for Weight Loss? Your Guide to Steps & Goals",
+    "meta_description": "Discover how much walking you need for weight loss. Learn about daily step targets, intensity, and how to combine walking with nutrition for effective, sustainable results.",
+    "keywords": "walk to lose weight, walking for weight loss, daily step goals, exercise intensity, calorie deficit, weight loss walking plan, walking benefits, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "workouts",
+        "slug": "walking-workouts-for-weight-loss",
+        "name": "Walking Workouts for Weight Loss"
+      },
+      {
+        "type": "exercises",
+        "slug": "running",
+        "name": "Running"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      }
+    ]
+  },
+  {
     "title": "Body Recomposition: How to Measure Your Progress Effectively",
     "slug": "body-recomposition-how-to-measure",
     "excerpt": "Measuring body recomposition involves tracking changes in body composition (muscle gain, fat loss) using tools like body circumference, photos, body fat tests, and strength metrics rather than just scale weight.",

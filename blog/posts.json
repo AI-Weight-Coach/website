@@ -1,5 +1,39 @@
 [
   {
+    "title": "Healthy Breakfast Ideas with Bananas",
+    "slug": "healthy-breakfast-ideas-with-bananas",
+    "excerpt": "Fuel your mornings with delicious and nutritious banana-based breakfasts! Options include energizing banana smoothies, hearty oatmeal, and whole-grain toast with banana and nut butter.",
+    "category": "practical_tips",
+    "search_query": "healthy breakfast ideas with bananas",
+    "published_at": "2026-11-02T06:00:19.341345+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Healthy Banana Breakfast Ideas for Weight Loss & Energy",
+    "meta_description": "Discover delicious and healthy breakfast ideas with bananas, perfect for weight loss and energy. From smoothies to oatmeal, fuel your mornings nutritiously.",
+    "keywords": "healthy breakfast, banana recipes, weight loss breakfast, easy breakfast ideas, banana smoothie, oatmeal with banana, healthy toast, meal prep breakfast, AI Weight Coach",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "healthy-breakfast-recipes",
+        "name": "Healthy Breakfast Recipes"
+      },
+      {
+        "type": "vitamins",
+        "slug": "essential-micronutrients-for-metabolism",
+        "name": "Essential Micronutrients for Metabolism"
+      },
+      {
+        "type": "diets",
+        "slug": "micro-habits-for-sustainable-weight-loss",
+        "name": "Micro Habits for Sustainable Weight Loss"
+      },
+      {
+        "type": "workouts",
+        "slug": "optimal-morning-workouts",
+        "name": "Optimal Morning Workouts"
+      }
+    ]
+  },
+  {
     "title": "Best Way to Break Bad Eating Habits",
     "slug": "best-way-to-break-bad-eating-habits",
     "excerpt": "Breaking bad eating habits involves self-awareness, identifying triggers, setting realistic goals, and gradually replacing unhelpful patterns with healthier alternatives for lasting success.",

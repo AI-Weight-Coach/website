@@ -1,5 +1,39 @@
 [
   {
+    "title": "Does Sleep Impact Weight Loss?",
+    "slug": "does-sleep-impact-weight-loss",
+    "excerpt": "Yes, sleep significantly impacts weight loss by influencing hormones, metabolism, appetite, and energy levels. Prioritizing adequate, quality sleep is crucial for successful and sustainable weight management.",
+    "category": "behavior_psychology",
+    "search_query": "does sleep impact weight loss",
+    "published_at": "2026-11-04T18:00:22.124691+00:00",
+    "reading_time_min": 5,
+    "meta_title": "Does Sleep Impact Weight Loss? The Crucial Connection",
+    "meta_description": "Discover how sleep profoundly impacts weight loss by affecting hormones, metabolism, and appetite. Learn practical strategies to improve your sleep for better weight management.",
+    "keywords": "sleep and weight loss, how sleep affects weight, sleep for weight management, lack of sleep weight gain, ghrelin leptin sleep, sleep metabolism weight, improve sleep for weight loss, AI Weight Coach sleep",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "diets",
+        "slug": "diets-for-metabolic-health",
+        "name": "Diets for Metabolic Health"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      },
+      {
+        "type": "vitamins",
+        "slug": "essential-micronutrients-for-metabolism",
+        "name": "Essential Micronutrients for Metabolism"
+      }
+    ]
+  },
+  {
     "title": "Why Do I Crave Sugar After Eating?",
     "slug": "why-do-i-crave-sugar-after-eating",
     "excerpt": "Craving sugar after eating often stems from unstable blood sugar levels, insufficient protein or fiber in your meal, hormonal responses, and emotional connections to food. Your body may be seeking a quick energy boost or comfort.",

@@ -1,5 +1,39 @@
 [
   {
+    "title": "Best Foods for Weight Loss Breakfast",
+    "slug": "best-foods-for-weight-loss-breakfast",
+    "excerpt": "For a weight loss breakfast, prioritize high-protein, high-fiber foods like eggs, Greek yogurt, oatmeal, and berries to promote satiety and support calorie management throughout the day.",
+    "category": "nutrition_science",
+    "search_query": "best foods for weight loss breakfast",
+    "published_at": "2026-11-12T18:00:31.281854+00:00",
+    "reading_time_min": 6,
+    "meta_title": "Best Foods for Weight Loss Breakfast | AI Weight Coach",
+    "meta_description": "Discover the best foods for a weight loss breakfast, including high-protein and high-fiber options that keep you full and energized. Learn how to optimize your morning meal with AI Weight Coach.",
+    "keywords": "weight loss breakfast, healthy breakfast, high protein breakfast, high fiber breakfast, weight loss foods, breakfast ideas, healthy eating, calorie management",
+    "linked_micros": [
+      {
+        "type": "recipes",
+        "slug": "high-protein-low-calorie-recipes",
+        "name": "High-Protein Low-Calorie Recipes"
+      },
+      {
+        "type": "meal-plans",
+        "slug": "meal-planning-strategies",
+        "name": "Meal Planning Strategies"
+      },
+      {
+        "type": "myths",
+        "slug": "metabolism-myths-debunked",
+        "name": "Metabolism Myths Debunked"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "Does Poor Sleep Affect Weight Loss?",
     "slug": "does-poor-sleep-affect-weight-loss",
     "excerpt": "Yes, poor sleep significantly affects weight loss by disrupting hormones that regulate appetite, increasing cravings for unhealthy foods, and reducing energy for physical activity.",

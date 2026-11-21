@@ -1,5 +1,39 @@
 [
   {
+    "title": "How Stress Effects Weight Gain",
+    "slug": "how-stress-effects-weight-gain",
+    "excerpt": "Stress significantly impacts weight gain by triggering the release of cortisol, which increases appetite, promotes fat storage, especially visceral fat, and often leads to poor dietary choices.",
+    "category": "behavior_psychology",
+    "search_query": "how stress effects weight gain",
+    "published_at": "2026-11-21T12:00:15.421085+00:00",
+    "reading_time_min": 8,
+    "meta_title": "How Stress Effects Weight Gain: The Cortisol Connection",
+    "meta_description": "Learn how stress hormones like cortisol increase appetite, promote fat storage, and disrupt healthy habits, contributing to weight gain and making weight management harder.",
+    "keywords": "stress, weight gain, cortisol, emotional eating, stress management, weight loss, chronic stress, belly fat, sleep and weight",
+    "linked_micros": [
+      {
+        "type": "conditions",
+        "slug": "hormonal-imbalance-and-weight-gain",
+        "name": "Hormonal Imbalance and Weight Gain"
+      },
+      {
+        "type": "workouts",
+        "slug": "stress-reducing-workouts",
+        "name": "Stress-Reducing Workouts"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "myths",
+        "slug": "the-myth-that-stress-doesnt-affect-weight-loss",
+        "name": "The Myth That Stress Doesn't Affect Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "Strength Training for Beginners At Home Without Equipment",
     "slug": "strength-training-for-beginners-at-home-without-equipment",
     "excerpt": "Beginners can effectively strength train at home without equipment using bodyweight exercises like squats, push-ups, and planks, focusing on proper form and progressive overload.",

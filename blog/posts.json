@@ -1,5 +1,34 @@
 [
   {
+    "title": "HIIT Workout for Weight Loss at the Gym: Your Ultimate Guide",
+    "slug": "hiit-workout-weight-loss-gym",
+    "excerpt": "A HIIT workout for weight loss at the gym combines intense bursts of exercise with short recovery periods, boosting metabolism and burning calories efficiently.",
+    "category": "exercise_and_weight",
+    "search_query": "hiit workout for weight loss at the gym",
+    "published_at": "2026-11-23T18:00:23.976081+00:00",
+    "reading_time_min": 7,
+    "meta_title": "HIIT Workout for Weight Loss at the Gym: Your Guide",
+    "meta_description": "Discover effective HIIT workouts for weight loss at the gym. Learn how high-intensity interval training burns calories, boosts metabolism, and helps you achieve your fitness goals.",
+    "keywords": "HIIT workout, weight loss, gym workout, high-intensity interval training, fat burning, metabolism boost, exercise for weight loss, gym routine",
+    "linked_micros": [
+      {
+        "type": "workouts",
+        "slug": "strength-training-workouts",
+        "name": "Strength Training Workouts"
+      },
+      {
+        "type": "diets",
+        "slug": "calorie-deficit-strategies",
+        "name": "Calorie Deficit Strategies"
+      },
+      {
+        "type": "protein",
+        "slug": "dietary-protein-for-weight-loss",
+        "name": "Dietary Protein for Weight Loss"
+      }
+    ]
+  },
+  {
     "title": "How to Get Motivated to Lose Weight When Obese",
     "slug": "how-to-get-motivated-to-lose-weight-when-obese",
     "excerpt": "Getting motivated to lose weight when obese often begins with setting small, achievable goals, focusing on sustainable lifestyle changes, and celebrating non-scale victories. Building a supportive environment and understanding that progress isn't linear are key.",

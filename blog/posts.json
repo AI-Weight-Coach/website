@@ -1,5 +1,39 @@
 [
   {
+    "title": "Why Do I Crave Sugar When I'm Sick?",
+    "slug": "why-do-i-crave-sugar-when-im-sick",
+    "excerpt": "When you're sick, sugar cravings often surge because your body needs quick energy to fuel its immune response and combat fatigue, while also seeking comfort.",
+    "category": "nutrition_science",
+    "search_query": "why do i crave sugar when i'm sick",
+    "published_at": "2026-11-28T12:00:19.741989+00:00",
+    "reading_time_min": 6,
+    "meta_title": "Why You Crave Sugar When Sick: Body & Mind Explained",
+    "meta_description": "Discover why your body craves sugar when sick. Learn about the physiological and psychological reasons behind these urges and how to manage them effectively.",
+    "keywords": "sugar cravings, sick, immune system, energy, comfort food, managing cravings, nutrition, AI Weight Coach, healthy eating",
+    "linked_micros": [
+      {
+        "type": "drinks",
+        "slug": "hydrating-drinks-for-illness-recovery",
+        "name": "Hydrating Drinks for Illness Recovery"
+      },
+      {
+        "type": "diets",
+        "slug": "mindful-eating-practices",
+        "name": "Mindful Eating Practices"
+      },
+      {
+        "type": "vitamins",
+        "slug": "essential-vitamins-for-immune-support",
+        "name": "Essential Vitamins for Immune Support"
+      },
+      {
+        "type": "recipes",
+        "slug": "easy-to-digest-recipes-for-illness-recovery",
+        "name": "Easy-to-Digest Recipes for Illness Recovery"
+      }
+    ]
+  },
+  {
     "title": "Can Sleep Cause Weight Loss?",
     "slug": "can-sleep-cause-weight-loss",
     "excerpt": "While sleep doesn't directly 'cause' weight loss, adequate, quality sleep is a crucial, often overlooked factor that significantly supports weight management by influencing hormones, metabolism, and food choices.",

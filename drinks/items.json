@@ -1,5 +1,21 @@
 [
   {
+    "name": "Hydrating Drinks for Illness Recovery",
+    "slug": "hydrating-drinks-for-illness-recovery",
+    "primary_stat": "25",
+    "primary_unit": "calories",
+    "primary_context": "per 8 fl oz serving of oral rehydration solution",
+    "search_query": "hydrating drinks for illness recovery",
+    "published_at": "2026-11-28T12:00:19.741989+00:00",
+    "meta_description": "25 calories per 8 oz. Learn about hydrating drinks for illness recovery, including sugar content, key electrolytes, and healthier alternatives. Prioritize recovery over weight loss during illness.",
+    "linked_blogs": [
+      {
+        "slug": "why-do-i-crave-sugar-when-im-sick",
+        "title": "Why Do I Crave Sugar When I'm Sick?"
+      }
+    ]
+  },
+  {
     "name": "Herbal Teas for Digestion",
     "slug": "herbal-teas-for-digestion",
     "primary_stat": "0-2",
